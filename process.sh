@@ -23,5 +23,7 @@ done
 prince -s ../../style.css index.xml
 
 # Qu'avons-nous produit ?
+PDF="$OUTDIR"/"$PREZID".pdf
+cp "$OUTDIR"/index.pdf "$PDF"
 exa -lHa "$OUTDIR"
-open "$OUTDIR"/index.pdf
+open "$PDF"
