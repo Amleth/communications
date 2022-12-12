@@ -1,0 +1,6 @@
+out.*
+out/*
+.DS_Store
+node_modules
+pj
+fonts

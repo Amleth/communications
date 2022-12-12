@@ -1,0 +1,234 @@
+/*
+Thin            100     
+Extra Light     200
+Light           300
+Regular         400
+Medium          500
+Semi-Bold       600
+Bold            700
+Extra-Bold      800
+Black           900
+*/
+
+@import "./node_modules/normalize.css/normalize.css";
+
+@import "./fonts/cutive.css";
+@import "./fonts/emoji.css";
+@import "./fonts/fira.css";
+@import "./fonts/futura.css";
+@import "./fonts/jenson.css";
+@import "./fonts/jost.css";
+@import "./fonts/noto.css";
+@import "./fonts/sharetech.css";
+@import "./fonts/wto.css";
+
+@page {
+  margin: 0;
+  size: A4 landscape;
+  @bottom {
+    content: counter(page) "/" counter(pages);
+    font-size: 80%;
+  }
+}
+
+html {
+  font-family: Jenson;
+  font-size: 200%;
+  font-variant: prince-opentype(dlig, liga, hlig, onum);
+}
+
+html,
+body,
+div.slide {
+  height: 100%;
+  text-align: justify;
+  width: 100%;
+}
+
+/* SLIDES */
+
+div.slide {
+  background-color: black;
+  box-sizing: border-box;
+  color: white;
+  padding: 1cm 2cm 1cm 2cm;
+  page-break-before: always;
+  position: absolute;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: normal;
+  margin-top: 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 100%;
+  margin-top: 1em;
+}
+
+ul,
+ol {
+  list-style: square;
+  margin: 1em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0 0 0 2em;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+/* ul li:before {
+    content: "⬢";
+    left: 0;
+    position: absolute;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  padding: 0.25em;
+}
+
+a {
+  color: #16e7cf;
+  /* color: #0DE5A5; */
+}
+
+img {
+  display: inline-block;
+  max-height: 17cm;
+  width: auto;
+}
+
+/* SPECIFIC SLIDES */
+
+div.cv {
+  display: flex;
+  flex-direction: column;
+}
+
+div.ch {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title > * {
+  margin: auto;
+}
+
+.title h2 {
+  font-style: italic;
+}
+
+.colour {
+  color: #00ffcc;
+}
+
+.bibref {
+  color: gray;
+}
+
+.parttitle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul ul {
+  font-size: 90%;
+}
+
+.pagination {
+  box-sizing: border-box;
+  bottom: 5px;
+  left: 0;
+  color: gray;
+  height: 30px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.title > div {
+  text-align: center;
+}
+
+img {
+  filter: drop-shadow(3px 3px 3px #000000);
+}
+
+div.sourceCode {
+  align-items: center;
+  display: flex;
+  font-size: 69%;
+  justify-content: center;
+}
+
+pre.sourceCode {
+  display: inline-block;
+}
+
+.slide:nth-child(1) .pagination {
+  display: none;
+}
+
+table.nob,
+table.nob tr,
+table.nob td {
+  border: none;
+}
+
+hr {
+  color: white;
+}
+
+a,
+code,
+pre {
+  font-family: "Cutive" !important;
+  font-size: 85%;
+}
+
+a {
+  font-size: 80%;
+}
+
+.gray {
+  color: gray;
+}

@@ -1,0 +1,9 @@
+# Rappel du cadrage de communications pour les intervenants
+
+Nous souhaitons que les interventions soient moins consacrées à la présentation des projets (quelques minutes pourraient suffire) qu’à la manière dont ils s’articulent avec la problématique générale des rencontres selon une multitude d’approches : Quel avenir pour la musicologie numérique ? Plus particulièrement, nous voulons mettre l’accent sur trois points : structuration, pérennisation et transmission.
+
+Parallèlement à sa conception, un site nécessite une structuration qui concerne la gouvernance (comité scientifique, propriété, administration, langage informatique, maintenance, hébergement, etc.), le rattachement institutionnel, le financement, etc. La structuration est l’une des clés de la pérennisation des sites, celle-ci reposant, d’une part, sur une équipe élargie et capable d’assurer l’animation du site (enrichissement, publication, communication, etc.) dans le temps et, d’autre part, sur des solutions numériques largement partagées et accessibles. Le moment venu, la pérennisation sera synonyme de transmission lorsque les acteurs seront contraints de s’effacer ou lorsque les solutions numériques deviendront obsolètes. En apparence secondaires au moment de concevoir un outil numérique, ces questions n’en sont pas moins fondamentales sur les plans scientifiques, institutionnels et technologiques.
+ 
+Les rencontres de la musicologie numérique ayant vocation à favoriser les échanges, nous avons inclus dans le programme des temps de discussion assez longs dans le prolongement des interventions.
+
+*Pour les intervenants : en cas de support de communication de type PPT, merci de les faire parvenir à Yannick Simon (yannick.simon@univ-tlse2.fr) qui les centralisera et les installera sur l'ordinateur qui servira à la visioconférence.*
