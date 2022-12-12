@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2021.02.15</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--
+http://expositions.bnf.fr/lecture/arret/01_4.htm
+TODO <span class="colour"> … </span>
+-->
+<div class="slide title">
+<h1 id="adressage-des-sources-et-des-données-musicologiques-images-données-musique-notée-texte">Adressage des sources et des données musicologiques<br/><br/>(images, données, musique notée, texte)</h1>
+<div class="wto" style="font-size:300%;">
+
+</div>
+<div>
+<p>Thomas Bottini</p>
+<p><code>thomas.bottini@cnrs.fr</code></p>
+<p><em><span class="colour">I</span>nstitut de <span class="colour">Re</span>cherche en <span class="colour">Mus</span>icologie</em></p>
+<p><em>IReMus, UMR 8223 CNRS — Sorbonne Université</em></p>
+</div>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="adressage">Adressage…</h1>
+<ul>
+<li>De quoi est-il question ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="adressage-1">Adressage…</h1>
+<ul>
+<li>De quoi est-il question ?
+<ul>
+<li>Le premier vers de la deuxième strophe de « Tombeau » de Mallarmé</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="adressage-2">Adressage…</h1>
+<ul>
+<li>De quoi est-il question ?
+<ul>
+<li>Le premier vers de la deuxième strophe de « Tombeau » de Mallarmé</li>
+<li><em>سورة الأعراف, verset 13</em></li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="adressage-3">Adressage…</h1>
+<ul>
+<li>De quoi est-il question ?
+<ul>
+<li>Le premier vers de la deuxième strophe de « Tombeau » de Mallarmé</li>
+<li><em>سورة الأعراف, verset 13</em></li>
+<li>La troisième note de « J’ai du bon tabac »</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="adressage-4">Adressage…</h1>
+<ul>
+<li>De quoi est-il question ?
+<ul>
+<li>Le premier vers de la deuxième strophe de « Tombeau » de Mallarmé</li>
+<li><em>سورة الأعراف, verset 13</em></li>
+<li>La troisième note de « J’ai du bon tabac »</li>
+</ul></li>
+<li>Pourquoi commencer par cette notion ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="adressage-5">Adressage…</h1>
+<ul>
+<li>De quoi est-il question ?
+<ul>
+<li>Le premier vers de la deuxième strophe de « Tombeau » de Mallarmé</li>
+<li><em>سورة الأعراف, verset 13</em></li>
+<li>La troisième note de « J’ai du bon tabac »</li>
+</ul></li>
+<li>Pourquoi commencer par cette notion ?</li>
+<li>Le Web comme environnement informationnel pour la recherche et la mise en visibilité de contenus scientifiques « partagés ».</li>
+<li>Ceci est un cours de culture générale du Web, pour les usages scientifiques dans la contexte des humanités (où la source est centrale).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="la-lecture-scolastique">La lecture scolastique</h1>
+<div style="display: flex;">
+<div style="text-align: justify; margin-right: 1em; font-size: 80%; width: 50%;">
+<p><em>« Alors que le haut Moyen Âge ne connaissait que de modestes subdivisions du texte, reposant moins sur des signes spécifiques que sur des ornements (rehaussement des lettres initiales par la couleur, changements d’écriture, décorations diverses), on passe à un véritable système de techniques auxiliaires de la lecture et de la consultation du livre, destinées à identifier rapidement le passage que l’on recherche : rubrication, découpage en paragraphes, titres de chapitre, séparation du texte et du commentaire, sommaires, tables des concordances des termes, index et tables analytiques alphabétiques. »</em> (Cavallo &amp; Chartier)</p>
+</div>
+<div style="width: 50%;">
+<p><img src="2021.02.15/scol.png" style="width: 100%;"/></p>
+</div>
+</div>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/CFS.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="plan">Plan</h1>
+<ol type="1">
+<li>Brève introduction au Web et à son histoire</li>
+<li>Naviguer dans des collections d’images &amp; adresser des fragments d’images</li>
+<li>Adresser des données culturelles sur le Web</li>
+<li>Et pour quelques balises de plus : MEI et TEI</li>
+</ol>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="i">I</h1>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="internet-le-web">Internet &amp; le Web</h1>
+<ul>
+<li>Internet : réseau matériel dénué de centre (genèse : 60’s).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="internet-le-web-1">Internet &amp; le Web</h1>
+<ul>
+<li>Internet : réseau matériel dénué de centre (genèse : 60’s).</li>
+<li>Web (1991) : couche applicative d’internet, celle des « sites Web » (une des utilisations possibles d’internet).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="internet-le-web-2">Internet &amp; le Web</h1>
+<ul>
+<li>Internet : réseau matériel dénué de centre (genèse : 60’s).</li>
+<li>Web (1991) : couche applicative d’internet, celle des « sites Web » (une des utilisations possibles d’internet).</li>
+<li>Protocole HTTP : le client (votre navigateur) émet une requête vers une URL, le serveur lui répond.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="internet-le-web-3">Internet &amp; le Web</h1>
+<ul>
+<li>Internet : réseau matériel dénué de centre (genèse : 60’s).</li>
+<li>Web (1991) : couche applicative d’internet, celle des « sites Web » (une des utilisations possibles d’internet).</li>
+<li>Protocole HTTP : le client (votre navigateur) émet une requête vers une URL, le serveur lui répond.</li>
+<li>HTML : documents lisibles par des humains.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="les-incarnations-du-web">1, 2, 3… les incarnations du Web</h1>
+<ul>
+<li><strong>Web « 1.0 », dit « Web de documents »</strong>
+<ul>
+<li>Un document par adresse (URL).</li>
+<li>Les contenus sont statiques.</li>
+<li>Le paradigme de la bibliothèque.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="les-incarnations-du-web-1">1, 2, 3… les incarnations du Web</h1>
+<ul>
+<li><strong>Web « 1.0 », dit « Web de documents »</strong>
+<ul>
+<li>Un document par adresse (URL).</li>
+<li>Les contenus sont statiques.</li>
+<li>Le paradigme de la bibliothèque.</li>
+</ul></li>
+<li><strong>Web 2.0, dit « Web social »</strong>
+<ul>
+<li>Les contenus sont dynamiques : chaque URL pointe vers un serveur qui recompose une réponse en fonction de l’état d’une base de données.</li>
+<li>Chaque client peut désormais envoyer des données.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="les-incarnations-du-web-2">1, 2, 3… les incarnations du Web</h1>
+<ul>
+<li><strong>Web « 1.0 », dit « Web de documents »</strong>
+<ul>
+<li>Un document par adresse (URL).</li>
+<li>Les contenus sont statiques.</li>
+<li>Le paradigme de la bibliothèque.</li>
+</ul></li>
+<li><strong>Web 2.0, dit « Web social »</strong>
+<ul>
+<li>Les contenus sont dynamiques : chaque URL pointe vers un serveur qui recompose une réponse en fonction de l’état d’une base de données.</li>
+<li>Chaque client peut désormais envoyer des données.</li>
+</ul></li>
+<li><strong>Web « 3.0 », dit « Web de données »</strong>
+<ul>
+<li>Machines qui échangent des données structurées entre elles.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-un-hypertexte-dégradé">Le Web : un hypertexte dégradé</h1>
+<ul>
+<li>Hypertexte ? <a href="https://www.google.com/search?q=roue+à+livres+ramelli">www.google.com/search?q=roue+à+livres+ramelli</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-un-hypertexte-dégradé-1">Le Web : un hypertexte dégradé</h1>
+<ul>
+<li>Hypertexte ? <a href="https://www.google.com/search?q=roue+à+livres+ramelli">www.google.com/search?q=roue+à+livres+ramelli</a></li>
+<li>Ted Nelson (inventeur de l’hypertexte) :</li>
+</ul>
+<p><em>« HTML is precisely what we were trying to PREVENT— ever-breaking links, links going outward only, quotes you can’t follow to their origins, no version management, no rights management. »</em></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-un-hypertexte-dégradé-2">Le Web : un hypertexte dégradé</h1>
+<ul>
+<li>Hypertexte ? <a href="https://www.google.com/search?q=roue+à+livres+ramelli">www.google.com/search?q=roue+à+livres+ramelli</a></li>
+<li>Ted Nelson (inventeur de l’hypertexte) :</li>
+</ul>
+<p><em>« HTML is precisely what we were trying to PREVENT— ever-breaking links, links going outward only, quotes you can’t follow to their origins, no version management, no rights management. »</em></p>
+<ul>
+<li>Un exercice d’imagination : et si les liens du Web étaient bidirectionnels ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-un-hypertexte-dégradé-3">Le Web : un hypertexte dégradé</h1>
+<ul>
+<li>Hypertexte ? <a href="https://www.google.com/search?q=roue+à+livres+ramelli">www.google.com/search?q=roue+à+livres+ramelli</a></li>
+<li>Ted Nelson (inventeur de l’hypertexte) :</li>
+</ul>
+<p><em>« HTML is precisely what we were trying to PREVENT— ever-breaking links, links going outward only, quotes you can’t follow to their origins, no version management, no rights management. »</em></p>
+<ul>
+<li>Un exercice d’imagination : et si les liens du Web étaient bidirectionnels ?</li>
+<li>Pour le dire rapidement, l’hypertexte imaginé par Ted Nelson est ce qu’on essaye de construire quand on fait du Web pour la recherche en humanités…</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="ii">II</h1>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="parlons-images">Parlons images</h1>
+<p>Avez-vous déjà galéré :</p>
+<ul>
+<li>…pour extraire facilement des portions d’images trouvées dans des bibliothèques numériques (telles que Gallica), par exemple pour les insérer dans un rapport/mémoire ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="parlons-images-1">Parlons images</h1>
+<p>Avez-vous déjà galéré :</p>
+<ul>
+<li>…pour extraire facilement des portions d’images trouvées dans des bibliothèques numériques (telles que Gallica), par exemple pour les insérer dans un rapport/mémoire ?</li>
+<li>…pour générer facilement des versions <em>hi-def/lo-def</em> d’un même fragment d’image ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="parlons-images-2">Parlons images</h1>
+<p>Avez-vous déjà galéré :</p>
+<ul>
+<li>…pour extraire facilement des portions d’images trouvées dans des bibliothèques numériques (telles que Gallica), par exemple pour les insérer dans un rapport/mémoire ?</li>
+<li>…pour générer facilement des versions <em>hi-def/lo-def</em> d’un même fragment d’image ?</li>
+<li>…pour appliquer une légère rotation à une page de manuscrit qui a été scanné tordu ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="parlons-images-3">Parlons images</h1>
+<p>Avez-vous déjà galéré :</p>
+<ul>
+<li>…pour extraire facilement des portions d’images trouvées dans des bibliothèques numériques (telles que Gallica), par exemple pour les insérer dans un rapport/mémoire ?</li>
+<li>…pour générer facilement des versions <em>hi-def/lo-def</em> d’un même fragment d’image ?</li>
+<li>…pour appliquer une légère rotation à une page de manuscrit qui a été scanné tordu ?</li>
+<li>…plus généralement, pour récupérer des images à partir de Gallica ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p>Vous connaissez tous et toutes… <img src="2021.02.15/gallica.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/matrix.jpg" style="width: 100%;"/> Maintenant, allons voir derrière…</p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="contexte">Contexte</h1>
+<ul>
+<li>Depuis 2000, prolifération de bibliothèques numériques (manuscrits, imprimés, documents d’archives, cartes, partitions etc.)…</li>
+<li>… mais sans coordination technique (silos indépendants)
+<ul>
+<li>chaque site est étanche (impossible de comparer des sources dans la même interface) ;</li>
+<li>chaque site est un <em>one-shot</em> (suicide économique) ;</li>
+<li>pour l’utilisateur ou l’utilisatrice, chaque environnement diffère, alors que les fonctions de consultation pourraient être identiques.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="objectifs-de-iiif">Objectifs de IIIF</h1>
+<ul>
+<li><em>International Image Interoperability Framework</em> (prononcer « 3-I-F »).</li>
+<li>Créer un cadre technique commun grâce auquel les bibliothèques numériques peuvent délivrer des collections d’<span class="colour">images haute résolution</span> de manière standardisée sur le Web pour les rendre <span class="colour">consultables</span>, <span class="colour">manipulables</span> et <span class="colour">annotables</span>.</li>
+<li>IIIF vise notamment des <a href="https://iiif.io/api/presentation/usecases/"><em>use cases</em> musicaux</a>.</li>
+<li>Aussi un standard pour agréger toutes les <span class="colour">ressources documentaires autour des images</span> (métadonnées, transcriptions, annotations, autres contenus liés…).</li>
+<li><a href="https://iiif.io/">iiif.io</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="qui-est-derrière-iiif">Qui est derrière IIIF ?</h1>
+<ul>
+<li>Initié par Stanford + noyau (Bibliothèque nationale de France, British Library, National Library of Norway, Cornell University, Oxford University).</li>
+<li><a href="https://iiif.io/community/">iiif.io/community</a></li>
+<li>Fonctionnent par groupes de travail :
+<ol type="1">
+<li>élaborer, publier et faire évoluer les spécifications IIIF (APIs) ;</li>
+<li>développer des outils qui implémentent ces spécifications (serveurs d’images, visualiseurs, outils d’annotation…) ;</li>
+<li>constituer et promouvoir une communauté d’intérêts et de développements autour des technologies IIIF.</li>
+</ol></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lapi-image">L’API Image</h1>
+<p>Spécifie une syntaxe d’URL pour identifier une image et en obtenir une variante technique paramétrée (des pixels).</p>
+<p><a href="http://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg">http://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg</a></p>
+<div style="font-size: 70%; font-family: monospace;">
+<table>
+<thead>
+<tr class="header">
+<th>Modèle</th>
+<th>Exemple BnF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>{scheme}://</td>
+<td>http://</td>
+</tr>
+<tr class="even">
+<td>{server}</td>
+<td>gallica.bnf.fr</td>
+</tr>
+<tr class="odd">
+<td>{/prefix}</td>
+<td>/iiif</td>
+</tr>
+<tr class="even">
+<td>/{identifier}</td>
+<td>/ark:/12148/btv1b10025411c/f7</td>
+</tr>
+<tr class="odd">
+<td>/{region}</td>
+<td>/full</td>
+</tr>
+<tr class="even">
+<td>/{size}</td>
+<td>/full</td>
+</tr>
+<tr class="odd">
+<td>/{rotation}</td>
+<td>/0</td>
+</tr>
+<tr class="even">
+<td>/{quality}.{format}</td>
+<td>/native.jpg</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="https://iiif.io/api/image/2.1/#image-information-request-uri-syntax">iiif.io/api/image/2.1/#image-information-request-uri-syntax</a></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="citer-partager">Citer &amp; partager</h1>
+<ul>
+<li>Adressabilité des zones au sein d’une image.
+<ul>
+<li><a href="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8446958b/f39/423,1322,1365,1135/,800/0/native.jpg">https://gallica.bnf.fr/iiif/ark:/12148/btv1b8446958b/f39/423,1322,1365,1135/,800/0/native.jpg</a></li>
+<li>=&gt; retour au contexte : <a href="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8446958b/f39/full/full/0/native.jpg">https://gallica.bnf.fr/iiif/ark:/12148/btv1b8446958b/f39/full/full/0/native.jpg</a></li>
+</ul></li>
+<li><a href="https://bl.ocks.org/mejackreed/6936585f435b60aa9451ae2bc1c199f2">Cropping tool</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lapi-image-exemples">L’API Image (exemples)</h1>
+<ul>
+<li><a href="http://gallica.bnf.fr/iiif/ark:/12148/btv1b8451103b/f9/full/,800/0/native.jpg">http://gallica.bnf.fr/iiif/ark:/12148/btv1b8451103b/f9/full/,800/0/native.jpg</a> =&gt; image entière, hauteur de 800 pixels, sans rotation, format JPG</li>
+<li><a href="http://gallica.bnf.fr/iiif/ark:/12148/btv1b8451103b/f9/1200,1300,620,580/pct:90/325/grey.png">http://gallica.bnf.fr/iiif/ark:/12148/btv1b8451103b/f9/1200,1300,620,580/pct:90/325/grey.png</a> =&gt; région d’image, à 90% de sa taille, rotation de 325°, niveau de gris, format PNG</li>
+<li><a href="https://tomcrane.github.io/the-long-iiif/image-api.html">https://tomcrane.github.io/the-long-iiif/image-api.html</a> =&gt; tester l’API Image</li>
+<li><a href="https://gallica.bnf.fr/ark:/12148/btv1b10025411c/f5.item.r=frescobaldi.zoom">https://gallica.bnf.fr/ark:/12148/btv1b10025411c/f5.item.r=frescobaldi.zoom</a> =&gt; Outil Gallica</li>
+<li><a href="http://www.e-codices.unifr.ch/loris/sbb/sbb-C0005-2/sbb-C0005-2_0000_002r.jp2/info.json">http://www.e-codices.unifr.ch/loris/sbb/sbb-C0005-2/sbb-C0005-2_0000_002r.jp2/info.json</a> =&gt; Requête d’informations sur l’image</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lapi-présentation">L’API Présentation</h1>
+<ul>
+<li>Délivrer de manière standardisée des informations de <span class="colour">présentation et de structure interne (logique ou matérielle) d’un objet numérique</span> (comme par exemple une collection organisée d’images) en vue de sa « présentation » à l’utilisateur/utilisatrice.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lapi-présentation-1">L’API Présentation</h1>
+<ul>
+<li>Délivrer de manière standardisée des informations de <span class="colour">présentation et de structure interne (logique ou matérielle) d’un objet numérique</span> (comme par exemple une collection organisée d’images) en vue de sa « présentation » à l’utilisateur/utilisatrice.</li>
+<li>Sous forme d’une suite de <span class="colour">canevas</span>, réceptacle abstrait représentant une page « virtuelle » permettant d’<span class="colour">articuler les sources</span> graphiques principales à des ressources complémentaires : métadonnées (contexte, provenance…), sources complémentaires plus ou moins finement articulées, transcriptions, traductions, annotations…</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lapi-présentation-2">L’API Présentation</h1>
+<ul>
+<li>Délivrer de manière standardisée des informations de <span class="colour">présentation et de structure interne (logique ou matérielle) d’un objet numérique</span> (comme par exemple une collection organisée d’images) en vue de sa « présentation » à l’utilisateur/utilisatrice.</li>
+<li>Sous forme d’une suite de <span class="colour">canevas</span>, réceptacle abstrait représentant une page « virtuelle » permettant d’<span class="colour">articuler les sources</span> graphiques principales à des ressources complémentaires : métadonnées (contexte, provenance…), sources complémentaires plus ou moins finement articulées, transcriptions, traductions, annotations…</li>
+<li>Ces informations sont embarquées dans un fichier « manifeste IIIF ».</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lapi-présentation-3">L’API Présentation</h1>
+<ul>
+<li>Délivrer de manière standardisée des informations de <span class="colour">présentation et de structure interne (logique ou matérielle) d’un objet numérique</span> (comme par exemple une collection organisée d’images) en vue de sa « présentation » à l’utilisateur/utilisatrice.</li>
+<li>Sous forme d’une suite de <span class="colour">canevas</span>, réceptacle abstrait représentant une page « virtuelle » permettant d’<span class="colour">articuler les sources</span> graphiques principales à des ressources complémentaires : métadonnées (contexte, provenance…), sources complémentaires plus ou moins finement articulées, transcriptions, traductions, annotations…</li>
+<li>Ces informations sont embarquées dans un fichier « manifeste IIIF ».</li>
+<li>Les fichiers manifestes, publiés sur le Web, sont destinés à être lus par des <span class="colour">visionneuses IIIF</span>.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lapi-présentation-4">L’API Présentation</h1>
+<ul>
+<li>Délivrer de manière standardisée des informations de <span class="colour">présentation et de structure interne (logique ou matérielle) d’un objet numérique</span> (comme par exemple une collection organisée d’images) en vue de sa « présentation » à l’utilisateur/utilisatrice.</li>
+<li>Sous forme d’une suite de <span class="colour">canevas</span>, réceptacle abstrait représentant une page « virtuelle » permettant d’<span class="colour">articuler les sources</span> graphiques principales à des ressources complémentaires : métadonnées (contexte, provenance…), sources complémentaires plus ou moins finement articulées, transcriptions, traductions, annotations…</li>
+<li>Ces informations sont embarquées dans un fichier « manifeste IIIF ».</li>
+<li>Les fichiers manifestes, publiés sur le Web, sont destinés à être lus par des <span class="colour">visionneuses IIIF</span>.</li>
+<li>Exemples à l’IReMus.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/shared-canvas-annotation.jpg" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/shared-canvas-example-annotations1.jpg" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/presentation.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="avantage-des-canevas">Avantage des canevas</h1>
+<ul>
+<li>Une même page a été <span class="colour">numérisée plusieurs fois</span> au fil du temps ou sous différentes conditions de lumière (numérisation du microfilm noir et blanc puis numérisation en couleur à partir du document original ; images multi-spectrales produites pour l’étude scientifique d’un palimpseste par exemple).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="avantage-des-canevas-1">Avantage des canevas</h1>
+<ul>
+<li>Une même page a été <span class="colour">numérisée plusieurs fois</span> au fil du temps ou sous différentes conditions de lumière (numérisation du microfilm noir et blanc puis numérisation en couleur à partir du document original ; images multi-spectrales produites pour l’étude scientifique d’un palimpseste par exemple).</li>
+<li>Une <span class="colour">page mutilée</span> dont les enluminures ont été découpées à un moment donné de l’histoire du document, puis numérisées séparément du manuscrit d’origine (dans ce cas on a l’image de la page mutilée associée au canevas, et l’image de détail associée à une zone de ce canevas, de façon à repositionner l’enluminure à son emplacement originel).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="avantage-des-canevas-2">Avantage des canevas</h1>
+<ul>
+<li>Une même page a été <span class="colour">numérisée plusieurs fois</span> au fil du temps ou sous différentes conditions de lumière (numérisation du microfilm noir et blanc puis numérisation en couleur à partir du document original ; images multi-spectrales produites pour l’étude scientifique d’un palimpseste par exemple).</li>
+<li>Une <span class="colour">page mutilée</span> dont les enluminures ont été découpées à un moment donné de l’histoire du document, puis numérisées séparément du manuscrit d’origine (dans ce cas on a l’image de la page mutilée associée au canevas, et l’image de détail associée à une zone de ce canevas, de façon à repositionner l’enluminure à son emplacement originel).</li>
+<li>Une page est <span class="colour">reconstituée à partir de plusieurs fragments</span> (plusieurs images associées à différentes zones du canevas).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="avantage-des-canevas-3">Avantage des canevas</h1>
+<ul>
+<li>Une même page a été <span class="colour">numérisée plusieurs fois</span> au fil du temps ou sous différentes conditions de lumière (numérisation du microfilm noir et blanc puis numérisation en couleur à partir du document original ; images multi-spectrales produites pour l’étude scientifique d’un palimpseste par exemple).</li>
+<li>Une <span class="colour">page mutilée</span> dont les enluminures ont été découpées à un moment donné de l’histoire du document, puis numérisées séparément du manuscrit d’origine (dans ce cas on a l’image de la page mutilée associée au canevas, et l’image de détail associée à une zone de ce canevas, de façon à repositionner l’enluminure à son emplacement originel).</li>
+<li>Une page est <span class="colour">reconstituée à partir de plusieurs fragments</span> (plusieurs images associées à différentes zones du canevas).</li>
+<li>Des <span class="colour">pages sont manquantes</span> (lacunes identifiées dans un manuscrit), mais on disposerait d’une transcription du texte.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/images-multiples-cas-1.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/images-multiples-cas-1-manifest.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/images-multiples-cas-2.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="exemples-de-visionneuses-iiif">Exemples de visionneuses IIIF</h1>
+<ul>
+<li><a href="http://pudl.princeton.edu/scrollreader.php?obj=3484zj30s">Scrolls illustrating a story about the Sagami River, Kyoto [1660?-1670?]. Princeton University Library</a></li>
+<li><a href="https://projectmirador.org/">Mirador</a></li>
+<li><a href="https://portail.biblissima.fr/en/mirador?key=Vg5KDD1GMmFkADxkN2OE&amp;version=1">Comparaison d’un témoin manuscrit (BnF) et d’un exemplaire incunable (BSG) dans Mirador Démo Biblissima (IIIF Conference 2017 - The Vatican)</a></li>
+<li><a href="https://training.iiif.io/iiif-online-workshop/day-four/annotations-stores.html">Transcription et étiquetage textuel (projet de crowdsourcing) (The Welsh Book of Remembrance - National Library of Wales) =&gt; recherche plein texte</a></li>
+<li><a href="http://lotb.iath.virginia.edu/mirador_viewer/mirador?manifest=1&amp;room_id=1">Transcription et traduction, mise en relation texte/image (The Life of the Buddha - Yale University)</a></li>
+<li><a href="https://canvas-panel.digirati.com/#/examples/fullpage?manifest=https://raw.githubusercontent.com/digirati-co-uk/canvas-panel/master/tests/ocean-liners.json">Parcours commenté au sein d’une image</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="api-présentation-v3-bientôt">API Présentation v3 (bientôt)</h1>
+<ul>
+<li>Audio &amp; Vidéo.</li>
+<li>Ajout d’une dimension temporelle aux canevas.</li>
+<li><code>&lt;uri_canvas&gt;/#xywh=70,60,500,100@t=5,20</code></li>
+<li><a href="https://tomcrane.github.io/fire/">Exemple</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/av.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/timeliner.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/avplayer.png" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="mes-sources">Mes sources</h1>
+<ul>
+<li><a href="https://doc.biblissima.fr/introduction-iiif">doc.biblissima.fr/introduction-iiif</a></li>
+<li><a href="https://projet.biblissima.fr/fr/introduction-protocoles-iiif-formation-enssib-2019">projet.biblissima.fr/fr/introduction-protocoles-iiif-formation-enssib-2019</a></li>
+<li><a href="https://insula.univ-lille3.fr/2016/11/comprendre-iiif-interoperabilite-bibliotheques-numeriques/">insula.univ-lille3.fr/2016/11/comprendre-iiif-interoperabilite-bibliotheques-numeriques</a></li>
+<li><a href="http://ronallo.com/iiif-workshop-new/">ronallo.com/iiif-workshop-new</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="iii">III</h1>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-sémantique-un-projet-insensé">Le Web sémantique : un projet insensé</h1>
+<ul>
+<li>Constatation : le Web, c’est le bazar ; notamment du fait de l’homonymie : mais de quoi parle t-on au juste quand on tape « Doors » sur Google ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-sémantique-un-projet-insensé-1">Le Web sémantique : un projet insensé</h1>
+<ul>
+<li>Constatation : le Web, c’est le bazar ; notamment du fait de l’homonymie : mais de quoi parle t-on au juste quand on tape « Doors » sur Google ?</li>
+<li>On ne peut jamais préciser le sens de ce sur quoi portent nos requêtes, qui sont exprimées en texte.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-sémantique-un-projet-insensé-2">Le Web sémantique : un projet insensé</h1>
+<ul>
+<li>Constatation : le Web, c’est le bazar ; notamment du fait de l’homonymie : mais de quoi parle t-on au juste quand on tape « Doors » sur Google ?</li>
+<li>On ne peut jamais préciser le sens de ce sur quoi portent nos requêtes, qui sont exprimées en texte.</li>
+<li>Pour désambiguïser le recours à un terme, il faudrait pouvoir l’identifier (et non pas seulement s’appuyer sur sa dénomination en langage naturel), c’est-à-dire, pouvoir s’y référer selon une URL (car on est sur le Web).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-sémantique-un-projet-insensé-3">Le Web sémantique : un projet insensé</h1>
+<ul>
+<li>Constatation : le Web, c’est le bazar ; notamment du fait de l’homonymie : mais de quoi parle t-on au juste quand on tape « Doors » sur Google ?</li>
+<li>On ne peut jamais préciser le sens de ce sur quoi portent nos requêtes, qui sont exprimées en texte.</li>
+<li>Pour désambiguïser le recours à un terme, il faudrait pouvoir l’identifier (et non pas seulement s’appuyer sur sa dénomination en langage naturel), c’est-à-dire, pouvoir s’y référer selon une URL (car on est sur le Web).</li>
+<li>Le projet du Web sémantique est en premier lieu de donner une URL à chaque chose.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="le-web-sémantique-un-projet-insensé-4">Le Web sémantique : un projet insensé</h1>
+<ul>
+<li>Constatation : le Web, c’est le bazar ; notamment du fait de l’homonymie : mais de quoi parle t-on au juste quand on tape « Doors » sur Google ?</li>
+<li>On ne peut jamais préciser le sens de ce sur quoi portent nos requêtes, qui sont exprimées en texte.</li>
+<li>Pour désambiguïser le recours à un terme, il faudrait pouvoir l’identifier (et non pas seulement s’appuyer sur sa dénomination en langage naturel), c’est-à-dire, pouvoir s’y référer selon une URL (car on est sur le Web).</li>
+<li>Le projet du Web sémantique est en premier lieu de donner une URL à chaque chose.</li>
+<li>Préciser le sens de chaque chose à l’échelle du Web est parfaitement idiot (cela fait abstraction de la culture, les humains ne sont pas des ordinateurs).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="un-peu-plus-précisément">Un peu plus précisément…</h1>
+<ul>
+<li>Le Web sémantique est basé sur les mêmes principes que les Web « 1.0 » (de documents) &amp; « 2.0 » (social) :
+<ul>
+<li>même structure informationnelle (l’hypertexte)</li>
+<li>même protocole (HTTP)</li>
+<li>même mécanisme d’identification (les URL)</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="un-peu-plus-précisément-1">Un peu plus précisément…</h1>
+<ul>
+<li>Le Web sémantique est basé sur les mêmes principes que les Web « 1.0 » (de documents) &amp; « 2.0 » (social) :
+<ul>
+<li>même structure informationnelle (l’hypertexte)</li>
+<li>même protocole (HTTP)</li>
+<li>même mécanisme d’identification (les URL)</li>
+</ul></li>
+<li>…mais au bout d’une URL, on ne trouve pas de l’HTML destiné à être lu par un humain, mais des données au format RDF.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="un-peu-plus-précisément-2">Un peu plus précisément…</h1>
+<ul>
+<li>Le Web sémantique est basé sur les mêmes principes que les Web « 1.0 » (de documents) &amp; « 2.0 » (social) :
+<ul>
+<li>même structure informationnelle (l’hypertexte)</li>
+<li>même protocole (HTTP)</li>
+<li>même mécanisme d’identification (les URL)</li>
+</ul></li>
+<li>…mais au bout d’une URL, on ne trouve pas de l’HTML destiné à être lu par un humain, mais des données au format RDF.</li>
+<li>Le Web sémantique est inscrit dans le paradigme du Web « de données ».</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="resource-description-framework">Resource Description Framework</h1>
+<ul>
+<li>Représente toute information sous forme d’un triplet sujet-prédicat-objet.</li>
+<li><em>« Jean-Sébastien Bach est né à Eisenach » :</em></li>
+</ul>
+<p><strong><em>SUJET :</em></strong></p>
+<p><a href="http://data.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b">http://data.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b</a></p>
+<p><br/></p>
+<p><strong><em>PRÉDICAT :</em></strong></p>
+<p><a href="http://dbpedia.org/property/birthPlace">http://dbpedia.org/property/birthPlace</a></p>
+<p><br/></p>
+<p><strong><em>OBJET :</em></strong></p>
+<p><a href="http://data.doremus.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FEisenach">http://data.doremus.org/describe/?url=http://dbpedia.org/resource/Eisenach</a></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p><img src="2021.02.15/example-graph-iris.jpg" style="width: 100%;"/></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="connectés-entre-eux-les-triplets-forment-un-graph">Connectés entre eux, les triplets forment un graph</h1>
+<ul>
+<li>Les données représentées dans les graph RDF peuvent être utilisées pour construire des sites Web destinés aux humains.</li>
+<li><a href="http://overture.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b">overture.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b</a></li>
+<li><a href="http://data.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b">data.doremus.org/artist/269cec9d-5025-3a8a-b2ef-4f7acb088f2b</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="ok-mais-à-quoi-ça-sert">OK, mais à quoi ça sert ?</h1>
+<ul>
+<li>À s’assurer que les données culturelles, patrimoniales &amp; artistiques existent encore dans 10, 20… 50 ans, ou plutôt qu’elles sont encore <span class="colour">compréhensibles</span>.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="ok-mais-à-quoi-ça-sert-1">OK, mais à quoi ça sert ?</h1>
+<ul>
+<li>À s’assurer que les données culturelles, patrimoniales &amp; artistiques existent encore dans 10, 20… 50 ans, ou plutôt qu’elles sont encore <span class="colour">compréhensibles</span>.</li>
+<li>Exercice : quelle différence avec un fichier Excel personnel ?</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="ok-mais-à-quoi-ça-sert-2">OK, mais à quoi ça sert ?</h1>
+<ul>
+<li>À s’assurer que les données culturelles, patrimoniales &amp; artistiques existent encore dans 10, 20… 50 ans, ou plutôt qu’elles sont encore <span class="colour">compréhensibles</span>.</li>
+<li>Exercice : quelle différence avec un fichier Excel personnel ?</li>
+<li>Le Web sémantique intéresse surtout les <span class="colour">musées</span>, les <span class="colour">bibliothèques</span>, les <span class="colour">unités de recherche qui travaillent sur la culture &amp; le patrimoine</span>, et pas les compagnies privées qui raisonnent à court terme.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="ok-mais-à-quoi-ça-sert-3">OK, mais à quoi ça sert ?</h1>
+<ul>
+<li>À s’assurer que les données culturelles, patrimoniales &amp; artistiques existent encore dans 10, 20… 50 ans, ou plutôt qu’elles sont encore <span class="colour">compréhensibles</span>.</li>
+<li>Exercice : quelle différence avec un fichier Excel personnel ?</li>
+<li>Le Web sémantique intéresse surtout les <span class="colour">musées</span>, les <span class="colour">bibliothèques</span>, les <span class="colour">unités de recherche qui travaillent sur la culture &amp; le patrimoine</span>, et pas les compagnies privées qui raisonnent à court terme.</li>
+<li>L’esprit : réutiliser les données &amp; propriétés existantes, assurer un lien au reste du monde informationnel.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="ok-mais-à-quoi-ça-sert-4">OK, mais à quoi ça sert ?</h1>
+<ul>
+<li>À s’assurer que les données culturelles, patrimoniales &amp; artistiques existent encore dans 10, 20… 50 ans, ou plutôt qu’elles sont encore <span class="colour">compréhensibles</span>.</li>
+<li>Exercice : quelle différence avec un fichier Excel personnel ?</li>
+<li>Le Web sémantique intéresse surtout les <span class="colour">musées</span>, les <span class="colour">bibliothèques</span>, les <span class="colour">unités de recherche qui travaillent sur la culture &amp; le patrimoine</span>, et pas les compagnies privées qui raisonnent à court terme.</li>
+<li>L’esprit : réutiliser les données &amp; propriétés existantes, assurer un lien au reste du monde informationnel.</li>
+<li>Exemple : l’ontologie <span class="colour">DOREMUS</span> (Philharmonie, Radio France, BnF).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="doremus">DOREMUS</h1>
+<ul>
+<li><a href="https://www.doremus.org/">www.doremus.org</a></li>
+<li><a href="http://overture.doremus.org/">overture.doremus.org</a></li>
+<li><a href="http://data.doremus.org/sparql">http://data.doremus.org/sparql</a></li>
+<li><a href="https://github.com/DOREMUS-ANR/knowledge-base/tree/master/query-examples">Exemples de requêtes</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="iv">IV</h1>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="enhancing-music-notation-addressability">Enhancing Music Notation Addressability</h1>
+<ul>
+<li>Rappel MEI (avec l’éditeur <a href="https://meise.de.dariah.eu/">MEISE</a>).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="enhancing-music-notation-addressability-1">Enhancing Music Notation Addressability</h1>
+<ul>
+<li>Rappel MEI (avec l’éditeur <a href="https://meise.de.dariah.eu/">MEISE</a>).</li>
+<li>Projet de recherche en cours.</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="enhancing-music-notation-addressability-2">Enhancing Music Notation Addressability</h1>
+<ul>
+<li>Rappel MEI (avec l’éditeur <a href="https://meise.de.dariah.eu/">MEISE</a>).</li>
+<li>Projet de recherche en cours.</li>
+<li><a href="https://github.com/umd-mith/ema/blob/master/docs/api.md">Enhancing Music Notation Addressability API</a></li>
+<li><a href="https://github.com/umd-mith/ema/blob/master/nanopub/examples/EMA_complex_selection_examples.pdf">EMA_complex_selection_examples</a></li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<h1 id="édition-critique-en-tei">Édition critique en TEI</h1>
+<ul>
+<li>Annoter les sources avec des données « sémantiques » dénotant des connaissances musicologiques.</li>
+<li>Exemple Garsault/Mersenne (Alban Framboisier).</li>
+</ul>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div><div class="slide">
+<p>Vous avez une question ou un projet autour de données numériques musicologiques ?</p>
+<p><br/></p>
+<p>=&gt; <code>thomas.bottini@cnrs.fr</code></p>
+<div class="pagination"><span class="wto">••••••••••••••••••••••••••••••••••••••••••••</span></div></div></body>
+</html>

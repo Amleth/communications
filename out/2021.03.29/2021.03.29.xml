@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2021.03.29</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="slide title">
+<h1 id="les-substrats-numériques-de-la-recherche-documents-données-thésaurii-ontologies">Les substrats numériques<br />de la recherche :<br /><em>documents, données, thésaurii, ontologies</em></h1>
+<p><span>Cours de méthodologie</span></p>
+<div>
+<p><span class="wto" style="font-size:300%;"></span></p>
+<p>Nathalie Berton–Blivet <span class="colour"><span class="wto" style="display: inline-block; font-size:123%;"></span></span> Thomas Bottini</p>
+<p><code>nathalie.berton-blivet@cnrs.fr | thomas.bottini@cnrs.fr</code></p>
+<p><em><span class="colour">I</span>nstitut de <span class="colour">Re</span>cherche en <span class="colour">Mus</span>icologie</em></p>
+<p>IReMus, UMR 8223 CNRS <span class="wto" style="display: inline-block; font-size:100%;"></span> Sorbonne Université</p>
+<p><span class="wto" style="display: block; font-size:300%; margin-top: -70px;"></span></p>
+</div>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="plan">Plan</h1>
+<div style="font-size: 111%">
+<p>[TB]</p>
+<ol type="1">
+<li>Des idées aux données partagées</li>
+<li>Recenser &amp; structurer les termes &amp; les concepts avec un thésaurus</li>
+</ol>
+<p>[NBB]</p>
+<ol start="3" type="1">
+<li>Thésaurus &amp; modélisation ontologique pour l’expression des connaissances historiques <em>(+ pause médiane quelque part…)</em></li>
+</ol>
+<p>[TB]</p>
+<ol start="4" type="1">
+<li>Modéliser l’objet d’étude avec une ontologie</li>
+</ol>
+</div>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="i-des-idées-aux-données-partagées">I — Des idées aux données partagées</h1>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="différence-entre-document-et-données">Différence entre document et données</h1>
+<ul>
+<li>Le vocable « données » dénote l’idée d’ensemble d’éléments de taille réduite structurés de manière similaire et prenant leur signification de la place qu’ils tiennent dans une série. Une donnée n’existe pas vraiment au singulier (<em>data/datum</em>).</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="différence-entre-document-et-données-1">Différence entre document et données</h1>
+<ul>
+<li>Le vocable « données » dénote l’idée d’ensemble d’éléments de taille réduite structurés de manière similaire et prenant leur signification de la place qu’ils tiennent dans une série. Une donnée n’existe pas vraiment au singulier (<em>data/datum</em>).</li>
+<li>Le contenu d’un fichier Word ou PDF de type article ou mémoire ne relève pas de cette catégorie.</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="différence-entre-document-et-données-2">Différence entre document et données</h1>
+<ul>
+<li>Le vocable « données » dénote l’idée d’ensemble d’éléments de taille réduite structurés de manière similaire et prenant leur signification de la place qu’ils tiennent dans une série. Une donnée n’existe pas vraiment au singulier (<em>data/datum</em>).</li>
+<li>Le contenu d’un fichier Word ou PDF de type article ou mémoire ne relève pas de cette catégorie.</li>
+<li>Un fichier Word ou PDF d’un catalogue pose question : il contient des données, mais celles-ci sont figées dans le texte, elles ne sont pas requêtables, appréhendables en sous-ensembles constitués par variation d’un paramètre de recherche. Autrement dit l’informatique ne sert à rien dans ce cas (ni dans sa capacité à formaliser, ni dans sa capacité à rechercher).</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="différence-entre-document-et-données-3">Différence entre document et données</h1>
+<ul>
+<li>Le vocable « données » dénote l’idée d’ensemble d’éléments de taille réduite structurés de manière similaire et prenant leur signification de la place qu’ils tiennent dans une série. Une donnée n’existe pas vraiment au singulier (<em>data/datum</em>).</li>
+<li>Le contenu d’un fichier Word ou PDF de type article ou mémoire ne relève pas de cette catégorie.</li>
+<li>Un fichier Word ou PDF d’un catalogue pose question : il contient des données, mais celles-ci sont figées dans le texte, elles ne sont pas requêtables, appréhendables en sous-ensembles constitués par variation d’un paramètre de recherche. Autrement dit l’informatique ne sert à rien dans ce cas (ni dans sa capacité à formaliser, ni dans sa capacité à rechercher).</li>
+<li><a href="https://fr.wikipedia.org/wiki/Abdel_Halim_Hafez">fr.wikipedia.org/wiki/Abdel_Halim_Hafez</a> <em>versus</em> <a href="https://www.wikidata.org/wiki/Q307786">www.wikidata.org/wiki/Q307786</a></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="quand-pourquoi-produire-des-données-numériques">Quand &amp; pourquoi produire des données numériques ?</h1>
+<ol type="1">
+<li>Quand vous avez le sentiment que vous allez devenir fou/folle en faisant des tableaux dans Word.</li>
+</ol>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="quand-pourquoi-produire-des-données-numériques-1">Quand &amp; pourquoi produire des données numériques ?</h1>
+<ol type="1">
+<li>Quand vous avez le sentiment que vous allez devenir fou/folle en faisant des tableaux dans Word.</li>
+<li>Quand vous accumulez des informations en série sur des objets de votre terrain qu’il vous faut analyser (requêter des sous-ensembles, faire des statistiques, construire des visualisations…).</li>
+</ol>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="quand-pourquoi-produire-des-données-numériques-2">Quand &amp; pourquoi produire des données numériques ?</h1>
+<ol type="1">
+<li>Quand vous avez le sentiment que vous allez devenir fou/folle en faisant des tableaux dans Word.</li>
+<li>Quand vous accumulez des informations en série sur des objets de votre terrain qu’il vous faut analyser (requêter des sous-ensembles, faire des statistiques, construire des visualisations…).</li>
+<li>Quand vous sentez que l’effort de rédaction est distinct de l’effort de collecte, que les jeux de données constitués <em>ici et maintenant</em> pourraient répondre à de nouvelles questions de recherche <em>là bas et plus tard</em>.</li>
+</ol>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="fréquentons-un-cas-concret">Fréquentons un cas concret…</h1>
+<ul>
+<li>La musique au théâtre, dépouillement des archives de la Comédie-Française (1680-1793)
+<ul>
+<li>Première approche sous Word</li>
+<li>Étudions la modélisation dans la feuilles XLSX. <span class="colour">Les données sont structurées suivant un modèle, il faut identifier les types d’entités, leurs propriétés et les relations qu’elles entretiennent.</span> Et rendre le tout explicite dans une structure informatique.</li>
+<li>Une première « interface » : le catalogue édité.</li>
+<li>Projet de publication Web, à partir du même fichier de données.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="fréquentons-un-cas-concret-1">Fréquentons un cas concret…</h1>
+<ul>
+<li>La musique au théâtre, dépouillement des archives de la Comédie-Française (1680-1793)
+<ul>
+<li>Première approche sous Word</li>
+<li>Étudions la modélisation dans la feuilles XLSX. <span class="colour">Les données sont structurées suivant un modèle, il faut identifier les types d’entités, leurs propriétés et les relations qu’elles entretiennent.</span> Et rendre le tout explicite dans une structure informatique.</li>
+<li>Une première « interface » : le catalogue édité.</li>
+<li>Projet de publication Web, à partir du même fichier de données.</li>
+</ul></li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="2021.03.29_8073.png" /></p>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="problèmes-épistémologiques">Problèmes épistémologiques</h1>
+<ul>
+<li>Les données sont-elles vraiment données ? Les données ne sont-elles pas plutôt <span class="colour">construites</span> ?</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="problèmes-épistémologiques-1">Problèmes épistémologiques</h1>
+<ul>
+<li>Les données sont-elles vraiment données ? Les données ne sont-elles pas plutôt <span class="colour">construites</span> ?</li>
+<li>Un jeu de données est-il réellement <span class="colour">signifiant hors d’un contexte interprétatif donné</span> ?</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="problèmes-épistémologiques-2">Problèmes épistémologiques</h1>
+<ul>
+<li>Les données sont-elles vraiment données ? Les données ne sont-elles pas plutôt <span class="colour">construites</span> ?</li>
+<li>Un jeu de données est-il réellement <span class="colour">signifiant hors d’un contexte interprétatif donné</span> ?</li>
+<li>Le cas que nous venons d’étudier repose sur une <span class="colour">myriade d’implicites</span> : seul l’auteur de ce travail connaît le sens qu’il faut conférer aux colonnes et aux données de sa feuilles XLSX.</li>
+</ul>
+<div style="display: flex;">
+<table>
+<thead>
+<tr>
+<th>
+ID
+</th>
+<th>
+Attribution
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+0001
+</td>
+<td>
+Josquin
+</td>
+</tr>
+</tbody>
+</table>
+<p>    ➡    </p>
+<p>– Ne dit rien de l’activité de collecte de la donnée, du rapport à la source (aussi important que la donnée en elle-même si on parle de science). <br/> – Ne dit rien du contexte argumentatif et du degré de certitude. <br /> – Dans 10 ans, comment s’assurer que les chaînes de caractères correspondent bien à ce que l’auteur ou l’autrice avait en tête ?</p>
+</div>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="comment-partager-des-données-web">Comment partager des données (Web)</h1>
+<ul>
+<li>Contexte socio-technique : les <span class="colour">données ouvertes et liées</span>.
+<ul>
+<li><a href="https://fr.wikipedia.org/wiki/Donn%C3%A9es_ouvertes#%C3%89chelle_de_qualit%C3%A9_des_donn%C3%A9es_ouvertes_de_Tim_Berners-Lee">Échelle de qualité des données ouvertes de Tim Berners-Lee (Wikipedia)</a></li>
+<li><a href="https://5stardata.info/fr/">https://5stardata.info/fr/</a> (rappel : projet Doremus).</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="comment-partager-des-données-web-1">Comment partager des données (Web)</h1>
+<ul>
+<li>Contexte socio-technique : les <span class="colour">données ouvertes et liées</span>.
+<ul>
+<li><a href="https://fr.wikipedia.org/wiki/Donn%C3%A9es_ouvertes#%C3%89chelle_de_qualit%C3%A9_des_donn%C3%A9es_ouvertes_de_Tim_Berners-Lee">Échelle de qualité des données ouvertes de Tim Berners-Lee (Wikipedia)</a></li>
+<li><a href="https://5stardata.info/fr/">https://5stardata.info/fr/</a> (rappel : projet Doremus).</li>
+</ul></li>
+<li>Les trois grandes opérations informationnelles à réaliser pour passer d’un fichier Excel personnel à un jeu de données « compréhensible » sur le Web :
+<ul>
+<li>Transformer les identifiants en <span class="colour">URI</span>.</li>
+<li><span class="colour">Aligner les entités identifiées</span> (personnes, lieux, notions…) sur des <span class="colour">référentiels</span> et des <span class="colour">thésaurii</span>, principalement pour des raisons de désambiguïsation.</li>
+<li>Feuilles &amp; colonnes (modèle) =&gt; choisir une <span class="colour">ontologie</span> adéquate au corpus, autour de laquelle existe une <span class="colour">communauté de pratiques qui réfléchit et formalise des invariants</span> dans la manière de considérer leurs objets d’étude.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="ii-thésaurii">II – Thésaurii</h1>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="constituer-un-thésaurus">Constituer un thésaurus</h1>
+<ul>
+<li>Présentation d’un projet concret en cours : indexation du corpus d’estampes du Mercure galant 1678—1710 (IReMus/ObTIC).</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="constituer-un-thésaurus-1">Constituer un thésaurus</h1>
+<ul>
+<li>Présentation d’un projet concret en cours : indexation du corpus d’estampes du Mercure galant 1678—1710 (IReMus/ObTIC).</li>
+<li>Organisation, description et indexation du corpus.</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="constituer-un-thésaurus-2">Constituer un thésaurus</h1>
+<ul>
+<li>Présentation d’un projet concret en cours : indexation du corpus d’estampes du Mercure galant 1678—1710 (IReMus/ObTIC).</li>
+<li>Organisation, description et indexation du corpus.</li>
+<li>Organisation du thésaurus.</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="constituer-un-thésaurus-3">Constituer un thésaurus</h1>
+<ul>
+<li><p>Présentation d’un projet concret en cours : indexation du corpus d’estampes du Mercure galant 1678—1710 (IReMus/ObTIC).</p></li>
+<li><p>Organisation, description et indexation du corpus.</p></li>
+<li><p>Organisation du thésaurus.</p></li>
+<li><p>Alignement sur des thésaurii mondiaux</p>
+<ul>
+<li>Patrimoine, en général : <a href="http://www.getty.edu/vow/AATServlet?english=N&amp;find=music+notation&amp;logic=AND&amp;page=1&amp;note=">Getty AAT</a></li>
+<li>Histoire de l’art : <a href="http://iconclass.org/rkd/42E361/?q=music+notation&amp;q_s=1">Iconclass</a></li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="constituer-un-thésaurus-4">Constituer un thésaurus</h1>
+<ul>
+<li><p>Présentation d’un projet concret en cours : indexation du corpus d’estampes du Mercure galant 1678—1710 (IReMus/ObTIC).</p></li>
+<li><p>Organisation, description et indexation du corpus.</p></li>
+<li><p>Organisation du thésaurus.</p></li>
+<li><p>Alignement sur des thésaurii mondiaux</p>
+<ul>
+<li>Patrimoine, en général : <a href="http://www.getty.edu/vow/AATServlet?english=N&amp;find=music+notation&amp;logic=AND&amp;page=1&amp;note=">Getty AAT</a></li>
+<li>Histoire de l’art : <a href="http://iconclass.org/rkd/42E361/?q=music+notation&amp;q_s=1">Iconclass</a></li>
+</ul></li>
+<li><p>Synergie scientifique (<a href="http://emblematica.library.illinois.edu/search/emblems?query.keywords=obelisk">une idée : le projet Emblematica</a>)</p></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="constituer-un-thésaurus-5">Constituer un thésaurus</h1>
+<ul>
+<li><p>Présentation d’un projet concret en cours : indexation du corpus d’estampes du Mercure galant 1678—1710 (IReMus/ObTIC).</p></li>
+<li><p>Organisation, description et indexation du corpus.</p></li>
+<li><p>Organisation du thésaurus.</p></li>
+<li><p>Alignement sur des thésaurii mondiaux</p>
+<ul>
+<li>Patrimoine, en général : <a href="http://www.getty.edu/vow/AATServlet?english=N&amp;find=music+notation&amp;logic=AND&amp;page=1&amp;note=">Getty AAT</a></li>
+<li>Histoire de l’art : <a href="http://iconclass.org/rkd/42E361/?q=music+notation&amp;q_s=1">Iconclass</a></li>
+</ul></li>
+<li><p>Synergie scientifique (<a href="http://emblematica.library.illinois.edu/search/emblems?query.keywords=obelisk">une idée : le projet Emblematica</a>)</p></li>
+<li><p>Écueil épistémologique potentiel : confrontation entre approche <em>bottom-up</em> (localisée + située) et <em>top-down</em> (globalisée + détachée des pratiques effectives).</p></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="constituer-un-thésaurus-6">Constituer un thésaurus</h1>
+<ul>
+<li><p>Présentation d’un projet concret en cours : indexation du corpus d’estampes du Mercure galant 1678—1710 (IReMus/ObTIC).</p></li>
+<li><p>Organisation, description et indexation du corpus.</p></li>
+<li><p>Organisation du thésaurus.</p></li>
+<li><p>Alignement sur des thésaurii mondiaux</p>
+<ul>
+<li>Patrimoine, en général : <a href="http://www.getty.edu/vow/AATServlet?english=N&amp;find=music+notation&amp;logic=AND&amp;page=1&amp;note=">Getty AAT</a></li>
+<li>Histoire de l’art : <a href="http://iconclass.org/rkd/42E361/?q=music+notation&amp;q_s=1">Iconclass</a></li>
+</ul></li>
+<li><p>Synergie scientifique (<a href="http://emblematica.library.illinois.edu/search/emblems?query.keywords=obelisk">une idée : le projet Emblematica</a>)</p></li>
+<li><p>Écueil épistémologique potentiel : confrontation entre approche <em>bottom-up</em> (localisée + située) et <em>top-down</em> (globalisée + détachée des pratiques effectives).</p></li>
+<li><p>Formaliser un thésaurus avec SKOS (<em>Simple Knowledge Organization System</em>).</p></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="thésaurus-2-concepts-en-skos">1 thésaurus &amp; 2 concepts en SKOS</h1>
+<div style="margin: 0 0 0 -1.5cm;">
+<p><img style="display: block; margin: 0 auto; width: 29cm;" src="2021.03.29_62.png" /></p>
+</div>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="thésaurus-modélisation-ontologique-pour-lexpression-des-connaissances-historiques">Thésaurus &amp; modélisation ontologique pour l’expression des connaissances historiques</h1>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide title">
+<h1 id="modéliser-lobjet-détude-avec-une-ontologie">Modéliser l’objet d’étude avec une ontologie</h1>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="sémantique-des-connaissances-historiques">Sémantique des connaissances historiques</h1>
+<ul>
+<li><strong>Personnes</strong>
+<ul>
+<li>Représenter les propriétés d’un individu historique (patronyme, pseudonyme, dates, relations de parenté…).</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="sémantique-des-connaissances-historiques-1">Sémantique des connaissances historiques</h1>
+<ul>
+<li><strong>Personnes</strong>
+<ul>
+<li>Représenter les propriétés d’un individu historique (patronyme, pseudonyme, dates, relations de parenté…).</li>
+<li>Représenter ses activités &amp; relations sociales.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="sémantique-des-connaissances-historiques-2">Sémantique des connaissances historiques</h1>
+<ul>
+<li><strong>Personnes</strong>
+<ul>
+<li>Représenter les propriétés d’un individu historique (patronyme, pseudonyme, dates, relations de parenté…).</li>
+<li>Représenter ses activités &amp; relations sociales.</li>
+</ul></li>
+<li><strong>Lieux</strong>
+<ul>
+<li>Inclusion administrative ≠ inclusion géographique ≠ inclusion temporelle</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="sémantique-des-connaissances-historiques-3">Sémantique des connaissances historiques</h1>
+<ul>
+<li><strong>Personnes</strong>
+<ul>
+<li>Représenter les propriétés d’un individu historique (patronyme, pseudonyme, dates, relations de parenté…).</li>
+<li>Représenter ses activités &amp; relations sociales.</li>
+</ul></li>
+<li><strong>Lieux</strong>
+<ul>
+<li>Inclusion administrative ≠ inclusion géographique ≠ inclusion temporelle</li>
+<li>Représenter la diachronie (ex : Ris + Orangis = Ris-Orangis (1793)).</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="sémantique-des-connaissances-historiques-4">Sémantique des connaissances historiques</h1>
+<ul>
+<li><strong>Personnes</strong>
+<ul>
+<li>Représenter les propriétés d’un individu historique (patronyme, pseudonyme, dates, relations de parenté…).</li>
+<li>Représenter ses activités &amp; relations sociales.</li>
+</ul></li>
+<li><strong>Lieux</strong>
+<ul>
+<li>Inclusion administrative ≠ inclusion géographique ≠ inclusion temporelle</li>
+<li>Représenter la diachronie (ex : Ris + Orangis = Ris-Orangis (1793)).</li>
+</ul></li>
+<li><strong>Institutions</strong>
+<ul>
+<li>Les sémantiques de la relation unissant « Académie » et « Académie de Besançon » et de la relation unissant « Académie de Besançon » et « Associé-résident de l’Académie de Besançon » diffèrent.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="sémantique-des-connaissances-historiques-5">Sémantique des connaissances historiques</h1>
+<ul>
+<li><strong>Personnes</strong>
+<ul>
+<li>Représenter les propriétés d’un individu historique (patronyme, pseudonyme, dates, relations de parenté…).</li>
+<li>Représenter ses activités &amp; relations sociales.</li>
+</ul></li>
+<li><strong>Lieux</strong>
+<ul>
+<li>Inclusion administrative ≠ inclusion géographique ≠ inclusion temporelle</li>
+<li>Représenter la diachronie (ex : Ris + Orangis = Ris-Orangis (1793)).</li>
+</ul></li>
+<li><strong>Institutions</strong>
+<ul>
+<li>Les sémantiques de la relation unissant « Académie » et « Académie de Besançon » et de la relation unissant « Académie de Besançon » et « Associé-résident de l’Académie de Besançon » diffèrent.</li>
+<li>Représenter le fait que « Pierre Beauchamp était membre de l’Académie royale de Danse en 1680 » ?</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="une-question-une-ontologie">Une question, une ontologie</h1>
+<ul>
+<li>L’ontologie SKOS concerne la définition des concepts (<code>skos:definition</code>, <code>skos:prefLabel</code>…) et des rapports qu’ils entretiennent (<code>skos:narrower</code>, <code>skos:broader</code>, <code>skos:related</code>…). Les entités historiques ne sont pas vraiment des concepts.</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="une-question-une-ontologie-1">Une question, une ontologie</h1>
+<ul>
+<li>L’ontologie SKOS concerne la définition des concepts (<code>skos:definition</code>, <code>skos:prefLabel</code>…) et des rapports qu’ils entretiennent (<code>skos:narrower</code>, <code>skos:broader</code>, <code>skos:related</code>…). Les entités historiques ne sont pas vraiment des concepts.</li>
+<li>Ontologie adaptée à l’expression de connaissances historiques (par exemple, le <a href="http://www.cidoc-crm.org/">CIDOC-CRM</a>). Quelques exemples…</li>
+</ul>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="lieux-historiques-avec-le-crm">Lieux historiques avec le CRM</h1>
+<p><img src="2021.03.29/modélisation_rebecca_rar_lieux.png
+" style="margin-left: -2cm; width: 115%;"/></p>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="personnes-historiques-avec-le-crm">Personnes historiques avec le CRM</h1>
+<p><img src="2021.03.29/modélisation_rebecca_rar_personnes.png
+" style="margin-left: -2cm; width: 115%;"/></p>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div><div class="slide">
+<h1 id="groupes-historiques-avec-le-crm">Groupes historiques avec le CRM</h1>
+<p><img src="2021.03.29/modélisation_rebecca_rar_groupes.png
+" style="margin-left: -2cm; width: 115%;"/></p>
+<div class="pagination"><span class="wto">•••••••••••••••••</span></div></div></body>
+</html>

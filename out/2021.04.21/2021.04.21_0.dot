@@ -1,0 +1,12 @@
+digraph {
+    rankdir=LR
+    graph [bgcolor=black]
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+    "a statement" -> "Vide Homo" [label="subject"]
+"a statement" -> "has tonal type" [label="property"]
+"a statement" -> "♮ g2 A2" [label="value"]
+"a statement" -> "I4 Information Set/E13 Attribute Assignment" [label="subPropertyOf"]
+"I4 Information Set" -> "I8 Conviction" [label="subPropertyOf"]}

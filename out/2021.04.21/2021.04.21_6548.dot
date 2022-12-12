@@ -1,0 +1,16 @@
+digraph {
+    rankdir=LR
+    graph [bgcolor=black]
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+    "Leonhard" -> "Vide Homo MEI Score"
+"Bernhard" -> "Vide Homo MEI Score"
+"Harold" -> "Vide Homo MEI Score"
+"Siegfried" -> "Vide Homo MEI Score"
+"Frans" -> "Vide Homo MEI Score"
+"Robert" -> "Vide Homo MEI Score"
+"Alexander" -> "Vide Homo MEI Score"
+"Algorithm 1" -> "Vide Homo MEI Score"
+"Algorithm 2" -> "Vide Homo MEI Score"}

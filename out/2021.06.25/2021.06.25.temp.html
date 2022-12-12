@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2021.06.25</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<style>
+body { font-family: "FuturaPT"; font-weight: 300; }
+h1 { letter-spacing: 0.1em; font-family: "Jost" !important; font-weight: 200; }
+h2 { font-family: "Cutive" !important; color: gray; }
+.m { font-family: "FiraMono"; }
+code { color: #16e7cf; }
+</style>
+<!--📜-->
+<!--∫ slide title -->
+<img src="2021.04.21/polifonia.png" style="height: 2cm; position: absolute; left: 1cm; top: 1cm;"/> <img src="2021.04.21/europe.jpeg" style="height: 1cm; position: absolute; left: 1cm; bottom: 1cm;"/>
+<div style="font-size: 50%; position: absolute; bottom: 1cm; left: 3cm; text-align: left;">
+<div>
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746.
+</div>
+<div style="font-style: italic;">
+The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains.
+</div>
+</div>
+<div style="height: 3cm" />
+
+<p><span class="m" style="color: gray">ontology design meeting / 2021.06.25</span></p>
+<p><span class="m" style="color: gray">topic: ‘modelling unambiguous score referencing’</span></p>
+<p><span style="border-bottom: 1px solid white; border-top: 1px solid white; letter-spacing: 0.33em; font-size: 130%">IDENTIFYING MODELLING ISSUES</span></p>
+<p><span class="m" style="color: gray">thomas bottini (<span class="e">🎼</span>tonalities)</span></p>
+<div style="height: 1.5cm" />
+
+<!--📜-->
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-1">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></li>
+</ul>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-2">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-3">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-4">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-5">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-6">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-7">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-8">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 5.2cm">
+•
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-9">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 5.2cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 4.3cm">
+•
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-10">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 5.2cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 4.3cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 3.4cm">
+•
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-11">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 5.2cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 4.3cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 3.4cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 2.4cm">
+•
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-12">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 5.2cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 4.3cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 3.4cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 2.4cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 1.5cm">
+•
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-13">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 5.2cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 4.3cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 3.4cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 2.4cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 1.5cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 0.6cm">
+•
+</div>
+<!--∫ slide -->
+<h1 id="introduction-tonalities-reminder-14">INTRODUCTION: TONALITIES <span style="font-weight: 100">(reminder)</span></h1>
+<p>TONALITIES analytical goals imply two functionnal prerequisites:</p>
+<ul>
+<li><p>🎶 The possibility to address arbitrary sets of MEI elements that do not necessarily follow the logical organization of the MEI XML file structure. <em>For example: groupings of notes which forms a relevant observable on the musicological level but that are disjointed in the MEI XML structure.</em></p></li>
+<li><p>🥁 The possibility to address “verticalities” (musical offsets expressed in rhythmic values defined at note or score level), for example to annotate the score with root notes that have been identified by the analysts. These verticalities are not materialized in the MEI encoding.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Amleth/source-sherlockizer-service/main/offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></p>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 3.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 2.7cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 1.8cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 3.2cm; right: 0.9cm">
+!
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 5.2cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 4.3cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 3.4cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 2.4cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 1.5cm">
+•
+</div>
+<div style="color: deeppink; position: absolute; bottom: 0; right: 0.6cm">
+•
+</div>
+<div style="color: #16e7cf; border: 1px solid #16e7cf; padding: 0.5cm 1cm; width: 18cm;">
+<p>How to model, make addressable and annotate stuff that do not exist at the document level?</p>
+</div>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="annotation-questions">ANNOTATION? • QUESTIONS</h1>
+<ul>
+<li>An annotation my be seen as the conjunction of:</li>
+</ul>
+<!--∫ slide -->
+<h1 id="annotation-questions-1">ANNOTATION? • QUESTIONS</h1>
+<ul>
+<li><p>An annotation my be seen as the conjunction of:</p>
+<ul>
+<li>‹A set of unambiguous fragments taken from one or several potentially heterogeneous sources (the <em>anchor</em>).›</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="annotation-questions-2">ANNOTATION? • QUESTIONS</h1>
+<ul>
+<li><p>An annotation my be seen as the conjunction of:</p>
+<ul>
+<li>‹A set of unambiguous fragments taken from one or several potentially heterogeneous sources (the <em>anchor</em>).›</li>
+<li>A third party resource that may introduce new knowledge (the <em>target</em>).</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="annotation-questions-3">ANNOTATION? • QUESTIONS</h1>
+<ul>
+<li><p>An annotation my be seen as the conjunction of:</p>
+<ul>
+<li>‹A set of unambiguous fragments taken from one or several potentially heterogeneous sources (the <em>anchor</em>).›</li>
+<li>A third party resource that may introduce new knowledge (the <em>target</em>).</li>
+<li>The meaning of the relation between the anchor and the target.</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="annotation-questions-4">ANNOTATION? • QUESTIONS</h1>
+<ul>
+<li><p>An annotation my be seen as the conjunction of:</p>
+<ul>
+<li>‹A set of unambiguous fragments taken from one or several potentially heterogeneous sources (the <em>anchor</em>).›</li>
+<li>A third party resource that may introduce new knowledge (the <em>target</em>).</li>
+<li>The meaning of the relation between the anchor and the target.</li>
+<li>An actor who undertakes a more or less explicit interpretative project.</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="annotation-questions-5">ANNOTATION? • QUESTIONS</h1>
+<ul>
+<li><p>An annotation my be seen as the conjunction of:</p>
+<ul>
+<li>‹A set of unambiguous fragments taken from one or several potentially heterogeneous sources (the <em>anchor</em>).›</li>
+<li>A third party resource that may introduce new knowledge (the <em>target</em>).</li>
+<li>The meaning of the relation between the anchor and the target.</li>
+<li>An actor who undertakes a more or less explicit interpretative project.</li>
+<li>The circumstances in which it was carried out (temporal, historical, geographical, etc.).</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="annotation-questions-6">ANNOTATION? • QUESTIONS</h1>
+<ul>
+<li><p>An annotation my be seen as the conjunction of:</p>
+<ul>
+<li>‹A set of unambiguous fragments taken from one or several potentially heterogeneous sources (the <em>anchor</em>).›</li>
+<li>A third party resource that may introduce new knowledge (the <em>target</em>).</li>
+<li>The meaning of the relation between the anchor and the target.</li>
+<li>An actor who undertakes a more or less explicit interpretative project.</li>
+<li>The circumstances in which it was carried out (temporal, historical, geographical, etc.).</li>
+</ul></li>
+</ul>
+<p><br/></p>
+<ul>
+<li>I have already presented some engineering gizmos (a MEI preprocessor, a dumb MEI2RDF converter, a FastAPI service…):
+<div style="text-align: center">
+<code>https://github.com/Amleth/source-sherlockizer-service</code>
+</div></li>
+<li>Today, I only come with modelling questions.</li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="modeling-the-score">[1] MODELING THE SCORE?</h1>
+<h2 id="observations">OBSERVATIONS</h2>
+<p>To build arbitrary set of MEI elements:</p>
+<ol type="1">
+<li>each and every MEI elements should be made addressable (xml:id =&gt; IRI) ;</li>
+</ol>
+<!--∫ slide -->
+<h1 id="modeling-the-score-1">[1] MODELING THE SCORE?</h1>
+<h2 id="observations-1">OBSERVATIONS</h2>
+<p>To build arbitrary set of MEI elements:</p>
+<ol type="1">
+<li>each and every MEI elements should be made addressable (xml:id =&gt; IRI) ;</li>
+<li>the structure of the MEI document should be exposed in some way.</li>
+</ol>
+<!--∫ slide -->
+<h1 id="modeling-the-score-2">[1] MODELING THE SCORE?</h1>
+<h2 id="observations-2">OBSERVATIONS</h2>
+<p>To build arbitrary set of MEI elements:</p>
+<ol type="1">
+<li>each and every MEI elements should be made addressable (xml:id =&gt; IRI) ;</li>
+<li>the structure of the MEI document should be exposed in some way.</li>
+<li>And: sets should be composite (in the sense of the Composite DP).</li>
+</ol>
+<!--∫ slide -->
+<h1 id="modeling-the-score-3">[1] MODELING THE SCORE?</h1>
+<h2 id="observations-3">OBSERVATIONS</h2>
+<p>To build arbitrary set of MEI elements:</p>
+<ol type="1">
+<li>each and every MEI elements should be made addressable (xml:id =&gt; IRI) ;</li>
+<li>the structure of the MEI document should be exposed in some way.</li>
+<li>And: sets should be composite (in the sense of the Composite DP).</li>
+</ol>
+<h2 id="questions">QUESTIONS</h2>
+<ol type="1">
+<li>Do we agree to ban blank nodes?</li>
+</ol>
+<!--∫ slide -->
+<h1 id="modeling-the-score-4">[1] MODELING THE SCORE?</h1>
+<h2 id="observations-4">OBSERVATIONS</h2>
+<p>To build arbitrary set of MEI elements:</p>
+<ol type="1">
+<li>each and every MEI elements should be made addressable (xml:id =&gt; IRI) ;</li>
+<li>the structure of the MEI document should be exposed in some way.</li>
+<li>And: sets should be composite (in the sense of the Composite DP).</li>
+</ol>
+<h2 id="questions-1">QUESTIONS</h2>
+<ol type="1">
+<li>Do we agree to ban blank nodes?</li>
+<li>Should all the MEI data &amp; relations be converted to RDF? Is a generic asemantic tree structure built on generic properties (like “parent contains children”) “enough”? Or do we need a more “musical” model to represent the underlying structure of the score? See <a href="https://github.com/Amleth/source-sherlockizer-service#-rdfizing-the-score">RDFizing the score</a> as an exemple of a dumb 1:1 mapping MEI/RDF.</li>
+</ol>
+<!--∫ slide -->
+<h1 id="modeling-the-score-5">[1] MODELING THE SCORE?</h1>
+<h2 id="observations-5">OBSERVATIONS</h2>
+<p>To build arbitrary set of MEI elements:</p>
+<ol type="1">
+<li>each and every MEI elements should be made addressable (xml:id =&gt; IRI) ;</li>
+<li>the structure of the MEI document should be exposed in some way.</li>
+<li>And: sets should be composite (in the sense of the Composite DP).</li>
+</ol>
+<h2 id="questions-2">QUESTIONS</h2>
+<ol type="1">
+<li>Do we agree to ban blank nodes?</li>
+<li>Should all the MEI data &amp; relations be converted to RDF? Is a generic asemantic tree structure built on generic properties (like “parent contains children”) “enough”? Or do we need a more “musical” model to represent the underlying structure of the score? See <a href="https://github.com/Amleth/source-sherlockizer-service#-rdfizing-the-score">RDFizing the score</a> as an exemple of a dumb 1:1 mapping MEI/RDF.</li>
+<li>Same question for user sets.</li>
+</ol>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="modelling-the-time-miacro-structure">[2] MODELLING THE TIME M(I/A)CRO STRUCTURE</h1>
+<h2 id="observations-6">OBSERVATIONS</h2>
+<p>Extracting &amp; making note offsets &amp; score offsets addressable reveals a musical reality that is not present in the MEI encoding. Music cannot be simply reduced to its notation.</p>
+<!--∫ slide -->
+<h1 id="modelling-the-time-miacro-structure-1">[2] MODELLING THE TIME M(I/A)CRO STRUCTURE</h1>
+<h2 id="observations-7">OBSERVATIONS</h2>
+<p>Extracting &amp; making note offsets &amp; score offsets addressable reveals a musical reality that is not present in the MEI encoding. Music cannot be simply reduced to its notation.</p>
+<h2 id="questions-3">QUESTIONS</h2>
+<ul>
+<li>Are the temporal data extracted with <a href="https://github.com/Amleth/source-sherlockizer-service#-prerequisite-2-implications--decisions">Music21</a> enough to cover all offset-related analytical needs?</li>
+<li>What a more complex model would enable us to do?</li>
+<li>Should the “traditionnal” annotation “Anchor/Relation/Target/Creator/Context” model be modified to support our analytical goals? Perhaps towards a greater explicitness of the analytical project?</li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<div style="text-align: center; margin-top: 5cm;"/>
+
+<h2 id="modeling-the-common-rhythmic-space-of-music-events">MODELING THE COMMON RHYTHMIC​ SPACE OF MUSIC EVENTS</h2>
+<div style="text-align: center; margin-top: 2cm;">
+<p>‹<span class="citation" data-cites="Philippe">@Philippe</span>›</p>
+</div>
+<div class="e" style="text-align: center; margin-top: 2cm;">
+<p>🌲</p>
+</div>
+</body>
+</html>

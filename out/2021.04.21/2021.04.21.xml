@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2021.04.21</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="slide title">
+<img src="2021.04.21/polifonia.png" style="height: 2cm; position: absolute; left: 1cm; top: 1cm;"/> <img src="2021.04.21/TONALITIES.png" style="position: absolute; right: 1cm; top: 1cm;"/> <img src="2021.04.21/europe.jpeg" style="height: 1cm; position: absolute; left: 1cm; bottom: 0.5cm;"/>
+<div style="font-size: 50%; position: absolute; bottom: 0.5cm; left: 3cm; text-align: left;">
+<div>
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746.
+</div>
+<div style="font-style: italic;">
+The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains.
+</div>
+</div>
+<div style="position: absolute; text-align: left; left: 1.5cm; top: 11cm; width: 11cm;">
+<p>WP1 meeting — 2021.04.21</p>
+</div>
+<div style="position: absolute; text-align: left; left: 1.5cm; top: 13cm; width: 11cm;">
+<p>An ultraquick overview of ‘TONALITIES’ modeling work</p>
+</div>
+<div style="font-size: 63%; position: absolute; text-align: left; left: 1.5cm; top: 16cm; width: 11cm;">
+<p>T. Bottini • C. Guillotel-Nothmann • M. Gurrieri</p>
+</div>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES B.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<h1 id="context">Context</h1>
+<ul>
+<li>‘TONALITIES’ technical goals:
+<ul>
+<li>Formalize with ontologies the specific knowledge pertaining to musical analysis and, above all, the <span class="colour">interpretative intellectual processes</span> that produce them.</li>
+<li>Collect <span class="colour">conflicting “human” interpretations finely articulated to MEI scores</span>, as well as <span class="colour">algorithmic analytical data</span>.</li>
+<li>Make “signed” interpretations and algorithmic data <span class="colour">comparable</span>, in order to bring out what is <span class="colour">irreducible to human interpretation</span>.</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES B.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<h1 id="context-1">Context</h1>
+<ul>
+<li>‘TONALITIES’ technical goals:
+<ul>
+<li>Formalize with ontologies the specific knowledge pertaining to musical analysis and, above all, the <span class="colour">interpretative intellectual processes</span> that produce them.</li>
+<li>Collect <span class="colour">conflicting “human” interpretations finely articulated to MEI scores</span>, as well as <span class="colour">algorithmic analytical data</span>.</li>
+<li>Make “signed” interpretations and algorithmic data <span class="colour">comparable</span>, in order to bring out what is <span class="colour">irreducible to human interpretation</span>.</li>
+</ul></li>
+<li><span class="colour">Music score annotation</span> is a key-concept here (a brief definition):
+<ul>
+<li>“Annotation” as a gesture which delineates a relevant selection of sub-elements in a score as an <span class="colour">anchor</span>.</li>
+<li>“Annotation” as a <span class="colour">structured set of information</span> that <span class="colour">informs the understanding of a source</span>, for example by <span class="colour">contextualizing it</span>.</li>
+<li>“Annotation” as an <span class="colour">intellectual/scholarly process</span> which connects a source and a gloss/a critical enrichment by a specific modality (~ motivation).</li>
+</ul></li>
+</ul>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES B.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<h1 id="how-to-model-the-hermeneutic-dimension-of-music-analysis">How to model the hermeneutic dimension of music analysis?</h1>
+<ul>
+<li>Analysts, past and present, rely on their <span class="colour">understanding of the sources</span>.</li>
+<li>For example,<br/> <u>rather than</u>: <em>“(Powers, 1992) states that Vide Homo has tonal type ‘♮ g2 A2’”</em>,<br/> <u>we should say</u>: <em>“In her reading of (Powers, 1992), Ceulemans reports that Powers states that Vide Homo has tonal type ‘♮ g2 A2’”</em>.<br/></li>
+<li>We should be able <span class="colour">to discuss someone’s understanding of another’s arguments</span>.</li>
+</ul>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES B.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<h1 id="how-to-model-the-hermeneutic-dimension-of-music-analysis-1">How to model the hermeneutic dimension of music analysis?</h1>
+<ul>
+<li>Analysts, past and present, rely on their <span class="colour">understanding of the sources</span>.</li>
+<li>For example,<br/> <u>rather than</u>: <em>“(Powers, 1992) states that Vide Homo has tonal type ‘♮ g2 A2’”</em>,<br/> <u>we should say</u>: <em>“In her reading of (Powers, 1992), Ceulemans reports that Powers states that Vide Homo has tonal type ‘♮ g2 A2’”</em>.<br/></li>
+<li>We should be able <span class="colour">to discuss someone’s understanding of another’s arguments</span>.</li>
+<li>Conflict may occur between analysts and in the sources: <em>“Ceulemans states that Harold’s statement: ‘Vide Homo is based upon the tonus peregrinus’ should be relativized.”</em>.</li>
+<li>We should be able to <span class="colour">connect statements through an explicit rhetoric modality</span>.</li>
+</ul>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES B.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<h1 id="how-to-model-the-hermeneutic-dimension-of-music-analysis-2">How to model the hermeneutic dimension of music analysis?</h1>
+<ul>
+<li>Analysts, past and present, rely on their <span class="colour">understanding of the sources</span>.</li>
+<li>For example,<br/> <u>rather than</u>: <em>“(Powers, 1992) states that Vide Homo has tonal type ‘♮ g2 A2’”</em>,<br/> <u>we should say</u>: <em>“In her reading of (Powers, 1992), Ceulemans reports that Powers states that Vide Homo has tonal type ‘♮ g2 A2’”</em>.<br/></li>
+<li>We should be able <span class="colour">to discuss someone’s understanding of another’s arguments</span>.</li>
+<li>Conflict may occur between analysts and in the sources: <em>“Ceulemans states that Harold’s statement: ‘Vide Homo is based upon the tonus peregrinus’ should be relativized.”</em>.</li>
+<li>We should be able to <span class="colour">connect statements through an explicit rhetoric modality</span>.</li>
+<li>CRMinf addresses these problems directly.</li>
+</ul>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES C.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<div style="width: 35%; position: absolute; left: 1cm;">
+<p><span class="colour">Sources:</span></p>
+<pre><code>:powersWork
+    a fabio:ScholarlyWork ;
+    fabio:realization :powersExpression .
+<span class="colour">:powersExpression</span>
+    a fabio:Expression ;
+    rdfs:label <span class="colour">&quot;Powers 1992&quot;</span> .
+
+:ceulemansWork
+    a fabio:ScholarlyWork ;
+    fabio:realization :ceulemansExpression .
+<span class="colour">:ceulemansExpression</span>
+    a fabio:Expression ;
+    fabio:label <span class="colour">&quot;Ceulemans&#39; paper&quot;</span> .</code></pre>
+</div>
+<div style="width: 55%; position: absolute; right: 1cm;">
+<p><span class="colour">The claim: “Vide Homo has tonal type ‘♮ g2 A2’”:</span></p>
+<pre><code><span class="colour">:claim01</span>
+    a crm:E13_Attribute_Assigment, crminf:I4_Information_Set ;
+    crm:P140_assigned_attribute_to <span class="colour">:videHomo</span> ;
+    crm:P177_assigned_property_type <span class="colour">mt:tonal_type</span> ;
+    crm:P141_assigned <span class="colour">&quot;♮ g2 A2&quot;</span> .</code></pre>
+<p><br/></p>
+<p><span class="colour">Powers’ statement as reported by Ceulemans:</span></p>
+<pre><code><span class="colour">:reading01</span>
+    a crminf:I9_Provenanced_Comprehension ;
+    crm:P67i_is_referred_to_by <span class="colour">:ceulemansExpression</span> ;
+    crminf:J8_understands <span class="colour">:powersExpression</span> ;
+    crminf:J10_reads_as <span class="colour">:claim01</span> .</code></pre>
+</div>
+<div style="position: absolute; bottom: 2cm; border: 1px solid white; text-align: center; padding: 0.5cm;">
+<p>FaBiO/LRMoo + CRMinf + guillotel-nothmann/modal-tonal-ontology</p>
+</div>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES C.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<p><span class="colour">The claim that Vide Homo has tonus “tonus peregrinus” + a relativization of this claim:</span></p>
+<pre><code>relativization01:
+    a <span class="colour">crminf:I1_Argumentation</span> ;
+    crm:P2_has_type <span class="colour">:relativization</span> ;
+    crm:P14_carried_out_by <span class="colour">:ceulemans</span> ;
+    crm:P67i_is_referred_to_by <span class="colour">:ceulemansExpression</span> ;
+    <span class="colour">crminf:J2_concluded_that</span> [
+        a <span class="colour">crminf:I2_Belief</span> ;
+        <span class="colour">crminf:J4_that</span> [
+            <span class="colour">:videHomo mt:has_tonus mt:tonus_peregrinus</span>
+        ] ;
+        <span class="colour">crminf:J5_holds_to_be</span> &quot;not entirely true and should be relativized&quot; ;
+        crm:P3_has_note &quot;some scholarly stuff that supports Ceulemans&#39; claim&quot; ;
+    ] ;
+    .</code></pre>
+<div class="pagination"><span class="wto">•••••</span></div></div><div class="slide">
+<p><img src="2021.04.21/TONALITIES B.png" style="height: 2cm; position: absolute; bottom: 0.25cm; right: 0.25cm;"/></p>
+<h1 id="problem">Problem</h1>
+<p>Modeling cognitive and hermeneutic processes seems to be a good way to capture the specificities of human interpretation which relies on a complex context.</p>
+<p><br/></p>
+<p><em>however…</em></p>
+<p><br/></p>
+<p><span class="colour">How to design a score annotation tool that would be based on such a complex model?</span></p>
+<div class="pagination"><span class="wto">•••••</span></div></div></body>
+</html>

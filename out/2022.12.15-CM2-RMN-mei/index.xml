@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2022.12.15-CM2-RMN-mei</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<style>
+body { font-family: "FuturaPT"; font-weight: 300; }
+h1 { letter-spacing: 0.1em; font-family: "Jost" !important; font-weight: 200; }
+code { color: #16e7cf; }
+</style>
+<div class="slide title">
+<div>
+<p>Consortium Musica<sub>2</sub><br/> Rencontres de la musicologie
+numérique, 1<sup>ère</sup> édition, 15/12/2022</p>
+</div>
+<div>
+
+</div>
+<div style="
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-size: 111%;
+    letter-spacing: 0.1em;
+    padding: 0.5cm 0;
+    text-transform: uppercase;
+">
+<p>Quelle infrastructure pour l’annotation sémantique collaborative de
+partitions MEI ?</p>
+</div>
+<div>
+<p>Thomas BOTTINI<br/> IReMus — Institut de Recherche en Musicologie,
+UMR 8223</p>
+</div>
+<div style="display: flex; justify-content: center;">
+<p><img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/cnrs.png" />
+<img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/su.jpg" />
+<img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/bnf.jpg" />
+<img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/mc.png" /></p>
+</div>
+</div><div class="slide">
+<h1 id="titre">Titre</h1>
+<p>A</p>
+<div class="pagination">•🐌</div></div><div class="slide">
+<h1 id="titre-1">Titre</h1>
+<p>A</p>
+<p>B</p>
+<div class="pagination">•🐌</div></div></body>
+</html>

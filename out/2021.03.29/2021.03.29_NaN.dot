@@ -1,0 +1,9 @@
+digraph {
+    rankdir=LR
+    graph [bgcolor=black]
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+        "http://C1" -> "« Jean-Sébastien »" [label="foaf:firstName"]
+    "http://C1" -> "« Bach »" [label="foaf:lastName"]}

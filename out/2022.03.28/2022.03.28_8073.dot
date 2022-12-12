@@ -1,0 +1,10 @@
+digraph {
+    rankdir=LR
+    graph [bgcolor=black]
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+        Excel -> "Script Python 1" -> JSON -> XML -> "Prince XML" -> PDF
+    CSS -> "Prince XML"
+    JSON -> "Script Python 2" -> "Données sémantiques RDF publiques" -> "Site Web"}

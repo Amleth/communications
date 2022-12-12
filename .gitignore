@@ -1,5 +1,5 @@
-out.*
-out/*
+out.zzz
+out/fonts/*
 .DS_Store
 node_modules
 pj

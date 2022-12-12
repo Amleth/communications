@@ -1,0 +1,22 @@
+digraph {
+    rankdir=LR
+    graph [bgcolor=black]
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+    layout=sfdp
+"http://T1" [color=orange,fontcolor=orange]
+"http://C1" [color=green,fontcolor=green]
+"http://C2" [color=green,fontcolor=green]
+"http://T1" -> "skos:ConceptScheme" [label="rdf:type"]
+"http://T1" -> "« Thésaurus des thématiques »" [label="dcterms:title"]
+"http://T1" -> "« Anne »" [label="dcterms:creator"]
+"http://T1" -> "« Rebecca »" [label="dcterms:creator"]
+"http://T1" -> "http://C1" [label="skos:hasTopConcept"]
+"http://C1" -> "« Arts, sciences et techniques »" [label="skos:prefLabel"]
+"http://C1" -> "skos:Concept" [label="rdf:type"]
+"http://C1" -> "http://C2" [label="skos:narrower"]
+"http://C2" -> "http://C1" [label="skos:broader"]
+"http://C2" -> "« Astronomie »" [label="skos:prefLabel"]
+"http://C2" -> "skos:Concept" [label="rdf:type"]}

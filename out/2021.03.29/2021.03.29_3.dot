@@ -1,0 +1,9 @@
+digraph {
+    rankdir=LR
+    graph [bgcolor=black]
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+        C3 -> "« Abdel Halim »" [label="foaf:firstName"]
+    C3 -> "« Hafez »" [label="foaf:lastName"]}
