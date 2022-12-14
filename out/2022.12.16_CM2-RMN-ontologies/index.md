@@ -52,10 +52,10 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 
 - Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
 •••
-- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
+- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur CIDOC-CRM.
 •••
 - Aspects :
-    - Modéliser la structure de sources textuelles, musicales et iconographiques complexes en vue de les rendre adressables sur le Web (cf. hier TONALITIES).
+    - Modéliser la structure de sources textuelles, musicales et iconographiques complexes en vue de les rendre adressables sur le Web.
     - Mettre en œuvre des outils de saisie de l'information ergonomiques et écrire des scripts de conversion en données sémantiques.
     - Formaliser des patterns d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes (, modèle d'annotation).
     - Développer des outils Web pour annoter collaborativement les sources et publier les données.

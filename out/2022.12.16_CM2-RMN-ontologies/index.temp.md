@@ -5,6 +5,7 @@ code { color: #16e7cf; }
 .dim { color: #aaa; }
 </style>
 
+<!--📜-->
 <!--∫ slide title -->
 <div class="dim">
 Consortium Musica<sub>2</sub><br/>
@@ -35,33 +36,60 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 <img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/mc.png" />
 </div>
 
+<!--📜-->
 <!--∫ slide -->
 # Notes
 
+<!--📜-->
 <!--∫ slide c -->
 # Plan
 
 1. Contexte scientifique
 2. Le CIDOC-CRM : apports & questions
 
+<!--📜-->
 <!--∫ slide title -->
 # 1. Contexte scientifique
+
+<!--📜-->
+<!--∫ slide -->
+# Le projet SHERLOCK
+
+- Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
+
 
 <!--∫ slide -->
 # Le projet SHERLOCK
 
 - Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
-•••
-- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
-•••
+- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur CIDOC-CRM.
+
+
+<!--∫ slide -->
+# Le projet SHERLOCK
+
+- Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
+- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur CIDOC-CRM.
 - Aspects :
-    - Modéliser la structure de sources textuelles, musicales et iconographiques complexes en vue de les rendre adressables sur le Web (cf. hier TONALITIES).
+    - Modéliser la structure de sources textuelles, musicales et iconographiques complexes en vue de les rendre adressables sur le Web.
     - Mettre en œuvre des outils de saisie de l'information ergonomiques et écrire des scripts de conversion en données sémantiques.
     - Formaliser des patterns d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes (, modèle d'annotation).
     - Développer des outils Web pour annoter collaborativement les sources et publier les données.
-•••
+
+
+<!--∫ slide -->
+# Le projet SHERLOCK
+
+- Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
+- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur CIDOC-CRM.
+- Aspects :
+    - Modéliser la structure de sources textuelles, musicales et iconographiques complexes en vue de les rendre adressables sur le Web.
+    - Mettre en œuvre des outils de saisie de l'information ergonomiques et écrire des scripts de conversion en données sémantiques.
+    - Formaliser des patterns d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes (, modèle d'annotation).
+    - Développer des outils Web pour annoter collaborativement les sources et publier les données.
 - *‹S›ocial sciences & ‹H›umanities corpora ‹E›xploration and active ‹R›eading with ‹L›inked, ‹O›pen & ‹C›ontributive ‹K›nowledge organisation systems*
 
+<!--📜-->
 <!--∫ slide -->
 # Applications présentes et futures à l'IReMus
 
@@ -86,21 +114,5 @@ Marottes :
 - comment on en parle
 -->
 
+<!--📜-->
 <!--∫ slide c -->
-<!-- ```dot 6cad9af2-47b9-4279-b567-de46c45f8884 26
-layout=sfdp
-"http://T1" [color=orange,fontcolor=orange]
-"http://C1" [color=green,fontcolor=green]
-"http://C2" [color=green,fontcolor=green]
-"http://T1" -> "skos:ConceptScheme" [label="rdf:type"]
-"http://T1" -> "« Thésaurus des thématiques »" [label="dcterms:title"]
-"http://T1" -> "« Anne »" [label="dcterms:creator"]
-"http://T1" -> "« Rebecca »" [label="dcterms:creator"]
-"http://T1" -> "http://C1" [label="skos:hasTopConcept"]
-"http://C1" -> "« Arts, sciences et techniques »" [label="skos:prefLabel"]
-"http://C1" -> "skos:Concept" [label="rdf:type"]
-"http://C1" -> "http://C2" [label="skos:narrower"]
-"http://C2" -> "http://C1" [label="skos:broader"]
-"http://C2" -> "« Astronomie »" [label="skos:prefLabel"]
-"http://C2" -> "skos:Concept" [label="rdf:type"]
-``` -->

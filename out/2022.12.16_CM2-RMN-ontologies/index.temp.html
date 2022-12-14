@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2022.12.16_CM2-RMN-ontologies</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<style>
+body { font-family: GoudyNoto; font-weight: 300; }
+h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
+code { color: #16e7cf; }
+.dim { color: #aaa; }
+</style>
+<!--📜-->
+<!--∫ slide title -->
+<div class="dim">
+<p>Consortium Musica<sub>2</sub><br/> Rencontres de la musicologie
+numérique, 1<sup>ère</sup> édition, 16/12/2022</p>
+</div>
+<div style="
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-family: FuturaPT;
+    font-size: 111%;
+    letter-spacing: 0.1em;
+    padding: 0.5cm 0;
+    text-transform: uppercase;
+">
+<p>Le CIDOC–CRM pour capter l’activité critique sur les sources en
+musicologie</p>
+</div>
+<div class="dim">
+<p>Thomas BOTTINI<br/> IReMus — Institut de Recherche en Musicologie,
+UMR 8223</p>
+</div>
+<div style="display: flex; justify-content: center; padding-top: 2cm;">
+<p><img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/cnrs.png" />
+<img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/su.jpg" />
+<img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/bnf.jpg" />
+<img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/mc.png" /></p>
+</div>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="notes">Notes</h1>
+<!--📜-->
+<!--∫ slide c -->
+<h1 id="plan">Plan</h1>
+<ol type="1">
+<li>Contexte scientifique</li>
+<li>Le CIDOC-CRM : apports &amp; questions</li>
+</ol>
+<!--📜-->
+<!--∫ slide title -->
+<h1 id="contexte-scientifique">1. Contexte scientifique</h1>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="le-projet-sherlock">Le projet SHERLOCK</h1>
+<ul>
+<li>Émergence Sorbonne Université 2019-2022. Projet
+d’ingénierie-recherche.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="le-projet-sherlock-1">Le projet SHERLOCK</h1>
+<ul>
+<li>Émergence Sorbonne Université 2019-2022. Projet
+d’ingénierie-recherche.</li>
+<li>Objectif : développer un écosystème d’outils facilitant la
+production de savoirs sur des sources reposant sur CIDOC-CRM.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="le-projet-sherlock-2">Le projet SHERLOCK</h1>
+<ul>
+<li>Émergence Sorbonne Université 2019-2022. Projet
+d’ingénierie-recherche.</li>
+<li>Objectif : développer un écosystème d’outils facilitant la
+production de savoirs sur des sources reposant sur CIDOC-CRM.</li>
+<li>Aspects :
+<ul>
+<li>Modéliser la structure de sources textuelles, musicales et
+iconographiques complexes en vue de les rendre adressables sur le
+Web.</li>
+<li>Mettre en œuvre des outils de saisie de l’information ergonomiques
+et écrire des scripts de conversion en données sémantiques.</li>
+<li>Formaliser des patterns d’utilisation du CIDOC-CRM pour représenter
+l’activité critique sur des sources complexes (, modèle
+d’annotation).</li>
+<li>Développer des outils Web pour annoter collaborativement les sources
+et publier les données.</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="le-projet-sherlock-3">Le projet SHERLOCK</h1>
+<ul>
+<li>Émergence Sorbonne Université 2019-2022. Projet
+d’ingénierie-recherche.</li>
+<li>Objectif : développer un écosystème d’outils facilitant la
+production de savoirs sur des sources reposant sur CIDOC-CRM.</li>
+<li>Aspects :
+<ul>
+<li>Modéliser la structure de sources textuelles, musicales et
+iconographiques complexes en vue de les rendre adressables sur le
+Web.</li>
+<li>Mettre en œuvre des outils de saisie de l’information ergonomiques
+et écrire des scripts de conversion en données sémantiques.</li>
+<li>Formaliser des patterns d’utilisation du CIDOC-CRM pour représenter
+l’activité critique sur des sources complexes (, modèle
+d’annotation).</li>
+<li>Développer des outils Web pour annoter collaborativement les sources
+et publier les données.</li>
+</ul></li>
+<li><em>‹S›ocial sciences &amp; ‹H›umanities corpora ‹E›xploration and
+active ‹R›eading with ‹L›inked, ‹O›pen &amp; ‹C›ontributive ‹K›nowledge
+organisation systems</em></li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="applications-présentes-et-futures-à-liremus">Applications
+présentes et futures à l’IReMus</h1>
+<ul>
+<li>modality-tonality (analyse musicale, cf. hier)</li>
+<li>référentiel des personnes, toponymes, congrégations et institutions
+de l’Ancien Régime</li>
+<li>édition critique TEI du Mercure Galant</li>
+<li>analyse des estampes du Mercure Galant (histoire de l’art)</li>
+<li>base Euterpe d’iconographie musicale</li>
+<li>bibliothèque de partitions</li>
+<li>catalogue de livrets de motets pour la Chapelle Royale
+(1666—1792)</li>
+<li>étudiant•e•s du conservatoire 1795-1914 (HEMEF)</li>
+<li>…</li>
+</ul>
+<!-- Étudier en profondeur l'ontologie CIDOC-CRM et ses dérivées (comme LRMoo) dans une perspective de recherche (exprimer une activité analytique/critique/herméneutique complexe et collaborative sur des sources textuelles, musicales et iconographiques complexes), au-delà du simple fichage d'entités patrimoniales qui constituait son contexte initial. Dégager des patterns d'utilisation de cette ontologie générique utiles aux différentes branches de la musicologie.
+Modéliser avec le CIDOC-CRM plusieurs projets pilotes de l'IReMus. Convoquer cette ontologie dans chaque projet passé, présent et à venir pour faire du LOD de qualité pour la musicologie.
+Construire une infrastructure de saisie, annotation et publication des données musicologiques reposant sur des données sémantiques. (TONALITIES est l'application des réflexions méthodologiques et techniques de SHERLOCK à la question de l'annotation sémantique collaborative de partitions MEI.) -->
+<!--
+Marottes :
+- adressabilité des sources
+- de quoi on parle
+- comment on en parle
+-->
+<!--📜-->
+<!--∫ slide c -->
+</body>
+</html>

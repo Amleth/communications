@@ -18,9 +18,10 @@ Black           900
 @import "./fonts/futura.css";
 @import "./fonts/jenson.css";
 @import "./fonts/jost.css";
-@import "./fonts/noto.css";
+@import "./fonts/GoudyNoto.css";
 @import "./fonts/sharetech.css";
 @import "./fonts/wto.css";
+@import "./fonts/itcgoudysansstd.css";
 
 @page {
   margin: 0;
@@ -32,7 +33,6 @@ Black           900
 }
 
 html {
-  font-family: Jenson;
   font-size: 200%;
   font-variant: prince-opentype(dlig, liga, hlig, onum);
 }
@@ -76,10 +76,12 @@ h2 {
   margin-top: 1em;
 }
 
-ul,
-ol {
-  list-style: square;
+ul, ol {
   margin: 1em;
+}
+
+ul {
+  list-style: square;
 }
 
 ul ul,
@@ -122,6 +124,7 @@ td {
 
 a {
   color: #16e7cf;
+  text-decoration: none;
   /* color: #0DE5A5; */
 }
 
@@ -133,6 +136,13 @@ img {
 
 /* SPECIFIC SLIDES */
 
+.c {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 div.cv {
   display: flex;
   flex-direction: column;
@@ -140,19 +150,6 @@ div.cv {
 
 div.ch {
   text-align: center;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-}
-
-.title > * {
-  margin: auto;
-}
-
-.title h2 {
-  font-style: italic;
 }
 
 .colour {
@@ -185,10 +182,6 @@ ul ul {
   width: 100%;
 }
 
-.title > div {
-  text-align: center;
-}
-
 img {
   filter: drop-shadow(3px 3px 3px #000000);
 }
@@ -218,7 +211,6 @@ hr {
   color: white;
 }
 
-a,
 code,
 pre {
   font-family: "Cutive" !important;
@@ -226,9 +218,24 @@ pre {
 }
 
 a {
-  font-size: 80%;
+  /* font-size: 80%; */
 }
 
 .gray {
   color: gray;
+}
+
+/* CLASSES DE PAGES */
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title > * {
+  margin: auto;
+}
+
+.title > div {
+  text-align: center;
 }

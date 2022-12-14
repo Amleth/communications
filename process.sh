@@ -10,6 +10,7 @@ OUTDIR="$HOMEDIR/out/$PREZID"
 rm -rf "$OUTDIR"
 mkdir -p "$OUTDIR"
 cp "$PREZFILE" "$OUTDIR"
+cp "$PREZDIR"/*.{jpeg,jpg,png} "$OUTDIR" 2>/dev/null
 
 # Go (MD -> MD processé -> HTML -> XML -> PDF)
 cd "$OUTDIR"
@@ -23,7 +24,5 @@ done
 prince -s ../../style.css index.xml
 
 # Qu'avons-nous produit ?
-# PDF="$OUTDIR"/"$PREZID".pdf
-# cp "$OUTDIR"/index.pdf "$PDF"
 exa -lHa "$OUTDIR"
 open "$OUTDIR"/index.pdf

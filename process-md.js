@@ -20,8 +20,8 @@ function makeGraph(dotContent, id, width) {
     node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
     edge [color=white,fontcolor=white,fontname="American Typewriter"]
     \n
-    ` + dotContent + '}\n'
-  const dotFile = `${IN_FILE.replace('.md', '')}_${id}.dot`
+    ` + dotContent + '\n}\n'
+  const dotFile = `dotfile_${id}.dot`
   const pngFile = dotFile.replace('.dot', '') + '.png'
   fs.writeFileSync(dotFile, dotContent, 'utf8')
 
@@ -80,7 +80,7 @@ rl.on('line', line => {
 
   const dotMatch = line.match(DOT)
   if (dotMatch) {
-    currentDotId = parseInt(dotMatch[1])
+    currentDotId = dotMatch[1]
     currentDotWidth = parseInt(dotMatch[2])
     inDot = true
     return
