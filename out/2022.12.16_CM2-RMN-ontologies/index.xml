@@ -60,40 +60,40 @@ UMR 8223</p>
 </div>
 </div><div class="slide">
 <h1 id="notes">Notes</h1>
-<div class="pagination">•🐌•••••</div></div><div class="slide c">
+<div class="pagination">•🐌••••••••</div></div><div class="slide c">
 <h1 id="plan">Plan</h1>
 <ol type="1">
 <li>Contexte scientifique</li>
 <li>Le CIDOC-CRM : apports &amp; questions</li>
 </ol>
-<div class="pagination">••🐌••••</div></div><div class="slide title">
+<div class="pagination">••🐌•••••••</div></div><div class="slide title">
 <h1 id="contexte-scientifique">1. Contexte scientifique</h1>
-<div class="pagination">•••🐌•••</div></div><div class="slide">
+<div class="pagination">•••🐌••••••</div></div><div class="slide">
 <h1 id="le-projet-sherlock">Le projet SHERLOCK</h1>
 <ul>
 <li>Émergence Sorbonne Université 2019-2022. Projet
 d’ingénierie-recherche.</li>
 </ul>
-<div class="pagination">••••🐌••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••</div></div><div class="slide">
 <h1 id="le-projet-sherlock-1">Le projet SHERLOCK</h1>
 <ul>
 <li>Émergence Sorbonne Université 2019-2022. Projet
 d’ingénierie-recherche.</li>
 <li>Objectif : développer un écosystème d’outils facilitant la
-production de savoirs sur des sources reposant sur CIDOC-CRM.</li>
+production de savoirs sur des sources reposant sur le CIDOC-CRM.</li>
 </ul>
-<div class="pagination">••••🐌••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••</div></div><div class="slide">
 <h1 id="le-projet-sherlock-2">Le projet SHERLOCK</h1>
 <ul>
 <li>Émergence Sorbonne Université 2019-2022. Projet
 d’ingénierie-recherche.</li>
 <li>Objectif : développer un écosystème d’outils facilitant la
-production de savoirs sur des sources reposant sur CIDOC-CRM.</li>
+production de savoirs sur des sources reposant sur le CIDOC-CRM.</li>
 <li>Aspects :
 <ul>
 <li>Modéliser la structure de sources textuelles, musicales et
-iconographiques complexes en vue de les rendre adressables sur le
-Web.</li>
+iconographiques complexes en vue de les rendre adressables sur le Web
+(cf. hier TONALITIES).</li>
 <li>Mettre en œuvre des outils de saisie de l’information ergonomiques
 et écrire des scripts de conversion en données sémantiques.</li>
 <li>Formaliser des patterns d’utilisation du CIDOC-CRM pour représenter
@@ -103,18 +103,18 @@ d’annotation).</li>
 et publier les données.</li>
 </ul></li>
 </ul>
-<div class="pagination">••••🐌••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••</div></div><div class="slide">
 <h1 id="le-projet-sherlock-3">Le projet SHERLOCK</h1>
 <ul>
 <li>Émergence Sorbonne Université 2019-2022. Projet
 d’ingénierie-recherche.</li>
 <li>Objectif : développer un écosystème d’outils facilitant la
-production de savoirs sur des sources reposant sur CIDOC-CRM.</li>
+production de savoirs sur des sources reposant sur le CIDOC-CRM.</li>
 <li>Aspects :
 <ul>
 <li>Modéliser la structure de sources textuelles, musicales et
-iconographiques complexes en vue de les rendre adressables sur le
-Web.</li>
+iconographiques complexes en vue de les rendre adressables sur le Web
+(cf. hier TONALITIES).</li>
 <li>Mettre en œuvre des outils de saisie de l’information ergonomiques
 et écrire des scripts de conversion en données sémantiques.</li>
 <li>Formaliser des patterns d’utilisation du CIDOC-CRM pour représenter
@@ -127,9 +127,9 @@ et publier les données.</li>
 active <span class="colour">R</span>eading with <span class="colour">L</span>inked, <span class="colour">O</span>pen &amp; <span class="colour">C</span>ontributive <span class="colour">K</span>nowledge
 organisation systems</em></li>
 </ul>
-<div class="pagination">••••🐌••</div></div><div class="slide">
-<h1 id="applications-présentes-et-futures-à-liremus">Applications
-présentes et futures à l’IReMus</h1>
+<div class="pagination">••••🐌•••••</div></div><div class="slide">
+<h1 id="terrains-présents-futurs-à-liremus">Terrains présents &amp;
+futurs à l’IReMus</h1>
 <ul>
 <li>modality-tonality (analyse musicale, cf. hier)</li>
 <li>référentiel des personnes, toponymes, congrégations et institutions
@@ -137,21 +137,105 @@ de l’Ancien Régime</li>
 <li>édition critique TEI du Mercure Galant</li>
 <li>analyse des estampes du Mercure Galant (histoire de l’art)</li>
 <li>base Euterpe d’iconographie musicale</li>
-<li>bibliothèque de partitions</li>
+<li>bibliothèque de partitions MEI avec contexte de production
+(cf. hier)</li>
 <li>catalogue de livrets de motets pour la Chapelle Royale
 (1666—1792)</li>
+<li>modélisation et mise en données des archives de la Péniche
+Opéra</li>
 <li>étudiant•e•s du conservatoire 1795-1914 (HEMEF)</li>
 <li>…</li>
 </ul>
-<!-- Étudier en profondeur l'ontologie CIDOC-CRM et ses dérivées (comme LRMoo) dans une perspective de recherche (exprimer une activité analytique/critique/herméneutique complexe et collaborative sur des sources textuelles, musicales et iconographiques complexes), au-delà du simple fichage d'entités patrimoniales qui constituait son contexte initial. Dégager des patterns d'utilisation de cette ontologie générique utiles aux différentes branches de la musicologie.
-Modéliser avec le CIDOC-CRM plusieurs projets pilotes de l'IReMus. Convoquer cette ontologie dans chaque projet passé, présent et à venir pour faire du LOD de qualité pour la musicologie.
-Construire une infrastructure de saisie, annotation et publication des données musicologiques reposant sur des données sémantiques. (TONALITIES est l'application des réflexions méthodologiques et techniques de SHERLOCK à la question de l'annotation sémantique collaborative de partitions MEI.) -->
+<div class="pagination">•••••🐌••••</div></div><div class="slide">
+<h1 id="le-web-sémantique-la-recherche">Le Web sémantique &amp; la
+recherche</h1>
+<ul>
+<li>Injonction du LOD (Linked Open Data).</li>
+</ul>
+<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<h1 id="le-web-sémantique-la-recherche-1">Le Web sémantique &amp; la
+recherche</h1>
+<ul>
+<li>Injonction du LOD (Linked Open Data).</li>
+<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
+Web <a
+href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" /></p>
+<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<h1 id="le-web-sémantique-la-recherche-2">Le Web sémantique &amp; la
+recherche</h1>
+<ul>
+<li>Injonction du LOD (Linked Open Data).</li>
+<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
+Web <a
+href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" /></p>
+<ul>
+<li>⚗️ Un triplet n’a pas la forme d’un énoncé scientifique car il
+n’exprime pas le contexte.</li>
+</ul>
+<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<h1 id="le-web-sémantique-la-recherche-3">Le Web sémantique &amp; la
+recherche</h1>
+<ul>
+<li>Injonction du LOD (Linked Open Data).</li>
+<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
+Web <a
+href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" /></p>
+<ul>
+<li>⚗️ Un triplet n’a pas la forme d’un énoncé scientifique car il
+n’exprime pas le contexte.</li>
+<li>😱 Un sens partagé à l’échelle mondiale ? Origines néopositivistes
+du Web sémantique à questionner (F. Rastier). Paradigme inadéquat aux
+sciences de l’interprétation.</li>
+</ul>
+<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<h1 id="le-web-sémantique-la-recherche-4">Le Web sémantique &amp; la
+recherche</h1>
+<ul>
+<li>Injonction du LOD (Linked Open Data).</li>
+<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
+Web <a
+href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" /></p>
+<ul>
+<li>⚗️ Un triplet n’a pas la forme d’un énoncé scientifique car il
+n’exprime pas le contexte.</li>
+<li>😱 Un sens partagé à l’échelle mondiale ? Origines néopositivistes
+du Web sémantique à questionner (F. Rastier). Paradigme inadéquat aux
+sciences de l’interprétation.</li>
+<li>Mais : <em>« Wo aber Gefahr ist, wächst Das Rettende auch. »</em>.
+Et donc, SHERLOCK.</li>
+</ul>
+<div class="pagination">••••••🐌•••</div></div><div class="slide title">
+<h1 id="le-cidoc-crm-apports-questions">2. Le CIDOC-CRM : apports &amp;
+questions</h1>
+<ul>
+<li>Le CRM fait extrêmement bien certaines choses : nommer, typer,
+dater.</li>
+<li>Il nous encourage à penser en temps d’abord, ce qui nous donne
+davantage d’ancres (IRI) pour associer. Ainsi, on ne dit pas :</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 10cm;" src="dotfile_f8e27fbb-ccc8-4996-8713-0c0291f58bb3.png" /></p>
+<p>mais :</p>
+<div class="pagination">•••••••🐌••</div></div><div class="slide c">
+<p><img style="display: block; margin: 0 auto; width: 25cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" /></p>
+<div class="pagination">••••••••🐌•</div></div><div class="slide">
+<h1 id="section"></h1>
 <!--
 Marottes :
 - adressabilité des sources
 - de quoi on parle
 - comment on en parle
 -->
-<div class="pagination">•••••🐌•</div></div><div class="slide c">
-<div class="pagination">••••••🐌</div></div></body>
+<div class="pagination">•••••••••🐌</div></div></body>
 </html>

@@ -136,13 +136,6 @@ img {
 
 /* SPECIFIC SLIDES */
 
-.c {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 div.cv {
   display: flex;
   flex-direction: column;
@@ -238,4 +231,11 @@ a {
 
 .title > div {
   text-align: center;
+}
+
+.c {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

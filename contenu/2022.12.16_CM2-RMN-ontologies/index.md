@@ -63,21 +63,65 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 - *‹S›ocial sciences & ‹H›umanities corpora ‹E›xploration and active ‹R›eading with ‹L›inked, ‹O›pen & ‹C›ontributive ‹K›nowledge organisation systems*
 
 <!--∫ slide -->
-# Applications présentes et futures à l'IReMus
+# Terrains présents & futurs à l'IReMus
 
 - modality-tonality (analyse musicale, cf. hier)
 - référentiel des personnes, toponymes, congrégations et institutions de l'Ancien Régime
 - édition critique TEI du Mercure Galant
 - analyse des estampes du Mercure Galant (histoire de l'art)
 - base Euterpe d'iconographie musicale
-- bibliothèque de partitions
+- bibliothèque de partitions MEI avec contexte de production (cf. hier)
 - catalogue de livrets de motets pour la Chapelle Royale (1666—1792)
+- modélisation et mise en données des archives de la Péniche Opéra
 - étudiant•e•s du conservatoire 1795-1914 (HEMEF)
 - …
 
-<!-- Étudier en profondeur l'ontologie CIDOC-CRM et ses dérivées (comme LRMoo) dans une perspective de recherche (exprimer une activité analytique/critique/herméneutique complexe et collaborative sur des sources textuelles, musicales et iconographiques complexes), au-delà du simple fichage d'entités patrimoniales qui constituait son contexte initial. Dégager des patterns d'utilisation de cette ontologie générique utiles aux différentes branches de la musicologie.
-Modéliser avec le CIDOC-CRM plusieurs projets pilotes de l'IReMus. Convoquer cette ontologie dans chaque projet passé, présent et à venir pour faire du LOD de qualité pour la musicologie.
-Construire une infrastructure de saisie, annotation et publication des données musicologiques reposant sur des données sémantiques. (TONALITIES est l'application des réflexions méthodologiques et techniques de SHERLOCK à la question de l'annotation sémantique collaborative de partitions MEI.) -->
+<!--∫ slide -->
+# Le Web sémantique & la recherche
+
+- Injonction du LOD (Linked Open Data).
+•••
+- 🌍 Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
+
+```dot 2aef8368-7007-45dd-9701-4e13edd2136a 26
+layout=dot
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg" -> "https://iconclass.org/23O23" [label="crm:P138_represents"]
+```
+
+•••
+- ⚗️ Un triplet n'a pas la forme d'un énoncé scientifique car il n'exprime pas le contexte.
+•••
+- 😱 Un sens partagé à l'échelle mondiale ? Origines néopositivistes du Web sémantique à questionner (F. Rastier). Paradigme inadéquat aux sciences de l'interprétation.
+•••
+- Mais : *« Wo aber Gefahr ist, wächst Das Rettende auch. »*. Et donc, SHERLOCK.
+
+<!--∫ slide title -->
+# 2. Le CIDOC-CRM : apports & questions
+
+- Le CRM fait extrêmement bien certaines choses : nommer, typer, dater.
+- Il nous encourage à penser en temps d'abord, ce qui nous donne davantage d'ancres (IRI) pour associer. Ainsi, on ne dit pas :
+
+```dot f8e27fbb-ccc8-4996-8713-0c0291f58bb3 10
+layout=dot
+"Morton Feldman" -> "For Philip Guston" [label="dcterms:creator"]
+```
+
+mais :
+
+<!--∫ slide c -->
+
+```dot c7f25bfb-d2d0-41d1-aa68-35a87e864028 25
+layout=sfdp
+"lrmoo:F28_Expression_Creation" -> "crm:E7_Activity" [label="crm:P9_consists_of"]
+"lrmoo:F28_Expression_Creation" -> "lrmoo:F2_Expression" [label="lrmoo:R17_created"]
+"lrmoo:F28_Expression_Creation" -> "E52_Timespan (une date))" [label="crm:P4_has_timespan"]
+"crm:E7_Activity" -> "Morton Feldman (crm:E21_Person)" [label="crm:P14_carried_out_by"]
+```
+
+<!--∫ slide -->
+# 
 
 <!--
 Marottes :
@@ -86,7 +130,6 @@ Marottes :
 - comment on en parle
 -->
 
-<!--∫ slide c -->
 <!-- ```dot 6cad9af2-47b9-4279-b567-de46c45f8884 26
 layout=sfdp
 "http://T1" [color=orange,fontcolor=orange]

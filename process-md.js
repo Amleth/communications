@@ -13,10 +13,10 @@ const OUT_FILE = process.argv[3]
 const VARIABLES = {}
 
 function makeGraph(dotContent, id, width) {
-  if (!width) width = 100
+  if (!width) width = 29.7
   dotContent = `digraph {
-    rankdir=LR
     graph [bgcolor=black]
+    rankdir=LR
     node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
     edge [color=white,fontcolor=white,fontname="American Typewriter"]
     \n
@@ -41,7 +41,6 @@ let pageNumber = 0
 
 let currentDot = []
 let currentDotId = -1
-let currentDotWidth = 100
 let inDot = false
 
 rl.on('line', line => {
