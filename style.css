@@ -173,6 +173,7 @@ ul ul {
   position: fixed;
   text-align: center;
   width: 100%;
+  z-index: 9999;
 }
 
 img {

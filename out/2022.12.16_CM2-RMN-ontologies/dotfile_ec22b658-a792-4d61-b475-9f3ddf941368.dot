@@ -1,0 +1,25 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+    layout=sfdp
+"lrmoo:F28_Expression_Creation" -> "crm:E7_Activity" [label="crm:P9_consists_of"]
+"lrmoo:F28_Expression_Creation" -> "lrmoo:F2_Expression" [label="lrmoo:R17_created"]
+"lrmoo:F28_Expression_Creation" -> "E52_Timespan (une date))" [label="crm:P4_has_timespan"]
+"crm:E13_Attribute_Assignment" -> "crm:E7_Activity" [label="crm:P140_assigned_attribute_to",color=yellow]
+"crm:E13_Attribute_Assignment" -> "crm:P14_carried_out_by" [label="crm:P177_assigned_property_of_type",color=yellow]
+"crm:E13_Attribute_Assignment" -> "Morton Feldman (crm:E21_Person)" [label="crm:P141_assigned",color=yellow]
+"crm:E13_Attribute_Assignment" -> "Thomas B." [label="crm:P14_carried_out_by",color=yellow]
+"crm:E13_Attribute_Assignment" -> "E52_Timespan (une autre date))" [label="crm:P4_has_timespan",color=yellow]
+
+"Morton Feldman (crm:E21_Person)" [color=cyan]
+"crm:E7_Activity" [color=cyan]
+
+"crm:E13_Attribute_Assignment" [color=yellow]
+"E52_Timespan (une autre date))" [color=yellow]
+"crm:P14_carried_out_by" [color=cyan]
+"Thomas B." [color=yellow]
+}

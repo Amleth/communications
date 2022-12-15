@@ -1,0 +1,15 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
+    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    
+
+    layout=sfdp
+"http://estampe" [color=red]
+"http://estampe_fragment" [color=red]
+"crm:E36_Visual_Item" [color=red]
+"http://estampe" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
+"http://estampe_fragment" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
+"http://estampe_fragment" -> "http://estampe" [label="sherlock:is_fragment_of",color=red]
+}

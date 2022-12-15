@@ -9,6 +9,8 @@ digraph {
 "lrmoo:F28_Expression_Creation" -> "crm:E7_Activity" [label="crm:P9_consists_of"]
 "lrmoo:F28_Expression_Creation" -> "lrmoo:F2_Expression" [label="lrmoo:R17_created"]
 "lrmoo:F28_Expression_Creation" -> "E52_Timespan (une date))" [label="crm:P4_has_timespan"]
-"crm:E7_Activity" -> "Morton Feldman (crm:E21_Person)" [label="crm:P14_carried_out_by"]
-fontsize=50
+"crm:E7_Activity" -> "Morton Feldman (crm:E21_Person)" [label="crm:P14_carried_out_by",color=cyan]
+
+"Morton Feldman (crm:E21_Person)" [color=cyan]
+"crm:E7_Activity" [color=cyan]
 }

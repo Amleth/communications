@@ -65,9 +65,9 @@ UMR 8223</p>
 <li>Réponse conceptuelle &amp; technique</li>
 <li>Pérennisation de l’infrastructure &amp; réflexions sur le futur</li>
 </ol>
-<div class="pagination">•🐌•••••••••••••</div></div><div class="slide title">
+<div class="pagination">•🐌••••••••••••</div></div><div class="slide title">
 <h1 id="problématique-musicologique">Problématique musicologique</h1>
-<div class="pagination">••🐌••••••••••••</div></div><div class="slide">
+<div class="pagination">••🐌•••••••••••</div></div><div class="slide">
 <h1 id="contexte">Contexte</h1>
 <ul>
 <li>💶 Projet européen H2020 POLIFONIA (<em>« Playing the soundtrack of
@@ -79,12 +79,12 @@ href="https://polifonia-project.eu/">https://polifonia-project.eu/</a></li>
 href="https://polifonia-project.eu/pilots/tonalities/">https://polifonia-project.eu/pilots/tonalities/</a>
 <ul>
 <li>Annoter collaborativement de grands corpus de partitions avec des
-traités théoriques historiques (Prætorius, Zarlino…)</li>
-<li>Comparer les interprétations</li>
+traités théoriques historiques (Prætorius, Zarlino…).</li>
+<li>Comparer les interprétations.</li>
 </ul></li>
 </ul></li>
 </ul>
-<div class="pagination">•••🐌•••••••••••</div></div><div class="slide">
+<div class="pagination">•••🐌••••••••••</div></div><div class="slide">
 <h1 id="contexte-1">Contexte</h1>
 <ul>
 <li>💶 Projet européen H2020 POLIFONIA (<em>« Playing the soundtrack of
@@ -96,14 +96,14 @@ href="https://polifonia-project.eu/">https://polifonia-project.eu/</a></li>
 href="https://polifonia-project.eu/pilots/tonalities/">https://polifonia-project.eu/pilots/tonalities/</a>
 <ul>
 <li>Annoter collaborativement de grands corpus de partitions avec des
-traités théoriques historiques (Prætorius, Zarlino…)</li>
-<li>Comparer les interprétations</li>
+traités théoriques historiques (Prætorius, Zarlino…).</li>
+<li>Comparer les interprétations.</li>
 </ul></li>
 </ul></li>
 <li>🎼 Équipe 3.1 de l’IReMus, « Théorie musicale, méthodes et pratiques
-analytiques »</li>
+analytiques ».</li>
 </ul>
-<div class="pagination">•••🐌•••••••••••</div></div><div class="slide">
+<div class="pagination">•••🐌••••••••••</div></div><div class="slide">
 <h1 id="contexte-2">Contexte</h1>
 <ul>
 <li>💶 Projet européen H2020 POLIFONIA (<em>« Playing the soundtrack of
@@ -115,83 +115,86 @@ href="https://polifonia-project.eu/">https://polifonia-project.eu/</a></li>
 href="https://polifonia-project.eu/pilots/tonalities/">https://polifonia-project.eu/pilots/tonalities/</a>
 <ul>
 <li>Annoter collaborativement de grands corpus de partitions avec des
-traités théoriques historiques (Prætorius, Zarlino…)</li>
-<li>Comparer les interprétations</li>
+traités théoriques historiques (Prætorius, Zarlino…).</li>
+<li>Comparer les interprétations.</li>
 </ul></li>
 </ul></li>
 <li>🎼 Équipe 3.1 de l’IReMus, « Théorie musicale, méthodes et pratiques
-analytiques »</li>
+analytiques ».</li>
 <li>🏫 Projet Émergence Sorbonne-Université SHERLOCK porté par
-l’IReMus : <em><span class="colour">S</span>ocial sciences &amp; <span class="colour">H</span>umanities corpora
-<span class="colour">E</span>xploration and active <span class="colour">R</span>eading with <span class="colour">L</span>inked, <span class="colour">O</span>pen &amp;
-<span class="colour">C</span>ontributive <span class="colour">K</span>nowledge organisation systems</em>
-<ul>
-<li>Mettre le Web sémantique en pratique pour la musicologie</li>
-</ul></li>
+l’IReMus : mettre le Web sémantique en pratique pour la
+musicologie.</li>
 </ul>
-<div class="pagination">•••🐌•••••••••••</div></div><div class="slide">
+<div class="pagination">•••🐌••••••••••</div></div><div class="slide">
 <h1 id="au-delà-de-lencodage">Au-delà de l’encodage</h1>
 <ul>
 <li>🎵 Les analystes veulent pouvoir annoter des partitions encodées en
-MEI : identifications et qualifications des dissonances, identification
-de fondamentales sur des verticalités, identification de cadences,
-annotations libres… Pour pouvoir ainsi librement définir des
-observables, il faut pouvoir…</li>
+MEI : identification et qualification des dissonances, identification de
+fondamentales sur des verticalités, identification de cadences,
+annotation libre… Pour pouvoir ainsi librement définir des observables,
+il faut être en mesure…</li>
 </ul>
-<div class="pagination">••••🐌••••••••••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••••••</div></div><div class="slide">
 <h1 id="au-delà-de-lencodage-1">Au-delà de l’encodage</h1>
 <ul>
 <li>🎵 Les analystes veulent pouvoir annoter des partitions encodées en
-MEI : identifications et qualifications des dissonances, identification
-de fondamentales sur des verticalités, identification de cadences,
-annotations libres… Pour pouvoir ainsi librement définir des
-observables, il faut pouvoir…</li>
-<li>👻 … adresser des entités qui ne sont pas matérialisées par des
+MEI : identification et qualification des dissonances, identification de
+fondamentales sur des verticalités, identification de cadences,
+annotation libre… Pour pouvoir ainsi librement définir des observables,
+il faut être en mesure…
+<ul>
+<li>👻 … d’adresser des entités qui ne sont pas matérialisées par des
 signes dans l’encodage MEI (telles que des verticalités ou une note à un
 moment/offset précis au sein du temps où elle se fait entendre) ;</li>
+</ul></li>
 </ul>
-<div class="pagination">••••🐌••••••••••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••••••</div></div><div class="slide">
 <h1 id="au-delà-de-lencodage-2">Au-delà de l’encodage</h1>
 <ul>
 <li>🎵 Les analystes veulent pouvoir annoter des partitions encodées en
-MEI : identifications et qualifications des dissonances, identification
-de fondamentales sur des verticalités, identification de cadences,
-annotations libres… Pour pouvoir ainsi librement définir des
-observables, il faut pouvoir…</li>
-<li>👻 … adresser des entités qui ne sont pas matérialisées par des
+MEI : identification et qualification des dissonances, identification de
+fondamentales sur des verticalités, identification de cadences,
+annotation libre… Pour pouvoir ainsi librement définir des observables,
+il faut être en mesure…
+<ul>
+<li>👻 … d’adresser des entités qui ne sont pas matérialisées par des
 signes dans l’encodage MEI (telles que des verticalités ou une note à un
 moment/offset précis au sein du temps où elle se fait entendre) ;</li>
-<li>🧺 … adresser des ensemble arbitraires d’éléments MEI qui ne suivent
-pas nécessairement la structure logique du document XML.</li>
+<li>🧺 … d’adresser des ensemble arbitraires d’éléments MEI qui ne
+suivent pas nécessairement la structure logique du document XML.</li>
+</ul></li>
 </ul>
-<div class="pagination">••••🐌••••••••••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••••••</div></div><div class="slide">
 <h1 id="au-delà-de-lencodage-3">Au-delà de l’encodage</h1>
 <ul>
 <li>🎵 Les analystes veulent pouvoir annoter des partitions encodées en
-MEI : identifications et qualifications des dissonances, identification
-de fondamentales sur des verticalités, identification de cadences,
-annotations libres… Pour pouvoir ainsi librement définir des
-observables, il faut pouvoir…</li>
-<li>👻 … adresser des entités qui ne sont pas matérialisées par des
+MEI : identification et qualification des dissonances, identification de
+fondamentales sur des verticalités, identification de cadences,
+annotation libre… Pour pouvoir ainsi librement définir des observables,
+il faut être en mesure…
+<ul>
+<li>👻 … d’adresser des entités qui ne sont pas matérialisées par des
 signes dans l’encodage MEI (telles que des verticalités ou une note à un
 moment/offset précis au sein du temps où elle se fait entendre) ;</li>
-<li>🧺 … adresser des ensemble arbitraires d’éléments MEI qui ne suivent
-pas nécessairement la structure logique du document XML.
+<li>🧺 … d’adresser des ensemble arbitraires d’éléments MEI qui ne
+suivent pas nécessairement la structure logique du document XML.
 <img src="offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/></li>
+</ul></li>
 </ul>
-<div class="pagination">••••🐌••••••••••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••••••</div></div><div class="slide">
 <h1 id="au-delà-de-lencodage-4">Au-delà de l’encodage</h1>
 <ul>
 <li>🎵 Les analystes veulent pouvoir annoter des partitions encodées en
-MEI : identifications et qualifications des dissonances, identification
-de fondamentales sur des verticalités, identification de cadences,
-annotations libres… Pour pouvoir ainsi librement définir des
-observables, il faut pouvoir…</li>
-<li>👻 … adresser des entités qui ne sont pas matérialisées par des
+MEI : identification et qualification des dissonances, identification de
+fondamentales sur des verticalités, identification de cadences,
+annotation libre… Pour pouvoir ainsi librement définir des observables,
+il faut être en mesure…
+<ul>
+<li>👻 … d’adresser des entités qui ne sont pas matérialisées par des
 signes dans l’encodage MEI (telles que des verticalités ou une note à un
 moment/offset précis au sein du temps où elle se fait entendre) ;</li>
-<li>🧺 … adresser des ensemble arbitraires d’éléments MEI qui ne suivent
-pas nécessairement la structure logique du document XML.
+<li>🧺 … d’adresser des ensemble arbitraires d’éléments MEI qui ne
+suivent pas nécessairement la structure logique du document XML.
 <img src="offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/>
 <div
 style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
@@ -237,20 +240,22 @@ style="color: deeppink; position: absolute; bottom: 0; right: 1.7cm">
 style="color: deeppink; position: absolute; bottom: 0; right: 0.8cm">
 •
 </div></li>
+</ul></li>
 </ul>
-<div class="pagination">••••🐌••••••••••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••••••</div></div><div class="slide">
 <h1 id="au-delà-de-lencodage-5">Au-delà de l’encodage</h1>
 <ul>
 <li>🎵 Les analystes veulent pouvoir annoter des partitions encodées en
-MEI : identifications et qualifications des dissonances, identification
-de fondamentales sur des verticalités, identification de cadences,
-annotations libres… Pour pouvoir ainsi librement définir des
-observables, il faut pouvoir…</li>
-<li>👻 … adresser des entités qui ne sont pas matérialisées par des
+MEI : identification et qualification des dissonances, identification de
+fondamentales sur des verticalités, identification de cadences,
+annotation libre… Pour pouvoir ainsi librement définir des observables,
+il faut être en mesure…
+<ul>
+<li>👻 … d’adresser des entités qui ne sont pas matérialisées par des
 signes dans l’encodage MEI (telles que des verticalités ou une note à un
 moment/offset précis au sein du temps où elle se fait entendre) ;</li>
-<li>🧺 … adresser des ensemble arbitraires d’éléments MEI qui ne suivent
-pas nécessairement la structure logique du document XML.
+<li>🧺 … d’adresser des ensemble arbitraires d’éléments MEI qui ne
+suivent pas nécessairement la structure logique du document XML.
 <img src="offsets.png" style="position: absolute; right: 0.3cm; height: 5.5cm; bottom: 0.3cm;"/>
 <div
 style="color: deeppink; position: absolute; bottom: 3.2cm; right: 4.6cm">
@@ -296,31 +301,32 @@ style="color: deeppink; position: absolute; bottom: 0; right: 1.7cm">
 style="color: deeppink; position: absolute; bottom: 0; right: 0.8cm">
 •
 </div></li>
+</ul></li>
 </ul>
 <div
 style="border: 1px solid #16e7cf; padding: 0.5cm 1cm; width: 18cm;">
-<p>Il faudrait, sur ce fragment : 7 notes + 6 verticalités + 6 offsets
-possibles pour la blanche pointée = 19 éléments adressables comme cibles
-potentielles d’annotations.</p>
+<p>Il faudrait, sur ce fragment, 19 éléments adressables comme cibles
+potentielles d’annotations (7 notes + 6 verticalités + 6 offsets
+possibles pour la blanche pointée).</p>
 </div>
-<div class="pagination">••••🐌••••••••••</div></div><div class="slide">
+<div class="pagination">••••🐌•••••••••</div></div><div class="slide">
 <h1 id="une-infrastructure-pour-lannotation-collaborative">Une
 infrastructure pour l’annotation collaborative</h1>
 <ul>
 <li>💾 Un système d’information supplémentant l’encodage MEI et reposant
-sur un système d’adressage sur le Web
+sur un système d’adressage sur le Web :
 <ul>
 <li>de l’ensemble des éléments MEI et « MEI étendu » ;</li>
 <li>de n’importe quel élément ou groupe d’éléments MEI et « MEI
 étendu ».</li>
 </ul></li>
 </ul>
-<div class="pagination">•••••🐌•••••••••</div></div><div class="slide">
+<div class="pagination">•••••🐌••••••••</div></div><div class="slide">
 <h1 id="une-infrastructure-pour-lannotation-collaborative-1">Une
 infrastructure pour l’annotation collaborative</h1>
 <ul>
 <li>💾 Un système d’information supplémentant l’encodage MEI et reposant
-sur un système d’adressage sur le Web
+sur un système d’adressage sur le Web :
 <ul>
 <li>de l’ensemble des éléments MEI et « MEI étendu » ;</li>
 <li>de n’importe quel élément ou groupe d’éléments MEI et « MEI
@@ -331,70 +337,70 @@ sur un système d’adressage sur le Web
 <li>👩 Système d’authentification pour signer les annotations.</li>
 <li>🎼 Catalogue des partitions offertes à l’analyse avec des
 métadonnées sur leurs contextes de production.</li>
-<li>📚 Listes de concepts et propriétés analytiques formalisés ailleurs
-(thésauri, ontologies).</li>
+<li>📚 Concepts et propriétés analytiques formalisés ailleurs (thésauri,
+ontologies).</li>
 <li>🐁 Interface d’annotation ergonomique.</li>
 </ul></li>
 </ul>
-<div class="pagination">•••••🐌•••••••••</div></div><div class="slide title">
+<div class="pagination">•••••🐌••••••••</div></div><div class="slide title">
 <h1 id="réponse-conceptuelle-technique">2. Réponse conceptuelle &amp;
 technique</h1>
-<div class="pagination">••••••🐌••••••••</div></div><div class="slide">
+<div class="pagination">••••••🐌•••••••</div></div><div class="slide">
 <h1 id="quel-paradigme-informationnel">Quel paradigme
 informationnel ?</h1>
 <ul>
-<li>🎼 Nécessité d’être extérieur à l’encodage MEI (collaboration sur le
+<li>🎼 Nécessairement extérieur à l’encodage MEI (collaboration sur le
 Web + prise en compte d’éléments non MEI).</li>
 </ul>
-<div class="pagination">•••••••🐌•••••••</div></div><div class="slide">
+<div class="pagination">•••••••🐌••••••</div></div><div class="slide">
 <h1 id="quel-paradigme-informationnel-1">Quel paradigme
 informationnel ?</h1>
 <ul>
-<li>🎼 Nécessité d’être extérieur à l’encodage MEI (collaboration sur le
+<li>🎼 Nécessairement extérieur à l’encodage MEI (collaboration sur le
 Web + prise en compte d’éléments non MEI).</li>
 <li>🌍 Le milieu technique et conceptuel du Web sémantique semble
 évident :
 <ul>
-<li>adressabilité sur le Web</li>
-<li>pérennité des données : encodage (RDF sérialisable en texte brut),
+<li>Adressabilité sur le Web.</li>
+<li>Pérennité des données : encodage (RDF sérialisable en texte brut),
 logiciels (triple stores libres), requêtage (SPARQL).</li>
 </ul></li>
 </ul>
-<div class="pagination">•••••••🐌•••••••</div></div><div class="slide">
+<div class="pagination">•••••••🐌••••••</div></div><div class="slide">
 <h1 id="quel-paradigme-informationnel-2">Quel paradigme
 informationnel ?</h1>
 <ul>
-<li>🎼 Nécessité d’être extérieur à l’encodage MEI (collaboration sur le
+<li>🎼 Nécessairement extérieur à l’encodage MEI (collaboration sur le
 Web + prise en compte d’éléments non MEI).</li>
 <li>🌍 Le milieu technique et conceptuel du Web sémantique semble
 évident :
 <ul>
-<li>adressabilité sur le Web</li>
-<li>pérennité des données : encodage (RDF sérialisable en texte brut),
+<li>Adressabilité sur le Web.</li>
+<li>Pérennité des données : encodage (RDF sérialisable en texte brut),
 logiciels (triple stores libres), requêtage (SPARQL).</li>
 </ul></li>
-<li>🌵 … mais vient avec problèmes épineux :
+<li>🌵 … mais vient avec d’épineux problèmes :
 <ul>
 <li>Le Web sémantique énonce des vérités et la structure même du triplet
-RDF rend difficile son commentaire.</li>
+RDF rend difficile son commentaire (demain).</li>
 <li>Chaque projet peuplé par au moins un•e informaticien•ne tend à créer
 un nouveau standard sous la forme d’une ontologie.</li>
-<li>Comment rendre adressable le contenu d’un fichier MEI sur le
-Web ?</li>
+<li>Comment rendre adressable le contenu d’un fichier MEI sur le Web
+(pour partager les analyses) ?</li>
 </ul></li>
 </ul>
-<div class="pagination">•••••••🐌•••••••</div></div><div class="slide">
+<div class="pagination">•••••••🐌••••••</div></div><div class="slide">
 <h1 id="mei2rdf">MEI2RDF</h1>
 <ul>
 <li>🐍 Développement d’un préprocesseur de fichiers MEI.</li>
 </ul>
-<div class="pagination">••••••••🐌••••••</div></div><div class="slide">
+<div class="pagination">••••••••🐌•••••</div></div><div class="slide">
 <h1 id="mei2rdf-1">MEI2RDF</h1>
 <ul>
 <li>🐍 Développement d’un préprocesseur de fichiers MEI.</li>
 <li>🕰️ Extraction des verticalités (avec Music21).</li>
 </ul>
-<div class="pagination">••••••••🐌••••••</div></div><div class="slide">
+<div class="pagination">••••••••🐌•••••</div></div><div class="slide">
 <h1 id="mei2rdf-2">MEI2RDF</h1>
 <ul>
 <li>🐍 Développement d’un préprocesseur de fichiers MEI.</li>
@@ -402,13 +408,15 @@ Web ?</li>
 <li>🆔 Attribution d’un identifiant unique à chaque élément MEI +
 stratégie de génération d’IRI déterministe :
 <ul>
-<li><code>base=http://data-iremus.huma-num.fr/sherlock/id/</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code></li>
+<li><code>http://data-iremus.huma-num.fr/sherlock/id/ …</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code>
+(xml:id)</li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code> (non
+MEI)</li>
 </ul></li>
 </ul>
-<div class="pagination">••••••••🐌••••••</div></div><div class="slide">
+<div class="pagination">••••••••🐌•••••</div></div><div class="slide">
 <h1 id="mei2rdf-3">MEI2RDF</h1>
 <ul>
 <li>🐍 Développement d’un préprocesseur de fichiers MEI.</li>
@@ -416,10 +424,12 @@ stratégie de génération d’IRI déterministe :
 <li>🆔 Attribution d’un identifiant unique à chaque élément MEI +
 stratégie de génération d’IRI déterministe :
 <ul>
-<li><code>base=http://data-iremus.huma-num.fr/sherlock/id/</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code></li>
+<li><code>http://data-iremus.huma-num.fr/sherlock/id/ …</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code>
+(xml:id)</li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code> (non
+MEI)</li>
 </ul></li>
 <li>📜 Conversion de la totalité de la structure XML (éléments &amp;
 attributs) en triplets RDF + mapping quasi-bijectif vers un namespace
@@ -428,7 +438,7 @@ Web.
 <li><code>@prefix sherlockmei: &lt;http://data-iremus.huma-num.fr/ns/sherlockmei#&gt; .</code></li>
 </ul></li>
 </ul>
-<div class="pagination">••••••••🐌••••••</div></div><div class="slide">
+<div class="pagination">••••••••🐌•••••</div></div><div class="slide">
 <h1 id="mei2rdf-4">MEI2RDF</h1>
 <ul>
 <li>🐍 Développement d’un préprocesseur de fichiers MEI.</li>
@@ -436,10 +446,12 @@ Web.
 <li>🆔 Attribution d’un identifiant unique à chaque élément MEI +
 stratégie de génération d’IRI déterministe :
 <ul>
-<li><code>base=http://data-iremus.huma-num.fr/sherlock/id/</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code></li>
+<li><code>http://data-iremus.huma-num.fr/sherlock/id/ …</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code>
+(xml:id)</li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code> (non
+MEI)</li>
 </ul></li>
 <li>📜 Conversion de la totalité de la structure XML (éléments &amp;
 attributs) en triplets RDF + mapping quasi-bijectif vers un namespace
@@ -448,9 +460,9 @@ Web.
 <li><code>@prefix sherlockmei: &lt;http://data-iremus.huma-num.fr/ns/sherlockmei#&gt; .</code></li>
 </ul></li>
 <li>🎓 CIDOC-CRM/CRMdig pour les relations génériques (typage, nommage,
-inclusion).</li>
+inclusion). Évitons la « prolifération des standards ».</li>
 </ul>
-<div class="pagination">••••••••🐌••••••</div></div><div class="slide">
+<div class="pagination">••••••••🐌•••••</div></div><div class="slide">
 <h1 id="mei2rdf-5">MEI2RDF</h1>
 <ul>
 <li>🐍 Développement d’un préprocesseur de fichiers MEI.</li>
@@ -458,10 +470,12 @@ inclusion).</li>
 <li>🆔 Attribution d’un identifiant unique à chaque élément MEI +
 stratégie de génération d’IRI déterministe :
 <ul>
-<li><code>base=http://data-iremus.huma-num.fr/sherlock/id/</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code></li>
-<li><code>base:ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code></li>
+<li><code>http://data-iremus.huma-num.fr/sherlock/id/ …</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7</code></li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7_d1e545</code>
+(xml:id)</li>
+<li><code>… ec531913-04ad-4fa7-bd96-9659a6eceed7-beat-3-3.0</code> (non
+MEI)</li>
 </ul></li>
 <li>📜 Conversion de la totalité de la structure XML (éléments &amp;
 attributs) en triplets RDF + mapping quasi-bijectif vers un namespace
@@ -470,17 +484,17 @@ Web.
 <li><code>@prefix sherlockmei: &lt;http://data-iremus.huma-num.fr/ns/sherlockmei#&gt; .</code></li>
 </ul></li>
 <li>🎓 CIDOC-CRM/CRMdig pour les relations génériques (typage, nommage,
-inclusion).</li>
-<li>😱 MEI2RDF =&gt; 4951958 triplets pour ~ 377 partitions.</li>
+inclusion). Évitons la « prolifération des standards ».</li>
+<li>😱 MEI2RDF =&gt; 4 951 958 triplets pour ~ 377 partitions.</li>
 </ul>
-<div class="pagination">••••••••🐌••••••</div></div><div class="slide c">
+<div class="pagination">••••••••🐌•••••</div></div><div class="slide c">
 <p><img src="tonalities.png" style="width: 100vw;"/></p>
 <div>
 <ul>
 <li>l’API d’annotation SHERLOCK délègue l’identification à ORCiD</li>
 </ul>
 </div>
-<div class="pagination">•••••••••🐌•••••</div></div><div class="slide">
+<div class="pagination">•••••••••🐌••••</div></div><div class="slide">
 <h1 id="gestion-du-corpus">Gestion du corpus</h1>
 <ul>
 <li>📚 Catalogage des partitions (œuvres, compositeurs, genres, MD
@@ -490,75 +504,75 @@ analytiques générales…).
 <li>Export intégral en RDF/CIDOC-CRM/LRMoo (🎉 DOREMUS 🥳).</li>
 </ul></li>
 </ul>
-<div class="pagination">••••••••••🐌••••</div></div><div class="slide title">
+<div class="pagination">••••••••••🐌•••</div></div><div class="slide title">
 <h1 id="pérennisation-de-linfrastructure-réflexions-sur-le-futur">3.
 Pérennisation de l’infrastructure &amp; réflexions sur le futur</h1>
-<div class="pagination">•••••••••••🐌•••</div></div><div class="slide">
+<div class="pagination">•••••••••••🐌••</div></div><div class="slide">
 <h1 id="quavons-nous-généré">Qu’avons nous généré ?</h1>
 <ul>
-<li>Des programmes : script Python de conversion MEI-&gt;RDF ; script
+<li>Des <span class="colour">programmes</span> : script Python de conversion MEI-&gt;RDF ; script
 Python d’export du catalogue Directus-&gt;RDF/CIDOC-CRM/LRMoo (+ divers
 scripts Python utilitaires).</li>
 </ul>
-<div class="pagination">••••••••••••🐌••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•</div></div><div class="slide">
 <h1 id="quavons-nous-généré-1">Qu’avons nous généré ?</h1>
 <ul>
-<li>Des programmes : script Python de conversion MEI-&gt;RDF ; script
+<li>Des <span class="colour">programmes</span> : script Python de conversion MEI-&gt;RDF ; script
 Python d’export du catalogue Directus-&gt;RDF/CIDOC-CRM/LRMoo (+ divers
 scripts Python utilitaires).</li>
-<li>Des déploiements (avec Docker) : Directus, applications React,
+<li>Des <span class="colour">déploiements</span> (avec Docker) : Directus, applications React,
 Apache, service REST Java, triple Store Apache Jena Fuseki, reverse
 Proxy Traefik.</li>
 </ul>
-<div class="pagination">••••••••••••🐌••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•</div></div><div class="slide">
 <h1 id="quavons-nous-généré-2">Qu’avons nous généré ?</h1>
 <ul>
-<li>Des programmes : script Python de conversion MEI-&gt;RDF ; script
+<li>Des <span class="colour">programmes</span> : script Python de conversion MEI-&gt;RDF ; script
 Python d’export du catalogue Directus-&gt;RDF/CIDOC-CRM/LRMoo (+ divers
 scripts Python utilitaires).</li>
-<li>Des déploiements (avec Docker) : Directus, applications React,
+<li>Des <span class="colour">déploiements</span> (avec Docker) : Directus, applications React,
 Apache, service REST Java, triple Store Apache Jena Fuseki, reverse
 Proxy Traefik.</li>
-<li>Du libre à tous les niveaux !</li>
+<li>Du <span class="colour">libre</span> à tous les niveaux !</li>
 </ul>
-<div class="pagination">••••••••••••🐌••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•</div></div><div class="slide">
 <h1 id="quavons-nous-généré-3">Qu’avons nous généré ?</h1>
 <ul>
-<li>Des programmes : script Python de conversion MEI-&gt;RDF ; script
+<li>Des <span class="colour">programmes</span> : script Python de conversion MEI-&gt;RDF ; script
 Python d’export du catalogue Directus-&gt;RDF/CIDOC-CRM/LRMoo (+ divers
 scripts Python utilitaires).</li>
-<li>Des déploiements (avec Docker) : Directus, applications React,
+<li>Des <span class="colour">déploiements</span> (avec Docker) : Directus, applications React,
 Apache, service REST Java, triple Store Apache Jena Fuseki, reverse
 Proxy Traefik.</li>
-<li>Du libre à tous les niveaux !</li>
-<li>Des données : données RDF issus des fichiers MEI, données
+<li>Du <span class="colour">libre</span> à tous les niveaux !</li>
+<li>Des <span class="colour">données</span> : données RDF issues des fichiers MEI, données
 RDF/CIDOC-CRM/LRMoo du catalogage, données RDF/CIDOC-CRM/SHERLOCK
 d’annotations, ontologies OWL modélisant des traités théoriques
 historiques, des pelletées de référentiels RDF/CIDOC-CRM/SKOS.</li>
 </ul>
-<div class="pagination">••••••••••••🐌••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•</div></div><div class="slide">
 <h1 id="quavons-nous-généré-4">Qu’avons nous généré ?</h1>
 <ul>
-<li>Des programmes : script Python de conversion MEI-&gt;RDF ; script
+<li>Des <span class="colour">programmes</span> : script Python de conversion MEI-&gt;RDF ; script
 Python d’export du catalogue Directus-&gt;RDF/CIDOC-CRM/LRMoo (+ divers
 scripts Python utilitaires).</li>
-<li>Des déploiements (avec Docker) : Directus, applications React,
+<li>Des <span class="colour">déploiements</span> (avec Docker) : Directus, applications React,
 Apache, service REST Java, triple Store Apache Jena Fuseki, reverse
 Proxy Traefik.</li>
-<li>Du libre à tous les niveaux !</li>
-<li>Des données : données RDF issus des fichiers MEI, données
+<li>Du <span class="colour">libre</span> à tous les niveaux !</li>
+<li>Des <span class="colour">données</span> : données RDF issues des fichiers MEI, données
 RDF/CIDOC-CRM/LRMoo du catalogage, données RDF/CIDOC-CRM/SHERLOCK
 d’annotations, ontologies OWL modélisant des traités théoriques
 historiques, des pelletées de référentiels RDF/CIDOC-CRM/SKOS.</li>
-<li>Des savoir-faire
+<li>Des <span class="colour">savoir-faire</span> :
 <ul>
-<li>Utiliser le CIDOC-CRM &amp; ses ontologies dérivées pour des
-question musicologiques.</li>
 <li>Réfléchir sur l’intérieur et l’extérieur de la partition dans une
 perspective analytique.</li>
+<li>Utiliser le CIDOC-CRM &amp; ses ontologies dérivées pour des
+questions musicologiques.</li>
 </ul></li>
 </ul>
-<div class="pagination">••••••••••••🐌••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•</div></div><div class="slide">
 <h1 id="avec-quels-moyens">Avec quels moyens ?</h1>
 <ul>
 <li>Un poste d’IE fonctionnaire CNRS.</li>
@@ -568,7 +582,7 @@ TONALITIES).</li>
 <li>Du temps de chercheur (pour les ontologies Zarlino,
 Prætorius…).</li>
 </ul>
-<div class="pagination">•••••••••••••🐌•</div></div><div class="slide">
+<div class="pagination">•••••••••••••🐌</div></div><div class="slide">
 <h1 id="avec-quels-moyens-1">Avec quels moyens ?</h1>
 <ul>
 <li>Un poste d’IE fonctionnaire CNRS.</li>
@@ -577,13 +591,13 @@ Prætorius…).</li>
 TONALITIES).</li>
 <li>Du temps de chercheur (pour les ontologies Zarlino,
 Prætorius…).</li>
-<li>Aujourd’hui, tout cela est trop lié à des approches, savoirs et
-savoir-faire personnels et à une alchimie difficilement transposable.
-Ici, conjonction d’une ligne scientifique (les questions musicologiques
-derrières TONALITIES) et d’une ligne technique (SHERLOCK) autonomes mais
-en harmonie.</li>
+<li>Aujourd’hui, tout cela est très lié à des approches, savoirs et
+savoir-faire personnels et à une « alchimie » difficilement
+transposable. Ici, conjonction d’une ligne scientifique (les questions
+musicologiques derrières TONALITIES) et d’une ligne technique (SHERLOCK)
+autonomes mais en harmonie.</li>
 </ul>
-<div class="pagination">•••••••••••••🐌•</div></div><div class="slide">
+<div class="pagination">•••••••••••••🐌</div></div><div class="slide">
 <h1 id="avec-quels-moyens-2">Avec quels moyens ?</h1>
 <ul>
 <li>Un poste d’IE fonctionnaire CNRS.</li>
@@ -592,18 +606,13 @@ en harmonie.</li>
 TONALITIES).</li>
 <li>Du temps de chercheur (pour les ontologies Zarlino,
 Prætorius…).</li>
-<li>Aujourd’hui, tout cela est trop lié à des approches, savoirs et
-savoir-faire personnels et à une alchimie difficilement transposable.
-Ici, conjonction d’une ligne scientifique (les questions musicologiques
-derrières TONALITIES) et d’une ligne technique (SHERLOCK) autonomes mais
-en harmonie.</li>
+<li>Aujourd’hui, tout cela est très lié à des approches, savoirs et
+savoir-faire personnels et à une « alchimie » difficilement
+transposable. Ici, conjonction d’une ligne scientifique (les questions
+musicologiques derrières TONALITIES) et d’une ligne technique (SHERLOCK)
+autonomes mais en harmonie.</li>
 <li>Problème récurrent dans les humanités numériques. Et le mythe de la
 reproductibilité en sciences 😁.</li>
 </ul>
-<div class="pagination">•••••••••••••🐌•</div></div><div class="slide">
-<h1 id="avec-quels-moyens-3">Avec quels moyens ?</h1>
-<div style="margin: 0 0 0 -1.5cm;">
-<p><img style="display: block; margin: 0 auto; width: 29cm;" src="index_62.png" /></p>
-</div>
-<div class="pagination">••••••••••••••🐌</div></div></body>
+<div class="pagination">•••••••••••••🐌</div></div></body>
 </html>

@@ -58,76 +58,54 @@ UMR 8223</p>
 <img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/bnf.jpg" />
 <img style="height: 2cm; margin: 0 0.2cm;" src="../../logos/mc.png" /></p>
 </div>
-</div><div class="slide">
-<h1 id="notes">Notes</h1>
-<div class="pagination">•🐌••••••••</div></div><div class="slide c">
+</div><div class="slide c">
 <h1 id="plan">Plan</h1>
 <ol type="1">
-<li>Contexte scientifique</li>
-<li>Le CIDOC-CRM : apports &amp; questions</li>
+<li>Contexte scientifique et milieu technique</li>
+<li>Le CIDOC-CRM : dimension heuristique &amp; questions</li>
 </ol>
-<div class="pagination">••🐌•••••••</div></div><div class="slide title">
-<h1 id="contexte-scientifique">1. Contexte scientifique</h1>
-<div class="pagination">•••🐌••••••</div></div><div class="slide">
+<div class="pagination">•🐌•••••••••••••••</div></div><div class="slide title">
+<h1 id="contexte-scientifique-et-milieu-technique">1. Contexte
+scientifique et milieu technique</h1>
+<div class="pagination">••🐌••••••••••••••</div></div><div class="slide">
 <h1 id="le-projet-sherlock">Le projet SHERLOCK</h1>
 <ul>
 <li>Émergence Sorbonne Université 2019-2022. Projet
 d’ingénierie-recherche.</li>
 </ul>
-<div class="pagination">••••🐌•••••</div></div><div class="slide">
+<div class="pagination">•••🐌•••••••••••••</div></div><div class="slide">
 <h1 id="le-projet-sherlock-1">Le projet SHERLOCK</h1>
 <ul>
 <li>Émergence Sorbonne Université 2019-2022. Projet
 d’ingénierie-recherche.</li>
-<li>Objectif : développer un écosystème d’outils facilitant la
-production de savoirs sur des sources reposant sur le CIDOC-CRM.</li>
+<li>Objectif : développer un écosystème d’outils &amp; méthodes
+facilitant la production de savoirs sur des sources reposant sur le
+CIDOC-CRM.</li>
 </ul>
-<div class="pagination">••••🐌•••••</div></div><div class="slide">
+<div class="pagination">•••🐌•••••••••••••</div></div><div class="slide">
 <h1 id="le-projet-sherlock-2">Le projet SHERLOCK</h1>
 <ul>
 <li>Émergence Sorbonne Université 2019-2022. Projet
 d’ingénierie-recherche.</li>
-<li>Objectif : développer un écosystème d’outils facilitant la
-production de savoirs sur des sources reposant sur le CIDOC-CRM.</li>
+<li>Objectif : développer un écosystème d’outils &amp; méthodes
+facilitant la production de savoirs sur des sources reposant sur le
+CIDOC-CRM.</li>
 <li>Aspects :
 <ul>
-<li>Modéliser la structure de sources textuelles, musicales et
-iconographiques complexes en vue de les rendre adressables sur le Web
-(cf. hier TONALITIES).</li>
-<li>Mettre en œuvre des outils de saisie de l’information ergonomiques
-et écrire des scripts de conversion en données sémantiques.</li>
-<li>Formaliser des patterns d’utilisation du CIDOC-CRM pour représenter
-l’activité critique sur des sources complexes (, modèle
-d’annotation).</li>
-<li>Développer des outils Web pour annoter collaborativement les sources
-et publier les données.</li>
+<li>📜 Modéliser la <span class="colour">structure de sources</span> textuelles, musicales et
+iconographiques <span class="colour">complexes</span> en vue de les rendre <span class="colour">adressables</span> sur le
+Web (cf. hier TONALITIES).</li>
+<li>⌨️ Mettre en œuvre des <span class="colour">outils de saisie ergonomiques</span> et écrire des
+scripts de conversion en données sémantiques (saisir nativement en
+CIDOC-CRM semble illusoire).</li>
+<li>🔬 Formaliser des patterns d’utilisation du CIDOC-CRM pour
+représenter l’activité critique sur des sources complexes : <span class="colour">modèle
+d’annotation &amp; explicitation du contexte</span>.</li>
+<li>🏷️ Développer des outils Web pour <span class="colour">annoter collaborativement</span> les
+sources et publier les données.</li>
 </ul></li>
 </ul>
-<div class="pagination">••••🐌•••••</div></div><div class="slide">
-<h1 id="le-projet-sherlock-3">Le projet SHERLOCK</h1>
-<ul>
-<li>Émergence Sorbonne Université 2019-2022. Projet
-d’ingénierie-recherche.</li>
-<li>Objectif : développer un écosystème d’outils facilitant la
-production de savoirs sur des sources reposant sur le CIDOC-CRM.</li>
-<li>Aspects :
-<ul>
-<li>Modéliser la structure de sources textuelles, musicales et
-iconographiques complexes en vue de les rendre adressables sur le Web
-(cf. hier TONALITIES).</li>
-<li>Mettre en œuvre des outils de saisie de l’information ergonomiques
-et écrire des scripts de conversion en données sémantiques.</li>
-<li>Formaliser des patterns d’utilisation du CIDOC-CRM pour représenter
-l’activité critique sur des sources complexes (, modèle
-d’annotation).</li>
-<li>Développer des outils Web pour annoter collaborativement les sources
-et publier les données.</li>
-</ul></li>
-<li><em><span class="colour">S</span>ocial sciences &amp; <span class="colour">H</span>umanities corpora <span class="colour">E</span>xploration and
-active <span class="colour">R</span>eading with <span class="colour">L</span>inked, <span class="colour">O</span>pen &amp; <span class="colour">C</span>ontributive <span class="colour">K</span>nowledge
-organisation systems</em></li>
-</ul>
-<div class="pagination">••••🐌•••••</div></div><div class="slide">
+<div class="pagination">•••🐌•••••••••••••</div></div><div class="slide">
 <h1 id="terrains-présents-futurs-à-liremus">Terrains présents &amp;
 futurs à l’IReMus</h1>
 <ul>
@@ -143,32 +121,102 @@ de l’Ancien Régime</li>
 (1666—1792)</li>
 <li>modélisation et mise en données des archives de la Péniche
 Opéra</li>
-<li>étudiant•e•s du conservatoire 1795-1914 (HEMEF)</li>
+<li>étudiant•e•s du conservatoire 1795-1914 (ANR HEMEF)</li>
 <li>…</li>
 </ul>
-<div class="pagination">•••••🐌••••</div></div><div class="slide">
+<div class="pagination">••••🐌••••••••••••</div></div><div class="slide">
+<h1
+id="expliciter-le-contexte-articuler-finement-glose-et-sources">Expliciter
+le contexte &amp; articuler finement glose et sources</h1>
+<ul>
+<li>Pour assurer l’avenir des données scientifiques produites à propos
+des sources (données décrivant les sources + données matérialisant les
+hypothèses interprétatives), il faut penser :</li>
+</ul>
+<div class="pagination">•••••🐌•••••••••••</div></div><div class="slide">
+<h1
+id="expliciter-le-contexte-articuler-finement-glose-et-sources-1">Expliciter
+le contexte &amp; articuler finement glose et sources</h1>
+<ul>
+<li>Pour assurer l’avenir des données scientifiques produites à propos
+des sources (données décrivant les sources + données matérialisant les
+hypothèses interprétatives), il faut penser :
+<ul>
+<li>🎓 la <span class="colour">structuration des connaissances tirées des sources</span> &amp;
+l’expression des <span class="colour">ajouts critiques</span> -&gt; thésauri, ontologies
+(<em>« que dit-on ? que pense t-on ? »</em>)</li>
+</ul></li>
+</ul>
+<div class="pagination">•••••🐌•••••••••••</div></div><div class="slide">
+<h1
+id="expliciter-le-contexte-articuler-finement-glose-et-sources-2">Expliciter
+le contexte &amp; articuler finement glose et sources</h1>
+<ul>
+<li>Pour assurer l’avenir des données scientifiques produites à propos
+des sources (données décrivant les sources + données matérialisant les
+hypothèses interprétatives), il faut penser :
+<ul>
+<li>🎓 la <span class="colour">structuration des connaissances tirées des sources</span> &amp;
+l’expression des <span class="colour">ajouts critiques</span> -&gt; thésauri, ontologies
+(<em>« que dit-on ? que pense t-on ? »</em>)</li>
+<li>📜 l’<span class="colour">adressabilité interne des sources</span> (<em>« de quoi parle
+t’on ? »</em>)
+<ul>
+<li>image -&gt; IIIF</li>
+<li>musique notée -&gt; MEI + MEI “sherlockisé”</li>
+<li>texte -&gt; TEI (? adressabilité des fragments sur le Web)</li>
+<li>données transcrites, pas de matérialité de la source -&gt; RDF</li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="pagination">•••••🐌•••••••••••</div></div><div class="slide">
+<h1
+id="expliciter-le-contexte-articuler-finement-glose-et-sources-3">Expliciter
+le contexte &amp; articuler finement glose et sources</h1>
+<ul>
+<li>Pour assurer l’avenir des données scientifiques produites à propos
+des sources (données décrivant les sources + données matérialisant les
+hypothèses interprétatives), il faut penser :
+<ul>
+<li>🎓 la <span class="colour">structuration des connaissances tirées des sources</span> &amp;
+l’expression des <span class="colour">ajouts critiques</span> -&gt; thésauri, ontologies
+(<em>« que dit-on ? que pense t-on ? »</em>)</li>
+<li>📜 l’<span class="colour">adressabilité interne des sources</span> (<em>« de quoi parle
+t’on ? »</em>)
+<ul>
+<li>image -&gt; IIIF</li>
+<li>musique notée -&gt; MEI + MEI “sherlockisé”</li>
+<li>texte -&gt; TEI (? adressabilité des fragments sur le Web)</li>
+<li>données transcrites, pas de matérialité de la source -&gt; RDF</li>
+</ul></li>
+<li>🔬 le <span class="colour">contexte interprétatif</span> : « situation analytique », corpus,
+critères interprétatifs, structure des projets collaboratifs…
+(<em>« qui ? quand ? comment ? pourquoi ? »</em>)</li>
+</ul></li>
+</ul>
+<div class="pagination">•••••🐌•••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-la-recherche">Le Web sémantique &amp; la
 recherche</h1>
 <ul>
-<li>Injonction du LOD (Linked Open Data).</li>
+<li>🌍 Injonction du LOD (Linked Open Data).</li>
 </ul>
-<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<div class="pagination">••••••🐌••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-la-recherche-1">Le Web sémantique &amp; la
 recherche</h1>
 <ul>
-<li>Injonction du LOD (Linked Open Data).</li>
-<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+<li>🌍 Injonction du LOD (Linked Open Data).</li>
+<li>🕸️ Le Web sémantique (en une phrase) permet d’établir des assertions
 dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
 Web <a
 href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
 </ul>
 <p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" /></p>
-<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<div class="pagination">••••••🐌••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-la-recherche-2">Le Web sémantique &amp; la
 recherche</h1>
 <ul>
-<li>Injonction du LOD (Linked Open Data).</li>
-<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+<li>🌍 Injonction du LOD (Linked Open Data).</li>
+<li>🕸️ Le Web sémantique (en une phrase) permet d’établir des assertions
 dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
 Web <a
 href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
@@ -178,12 +226,12 @@ href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/ful
 <li>⚗️ Un triplet n’a pas la forme d’un énoncé scientifique car il
 n’exprime pas le contexte.</li>
 </ul>
-<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<div class="pagination">••••••🐌••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-la-recherche-3">Le Web sémantique &amp; la
 recherche</h1>
 <ul>
-<li>Injonction du LOD (Linked Open Data).</li>
-<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+<li>🌍 Injonction du LOD (Linked Open Data).</li>
+<li>🕸️ Le Web sémantique (en une phrase) permet d’établir des assertions
 dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
 Web <a
 href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
@@ -196,12 +244,12 @@ n’exprime pas le contexte.</li>
 du Web sémantique à questionner (F. Rastier). Paradigme inadéquat aux
 sciences de l’interprétation.</li>
 </ul>
-<div class="pagination">••••••🐌•••</div></div><div class="slide">
+<div class="pagination">••••••🐌••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-la-recherche-4">Le Web sémantique &amp; la
 recherche</h1>
 <ul>
-<li>Injonction du LOD (Linked Open Data).</li>
-<li>🌍 Le Web sémantique (en une phrase) permet d’établir des assertions
+<li>🌍 Injonction du LOD (Linked Open Data).</li>
+<li>🕸️ Le Web sémantique (en une phrase) permet d’établir des assertions
 dont le sens des éléments (sujet, prédicat, objet) est partagé sur le
 Web <a
 href="https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg">🏞️</a>.</li>
@@ -216,26 +264,126 @@ sciences de l’interprétation.</li>
 <li>Mais : <em>« Wo aber Gefahr ist, wächst Das Rettende auch. »</em>.
 Et donc, SHERLOCK.</li>
 </ul>
-<div class="pagination">••••••🐌•••</div></div><div class="slide title">
-<h1 id="le-cidoc-crm-apports-questions">2. Le CIDOC-CRM : apports &amp;
-questions</h1>
+<div class="pagination">••••••🐌••••••••••</div></div><div class="slide title">
+<h1 id="le-cidoc-crm-dimension-heuristique-questions">2. Le CIDOC-CRM :
+dimension heuristique &amp; questions</h1>
+<div class="pagination">•••••••🐌•••••••••</div></div><div class="slide">
+<h1 id="penser-le-temps-dabord">Penser le temps d’abord</h1>
 <ul>
-<li>Le CRM fait extrêmement bien certaines choses : nommer, typer,
-dater.</li>
-<li>Il nous encourage à penser en temps d’abord, ce qui nous donne
-davantage d’ancres (IRI) pour associer. Ainsi, on ne dit pas :</li>
+<li>Rappel : le CIDOC-CRM fait extrêmement bien certaines choses :
+nommer, typer, structurer des actions sous forme d’événements inscrits
+dans le temps.</li>
+</ul>
+<div class="pagination">••••••••🐌••••••••</div></div><div class="slide">
+<h1 id="penser-le-temps-dabord-1">Penser le temps d’abord</h1>
+<ul>
+<li>Rappel : le CIDOC-CRM fait extrêmement bien certaines choses :
+nommer, typer, structurer des actions sous forme d’événements inscrits
+dans le temps.</li>
+<li>Le CIDOC-CRM nous encourage à mettre le temps au centre de notre
+appréhension du monde. On ne pense pas d’abord les choses telles
+qu’elles sont, mais plutôt les processus qui les ont amenées à être ce
+qu’elles sont.</li>
+</ul>
+<div class="pagination">••••••••🐌••••••••</div></div><div class="slide">
+<h1 id="penser-le-temps-dabord-2">Penser le temps d’abord</h1>
+<ul>
+<li>Rappel : le CIDOC-CRM fait extrêmement bien certaines choses :
+nommer, typer, structurer des actions sous forme d’événements inscrits
+dans le temps.</li>
+<li>Le CIDOC-CRM nous encourage à mettre le temps au centre de notre
+appréhension du monde. On ne pense pas d’abord les choses telles
+qu’elles sont, mais plutôt les processus qui les ont amenées à être ce
+qu’elles sont.</li>
+<li>Ceci nous donne davantage d’ancres (IRI) pour localiser finement les
+connaissances scientifiques.</li>
+</ul>
+<div class="pagination">••••••••🐌••••••••</div></div><div class="slide">
+<h1 id="penser-le-temps-dabord-3">Penser le temps d’abord</h1>
+<ul>
+<li>Rappel : le CIDOC-CRM fait extrêmement bien certaines choses :
+nommer, typer, structurer des actions sous forme d’événements inscrits
+dans le temps.</li>
+<li>Le CIDOC-CRM nous encourage à mettre le temps au centre de notre
+appréhension du monde. On ne pense pas d’abord les choses telles
+qu’elles sont, mais plutôt les processus qui les ont amenées à être ce
+qu’elles sont.</li>
+<li>Ceci nous donne davantage d’ancres (IRI) pour localiser finement les
+connaissances scientifiques.</li>
+<li>Ainsi, on ne dit pas :</li>
 </ul>
 <p><img style="display: block; margin: 0 auto; width: 10cm;" src="dotfile_f8e27fbb-ccc8-4996-8713-0c0291f58bb3.png" /></p>
 <p>mais :</p>
-<div class="pagination">•••••••🐌••</div></div><div class="slide c">
-<p><img style="display: block; margin: 0 auto; width: 25cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" /></p>
-<div class="pagination">••••••••🐌•</div></div><div class="slide">
-<h1 id="section"></h1>
-<!--
-Marottes :
-- adressabilité des sources
-- de quoi on parle
-- comment on en parle
--->
-<div class="pagination">•••••••••🐌</div></div></body>
+<div class="pagination">••••••••🐌••••••••</div></div><div class="slide c">
+<p><img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" /></p>
+<div class="pagination">•••••••••🐌•••••••</div></div><div class="slide c">
+<p><img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" /></p>
+<div
+style="bottom: 5cm; max-width: 13cm; position: absolute; right: 1cm; z-index:666;">
+<p>Tout peut recevoir une IRI et ainsi être référencé, commenté, annoté.
+Fonction heuristique du CIDOC-CRM.</p>
+</div>
+<div class="pagination">•••••••••🐌•••••••</div></div><div class="slide c">
+<p><img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" /></p>
+<div
+style="bottom: 5cm; max-width: 13cm; position: absolute; right: 1cm; z-index:666;">
+<p>Tout peut recevoir une IRI et ainsi être référencé, commenté, annoté.
+Fonction heuristique du CIDOC-CRM.</p>
+</div>
+<div
+style="bottom: 3cm; max-width: 13cm; position: absolute; right: 1cm; z-index:666;">
+<p>Oui mais s’il y a un doute ?</p>
+</div>
+<div class="pagination">•••••••••🐌•••••••</div></div><div class="slide">
+<h1 id="e13-attribute-assignment-13">E13 Attribute Assignment 1/3</h1>
+<ul>
+<li>Documenté sous l’entrée “knowledge creation process”.</li>
+<li>Signer, dater chaque contribution.</li>
+</ul>
+<div class="pagination">••••••••••🐌••••••</div></div><div class="slide">
+<h1 id="e13-attribute-assignment-23">E13 Attribute Assignment 2/3</h1>
+<p>Hypothèse d’attribution<br/></p>
+<p><img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_ec22b658-a792-4d61-b475-9f3ddf941368.png" /></p>
+<div class="pagination">•••••••••••🐌•••••</div></div><div class="slide">
+<h1 id="e13-attribute-assignment-33">E13 Attribute Assignment 3/3</h1>
+<ul>
+<li>Articuler chaque « événement de création de connaissance » dans un
+contexte (le cadre des événements CIDOC-CRM est accueillant).</li>
+</ul>
+<div class="pagination">••••••••••••🐌••••</div></div><div class="slide">
+<h1 id="e13-attribute-assignment-33-1">E13 Attribute Assignment 3/3</h1>
+<ul>
+<li>Articuler chaque « événement de création de connaissance » dans un
+contexte (le cadre des événements CIDOC-CRM est accueillant).</li>
+<li>Ce type de patterns rend le Web sémantique plus conforme à
+l’expression de savoirs scientifiques (situés).</li>
+</ul>
+<div class="pagination">••••••••••••🐌••••</div></div><div class="slide">
+<h1 id="e13-attribute-assignment-33-2">E13 Attribute Assignment 3/3</h1>
+<ul>
+<li>Articuler chaque « événement de création de connaissance » dans un
+contexte (le cadre des événements CIDOC-CRM est accueillant).</li>
+<li>Ce type de patterns rend le Web sémantique plus conforme à
+l’expression de savoirs scientifiques (situés).</li>
+<li>Mais :
+<ul>
+<li>Explosion du nombre de triplets.</li>
+<li>Complexité des interfaces de restitution.</li>
+</ul></li>
+</ul>
+<div class="pagination">••••••••••••🐌••••</div></div><div class="slide c">
+<h1 id="structurer-la-source">Structurer la source</h1>
+<p><img style="display: block; margin: 0 auto; width: 18cm;" src="dotfile_0c1b5fe6-7ad1-45c2-a049-5ebaa96e9824.png" /></p>
+<div class="pagination">•••••••••••••🐌•••</div></div><div class="slide c">
+<h1 id="indexer-avec-un-concept">Indexer avec un concept</h1>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_21cde522-7773-4b93-9f01-36b0cf701858.png" /></p>
+<div class="pagination">••••••••••••••🐌••</div></div><div class="slide c">
+<h1 id="identifier-typer-la-chose-dénotée">Identifier &amp; typer la
+chose dénotée</h1>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_7cc4361c-4957-42c8-975a-5866be4f533e.png" /></p>
+<div class="pagination">•••••••••••••••🐌•</div></div><div class="slide c">
+<h1 id="identifier-typer-la-chose-dénotée-e13">Identifier &amp; typer la
+chose dénotée (E13)</h1>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_89089775-97ab-4f96-968a-90163952da58.png" /></p>
+<div class="pagination">••••••••••••••••🐌</div></div></body>
 </html>

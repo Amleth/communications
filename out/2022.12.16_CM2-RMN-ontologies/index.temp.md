@@ -37,19 +37,15 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 </div>
 
 <!--📜-->
-<!--∫ slide -->
-# Notes
-
-<!--📜-->
 <!--∫ slide c -->
 # Plan
 
-1. Contexte scientifique
-2. Le CIDOC-CRM : apports & questions
+1. Contexte scientifique et milieu technique
+2. Le CIDOC-CRM : dimension heuristique & questions
 
 <!--📜-->
 <!--∫ slide title -->
-# 1. Contexte scientifique
+# 1. Contexte scientifique et milieu technique
 
 <!--📜-->
 <!--∫ slide -->
@@ -62,32 +58,19 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 # Le projet SHERLOCK
 
 - Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
-- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
+- Objectif : développer un écosystème d'outils & méthodes facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
 
 
 <!--∫ slide -->
 # Le projet SHERLOCK
 
 - Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
-- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
+- Objectif : développer un écosystème d'outils & méthodes facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
 - Aspects :
-    - Modéliser la structure de sources textuelles, musicales et iconographiques complexes en vue de les rendre adressables sur le Web (cf. hier TONALITIES).
-    - Mettre en œuvre des outils de saisie de l'information ergonomiques et écrire des scripts de conversion en données sémantiques.
-    - Formaliser des patterns d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes (, modèle d'annotation).
-    - Développer des outils Web pour annoter collaborativement les sources et publier les données.
-
-
-<!--∫ slide -->
-# Le projet SHERLOCK
-
-- Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
-- Objectif : développer un écosystème d'outils facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
-- Aspects :
-    - Modéliser la structure de sources textuelles, musicales et iconographiques complexes en vue de les rendre adressables sur le Web (cf. hier TONALITIES).
-    - Mettre en œuvre des outils de saisie de l'information ergonomiques et écrire des scripts de conversion en données sémantiques.
-    - Formaliser des patterns d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes (, modèle d'annotation).
-    - Développer des outils Web pour annoter collaborativement les sources et publier les données.
-- *‹S›ocial sciences & ‹H›umanities corpora ‹E›xploration and active ‹R›eading with ‹L›inked, ‹O›pen & ‹C›ontributive ‹K›nowledge organisation systems*
+    - 📜 Modéliser la ‹structure de sources› textuelles, musicales et iconographiques ‹complexes› en vue de les rendre ‹adressables› sur le Web (cf. hier TONALITIES).
+    - ⌨️ Mettre en œuvre des ‹outils de saisie ergonomiques› et écrire des scripts de conversion en données sémantiques (saisir nativement en CIDOC-CRM semble illusoire).
+    - 🔬 Formaliser des patterns d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes : ‹modèle d'annotation & explicitation du contexte›.
+    - 🏷️ Développer des outils Web pour ‹annoter collaborativement› les sources et publier les données.
 
 <!--📜-->
 <!--∫ slide -->
@@ -101,21 +84,59 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 - bibliothèque de partitions MEI avec contexte de production (cf. hier)
 - catalogue de livrets de motets pour la Chapelle Royale (1666—1792)
 - modélisation et mise en données des archives de la Péniche Opéra
-- étudiant•e•s du conservatoire 1795-1914 (HEMEF)
+- étudiant•e•s du conservatoire 1795-1914 (ANR HEMEF)
 - …
+
+<!--📜-->
+<!--∫ slide -->
+# Expliciter le contexte & articuler finement glose et sources
+
+- Pour assurer l'avenir des données scientifiques produites à propos des sources (données décrivant les sources + données matérialisant les hypothèses interprétatives), il faut penser :
+
+
+<!--∫ slide -->
+# Expliciter le contexte & articuler finement glose et sources
+
+- Pour assurer l'avenir des données scientifiques produites à propos des sources (données décrivant les sources + données matérialisant les hypothèses interprétatives), il faut penser :
+    - 🎓 la ‹structuration des connaissances tirées des sources› & l'expression des ‹ajouts critiques› -> thésauri, ontologies (*« que dit-on ? que pense t-on ? »*)
+
+
+<!--∫ slide -->
+# Expliciter le contexte & articuler finement glose et sources
+
+- Pour assurer l'avenir des données scientifiques produites à propos des sources (données décrivant les sources + données matérialisant les hypothèses interprétatives), il faut penser :
+    - 🎓 la ‹structuration des connaissances tirées des sources› & l'expression des ‹ajouts critiques› -> thésauri, ontologies (*« que dit-on ? que pense t-on ? »*)
+    - 📜 l'‹adressabilité interne des sources› (*« de quoi parle t'on ? »*)
+        - image -> IIIF
+        - musique notée -> MEI + MEI "sherlockisé"
+        - texte -> TEI (? adressabilité des fragments sur le Web)
+        - données transcrites, pas de matérialité de la source -> RDF
+
+
+<!--∫ slide -->
+# Expliciter le contexte & articuler finement glose et sources
+
+- Pour assurer l'avenir des données scientifiques produites à propos des sources (données décrivant les sources + données matérialisant les hypothèses interprétatives), il faut penser :
+    - 🎓 la ‹structuration des connaissances tirées des sources› & l'expression des ‹ajouts critiques› -> thésauri, ontologies (*« que dit-on ? que pense t-on ? »*)
+    - 📜 l'‹adressabilité interne des sources› (*« de quoi parle t'on ? »*)
+        - image -> IIIF
+        - musique notée -> MEI + MEI "sherlockisé"
+        - texte -> TEI (? adressabilité des fragments sur le Web)
+        - données transcrites, pas de matérialité de la source -> RDF
+    - 🔬 le ‹contexte interprétatif› : « situation analytique », corpus, critères interprétatifs, structure des projets collaboratifs… (*« qui ? quand ? comment ? pourquoi ? »*)
 
 <!--📜-->
 <!--∫ slide -->
 # Le Web sémantique & la recherche
 
-- Injonction du LOD (Linked Open Data).
+- 🌍 Injonction du LOD (Linked Open Data).
 
 
 <!--∫ slide -->
 # Le Web sémantique & la recherche
 
-- Injonction du LOD (Linked Open Data).
-- 🌍 Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
+- 🌍 Injonction du LOD (Linked Open Data).
+- 🕸️ Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
 
 <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" />
 
@@ -124,8 +145,8 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 <!--∫ slide -->
 # Le Web sémantique & la recherche
 
-- Injonction du LOD (Linked Open Data).
-- 🌍 Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
+- 🌍 Injonction du LOD (Linked Open Data).
+- 🕸️ Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
 
 <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" />
 
@@ -135,8 +156,8 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 <!--∫ slide -->
 # Le Web sémantique & la recherche
 
-- Injonction du LOD (Linked Open Data).
-- 🌍 Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
+- 🌍 Injonction du LOD (Linked Open Data).
+- 🕸️ Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
 
 <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" />
 
@@ -147,8 +168,8 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 <!--∫ slide -->
 # Le Web sémantique & la recherche
 
-- Injonction du LOD (Linked Open Data).
-- 🌍 Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
+- 🌍 Injonction du LOD (Linked Open Data).
+- 🕸️ Le Web sémantique (en une phrase) permet d'établir des assertions dont le sens des éléments (sujet, prédicat, objet) est partagé sur le Web [🏞️](https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--1689-03a_170/full/max/0/default.jpg).
 
 <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_2aef8368-7007-45dd-9701-4e13edd2136a.png" />
 
@@ -158,10 +179,37 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 
 <!--📜-->
 <!--∫ slide title -->
-# 2. Le CIDOC-CRM : apports & questions
+# 2. Le CIDOC-CRM : dimension heuristique & questions
 
-- Le CRM fait extrêmement bien certaines choses : nommer, typer, dater.
-- Il nous encourage à penser en temps d'abord, ce qui nous donne davantage d'ancres (IRI) pour associer. Ainsi, on ne dit pas :
+<!--📜-->
+<!--∫ slide -->
+# Penser le temps d'abord
+
+- Rappel : le CIDOC-CRM fait extrêmement bien certaines choses : nommer, typer, structurer des actions sous forme d'événements inscrits dans le temps.
+
+
+<!--∫ slide -->
+# Penser le temps d'abord
+
+- Rappel : le CIDOC-CRM fait extrêmement bien certaines choses : nommer, typer, structurer des actions sous forme d'événements inscrits dans le temps.
+- Le CIDOC-CRM nous encourage à mettre le temps au centre de notre appréhension du monde. On ne pense pas d'abord les choses telles qu'elles sont, mais plutôt les processus qui les ont amenées à être ce qu'elles sont.
+
+
+<!--∫ slide -->
+# Penser le temps d'abord
+
+- Rappel : le CIDOC-CRM fait extrêmement bien certaines choses : nommer, typer, structurer des actions sous forme d'événements inscrits dans le temps.
+- Le CIDOC-CRM nous encourage à mettre le temps au centre de notre appréhension du monde. On ne pense pas d'abord les choses telles qu'elles sont, mais plutôt les processus qui les ont amenées à être ce qu'elles sont.
+- Ceci nous donne davantage d'ancres (IRI) pour localiser finement les connaissances scientifiques.
+
+
+<!--∫ slide -->
+# Penser le temps d'abord
+
+- Rappel : le CIDOC-CRM fait extrêmement bien certaines choses : nommer, typer, structurer des actions sous forme d'événements inscrits dans le temps.
+- Le CIDOC-CRM nous encourage à mettre le temps au centre de notre appréhension du monde. On ne pense pas d'abord les choses telles qu'elles sont, mais plutôt les processus qui les ont amenées à être ce qu'elles sont.
+- Ceci nous donne davantage d'ancres (IRI) pour localiser finement les connaissances scientifiques.
+- Ainsi, on ne dit pas :
 
 <img style="display: block; margin: 0 auto; width: 10cm;" src="dotfile_f8e27fbb-ccc8-4996-8713-0c0291f58bb3.png" />
 
@@ -169,16 +217,79 @@ mais :
 
 <!--📜-->
 <!--∫ slide c -->
+<img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" />
 
-<img style="display: block; margin: 0 auto; width: 25cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" />
+
+
+<!--∫ slide c -->
+<img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" />
+
+<div style="bottom: 5cm; max-width: 13cm; position: absolute; right: 1cm; z-index:666;">
+Tout peut recevoir une IRI et ainsi être référencé, commenté, annoté. Fonction heuristique du CIDOC-CRM.
+</div>
+
+
+<!--∫ slide c -->
+<img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_c7f25bfb-d2d0-41d1-aa68-35a87e864028.png" />
+
+<div style="bottom: 5cm; max-width: 13cm; position: absolute; right: 1cm; z-index:666;">
+Tout peut recevoir une IRI et ainsi être référencé, commenté, annoté. Fonction heuristique du CIDOC-CRM.
+</div>
+<div style="bottom: 3cm; max-width: 13cm; position: absolute; right: 1cm; z-index:666;">
+Oui mais s'il y a un doute ?
+</div>
 
 <!--📜-->
 <!--∫ slide -->
-# 
+# E13 Attribute Assignment 1/3
 
-<!--
-Marottes :
-- adressabilité des sources
-- de quoi on parle
-- comment on en parle
--->
+- Documenté sous l'entrée "knowledge creation process".
+- Signer, dater chaque contribution.
+
+<!--📜-->
+<!--∫ slide -->
+# E13 Attribute Assignment 2/3
+
+Hypothèse d'attribution<br/>
+
+<img style="display: block; margin: 0 auto; width: 27cm;" src="dotfile_ec22b658-a792-4d61-b475-9f3ddf941368.png" />
+
+<!--📜-->
+<!--∫ slide -->
+# E13 Attribute Assignment 3/3
+- Articuler chaque « événement de création de connaissance » dans un contexte (le cadre des événements CIDOC-CRM est accueillant).
+
+
+<!--∫ slide -->
+# E13 Attribute Assignment 3/3
+- Articuler chaque « événement de création de connaissance » dans un contexte (le cadre des événements CIDOC-CRM est accueillant).
+- Ce type de patterns rend le Web sémantique plus conforme à l'expression de savoirs scientifiques (situés).
+
+
+<!--∫ slide -->
+# E13 Attribute Assignment 3/3
+- Articuler chaque « événement de création de connaissance » dans un contexte (le cadre des événements CIDOC-CRM est accueillant).
+- Ce type de patterns rend le Web sémantique plus conforme à l'expression de savoirs scientifiques (situés).
+- Mais :
+    - Explosion du nombre de triplets.
+    - Complexité des interfaces de restitution.
+
+<!--📜-->
+<!--∫ slide c -->
+# Structurer la source
+<img style="display: block; margin: 0 auto; width: 18cm;" src="dotfile_0c1b5fe6-7ad1-45c2-a049-5ebaa96e9824.png" />
+
+<!--📜-->
+<!--∫ slide c -->
+# Indexer avec un concept
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_21cde522-7773-4b93-9f01-36b0cf701858.png" />
+
+<!--📜-->
+<!--∫ slide c -->
+# Identifier & typer la chose dénotée
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_7cc4361c-4957-42c8-975a-5866be4f533e.png" />
+
+<!--📜-->
+<!--∫ slide c -->
+# Identifier & typer la chose dénotée (E13)
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_89089775-97ab-4f96-968a-90163952da58.png" />
