@@ -1,0 +1,30 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="Fira Code Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="Fira Code Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+P1[label="su:p1\n« Luther »\ncrm:E21_Person"]
+P2[label="su:p2\n« Cody »\ncrm:E21_Person"]
+T0[label="su:t0\n« Performance live »\ncrm:E55_Type"]
+T1[label="su:t1\n« 🎸 »\ncrm:E55_Type"]
+T2[label="su:t2\n« 🥁 »\ncrm:E55_Type"]
+E0[label="su:e0\ncrm:E7_Activity"]
+E1[label="su:e1\ncrm:E7_Activity"]
+E2[label="su:e2\ncrm:E7_Activity"]
+L[label="su:l\n« La Rochelle »\ncrm:E53_Place"]
+E0 -> E1 [label="crm:P9_consists_of"]
+E0 -> E2 [label="crm:P9_consists_of"]
+E0 -> T0 [label="crm:P2_has_type"]
+E1 -> T0 [label="crm:P2_has_type"]
+E2 -> T0 [label="crm:P2_has_type"]
+E1 -> P1 [label="crm:P14_carried_out_by"]
+E2 -> P2 [label="crm:P14_carried_out_by"]
+E0 -> L [label="crm:P7_took_place_at"]
+E1 -> T1 [label="crm:P2_has_type"]
+E2 -> T2 [label="crm:P2_has_type"]
+}

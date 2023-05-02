@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2023.02.16_formation_so</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../../pandoc.css" />
+</head>
+<body>
+<style>
+body { font-family: GoudyNoto; font-weight: 300; }
+h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
+code { color: #16e7cf; }
+.dim { color: #aaa; }
+</style>
+<!--📜-->
+<!--∫ slide title -->
+<div class="dim">
+<p>Formations autour de la diffusion de la recherche et de la science ouverte <br/> Les humanités numériques en pratique <br/> 16 février 2023</p>
+</div>
+<div style="
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-family: FuturaPT;
+    font-size: 111%;
+    letter-spacing: 0.1em;
+    padding: 0.5cm 0;
+    text-transform: uppercase;
+">
+<p>Modéliser les connaissances en SHS : <br/> pourquoi, comment, jusqu’où ?</p>
+</div>
+<div>
+<p>Thomas Bottini</p>
+<p><code>thomas.bottini@cnrs.fr</code></p>
+<p><em>‹I›nstitut de ‹Re›cherche en ‹Mus›icologie — IReMus, UMR 8223 CNRS</em></p>
+</div>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="plan">Plan</h1>
+<dl>
+<dt>
+✏️
+</dt>
+<dd>
+Le rôle du modélisateur/de la modélisatrice dans un projet de SHS
+</dd>
+<dt>
+🌐
+</dt>
+<dd>
+Quelques mots sur le Web sémantique comme milieu technique adapté à l’expression et à la diffusion des données de la recherche|
+</dd>
+<dt>
+📚
+</dt>
+<dd>
+Les fondements de l’ontologie CIDOC-CRM
+</dd>
+<dt>
+🖼️
+</dt>
+<dd>
+Quelques cas concrets
+</dd>
+</dl>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="modéliser">Modéliser ?</h1>
+<ul>
+<li>Modèle conceptuel vs. ontologie ?</li>
+<li>Entités + propriétés.</li>
+</ul>
+<!--📜-->
+<!--∫ slide title -->
+<h1 id="de-lactivité-de-recherche-à-la-donnée">De l’activité de recherche à la donnée</h1>
+<p>Comment « l’ingénierie des données » intervient-elle aux différentes étapes d’un projet de recherche en SHS :</p>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="écouter">Écouter</h1>
+<ul>
+<li>Les chercheur·se·s en situation de production de connaissances susceptibles d’êtres traduites en données informatiques structurées ont sur ce point des degrés de réflexivité différents. Le premier rôle de l’ingénieur est d’ordre maïeutique.</li>
+<li>En SHS, ces connaissances peuvent résulter d’une activité descriptive (sources) ou interprétative (choses dites à propos des sources).</li>
+<li>Dès lors, avoir un modèle conceptuel de type ontologique permet d’organiser l’écoute et l’analyse des pratiques de production de connaissances.</li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="accompagner">Accompagner</h1>
+<ul>
+<li>L’ingénieur devient de facto un collaborateur méthodologique :</li>
+<li>Il aide à révéler la structure interne des sources et des phénomènes par lesquels est appréhendé l’objet de recherche (dimension maïeutique + heuristique).</li>
+<li>L’idéal est de mettre en place des interfaces de saisie ergonomiques, mais c’est là où « le bât blesse » : les ontologies sont souples, riches, expressives, mais pas instrumentées pour les humains (formulaires…) par rapport aux données relationnelles SQL.</li>
+<li>Dans l’expression des objectifs scientifiques. Révéler la structure des observables et des connaissances produites à leur endroit permet de repenser les finalités scientifiques.</li>
+<li>C’est une situation de travail typique des HN dans laquelle la technique n’a pas un rôle ancillaire.</li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="modéliser-1">Modéliser</h1>
+<ul>
+<li>Les connaissances nouvelles s’incarnant dans des « données scientifiques ».</li>
+<li>Les sources auxquelles elles se rapportent.</li>
+<li>Les faits sociaux, conceptuels, matériels &amp; sémiotiques dénotés ou conotés par les sources et/ou le terrain.</li>
+<li>Le contexte de production des connaissances (qu’est ce qui fait qu’une donnée est « scientifique » ?).</li>
+<li>C’est l’objet de cette formation !</li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="générer-gérer-diffuser">Générer, gérer &amp; diffuser</h1>
+<p>techniquement les données, en les rendant conformes au modèle. [← ce n’est pas l’objet de cette formation, mais je vous dirai tout de même deux mots du Web Sémantique et du RDF]</p>
+<!--∫ slide -->
+<h1 id="générer-gérer-diffuser-1">Générer, gérer &amp; diffuser</h1>
+<p>techniquement les données, en les rendant conformes au modèle. [← ce n’est pas l’objet de cette formation, mais je vous dirai tout de même deux mots du Web Sémantique et du RDF] 5. DIFFUSER techniquement les données : 1. Accès par les machines (API, SPARQL Endpoint) 2. Consultation par les humains (sites Web)</p>
+</body>
+</html>

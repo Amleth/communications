@@ -1,10 +1,12 @@
 const fs = require('fs')
+const _ = require('lodash')
 const readline = require('readline')
+const colorbrewer = require('colorbrewer');
 
 const VARIABLE_DECLARATION_PATTERN = /(<!--∫ (\$[a-zA-Z0-9_-]+)=(.*) -->)/
 const VARIABLE_USE_PATTERN = /(<!--∫ (\$[a-zA-Z0-9_-]+) -->)/
 const NEW_SLIDE_PATTERN = /<!--∫ slide (.*)-->/
-const SLIDEOVERLAY_PATTERN = /∫[🦔🐌🐢]|•••/
+const SLIDEOVERLAY_PATTERN = /∫[🦔🐌🐢]|•••|§§§/
 const DOT = /```dot ([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})\s*([0-9]{0,3})/
 
 const IN_FILE = process.argv[2]
@@ -17,8 +19,8 @@ function makeGraph(dotContent, id, width) {
   dotContent = `digraph {
     graph [bgcolor=black]
     rankdir=LR
-    node [color=white,fontcolor=white,fontname="American Typewriter",shape=box]
-    edge [color=white,fontcolor=white,fontname="American Typewriter"]
+    node [color=white,fontcolor=white,fontname="Fira Code Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="Fira Code Regular"]
     \n
     ` + dotContent + '\n}\n'
   const dotFile = `dotfile_${id}.dot`
@@ -96,6 +98,10 @@ rl.on('line', line => {
   }
 
   if (inDot) {
+    if (line.match(/\$RC\$/)) {
+      const randomColor = _.sample(_.sample(Object.values(colorbrewer[_.sample(colorbrewer.schemeGroups.qualitative)])))
+      line = line.replace('$RC$', `color="${randomColor}",fontcolor="${randomColor}"`)
+    }
     currentDot.push(line)
   }
   else {

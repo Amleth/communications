@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2023.03.06_onplm_to</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<style>
+body { font-family: GoudyNoto; font-weight: 300; }
+h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
+code { color: #16e7cf; }
+.dim { color: #aaa; }
+</style>
+<div class="slide title">
+<div class="dim">
+<p>Outils numériques pour la musicologie, 6 mars 2023</p>
+</div>
+<div style="
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-family: FuturaPT;
+    font-size: 111%;
+    letter-spacing: 0.1em;
+    padding: 0.5cm 0;
+    text-transform: uppercase;
+">
+<p>Des sources aux connaissances formalisées : <br/><br/> thésaurii
+&amp; ontologies</p>
+</div>
+<div class="wto" style="font-size:300%;">
+
+</div>
+<div>
+<p>Nathalie Berton–Blivet <span class="colour"><span class="wto"
+style="display: inline-block; font-size:123%;"></span></span> Thomas
+Bottini</p>
+<p><code>nathalie.berton-blivet@cnrs.fr | thomas.bottini@cnrs.fr</code></p>
+<p><em><span class="colour">I</span>nstitut de <span class="colour">Re</span>cherche en <span class="colour">Mus</span>icologie</em></p>
+<p><em>IReMus, UMR 8223 CNRS — Sorbonne Université</em></p>
+</div>
+</div><div class="slide c">
+<h1 id="thésaurii">Thésaurii</h1>
+<div class="pagination">•🐌••••••••••</div></div><div class="slide">
+<h1 id="quest-ce-que-cest-à-quoi-ça-sert">Qu’est ce que c’est ? À quoi
+ça sert ?</h1>
+<ul>
+<li><a
+href="https://fr.wikipedia.org/wiki/Th%C3%A9saurus_documentaire">Sur
+Wikipedia</a></li>
+</ul>
+<div class="pagination">••🐌•••••••••</div></div><div class="slide">
+<h1 id="exemples-célèbres-de-thésaurii">Exemples célèbres de
+thésaurii</h1>
+<ul>
+<li><a
+href="https://vocabularies.unesco.org/browser/thesaurus/fr/groups">UNESCO</a></li>
+<li><a href="https://iconclass.org/fr/_">Iconclass</a> (histoire de
+l’art</li>
+<li><a
+href="http://www.getty.edu/vow/AATServlet?english=N&amp;find=music+notation&amp;logic=AND&amp;page=1&amp;note=">Getty
+AAT</a> (patrimoine, en général)</li>
+<li><a
+href="https://vocabulary.mimo-international.com/HornbostelAndSachs/en/">MIMO/Hornbostel
+Sachs</a></li>
+<li><a
+href="https://vocabulary.mimo-international.com/InstrumentsKeywords/fr/">MIMO/Thésaurus
+des noms d’instruments de musique</a></li>
+</ul>
+<div class="pagination">•••🐌••••••••</div></div><div class="slide">
+<h1 id="exemples-à-liremus">Exemples à l’IReMus</h1>
+<ul>
+<li>Base d’iconographie musicale Euterpe.</li>
+</ul>
+<div class="pagination">••••🐌•••••••</div></div><div class="slide">
+<h1 id="exemples-à-liremus-1">Exemples à l’IReMus</h1>
+<ul>
+<li>Base d’iconographie musicale Euterpe.</li>
+<li>Indexation des estamps du Mercure Galant.</li>
+</ul>
+<div class="pagination">••••🐌•••••••</div></div><div class="slide">
+<h1 id="exemples-à-liremus-2">Exemples à l’IReMus</h1>
+<ul>
+<li>Base d’iconographie musicale Euterpe.</li>
+<li>Indexation des estamps du Mercure Galant.</li>
+<li>Tout projet de recherche en musicologie qui a une existence sur le
+Web génère un ou plusieurs thésaurii.</li>
+</ul>
+<div class="pagination">••••🐌•••••••</div></div><div class="slide">
+<h1 id="exemples-à-liremus-3">Exemples à l’IReMus</h1>
+<ul>
+<li>Base d’iconographie musicale Euterpe.</li>
+<li>Indexation des estamps du Mercure Galant.</li>
+<li>Tout projet de recherche en musicologie qui a une existence sur le
+Web génère un ou plusieurs thésaurii.</li>
+<li>Exemple improvisé ?</li>
+</ul>
+<div class="pagination">••••🐌•••••••</div></div><div class="slide">
+<h1 id="le-stantard-skos">Le stantard SKOS</h1>
+<ul>
+<li><a href="https://www.w3.org/TR/skos-primer/">W3C SKOS
+Primer</a><br/><a
+href="http://www.sparna.fr/skos/SKOS-traduction-francais.html">fr</a></li>
+<li>Il existe plusieurs outils pour constituer &amp; partager des
+thésaurii SKOS, dont le très bon <a
+href="https://opentheso.huma-num.fr/opentheso/index.xhtml">OpenTheso</a>.</li>
+</ul>
+<div class="pagination">•••••🐌••••••</div></div><div class="slide c">
+<h1 id="ontologies">Ontologies</h1>
+<div class="pagination">••••••🐌•••••</div></div><div class="slide">
+<h1 id="quest-ce-que-cest-à-quoi-ça-sert-1">Qu’est ce que c’est ? À quoi
+ça sert ?</h1>
+<ul>
+<li>Ensemble de classes et de propriétés décrivant les choses telles
+qu’elles sont et les relations qu’elles entretiennent.</li>
+<li>Les thésaurii, quant à eux, organisent les manières de nommer les
+choses.</li>
+</ul>
+<div class="pagination">•••••••🐌••••</div></div><div class="slide">
+<h1 id="le-cidoc-crm">Le CIDOC-CRM</h1>
+<ul>
+<li><a
+href="https://cidoc-crm.org/sites/default/files/Slide1.JPG">Diagramme de
+classes</a></li>
+<li><a href="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html">Classes
+&amp; propriétés en HTML</a></li>
+<li><a
+href="https://www.cidoc-crm.org/sites/default/files/cidoc_crm_version_7.2.2%5B23%20Nov%5D%5BTRACK%20CHANGES%5D.pdf">Documentation
+PDF</a></li>
+</ul>
+<div class="pagination">••••••••🐌•••</div></div><div class="slide">
+<h1 id="lrmoo-une-application-du-crm">LRMoo, une application du CRM</h1>
+<p><img src="lrmoo.png" style="width: 100%;"/></p>
+<div class="pagination">•••••••••🐌••</div></div><div class="slide">
+<h1 id="doremus-une-application-du-crm">DOREMUS, une application du
+CRM</h1>
+<ul>
+<li><a
+href="https://data.doremus.org/ontology/">https://data.doremus.org/ontology/</a></li>
+<li><a
+href="https://data.doremus.org/ontology/img/model.composition.png">Musical
+composition</a></li>
+<li><a
+href="https://data.doremus.org/ontology/img/model.concert.png">Concert
+programming</a></li>
+<li><a
+href="https://data.doremus.org/ontology/img/model.score.png">Music score
+publication</a></li>
+</ul>
+<div class="pagination">••••••••••🐌•</div></div><div class="slide">
+<h1 id="applications-du-cidoc-crm-à-liremus">Applications du CIDOC-CRM à
+l’IReMus</h1>
+<div class="pagination">•••••••••••🐌</div></div></body>
+</html>

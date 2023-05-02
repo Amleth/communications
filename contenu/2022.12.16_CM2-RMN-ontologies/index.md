@@ -38,7 +38,7 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 <!--∫ slide c -->
 # Plan
 
-1. Contexte scientifique et milieu technique
+1. Contexte scientifique & milieu technique
 2. Le CIDOC-CRM : dimension heuristique & questions
 
 <!--∫ slide title -->
@@ -49,13 +49,13 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 
 - Émergence Sorbonne Université 2019-2022. Projet d'ingénierie-recherche.
 •••
-- Objectif : développer un écosystème d'outils & méthodes facilitant la production de savoirs sur des sources reposant sur le CIDOC-CRM.
+- Objectif : développer un écosystème d'outils et de méthodes reposant sur le CIDOC-CRM favorisant la production de savoirs musicologiques finement articulés aux sources.
 •••
 - Aspects :
-    - 📜 Modéliser la ‹structure de sources› textuelles, musicales et iconographiques ‹complexes› en vue de les rendre ‹adressables› sur le Web (cf. hier TONALITIES).
+    - 📜 Modéliser la ‹structure de sources› textuelles, musicales et iconographiques en vue de les rendre ‹adressables› sur le Web (cf. hier TONALITIES).
     - ⌨️ Mettre en œuvre des ‹outils de saisie ergonomiques› et écrire des scripts de conversion en données sémantiques (saisir nativement en CIDOC-CRM semble illusoire).
-    - 🔬 Formaliser des patterns d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes : ‹modèle d'annotation & explicitation du contexte›.
-    - 🏷️ Développer des outils Web pour ‹annoter collaborativement› les sources et publier les données.
+    - 🔬 Formaliser des *patterns* d'utilisation du CIDOC-CRM pour représenter l'activité critique sur des sources complexes : ‹modèle d'annotation & explicitation du contexte›.
+    - 🏷️ Développer des outils Web pour 1) ‹annoter collaborativement› les sources et 2) publier les données.
 
 <!--∫ slide -->
 # Terrains présents & futurs à l'IReMus
@@ -78,7 +78,7 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
 •••
     - 🎓 la ‹structuration des connaissances tirées des sources› & l'expression des ‹ajouts critiques› -> thésauri, ontologies (*« que dit-on ? que pense t-on ? »*)
 •••
-    - 📜 l'‹adressabilité interne des sources› (*« de quoi parle t'on ? »*)
+    - 📜 l'‹adressabilité interne des sources› (*« de quoi parle t-on ? »*)
         - image -> IIIF
         - musique notée -> MEI + MEI "sherlockisé"
         - texte -> TEI (? adressabilité des fragments sur le Web)
@@ -87,7 +87,7 @@ IReMus — Institut de Recherche en Musicologie, UMR 8223
     - 🔬 le ‹contexte interprétatif› : « situation analytique », corpus, critères interprétatifs, structure des projets collaboratifs… (*« qui ? quand ? comment ? pourquoi ? »*)
 
 <!--∫ slide -->
-# Le Web sémantique & la recherche
+# Le Web sémantique et la recherche
 
 - 🌍 Injonction du LOD (Linked Open Data).
 •••
@@ -101,7 +101,7 @@ edge [color=cyan,fontcolor=white]
 ```
 
 •••
-- ⚗️ Un triplet n'a pas la forme d'un énoncé scientifique car il n'exprime pas le contexte.
+- ⚗️ Un triplet n'a pas la forme d'un énoncé scientifique car il n'exprime pas le contexte de l'assertion.
 •••
 - 😱 Un sens partagé à l'échelle mondiale ? Origines néopositivistes du Web sémantique à questionner (F. Rastier). Paradigme inadéquat aux sciences de l'interprétation.
 •••
@@ -117,8 +117,6 @@ edge [color=cyan,fontcolor=white]
 •••
 - Le CIDOC-CRM nous encourage à mettre le temps au centre de notre appréhension du monde. On ne pense pas d'abord les choses telles qu'elles sont, mais plutôt les processus qui les ont amenées à être ce qu'elles sont.
 •••
-- Ceci nous donne davantage d'ancres (IRI) pour localiser finement les connaissances scientifiques.
-•••
 - Ainsi, on ne dit pas :
 
 ```dot f8e27fbb-ccc8-4996-8713-0c0291f58bb3 10
@@ -133,7 +131,7 @@ mais :
 layout=sfdp
 "lrmoo:F28_Expression_Creation" -> "crm:E7_Activity" [label="crm:P9_consists_of"]
 "lrmoo:F28_Expression_Creation" -> "lrmoo:F2_Expression" [label="lrmoo:R17_created"]
-"lrmoo:F28_Expression_Creation" -> "E52_Timespan (une date))" [label="crm:P4_has_timespan"]
+"lrmoo:F28_Expression_Creation" -> "E52_Timespan (une date)" [label="crm:P4_has_timespan"]
 "crm:E7_Activity" -> "Morton Feldman (crm:E21_Person)" [label="crm:P14_carried_out_by",color=cyan]
 
 "Morton Feldman (crm:E21_Person)" [color=cyan]
@@ -152,8 +150,10 @@ Oui mais s'il y a un doute ?
 <!--∫ slide -->
 # E13 Attribute Assignment 1/3
 
-- Documenté sous l'entrée "knowledge creation process".
-- Signer, dater chaque contribution.
+- Documentée sous l'entrée "knowledge creation process".
+- Établit que toute production de connaissance est un événement.
+- Il devient possible à ce titre de signer, dater, documenter chaque contribution et les rattacher à un contexte temporel plus vaste.
+- Ce qui est invisibilisé dans une base de donnée classique est ainsi explicité (le contexte de la cellule).
 
 <!--∫ slide -->
 # E13 Attribute Assignment 2/3
@@ -164,31 +164,33 @@ Hypothèse d'attribution<br/>
 layout=sfdp
 "lrmoo:F28_Expression_Creation" -> "crm:E7_Activity" [label="crm:P9_consists_of"]
 "lrmoo:F28_Expression_Creation" -> "lrmoo:F2_Expression" [label="lrmoo:R17_created"]
-"lrmoo:F28_Expression_Creation" -> "E52_Timespan (une date))" [label="crm:P4_has_timespan"]
+"lrmoo:F28_Expression_Creation" -> "E52_Timespan (une date)" [label="crm:P4_has_timespan"]
 "crm:E13_Attribute_Assignment" -> "crm:E7_Activity" [label="crm:P140_assigned_attribute_to",color=yellow]
 "crm:E13_Attribute_Assignment" -> "crm:P14_carried_out_by" [label="crm:P177_assigned_property_of_type",color=yellow]
 "crm:E13_Attribute_Assignment" -> "Morton Feldman (crm:E21_Person)" [label="crm:P141_assigned",color=yellow]
 "crm:E13_Attribute_Assignment" -> "Thomas B." [label="crm:P14_carried_out_by",color=yellow]
-"crm:E13_Attribute_Assignment" -> "E52_Timespan (une autre date))" [label="crm:P4_has_timespan",color=yellow]
+"crm:E13_Attribute_Assignment" -> "E52_Timespan (une autre date)" [label="crm:P4_has_timespan",color=yellow]
 
 "Morton Feldman (crm:E21_Person)" [color=cyan]
 "crm:E7_Activity" [color=cyan]
 
 "crm:E13_Attribute_Assignment" [color=yellow]
-"E52_Timespan (une autre date))" [color=yellow]
+"E52_Timespan (une autre date)" [color=yellow]
 "crm:P14_carried_out_by" [color=cyan]
 "Thomas B." [color=yellow]
+
+"crm:E13_Attribute_Assignment" -> "autre élément de contexte" [label="?",color=purple]
+"autre élément de contexte" [color=purple]
 ```
 
 <!--∫ slide -->
 # E13 Attribute Assignment 3/3
-- Articuler chaque « événement de création de connaissance » dans un contexte (le cadre des événements CIDOC-CRM est accueillant).
-•••
 - Ce type de patterns rend le Web sémantique plus conforme à l'expression de savoirs scientifiques (situés).
 •••
 - Mais :
     - Explosion du nombre de triplets.
-    - Complexité des interfaces de restitution.
+    - Complexité des interfaces de restitution (représentation de points de vue multiples,).
+    - Pénibilité du requêtage SPARQL.
 
 <!--∫ slide c -->
 # Structurer la source
@@ -199,7 +201,7 @@ layout=sfdp
 "crm:E36_Visual_Item" [color=red]
 "http://estampe" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
 "http://estampe_fragment" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
-"http://estampe_fragment" -> "http://estampe" [label="sherlock:is_fragment_of",color=red]
+"http://estampe_fragment" -> "http://estampe" [label="crm:P016_is_composed_of",color=red]
 ```
 
 <!--∫ slide c -->
@@ -211,7 +213,7 @@ layout=sfdp
 "crm:E36_Visual_Item" [color=red]
 "http://estampe" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
 "http://estampe_fragment" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
-"http://estampe_fragment" -> "http://estampe" [label="sherlock:is_fragment_of",color=red]
+"http://estampe_fragment" -> "http://estampe" [label="crm:P016_is_composed_of",color=red]
 
 "http://estampe_fragment" -> "https://iconclass.org/48C26 (\"médaille\")" [label="crm:P138_represents",color=cyan]
 "http://estampe_fragment" [color=cyan]
@@ -227,7 +229,7 @@ layout=sfdp
 "crm:E36_Visual_Item" [color=red]
 "http://estampe" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
 "http://estampe_fragment" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
-"http://estampe_fragment" -> "http://estampe" [label="sherlock:is_fragment_of",color=red]
+"http://estampe_fragment" -> "http://estampe" [label="crm:P016_is_composed_of",color=red]
 
 "http://estampe_fragment" -> "http://chose" [label="crm:P138_represents"]
 "http://chose" -> "https://iconclass.org/48C26 (\"médaille\")" [label="crm:P2_has_type",color=cyan]
@@ -237,7 +239,7 @@ layout=sfdp
 ```
 
 <!--∫ slide c -->
-# Identifier & typer la chose dénotée (E13)
+# Identifier & typer la chose dénotée (avec E13)
 ```dot 89089775-97ab-4f96-968a-90163952da58 26
 layout=sfdp
 "http://estampe" [color=red]
@@ -245,7 +247,7 @@ layout=sfdp
 "crm:E36_Visual_Item" [color=red]
 "http://estampe" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
 "http://estampe_fragment" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
-"http://estampe_fragment" -> "http://estampe" [label="sherlock:is_fragment_of",color=red]
+"http://estampe_fragment" -> "http://estampe" [label="crm:P016_is_composed_of",color=red]
 
 "http://estampe_fragment" -> "http://chose" [label="crm:P138_represents"]
 

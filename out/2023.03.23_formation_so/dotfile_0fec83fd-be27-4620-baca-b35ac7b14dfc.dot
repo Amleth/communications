@@ -1,0 +1,17 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="Fira Code Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="Fira Code Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"su:e" -> "su:p" [label="crm:P14_carried_out_by"]
+"su:p" -> "crm:E21_Person" [label="rdf:type"]
+"su:e" -> "crm:E13_Attribute_Assignment" [label="rdf:type"]
+"su:e" -> "su:m" [label="crm:P140_assigned attribute to"]
+"su:e" -> "« Quel beau morceau ! »" [label="crm:P141_assigned"]
+"su:e" -> "crm:P3_has_comment" [label="crm:P177_assigned property of type"]
+}

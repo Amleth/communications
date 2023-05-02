@@ -11,7 +11,7 @@ digraph {
 "crm:E36_Visual_Item" [color=red]
 "http://estampe" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
 "http://estampe_fragment" -> "crm:E36_Visual_Item" [label="rdf:type",color=red]
-"http://estampe_fragment" -> "http://estampe" [label="sherlock:is_fragment_of",color=red]
+"http://estampe_fragment" -> "http://estampe" [label="crm:P016_is_composed_of",color=red]
 
 "http://estampe_fragment" -> "http://chose" [label="crm:P138_represents"]
 "http://chose" -> "https://iconclass.org/48C26 (\"médaille\")" [label="crm:P2_has_type",color=cyan]

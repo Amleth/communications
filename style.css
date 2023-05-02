@@ -15,6 +15,7 @@ Black           900
 @import "./fonts/cutive.css";
 @import "./fonts/emoji.css";
 @import "./fonts/fira.css";
+@import "./fonts/fira_code.css";
 @import "./fonts/futura.css";
 @import "./fonts/jenson.css";
 @import "./fonts/jost.css";
@@ -207,7 +208,7 @@ hr {
 
 code,
 pre {
-  font-family: "Cutive" !important;
+  font-family: "FiraCode" !important;
   font-size: 85%;
 }
 
