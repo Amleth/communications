@@ -1,0 +1,27 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=neato
+overlap=scale
+splines=true
+sep=.1
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"su:i1" -> "crm:E36_Visual_Item" [label="rdf:type",color="#4daf4a",fontcolor="#4daf4a"]
+"su:t" -> "crm:E55_Type" [label="rdf:type",color="#8da0cb",fontcolor="#8da0cb"]
+"su:i1" -> "su:id1" [label="crm:P1_is_identified_by",color="#999999",fontcolor="#999999"]
+"su:id2" -> "su:t" [label="crm:P2_has_type",color="#a6761d",fontcolor="#a6761d"]
+"su:t" -> "« Identifiant IIIF v3 »" [label="crm:P1_is_identified_by",color="#33a02c",fontcolor="#33a02c"]
+"su:id1" -> "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg" [label="crm:P190_has_symbolic_content",color="#b3cde3",fontcolor="#b3cde3"]
+"su:id2" -> "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/1000,1000,2000,1000/full/0/native.jpg" [label="crm:P190_has_symbolic_content",color="#e6f5c9",fontcolor="#e6f5c9"]
+"su:i2" -> "crm:E36_Visual_Item" [label="rdf:type",color="#fb8072",fontcolor="#fb8072"]
+"su:id1" -> "su:t" [label="crm:P2_has_type",color="#1f78b4",fontcolor="#1f78b4"]
+"su:i1" -> "su:i2" [label="crm:P106_is_composed_of",color="#fdc086",fontcolor="#fdc086"]
+"su:i2" -> "su:id2" [label="crm:P1_is_identified_by",color="#7fc97f",fontcolor="#7fc97f"]
+"su:id1" -> "crm:E42_Identifier" [label="rdf:type",color="#fb8072",fontcolor="#fb8072"]
+"su:id2" -> "crm:E42_Identifier" [label="rdf:type",color="#b3e2cd",fontcolor="#b3e2cd"]
+}

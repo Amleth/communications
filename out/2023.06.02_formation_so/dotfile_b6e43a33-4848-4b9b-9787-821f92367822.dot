@@ -1,0 +1,15 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"su:x" -> "crm:E21_Person" [label="rdf:type"]
+"su:x" -> "su:a" [label="crm:P1_is_identified_by"]
+"su:a" -> "crm:E41_Appellation" [label="rdf:type"]
+"su:a" -> "« Morton Feldman »" [label="crm:P190_has_symbolic_content"]
+}

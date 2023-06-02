@@ -14,7 +14,7 @@ Formations autour de la diffusion de la recherche et de la science ouverte
 <br/>
 Les humanités numériques en pratique
 <br/>
-23 mars 2023
+2 juin 2023
 </div>
 
 <div style="
@@ -44,6 +44,10 @@ Thomas Bottini
 
 </div>
 
+<pre style="color: #16e7cf; font-size: 50% !important;">
+https://github.com/Amleth/communications/raw/main/out/2023.02.16_formation_so/index.pdf
+</pre>
+
 <!--∫ slide -->
 
 # Plan
@@ -71,12 +75,12 @@ Thomas Bottini
 
 # Analyser
 
-- Les chercheurs et chercheuses en situation de production de connaissances ont des degrés de réflexivité différents sur leurs pratiques de génération de données informatiques structurées. Le premier rôle de l'ingénieur est d'ordre maïeutique.
-- Il faut poser des questions (entretiens d'explicitation), confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude, et parfois même ses manières de les questionner.
-- L'ingénieur aide donc à révéler la structure interne des sources et des phénomènes : une dimension heuristique s'ajoute.
+- Les chercheurs et chercheuses en situation de production de connaissances ont des degrés de réflexivité différents sur leurs pratiques de génération de données informatiques structurées. Le premier rôle de l'ingénieur est alors d'ordre maïeutique :
+    - Il faut poser des questions (entretiens d'explicitation), confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude, et parfois même ses manières de les questionner.
+    - L'ingénieur aide donc à révéler la structure interne des sources et des phénomènes étudiés : une dimension heuristique s'ajoute.
 §§§
 - En SHS, ces connaissances peuvent résulter d'une activité descriptive (sources) ou interprétative (choses dites à propos des sources).
-- Il faut analyser à la fois les objets et les produits de l'activité analytique (quoi ?), ainsi que la situation de celle-ci, son contexte, socio-technico-épistémologique (qui ? comment ? pourquoi ?).
+- Il faut analyser à la fois les objets et les produits de l'activité analytique (quoi ?), ainsi que la situation de cette activité, son contexte socio-technico-épistémologique (qui ? comment ? pourquoi ?).
 
 <!--∫ slide -->
 
@@ -85,12 +89,12 @@ Thomas Bottini
 - Quoi ?
     - Les connaissances nouvelles s'incarnant dans des « données scientifiques ».
     - Les sources auxquelles elles se rapportent.
-    - Les faits sociaux, conceptuels, matériels & sémiotiques dénotés ou connotés par les sources et/ou observables sur le terrain.
+    - Les faits sociaux, les concepts, les objets matériels, les objets sémiotiques… dénotés ou connotés par les sources et/ou observables sur le terrain.
     - Le contexte de production des connaissances (qu'est ce qui fait qu'une donnée est « scientifique » ?).
 §§§
-- Dès lors, avoir un modèle conceptuel de type ontologique en tête en amont de la phase d'analyse, permet d'organiser l'écoute et l'analyse des pratiques de production de connaissances.
+- Dès lors, avoir un modèle conceptuel de type ontologique en tête en amont de la phase d'analyse permet d'organiser l'écoute et l'analyse des pratiques de production de connaissances.
 §§§
-- Modéliser st une situation de travail typique des HN dans laquelle la technique n'a pas un rôle ancillaire (cf. *supra* fonction heuristique/épistémologique).
+- Modéliser est une situation de travail typique des HN dans laquelle l'ingénierie n'a pas un rôle ancillaire (cf. *supra* fonction heuristique/épistémologique). En définissant formellement les objets convoqués par la recherche, l'ingénieur•e participe à leur constitution.
 
 <!--∫ slide -->
 
@@ -98,12 +102,14 @@ Thomas Bottini
 
 Les challenges techniques sont de taille :
 
-- L'idéal est de mettre en place des interfaces de saisie ergonomiques...
-- ...mais c'est là où « le bât blesse » : les ontologies sont souples, riches, expressives (ce sont des graphes), mais pas instrumentées pour les humains (formulaires...) par rapport aux données relationnelles SQL, de nature plus « tabulaire ».
+- Pour la saisie, l'idéal est de mettre en place des interfaces de saisie ergonomiques…
+- …mais c'est là où « le bât blesse » : les ontologies sont souples, riches, expressives (les données qu'elles modélisent se donnent sous la forme de graphes ouverts), mais pas instrumentées pour l'édition directe par des humains par rapport aux données relationnelles SQL, de nature plus « tabulaire » et qui s'éditent naturellement avec des formulaires.
 §§§
 - Reprendre les données existantes, les rendre conformes à l'ontologie retenue.
 §§§
 - Créer un accès pour les machines (API, SPARQL endpoint).
+§§§
+- Définir une politique pour la publication des données représentant des concepts ou des termes dans des vocabulaires contrôlés/thésauri et des données représentant des entités.
 §§§
 - Créer des interfaces de consultation pour les humains (sites Web).
 
@@ -124,8 +130,16 @@ Les challenges techniques sont de taille :
 - La connexion de ces triplets RDF forme un graphe.
 §§§
 - Chaque prédicat est également identifié par une URL.
+
+```dot fd6722af-2ae4-4abf-a011-883dbe4b30db 15
+layout=dot
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"http://x.fr/bob" -> "http://x.fr/alice" [label="http://xmlns.com/foaf/0.1/knows"]
+```
+
 §§§
-- Le milieu technique idéal pour des données FAIR.
+- C'est le milieu technique idéal pour des données FAIR.
 
 <!--∫ slide center -->
 
@@ -140,10 +154,10 @@ Les challenges techniques sont de taille :
 # Qu'est ce qu'une ontologie ?
 
 - Formalisation d'un modèle conceptuel pour un domaine identifié proposant des :
-    - ‹Classes :› types d'entités peuplant dans le domaine, possiblement organisées selon des relations d'héritage. On appelle ‹individu› une ressource qui est du type d'une classe.
+    - ‹Classes :› types d'entités peuplant le domaine, possiblement organisées selon des relations d'héritage (spécificité). On appelle ‹individu› une ressource qui est du type d'une classe.
     - ‹Propriétés :› aspects, caractéristiques, attributs possibles de ces classes, qui peuvent soit pointer vers une valeur, soit vers un individu.
-- Utiliser les classes et les propriétés d'une ontologie confère ainsi une sémantique partagée aux données RDF (les propriétés des classes seront des prédicats).
-- Vous connaissez peut-être déjà une ontologie : SKOS.
+- Utiliser les classes et les propriétés d'une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Vous connaissez peut-être déjà une ontologie : SKOS (pour construire des thésauri).
 
 <!--∫ slide title -->
 
@@ -157,7 +171,7 @@ Les challenges techniques sont de taille :
 - [https://www.cidoc-crm.org/](https://www.cidoc-crm.org/)
 - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
 - Elle est extrêmement abstraite et générique.
-- Ontologie centrée événement (nous y reviendrons dans les exemples...)
+- Ontologie centrée événement (nous y reviendrons dans les exemples…)
 - Classes et propriétés : [https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html](https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html)
 
 <!--∫ slide center -->
@@ -200,7 +214,7 @@ sera notée :
 su:tralala
 ```
 
-... ce qui évitera d'avoir des exemples illisibles, mais il ne faudra pas perdre de vue que toute ressource (en incluant les classes et les propriétés du CRM) est identifiée par une URI sur le Web.
+…ce qui évitera d'avoir des exemples illisibles, mais il ne faudra pas perdre de vue que toute ressource (en incluant les classes et les propriétés du CRM) est identifiée par une URI sur le Web.
 
 <!--∫ slide spring -->
 
@@ -234,7 +248,7 @@ edge [color=cyan,fontcolor=white]
 "su:x" -> "crm:E21_Person" [label="rdf:type"]
 "su:x" -> "su:a" [label="crm:P1_is_identified_by"]
 "su:a" -> "crm:E41_Appellation" [label="rdf:type"]
-"su:a" -> "« Morton Feldman »" [label="P190_has_symbolic_content"]
+"su:a" -> "« Morton Feldman »" [label="crm:P190_has_symbolic_content"]
 ```
 
 <!--∫ slide -->
@@ -252,6 +266,9 @@ edge [color=cyan,fontcolor=white]
 ```
 §§§
 <div style="position: absolute ; bottom: 1cm; left: 1cm; z-index: 999; width: 18cm;">
+💡
+<br/>
+
 - `rdf:type` : pour donner à votre entité un type technique au sein de l'ontologie CRM.
 - `crm:P2_has_type` : pour donner à votre entité un type métier (défini par vous et en rapport avec les catégories convoquées par l'activité de recherche).
 </div>
@@ -268,9 +285,9 @@ edge [color=cyan,fontcolor=white]
 "su:x" -> "su:id" [label="crm:P1_is_identified_by"]
 "su:id" -> "crm:E42_Identifier" [label="rdf:type"]
 "su:t" -> "« Identifiant IIIF v3 »" [label="crm:P1_is_identified_by"]
-"su:id" -> "http://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg" [label="P190_has_symbolic_content"]
+"su:id" -> "http://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg" [label="crm:P190_has_symbolic_content"]
 "su:id" -> "su:t" [label="crm:P2_has_type"]
-"su:t" -> "E55_Type" [label="rdf:type"]
+"su:t" -> "crm:E55_Type" [label="rdf:type"]
 ```
 
 <!--∫ slide -->
@@ -325,11 +342,12 @@ On retrouve la possibilité de définir des incertitudes aux bornes.
 layout=sfdp
 node [color=cyan,fontcolor=white]
 edge [color=cyan,fontcolor=white]
-"su:g" -> "E74_Group" [label="rdf:type"]
+"su:g" -> "crm:E74_Group" [label="rdf:type"]
 "su:g" -> "« North Mississipi Allstars »" [label="crm:P1_is_identified_by"]
 "su:e" -> "crm:E65_Creation" [label="rdf:type"]
-"su:e" -> "su:m" [label="crm:P94_has_created"]
-"su:m" -> "« Set Sail »" [label="crm:P1_is_identified_by"]
+"su:e" -> "su:a" [label="crm:P94_has_created"]
+"su:a" -> "« Set Sail »" [label="crm:P1_is_identified_by"]
+"su:a" -> "crm:E73_Information_Object" [label="rdf:type"]
 "su:e" -> "su:g" [label="crm:P14_carried_out_by"]
 ```
 
@@ -341,11 +359,11 @@ edge [color=cyan,fontcolor=white]
 layout=sfdp
 node [color=cyan,fontcolor=white]
 edge [color=cyan,fontcolor=white]
-P1[label="su:p1\n« Luther »\ncrm:E21_Person"]
 P2[label="su:p2\n« Cody »\ncrm:E21_Person"]
+P1[label="su:p1\n« Luther »\ncrm:E21_Person"]
 T0[label="su:t0\n« Performance live »\ncrm:E55_Type"]
-T1[label="su:t1\n« 🎸 »\ncrm:E55_Type"]
-T2[label="su:t2\n« 🥁 »\ncrm:E55_Type"]
+T1[label="su:t1\n« Guitare 🎸 »\ncrm:E55_Type"]
+T2[label="su:t2\n« Batterie 🥁 »\ncrm:E55_Type"]
 E0[label="su:e0\ncrm:E7_Activity"]
 E1[label="su:e1\ncrm:E7_Activity"]
 E2[label="su:e2\ncrm:E7_Activity"]
@@ -362,8 +380,8 @@ E1 -> T1 [label="crm:P2_has_type"]
 E2 -> T2 [label="crm:P2_has_type"]
 ```
 §§§
-<div style="position: absolute; top: 4cm; right: 1cm; width: 9cm; z-index: 666;">
-Remarquez la finesse de l'adressage...<br/>Chaque élément constituant le phénomène a son URL et son identité.
+<div style="position: absolute; bottom: 2cm; right: 1cm; width: 9cm; z-index: 666;">
+Remarquez la finesse de l'adressage…<br/>Chaque élément constituant le phénomène a son URL et son identité.
 </div>
 
 <!--∫ slide -->
@@ -377,7 +395,9 @@ edge [color=cyan,fontcolor=white]
 "su:e" -> "su:p" [label="crm:P14_carried_out_by"]
 "su:p" -> "crm:E21_Person" [label="rdf:type"]
 "su:e" -> "crm:E13_Attribute_Assignment" [label="rdf:type"]
-"su:e" -> "su:m" [label="crm:P140_assigned attribute to"]
-"su:e" -> "« Quel beau morceau ! »" [label="crm:P141_assigned"]
-"su:e" -> "crm:P3_has_comment" [label="crm:P177_assigned property of type"]
+"su:e" -> "su:a" [label="crm:P140_assigned_attribute_to"]
+"su:e" -> "« Quel bel album ! »" [label="crm:P141_assigned"]
+"su:e" -> "crm:P3_has_note" [label="crm:P177_assigned_property_of_type"]
+"su:a" -> "« Set Sail »" [label="crm:P1_is_identified_by"]
+"su:a" -> "crm:E73_Information_Object" [label="rdf:type"]
 ```

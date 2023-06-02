@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2023.06.02_formation_so</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<style>
+body { font-family: GoudyNoto; font-weight: 300; }
+h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
+code { color: #16e7cf; }
+.dim { color: #aaa; }
+.center { text-align: center; }
+.spring { display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 3cm; }
+</style>
+<!--📜-->
+<!--∫ slide title -->
+<div class="dim">
+<p>Formations autour de la diffusion de la recherche et de la science
+ouverte <br/> Les humanités numériques en pratique <br/> 2 juin 2023</p>
+</div>
+<div style="
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-family: FuturaPT;
+    font-size: 111%;
+    letter-spacing: 0.1em;
+    padding: 0.5cm 0;
+    text-transform: uppercase;
+">
+<p>Modéliser les connaissances en SHS : <br/> pourquoi, comment,
+jusqu’où ? <br/> <br/>
+<em style="color: gray; text-transform: lowercase;">… avec l’ontologie
+CIDOC-CRM !</em></p>
+</div>
+<div>
+<p>Thomas Bottini</p>
+<p><code>thomas.bottini@cnrs.fr</code></p>
+<p><em>‹I›nstitut de ‹Re›cherche en ‹Mus›icologie — IReMus, UMR 8223
+CNRS</em></p>
+</div>
+<pre style="color: #16e7cf; font-size: 50% !important;">
+https://github.com/Amleth/communications/raw/main/out/2023.02.16_formation_so/index.pdf
+</pre>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="plan">Plan</h1>
+<dl>
+<dt>
+✏️
+</dt>
+<dd>
+La figure du modélisateur/de la modélisatrice dans un projet de SHS «
+FAIR »
+</dd>
+<dt>
+🌐
+</dt>
+<dd>
+Quelques mots sur le Web sémantique comme milieu technique adapté à
+l’expression et à la diffusion des données de la recherche
+</dd>
+<dt>
+📚
+</dt>
+<dd>
+Les fondements de l’ontologie CIDOC-CRM
+</dd>
+<dt>
+🖼️
+</dt>
+<dd>
+Cas concrets récurrents
+</dd>
+</dl>
+<!--📜-->
+<!--∫ slide title -->
+<h1 id="de-lactivité-de-recherche-à-la-donnée">De l’activité de
+recherche à la donnée</h1>
+<p><em>Comment « l’ingénierie des données » intervient-elle aux
+différentes étapes d’un projet de recherche en SHS ?</em></p>
+<p><em>Comment bien faire du FAIR ?</em></p>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="analyser">Analyser</h1>
+<ul>
+<li>Les chercheurs et chercheuses en situation de production de
+connaissances ont des degrés de réflexivité différents sur leurs
+pratiques de génération de données informatiques structurées. Le premier
+rôle de l’ingénieur est alors d’ordre maïeutique :
+<ul>
+<li>Il faut poser des questions (entretiens d’explicitation), confronter
+le chercheur ou la chercheuse à des cas limites pour l’amener à mieux
+comprendre ses objets d’étude, et parfois même ses manières de les
+questionner.</li>
+<li>L’ingénieur aide donc à révéler la structure interne des sources et
+des phénomènes étudiés : une dimension heuristique s’ajoute.</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="analyser-1">Analyser</h1>
+<ul>
+<li>Les chercheurs et chercheuses en situation de production de
+connaissances ont des degrés de réflexivité différents sur leurs
+pratiques de génération de données informatiques structurées. Le premier
+rôle de l’ingénieur est alors d’ordre maïeutique :
+<ul>
+<li>Il faut poser des questions (entretiens d’explicitation), confronter
+le chercheur ou la chercheuse à des cas limites pour l’amener à mieux
+comprendre ses objets d’étude, et parfois même ses manières de les
+questionner.</li>
+<li>L’ingénieur aide donc à révéler la structure interne des sources et
+des phénomènes étudiés : une dimension heuristique s’ajoute.</li>
+</ul></li>
+<li>En SHS, ces connaissances peuvent résulter d’une activité
+descriptive (sources) ou interprétative (choses dites à propos des
+sources).</li>
+<li>Il faut analyser à la fois les objets et les produits de l’activité
+analytique (quoi ?), ainsi que la situation de cette activité, son
+contexte socio-technico-épistémologique (qui ? comment ? pourquoi
+?).</li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="modéliser">Modéliser</h1>
+<ul>
+<li>Quoi ?
+<ul>
+<li>Les connaissances nouvelles s’incarnant dans des « données
+scientifiques ».</li>
+<li>Les sources auxquelles elles se rapportent.</li>
+<li>Les faits sociaux, les concepts, les objets matériels, les objets
+sémiotiques… dénotés ou connotés par les sources et/ou observables sur
+le terrain.</li>
+<li>Le contexte de production des connaissances (qu’est ce qui fait
+qu’une donnée est « scientifique » ?).</li>
+</ul></li>
+</ul>
+<!--∫ slide -->
+<h1 id="modéliser-1">Modéliser</h1>
+<ul>
+<li>Quoi ?
+<ul>
+<li>Les connaissances nouvelles s’incarnant dans des « données
+scientifiques ».</li>
+<li>Les sources auxquelles elles se rapportent.</li>
+<li>Les faits sociaux, les concepts, les objets matériels, les objets
+sémiotiques… dénotés ou connotés par les sources et/ou observables sur
+le terrain.</li>
+<li>Le contexte de production des connaissances (qu’est ce qui fait
+qu’une donnée est « scientifique » ?).</li>
+</ul></li>
+<li>Dès lors, avoir un modèle conceptuel de type ontologique en tête en
+amont de la phase d’analyse permet d’organiser l’écoute et l’analyse des
+pratiques de production de connaissances.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="modéliser-2">Modéliser</h1>
+<ul>
+<li>Quoi ?
+<ul>
+<li>Les connaissances nouvelles s’incarnant dans des « données
+scientifiques ».</li>
+<li>Les sources auxquelles elles se rapportent.</li>
+<li>Les faits sociaux, les concepts, les objets matériels, les objets
+sémiotiques… dénotés ou connotés par les sources et/ou observables sur
+le terrain.</li>
+<li>Le contexte de production des connaissances (qu’est ce qui fait
+qu’une donnée est « scientifique » ?).</li>
+</ul></li>
+<li>Dès lors, avoir un modèle conceptuel de type ontologique en tête en
+amont de la phase d’analyse permet d’organiser l’écoute et l’analyse des
+pratiques de production de connaissances.</li>
+<li>Modéliser est une situation de travail typique des HN dans laquelle
+l’ingénierie n’a pas un rôle ancillaire (cf. <em>supra</em> fonction
+heuristique/épistémologique). En définissant formellement les objets
+convoqués par la recherche, l’ingénieur•e participe à leur
+constitution.</li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="générer-gérer-diffuser">Générer, gérer &amp; diffuser</h1>
+<p>Les challenges techniques sont de taille :</p>
+<ul>
+<li>Pour la saisie, l’idéal est de mettre en place des interfaces de
+saisie ergonomiques…</li>
+<li>…mais c’est là où « le bât blesse » : les ontologies sont souples,
+riches, expressives (les données qu’elles modélisent se donnent sous la
+forme de graphes ouverts), mais pas instrumentées pour l’édition directe
+par des humains par rapport aux données relationnelles SQL, de nature
+plus « tabulaire » et qui s’éditent naturellement avec des
+formulaires.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="générer-gérer-diffuser-1">Générer, gérer &amp; diffuser</h1>
+<p>Les challenges techniques sont de taille :</p>
+<ul>
+<li>Pour la saisie, l’idéal est de mettre en place des interfaces de
+saisie ergonomiques…</li>
+<li>…mais c’est là où « le bât blesse » : les ontologies sont souples,
+riches, expressives (les données qu’elles modélisent se donnent sous la
+forme de graphes ouverts), mais pas instrumentées pour l’édition directe
+par des humains par rapport aux données relationnelles SQL, de nature
+plus « tabulaire » et qui s’éditent naturellement avec des
+formulaires.</li>
+<li>Reprendre les données existantes, les rendre conformes à l’ontologie
+retenue.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="générer-gérer-diffuser-2">Générer, gérer &amp; diffuser</h1>
+<p>Les challenges techniques sont de taille :</p>
+<ul>
+<li>Pour la saisie, l’idéal est de mettre en place des interfaces de
+saisie ergonomiques…</li>
+<li>…mais c’est là où « le bât blesse » : les ontologies sont souples,
+riches, expressives (les données qu’elles modélisent se donnent sous la
+forme de graphes ouverts), mais pas instrumentées pour l’édition directe
+par des humains par rapport aux données relationnelles SQL, de nature
+plus « tabulaire » et qui s’éditent naturellement avec des
+formulaires.</li>
+<li>Reprendre les données existantes, les rendre conformes à l’ontologie
+retenue.</li>
+<li>Créer un accès pour les machines (API, SPARQL endpoint).</li>
+</ul>
+<!--∫ slide -->
+<h1 id="générer-gérer-diffuser-3">Générer, gérer &amp; diffuser</h1>
+<p>Les challenges techniques sont de taille :</p>
+<ul>
+<li>Pour la saisie, l’idéal est de mettre en place des interfaces de
+saisie ergonomiques…</li>
+<li>…mais c’est là où « le bât blesse » : les ontologies sont souples,
+riches, expressives (les données qu’elles modélisent se donnent sous la
+forme de graphes ouverts), mais pas instrumentées pour l’édition directe
+par des humains par rapport aux données relationnelles SQL, de nature
+plus « tabulaire » et qui s’éditent naturellement avec des
+formulaires.</li>
+<li>Reprendre les données existantes, les rendre conformes à l’ontologie
+retenue.</li>
+<li>Créer un accès pour les machines (API, SPARQL endpoint).</li>
+<li>Définir une politique pour la publication des données représentant
+des concepts ou des termes dans des vocabulaires contrôlés/thésauri et
+des données représentant des entités.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="générer-gérer-diffuser-4">Générer, gérer &amp; diffuser</h1>
+<p>Les challenges techniques sont de taille :</p>
+<ul>
+<li>Pour la saisie, l’idéal est de mettre en place des interfaces de
+saisie ergonomiques…</li>
+<li>…mais c’est là où « le bât blesse » : les ontologies sont souples,
+riches, expressives (les données qu’elles modélisent se donnent sous la
+forme de graphes ouverts), mais pas instrumentées pour l’édition directe
+par des humains par rapport aux données relationnelles SQL, de nature
+plus « tabulaire » et qui s’éditent naturellement avec des
+formulaires.</li>
+<li>Reprendre les données existantes, les rendre conformes à l’ontologie
+retenue.</li>
+<li>Créer un accès pour les machines (API, SPARQL endpoint).</li>
+<li>Définir une politique pour la publication des données représentant
+des concepts ou des termes dans des vocabulaires contrôlés/thésauri et
+des données représentant des entités.</li>
+<li>Créer des interfaces de consultation pour les humains (sites
+Web).</li>
+</ul>
+<!--📜-->
+<!--∫ slide title -->
+<h1 id="vocabulaire-de-base">Vocabulaire de base</h1>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="le-web-sémantique-en-une-slide">Le Web sémantique, en une
+slide</h1>
+<ul>
+<li>Promesse d’une base de données à l’échelle du Web. Le Web initial
+(Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
+Web sémantique est une Web de données liées.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="le-web-sémantique-en-une-slide-1">Le Web sémantique, en une
+slide</h1>
+<ul>
+<li>Promesse d’une base de données à l’échelle du Web. Le Web initial
+(Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
+Web sémantique est une Web de données liées.</li>
+<li>Chaque donnée est identifiée par une URL.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="le-web-sémantique-en-une-slide-2">Le Web sémantique, en une
+slide</h1>
+<ul>
+<li>Promesse d’une base de données à l’échelle du Web. Le Web initial
+(Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
+Web sémantique est une Web de données liées.</li>
+<li>Chaque donnée est identifiée par une URL.</li>
+<li>Toute information s’exprime sous la forme d’un triplet
+(sujet/prédicat/objet) dans un langage de description, le RDF.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="le-web-sémantique-en-une-slide-3">Le Web sémantique, en une
+slide</h1>
+<ul>
+<li>Promesse d’une base de données à l’échelle du Web. Le Web initial
+(Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
+Web sémantique est une Web de données liées.</li>
+<li>Chaque donnée est identifiée par une URL.</li>
+<li>Toute information s’exprime sous la forme d’un triplet
+(sujet/prédicat/objet) dans un langage de description, le RDF.</li>
+<li>La connexion de ces triplets RDF forme un graphe.</li>
+</ul>
+<!--∫ slide -->
+<h1 id="le-web-sémantique-en-une-slide-4">Le Web sémantique, en une
+slide</h1>
+<ul>
+<li>Promesse d’une base de données à l’échelle du Web. Le Web initial
+(Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
+Web sémantique est une Web de données liées.</li>
+<li>Chaque donnée est identifiée par une URL.</li>
+<li>Toute information s’exprime sous la forme d’un triplet
+(sujet/prédicat/objet) dans un langage de description, le RDF.</li>
+<li>La connexion de ces triplets RDF forme un graphe.</li>
+<li>Chaque prédicat est également identifié par une URL.</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 15cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" /></p>
+<!--∫ slide -->
+<h1 id="le-web-sémantique-en-une-slide-5">Le Web sémantique, en une
+slide</h1>
+<ul>
+<li>Promesse d’une base de données à l’échelle du Web. Le Web initial
+(Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
+Web sémantique est une Web de données liées.</li>
+<li>Chaque donnée est identifiée par une URL.</li>
+<li>Toute information s’exprime sous la forme d’un triplet
+(sujet/prédicat/objet) dans un langage de description, le RDF.</li>
+<li>La connexion de ces triplets RDF forme un graphe.</li>
+<li>Chaque prédicat est également identifié par une URL.</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 15cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" /></p>
+<ul>
+<li>C’est le milieu technique idéal pour des données FAIR.</li>
+</ul>
+<!--📜-->
+<!--∫ slide center -->
+<h1 id="données-relationnelles-vs-graphe-rdf">Données relationnelles vs
+graphe RDF</h1>
+<p><img src="corago.png"/></p>
+<p><em>Corago in LOD - Seminar by Angelo Pompilio and Paolo Bonora,
+Digital Humanities and Digital Knowledge, Università di Bologna,
+2017.</em></p>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="quest-ce-quune-ontologie">Qu’est ce qu’une ontologie ?</h1>
+<ul>
+<li>Formalisation d’un modèle conceptuel pour un domaine identifié
+proposant des :
+<ul>
+<li>‹Classes :› types d’entités peuplant le domaine, possiblement
+organisées selon des relations d’héritage (spécificité). On appelle
+‹individu› une ressource qui est du type d’une classe.</li>
+<li>‹Propriétés :› aspects, caractéristiques, attributs possibles de ces
+classes, qui peuvent soit pointer vers une valeur, soit vers un
+individu.</li>
+</ul></li>
+<li>Utiliser les classes et les propriétés d’une ontologie confère ainsi
+une sémantique partagée aux données RDF (les individus identifiés par
+des URL seront des sujets ou des objets, les propriétés des classes
+seront des prédicats).</li>
+<li>Vous connaissez peut-être déjà une ontologie : SKOS (pour construire
+des thésauri).</li>
+</ul>
+<!--📜-->
+<!--∫ slide title -->
+<h1 id="le-cidoc-crm">Le CIDOC-CRM</h1>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="le-cidoc-crm-en-bref">Le CIDOC-CRM en bref</h1>
+<ul>
+<li>Le CIDOC-CRM est une ontologie qui documente le patrimoine matériel
+et immatériel ainsi que les processus de production de connaissances à
+son propos.</li>
+<li><a
+href="https://www.cidoc-crm.org/">https://www.cidoc-crm.org/</a></li>
+<li>Venant du monde des musées, elle est désormais utilisée dans tous
+les domaines des HN.</li>
+<li>Elle est extrêmement abstraite et générique.</li>
+<li>Ontologie centrée événement (nous y reviendrons dans les
+exemples…)</li>
+<li>Classes et propriétés : <a
+href="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html">https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html</a></li>
+</ul>
+<!--📜-->
+<!--∫ slide center -->
+<h1 id="hiérarchie-des-classes">Hiérarchie des classes</h1>
+<p><img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/></p>
+<!--📜-->
+<!--∫ slide center -->
+<h1 id="le-temps-dans-le-crm">Le temps dans le CRM</h1>
+<p><img src="time.png" style="width: 26cm;"/></p>
+<!--📜-->
+<!--∫ slide title -->
+<h1 id="cas-concrets-récurrents">Cas concrets récurrents</h1>
+<!--📜-->
+<!--∫ slide -->
+<h1 id="conventions">Conventions</h1>
+<p>Dans les exemples, on utilisera les préfixes suivants pour les URL
+:</p>
+<pre><code>PREFIX crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX su:  &lt;http://www.sorbonne-universite.fr/id/&gt;</code></pre>
+<p>Ainsi, l’URL :</p>
+<pre><code>http://www.sorbonne-universite.fr/id/tralala</code></pre>
+<p>sera notée :</p>
+<pre><code>su:tralala</code></pre>
+<p>…ce qui évitera d’avoir des exemples illisibles, mais il ne faudra
+pas perdre de vue que toute ressource (en incluant les classes et les
+propriétés du CRM) est identifiée par une URI sur le Web.</p>
+<!--📜-->
+<!--∫ slide spring -->
+<ul>
+<li>‹Typer une personne :›</li>
+</ul>
+<img style="display: block; margin: 0 auto; width: 11cm;" src="dotfile_c41adbad-b0e3-435b-87fc-a896101ee1c0.png" />
+<hr/>
+<ul>
+<li>‹Nommer une personne avec une simple chaîne de caractère :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 18cm;" src="dotfile_885a06dd-c214-440d-a160-f8989633c7ac.png" /></p>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Nommer une personne avec une entité appellation :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_b6e43a33-4848-4b9b-9787-821f92367822.png" /></p>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Typer quelque chose :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_97bb6c65-2967-4d6b-a88f-967676758661.png" /></p>
+<!--∫ slide -->
+<ul>
+<li>‹Typer quelque chose :›</li>
+</ul>
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_97bb6c65-2967-4d6b-a88f-967676758661.png" />
+<div
+style="position: absolute ; bottom: 1cm; left: 1cm; z-index: 999; width: 18cm;">
+<p>💡 <br/></p>
+<ul>
+<li><code>rdf:type</code> : pour donner à votre entité un type technique
+au sein de l’ontologie CRM.</li>
+<li><code>crm:P2_has_type</code> : pour donner à votre entité un type
+métier (défini par vous et en rapport avec les catégories convoquées par
+l’activité de recherche).</li>
+</ul>
+</div>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Typer un identifiant :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_34018359-12a6-4285-ab69-4605efba25bd.png" /></p>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Organisation interne d’un contenu (ici, d’une image) :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_c7806580-5e89-40cf-a19c-c5d231e92a5a.png" /></p>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Dater un événement :›
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_58d222c0-1d75-4048-9eba-436938714889.png" /></li>
+</ul>
+<p>On retrouve la possibilité de définir des incertitudes aux
+bornes.</p>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Exprimer un événement de création simple :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_5b5cd603-3239-44be-b1a4-af2ac7a6eca8.png" /></p>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Exprimer un événement de création complexe :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_6e389e22-9194-42fd-8f68-a1fe21551a7d.png" /></p>
+<!--∫ slide -->
+<ul>
+<li>‹Exprimer un événement de création complexe :›</li>
+</ul>
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_6e389e22-9194-42fd-8f68-a1fe21551a7d.png" />
+<div
+style="position: absolute; bottom: 2cm; right: 1cm; width: 9cm; z-index: 666;">
+<p>Remarquez la finesse de l’adressage…<br/>Chaque élément constituant
+le phénomène a son URL et son identité.</p>
+</div>
+<!--📜-->
+<!--∫ slide -->
+<ul>
+<li>‹Exprimer une annotation :›</li>
+</ul>
+<p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_0fec83fd-be27-4620-baca-b35ac7b14dfc.png" /></p>
+</body>
+</html>
