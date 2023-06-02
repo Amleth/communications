@@ -36,9 +36,9 @@
 <!-- su:t&#45;&gt;« début du début possible » -->
 <g id="edge2" class="edge">
 <title>su:t&#45;&gt;« début du début possible »</title>
-<path fill="none" stroke="#e6ab02" d="M913.5,-376.02C960.44,-325.51 1093.1,-182.77 1147.89,-123.81"/>
-<polygon fill="#e6ab02" stroke="#e6ab02" points="1149.84,-126.77 1154.08,-117.06 1144.71,-122.01 1149.84,-126.77"/>
-<text text-anchor="middle" x="919.19" y="-253.72" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#e6ab02">crm:P82a_begin_of_the_begin</text>
+<path fill="none" stroke="#66c2a5" d="M913.5,-376.02C960.44,-325.51 1093.1,-182.77 1147.89,-123.81"/>
+<polygon fill="#66c2a5" stroke="#66c2a5" points="1149.84,-126.77 1154.08,-117.06 1144.71,-122.01 1149.84,-126.77"/>
+<text text-anchor="middle" x="919.19" y="-253.72" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#66c2a5">crm:P82a_begin_of_the_begin</text>
 </g>
 <!-- « fin du début possible » -->
 <g id="node4" class="node">
@@ -49,9 +49,9 @@
 <!-- su:t&#45;&gt;« fin du début possible » -->
 <g id="edge3" class="edge">
 <title>su:t&#45;&gt;« fin du début possible »</title>
-<path fill="none" stroke="#ffffcc" d="M924.1,-398.54C975.39,-406.82 1088.72,-425.11 1177.63,-439.46"/>
-<polygon fill="#ffffcc" stroke="#ffffcc" points="1176.92,-443.05 1187.35,-441.19 1178.03,-436.14 1176.92,-443.05"/>
-<text text-anchor="middle" x="947.37" y="-422.8" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#ffffcc">crm:P81a_end_of_the_begin</text>
+<path fill="none" stroke="#ff7f00" d="M924.1,-398.54C975.39,-406.82 1088.72,-425.11 1177.63,-439.46"/>
+<polygon fill="#ff7f00" stroke="#ff7f00" points="1176.92,-443.05 1187.35,-441.19 1178.03,-436.14 1176.92,-443.05"/>
+<text text-anchor="middle" x="947.37" y="-422.8" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#ff7f00">crm:P81a_end_of_the_begin</text>
 </g>
 <!-- « début de la fin possible » -->
 <g id="node5" class="node">
@@ -62,9 +62,9 @@
 <!-- su:t&#45;&gt;« début de la fin possible » -->
 <g id="edge4" class="edge">
 <title>su:t&#45;&gt;« début de la fin possible »</title>
-<path fill="none" stroke="#fb8072" d="M904.85,-412.4C931.87,-472.92 1018.49,-666.96 1051.08,-739.95"/>
-<polygon fill="#fb8072" stroke="#fb8072" points="1048.2,-741.1 1055.48,-748.81 1054.6,-738.25 1048.2,-741.1"/>
-<text text-anchor="middle" x="874.46" y="-579.97" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fb8072">crm:P81b_begin_of_the_end</text>
+<path fill="none" stroke="#66a61e" d="M904.85,-412.4C931.87,-472.92 1018.49,-666.96 1051.08,-739.95"/>
+<polygon fill="#66a61e" stroke="#66a61e" points="1048.2,-741.1 1055.48,-748.81 1054.6,-738.25 1048.2,-741.1"/>
+<text text-anchor="middle" x="874.46" y="-579.97" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#66a61e">crm:P81b_begin_of_the_end</text>
 </g>
 <!-- « fin de la fin possible » -->
 <g id="node6" class="node">
@@ -75,9 +75,9 @@
 <!-- su:t&#45;&gt;« fin de la fin possible » -->
 <g id="edge5" class="edge">
 <title>su:t&#45;&gt;« fin de la fin possible »</title>
-<path fill="none" stroke="#cab2d6" d="M890.79,-375.72C871.34,-314.97 809.05,-120.49 785.43,-46.73"/>
-<polygon fill="#cab2d6" stroke="#cab2d6" points="788.49,-45.82 782.11,-37.36 781.82,-47.95 788.49,-45.82"/>
-<text text-anchor="middle" x="743.11" y="-215.02" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#cab2d6">crm:P82b_end_of_the_end</text>
+<path fill="none" stroke="#7fc97f" d="M890.79,-375.72C871.34,-314.97 809.05,-120.49 785.43,-46.73"/>
+<polygon fill="#7fc97f" stroke="#7fc97f" points="788.49,-45.82 782.11,-37.36 781.82,-47.95 788.49,-45.82"/>
+<text text-anchor="middle" x="743.11" y="-215.02" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#7fc97f">crm:P82b_end_of_the_end</text>
 </g>
 <!-- su:e -->
 <g id="node7" class="node">

@@ -23,9 +23,9 @@
 <!-- su:i1&#45;&gt;crm:E36_Visual_Item -->
 <g id="edge1" class="edge">
 <title>su:i1&#45;&gt;crm:E36_Visual_Item</title>
-<path fill="none" stroke="#4daf4a" d="M942.1,-451.08C954.46,-487.83 982.35,-570.73 997.16,-614.77"/>
-<polygon fill="#4daf4a" stroke="#4daf4a" points="994.12,-615.72 1000.63,-624.08 1000.76,-613.48 994.12,-615.72"/>
-<text text-anchor="middle" x="937.89" y="-541.95" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#4daf4a">rdf:type</text>
+<path fill="none" stroke="#fb8072" d="M942.1,-451.08C954.46,-487.83 982.35,-570.73 997.16,-614.77"/>
+<polygon fill="#fb8072" stroke="#fb8072" points="994.12,-615.72 1000.63,-624.08 1000.76,-613.48 994.12,-615.72"/>
+<text text-anchor="middle" x="937.89" y="-541.95" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fb8072">rdf:type</text>
 </g>
 <!-- su:id1 -->
 <g id="node5" class="node">
@@ -36,9 +36,9 @@
 <!-- su:i1&#45;&gt;su:id1 -->
 <g id="edge3" class="edge">
 <title>su:i1&#45;&gt;su:id1</title>
-<path fill="none" stroke="#999999" d="M922.5,-414.52C895.25,-377.54 833.33,-293.53 801.41,-250.22"/>
-<polygon fill="#999999" stroke="#999999" points="803.83,-248.6 795.08,-242.63 798.2,-252.75 803.83,-248.6"/>
-<text text-anchor="middle" x="763.88" y="-331.99" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#999999">crm:P1_is_identified_by</text>
+<path fill="none" stroke="#1b9e77" d="M922.5,-414.52C895.25,-377.54 833.33,-293.53 801.41,-250.22"/>
+<polygon fill="#1b9e77" stroke="#1b9e77" points="803.83,-248.6 795.08,-242.63 798.2,-252.75 803.83,-248.6"/>
+<text text-anchor="middle" x="763.88" y="-331.99" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#1b9e77">crm:P1_is_identified_by</text>
 </g>
 <!-- su:i2 -->
 <g id="node10" class="node">
@@ -49,9 +49,9 @@
 <!-- su:i1&#45;&gt;su:i2 -->
 <g id="edge10" class="edge">
 <title>su:i1&#45;&gt;su:i2</title>
-<path fill="none" stroke="#fdc086" d="M921.49,-450.91C894.78,-484.5 837.6,-556.44 806.49,-595.56"/>
-<polygon fill="#fdc086" stroke="#fdc086" points="803.39,-592.84 799.9,-602.85 808.87,-597.2 803.39,-592.84"/>
-<text text-anchor="middle" x="765.84" y="-531" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fdc086">crm:P106_is_composed_of</text>
+<path fill="none" stroke="#f4cae4" d="M921.49,-450.91C894.78,-484.5 837.6,-556.44 806.49,-595.56"/>
+<polygon fill="#f4cae4" stroke="#f4cae4" points="803.39,-592.84 799.9,-602.85 808.87,-597.2 803.39,-592.84"/>
+<text text-anchor="middle" x="765.84" y="-531" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#f4cae4">crm:P106_is_composed_of</text>
 </g>
 <!-- su:t -->
 <g id="node3" class="node">
@@ -68,9 +68,9 @@
 <!-- su:t&#45;&gt;crm:E55_Type -->
 <g id="edge2" class="edge">
 <title>su:t&#45;&gt;crm:E55_Type</title>
-<path fill="none" stroke="#8da0cb" d="M485.36,-248.53C450.29,-246.15 388.2,-241.93 339.76,-238.64"/>
-<polygon fill="#8da0cb" stroke="#8da0cb" points="340.24,-235.1 330.02,-237.91 339.76,-242.08 340.24,-235.1"/>
-<text text-anchor="middle" x="373.65" y="-247.02" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#8da0cb">rdf:type</text>
+<path fill="none" stroke="#fc8d62" d="M485.36,-248.53C450.29,-246.15 388.2,-241.93 339.76,-238.64"/>
+<polygon fill="#fc8d62" stroke="#fc8d62" points="340.24,-235.1 330.02,-237.91 339.76,-242.08 340.24,-235.1"/>
+<text text-anchor="middle" x="373.65" y="-247.02" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fc8d62">rdf:type</text>
 </g>
 <!-- « Identifiant IIIF v3 » -->
 <g id="node7" class="node">
@@ -81,16 +81,16 @@
 <!-- su:t&#45;&gt;« Identifiant IIIF v3 » -->
 <g id="edge5" class="edge">
 <title>su:t&#45;&gt;« Identifiant IIIF v3 »</title>
-<path fill="none" stroke="#33a02c" d="M507.17,-232.15C495.08,-191.95 466.05,-95.42 451.45,-46.89"/>
-<polygon fill="#33a02c" stroke="#33a02c" points="454.55,-46.04 448.32,-37.47 447.85,-48.06 454.55,-46.04"/>
-<text text-anchor="middle" x="382.76" y="-138.18" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#33a02c">crm:P1_is_identified_by</text>
+<path fill="none" stroke="#fb8072" d="M507.17,-232.15C495.08,-191.95 466.05,-95.42 451.45,-46.89"/>
+<polygon fill="#fb8072" stroke="#fb8072" points="454.55,-46.04 448.32,-37.47 447.85,-48.06 454.55,-46.04"/>
+<text text-anchor="middle" x="382.76" y="-138.18" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fb8072">crm:P1_is_identified_by</text>
 </g>
 <!-- su:id1&#45;&gt;su:t -->
 <g id="edge9" class="edge">
 <title>su:id1&#45;&gt;su:t</title>
-<path fill="none" stroke="#1f78b4" d="M748.33,-226.65C698.32,-231.69 603.96,-241.19 551.07,-246.52"/>
-<polygon fill="#1f78b4" stroke="#1f78b4" points="550.74,-243.13 541.14,-247.62 551.44,-250.1 550.74,-243.13"/>
-<text text-anchor="middle" x="675.37" y="-225.92" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#1f78b4">crm:P2_has_type</text>
+<path fill="none" stroke="#d9d9d9" d="M748.33,-226.65C698.32,-231.69 603.96,-241.19 551.07,-246.52"/>
+<polygon fill="#d9d9d9" stroke="#d9d9d9" points="550.74,-243.13 541.14,-247.62 551.44,-250.1 550.74,-243.13"/>
+<text text-anchor="middle" x="675.37" y="-225.92" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#d9d9d9">crm:P2_has_type</text>
 </g>
 <!-- https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg -->
 <g id="node8" class="node">
@@ -101,9 +101,9 @@
 <!-- su:id1&#45;&gt;https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg -->
 <g id="edge6" class="edge">
 <title>su:id1&#45;&gt;https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg</title>
-<path fill="none" stroke="#b3cde3" d="M795.44,-205.1C820.55,-172.12 873.68,-102.35 902.98,-63.86"/>
-<polygon fill="#b3cde3" stroke="#b3cde3" points="906.27,-66.32 909.55,-56.24 900.7,-62.08 906.27,-66.32"/>
-<text text-anchor="middle" x="732.59" y="-133.84" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#b3cde3">crm:P190_has_symbolic_content</text>
+<path fill="none" stroke="#e31a1c" d="M795.44,-205.1C820.55,-172.12 873.68,-102.35 902.98,-63.86"/>
+<polygon fill="#e31a1c" stroke="#e31a1c" points="906.27,-66.32 909.55,-56.24 900.7,-62.08 906.27,-66.32"/>
+<text text-anchor="middle" x="732.59" y="-133.84" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#e31a1c">crm:P190_has_symbolic_content</text>
 </g>
 <!-- crm:E42_Identifier -->
 <g id="node11" class="node">
@@ -114,9 +114,9 @@
 <!-- su:id1&#45;&gt;crm:E42_Identifier -->
 <g id="edge12" class="edge">
 <title>su:id1&#45;&gt;crm:E42_Identifier</title>
-<path fill="none" stroke="#fb8072" d="M770.27,-241.51C752.75,-269.73 718.93,-324.23 698.42,-357.27"/>
-<polygon fill="#fb8072" stroke="#fb8072" points="695.07,-355.03 692.77,-365.38 701.01,-358.73 695.07,-355.03"/>
-<text text-anchor="middle" x="697.93" y="-307.88" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fb8072">rdf:type</text>
+<path fill="none" stroke="#ff7f00" d="M770.27,-241.51C752.75,-269.73 718.93,-324.23 698.42,-357.27"/>
+<polygon fill="#ff7f00" stroke="#ff7f00" points="695.07,-355.03 692.77,-365.38 701.01,-358.73 695.07,-355.03"/>
+<text text-anchor="middle" x="697.93" y="-307.88" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#ff7f00">rdf:type</text>
 </g>
 <!-- su:id2 -->
 <g id="node6" class="node">
@@ -127,9 +127,9 @@
 <!-- su:id2&#45;&gt;su:t -->
 <g id="edge4" class="edge">
 <title>su:id2&#45;&gt;su:t</title>
-<path fill="none" stroke="#a6761d" d="M544.26,-500.2C538.45,-454.34 523.34,-334.84 516.32,-279.41"/>
-<polygon fill="#a6761d" stroke="#a6761d" points="519.68,-279.08 514.96,-269.6 512.74,-279.96 519.68,-279.08"/>
-<text text-anchor="middle" x="467.61" y="-388.21" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#a6761d">crm:P2_has_type</text>
+<path fill="none" stroke="#cbd5e8" d="M544.26,-500.2C538.45,-454.34 523.34,-334.84 516.32,-279.41"/>
+<polygon fill="#cbd5e8" stroke="#cbd5e8" points="519.68,-279.08 514.96,-269.6 512.74,-279.96 519.68,-279.08"/>
+<text text-anchor="middle" x="467.61" y="-388.21" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#cbd5e8">crm:P2_has_type</text>
 </g>
 <!-- https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/1000,1000,2000,1000/full/0/native.jpg -->
 <g id="node9" class="node">
@@ -140,30 +140,30 @@
 <!-- su:id2&#45;&gt;https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/1000,1000,2000,1000/full/0/native.jpg -->
 <g id="edge7" class="edge">
 <title>su:id2&#45;&gt;https://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/1000,1000,2000,1000/full/0/native.jpg</title>
-<path fill="none" stroke="#e6f5c9" d="M531.32,-536.82C504.67,-568.56 449.55,-634.21 418.51,-671.17"/>
-<polygon fill="#e6f5c9" stroke="#e6f5c9" points="415.28,-668.57 411.53,-678.47 420.64,-673.07 415.28,-668.57"/>
-<text text-anchor="middle" x="351.39" y="-612" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#e6f5c9">crm:P190_has_symbolic_content</text>
+<path fill="none" stroke="#fc8d62" d="M531.32,-536.82C504.67,-568.56 449.55,-634.21 418.51,-671.17"/>
+<polygon fill="#fc8d62" stroke="#fc8d62" points="415.28,-668.57 411.53,-678.47 420.64,-673.07 415.28,-668.57"/>
+<text text-anchor="middle" x="351.39" y="-612" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fc8d62">crm:P190_has_symbolic_content</text>
 </g>
 <!-- su:id2&#45;&gt;crm:E42_Identifier -->
 <g id="edge13" class="edge">
 <title>su:id2&#45;&gt;crm:E42_Identifier</title>
-<path fill="none" stroke="#b3e2cd" d="M565.04,-500.3C588.43,-477.07 628.88,-436.89 655.38,-410.57"/>
-<polygon fill="#b3e2cd" stroke="#b3e2cd" points="657.49,-413.41 662.12,-403.88 652.56,-408.44 657.49,-413.41"/>
-<text text-anchor="middle" x="580.53" y="-455.44" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#b3e2cd">rdf:type</text>
+<path fill="none" stroke="#ffffb3" d="M565.04,-500.3C588.43,-477.07 628.88,-436.89 655.38,-410.57"/>
+<polygon fill="#ffffb3" stroke="#ffffb3" points="657.49,-413.41 662.12,-403.88 652.56,-408.44 657.49,-413.41"/>
+<text text-anchor="middle" x="580.53" y="-455.44" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#ffffb3">rdf:type</text>
 </g>
 <!-- su:i2&#45;&gt;crm:E36_Visual_Item -->
 <g id="edge8" class="edge">
 <title>su:i2&#45;&gt;crm:E36_Visual_Item</title>
-<path fill="none" stroke="#fb8072" d="M814.7,-625.07C839.02,-627.4 875.01,-630.86 909.28,-634.15"/>
-<polygon fill="#fb8072" stroke="#fb8072" points="908.55,-637.69 918.84,-635.17 909.22,-630.73 908.55,-637.69"/>
-<text text-anchor="middle" x="883.92" y="-618.91" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#fb8072">rdf:type</text>
+<path fill="none" stroke="#e6f5c9" d="M814.7,-625.07C839.02,-627.4 875.01,-630.86 909.28,-634.15"/>
+<polygon fill="#e6f5c9" stroke="#e6f5c9" points="908.55,-637.69 918.84,-635.17 909.22,-630.73 908.55,-637.69"/>
+<text text-anchor="middle" x="883.92" y="-618.91" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#e6f5c9">rdf:type</text>
 </g>
 <!-- su:i2&#45;&gt;su:id2 -->
 <g id="edge11" class="edge">
 <title>su:i2&#45;&gt;su:id2</title>
-<path fill="none" stroke="#7fc97f" d="M756.01,-609.54C714.41,-591.48 637.88,-558.26 589.75,-537.37"/>
-<polygon fill="#7fc97f" stroke="#7fc97f" points="591.5,-533.88 580.93,-533.11 588.71,-540.3 591.5,-533.88"/>
-<text text-anchor="middle" x="572.85" y="-575.07" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#7fc97f">crm:P1_is_identified_by</text>
+<path fill="none" stroke="#f1e2cc" d="M756.01,-609.54C714.41,-591.48 637.88,-558.26 589.75,-537.37"/>
+<polygon fill="#f1e2cc" stroke="#f1e2cc" points="591.5,-533.88 580.93,-533.11 588.71,-540.3 591.5,-533.88"/>
+<text text-anchor="middle" x="572.85" y="-575.07" font-family="FiraCode Nerd Font Mono Regular" font-size="14.00" fill="#f1e2cc">crm:P1_is_identified_by</text>
 </g>
 </g>
 </svg>
