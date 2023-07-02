@@ -31,7 +31,7 @@
 <style>
 body { font-family: GoudyNoto; font-weight: 300; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #9803CE; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
+h2 { color: #FF03CE; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
 code { color: #16e7cf; }
 .dim { color: #aaa; }
 .center { text-align: center; }
@@ -452,7 +452,7 @@ soulevés par la manipulation de données sémantiques :
 <li>Création de points d’accès (SPARQL endpoint).</li>
 <li>Définition d’une politique pour la publication des données
 représentant des concepts ou des termes dans des vocabulaires
-contrôlés/thésauri et des données représentant des entités.</li>
+contrôlés/thésauri.</li>
 <li>Création d’interfaces de consultation génériques.</li>
 </ul></li>
 </ul>
@@ -471,7 +471,7 @@ soulevés par la manipulation de données sémantiques :
 <li>Création de points d’accès (SPARQL endpoint).</li>
 <li>Définition d’une politique pour la publication des données
 représentant des concepts ou des termes dans des vocabulaires
-contrôlés/thésauri et des données représentant des entités.</li>
+contrôlés/thésauri.</li>
 <li>Création d’interfaces de consultation génériques.</li>
 </ul></li>
 <li>Là aussi, nous formerons un groupe de réflexion technique

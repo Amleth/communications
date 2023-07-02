@@ -1,7 +1,7 @@
 <style>
 body { font-family: GoudyNoto; font-weight: 300; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #9803CE; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
+h2 { color: #FF03CE; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
 code { color: #16e7cf; }
 .dim { color: #aaa; }
 .center { text-align: center; }
@@ -150,7 +150,7 @@ VI) Une étude de cas : modélisation des partitions encodées
     - Conformation des données existantes au CIDOC-CRM.
     - Alignement avec des données tierces.
     - Création de points d'accès (SPARQL endpoint).
-    - Définition d'une politique pour la publication des données représentant des concepts ou des termes dans des vocabulaires contrôlés/thésauri et des données représentant des entités.
+    - Définition d'une politique pour la publication des données représentant des concepts ou des termes dans des vocabulaires contrôlés/thésauri.
     - Création d'interfaces de consultation génériques.
 §§§
 - Là aussi, nous formerons un groupe de réflexion technique pérenne.
