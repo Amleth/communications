@@ -1,0 +1,15 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"m2:x" -> "crm:E28_Conceptual_Object" [label="rdf:type"]
+"m2:x" -> "m2:t" [label="crm:P2_has_type"]
+"m2:t" -> "crm:E55_Type" [label="rdf:type"]
+"m2:t" -> "« Cadence Phrygienne »" [label="crm:P1_is_identified_by"]
+}

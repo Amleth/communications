@@ -1,0 +1,12 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=dot
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"m2:x" -> "crm:E21_Person" [label="rdf:type"]
+}

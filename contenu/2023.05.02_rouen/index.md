@@ -186,8 +186,8 @@ Différentes techniques de spatialisation des signes produisent<br/>des savoirs 
 
 - https://music-encoding.org/
 - https://music-encoding.org/guidelines/v4/content/
-- Visualiser des fichiers MEI dans le navigateur avec [Verovio](https://editor.verovio.org/)
 - [Mei‑friend. A viewer and last-mile editor for MEI score encodings](https://mei-friend.mdw.ac.at/)
+- Visualiser des fichiers MEI dans le navigateur avec [Verovio](https://editor.verovio.org/)
 - Écrire des fichiers MEI : [MuseScore](https://musescore.org/en/project/mei-export) + [plugin MEI Export](https://musescore.org/en/project/mei-export)
 
 <!--∫ slide -->

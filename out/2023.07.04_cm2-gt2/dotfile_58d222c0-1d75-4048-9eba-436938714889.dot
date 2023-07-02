@@ -1,0 +1,18 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"m2:t" -> "crm:E52_Time-Span" [label="rdf:type"]
+"m2:t" -> "« début du début possible »" [label="crm:P82a_begin_of_the_begin",color="#bebada",fontcolor="#bebada"]
+"m2:t" -> "« fin du début possible »" [label="crm:P81a_end_of_the_begin",color="#b2df8a",fontcolor="#b2df8a"]
+"m2:t" -> "« début de la fin possible »" [label="crm:P81b_begin_of_the_end",color="#fc8d62",fontcolor="#fc8d62"]
+"m2:t" -> "« fin de la fin possible »" [label="crm:P82b_end_of_the_end",color="#a6761d",fontcolor="#a6761d"]
+"m2:e" -> "m2:t" [label="crm:P4_has_time-span"]
+"m2:e" -> "crm:E7_Activity" [label="rdf:type"]
+}

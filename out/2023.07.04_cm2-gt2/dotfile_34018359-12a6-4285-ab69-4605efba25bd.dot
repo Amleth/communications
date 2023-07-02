@@ -1,0 +1,18 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"m2:x" -> "crm:E36_Visual_Item" [label="rdf:type"]
+"m2:x" -> "m2:id" [label="crm:P1_is_identified_by"]
+"m2:id" -> "crm:E42_Identifier" [label="rdf:type"]
+"m2:t" -> "« Identifiant IIIF v3 »" [label="crm:P1_is_identified_by"]
+"m2:id" -> "http://gallica.bnf.fr/iiif/ark:/12148/btv1b10025411c/f7/full/full/0/native.jpg" [label="crm:P190_has_symbolic_content"]
+"m2:id" -> "m2:t" [label="crm:P2_has_type"]
+"m2:t" -> "crm:E55_Type" [label="rdf:type"]
+}

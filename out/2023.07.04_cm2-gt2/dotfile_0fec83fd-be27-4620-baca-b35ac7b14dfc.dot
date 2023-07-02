@@ -1,0 +1,19 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"m2:e" -> "m2:p" [label="crm:P14_carried_out_by"]
+"m2:p" -> "crm:E21_Person" [label="rdf:type"]
+"m2:e" -> "crm:E13_Attribute_Assignment" [label="rdf:type"]
+"m2:e" -> "m2:a" [label="crm:P140_assigned_attribute_to"]
+"m2:e" -> "« Quel bel album ! »" [label="crm:P141_assigned"]
+"m2:e" -> "crm:P3_has_note" [label="crm:P177_assigned_property_of_type"]
+"m2:a" -> "« Set Sail »" [label="crm:P1_is_identified_by"]
+"m2:a" -> "crm:E73_Information_Object" [label="rdf:type"]
+}
