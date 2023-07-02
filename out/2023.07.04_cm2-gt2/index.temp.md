@@ -59,9 +59,9 @@ I) Énonciation des objectifs du GT2
     - Réponses visées
 II) Généralités sur le Web sémantique
 III) Introduction à l'ontologie CIDOC-CRM
-IV) Cas concrets récurrents
-V) Deux mots sur LRMoo et Doremus
-VI) Une étude de cas : modélisation des partitions encodées
+IV) Deux mots sur LRMoo et Doremus
+V) Une étude de cas : modélisation des partitions encodées
+V) Cas concrets récurrents
 
 <!--📜-->
 <!--∫ slide title -->
@@ -290,27 +290,6 @@ VI) Une étude de cas : modélisation des partitions encodées
 - Là aussi, nous formerons un groupe de réflexion technique pérenne.
 
 <!--📜-->
-<!--∫ slide -->
-
-# Que modélise t-on ?
-
-- Les savoirs nouveaux produits à propos des sources.
-- Les sources, et leur organisation logique et matérielle.
-- Les faits sociaux, les concepts, les objets matériels, les objets sémiotiques… dénotés ou connotés par les sources et/ou observables sur le terrain.
-- Le contexte de production des savoirs (qu'est ce qui fait qu'une donnée est « scientifique » ? -> l'explicitation du qui, du comment, du pourquoi).
-
-
-<!--∫ slide -->
-
-# Que modélise t-on ?
-
-- Les savoirs nouveaux produits à propos des sources.
-- Les sources, et leur organisation logique et matérielle.
-- Les faits sociaux, les concepts, les objets matériels, les objets sémiotiques… dénotés ou connotés par les sources et/ou observables sur le terrain.
-- Le contexte de production des savoirs (qu'est ce qui fait qu'une donnée est « scientifique » ? -> l'explicitation du qui, du comment, du pourquoi).
-- Dès lors, avoir un modèle conceptuel de type ontologique en tête en amont de la phase d'analyse permet d'organiser l'écoute et l'analyse des pratiques de production des informations scientifiques.
-
-<!--📜-->
 <!--∫ slide title -->
 
 # II. Généralités sur le Web sémantique
@@ -423,6 +402,11 @@ VI) Une étude de cas : modélisation des partitions encodées
 <img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/>
 
 <!--📜-->
+<!--∫ slide -->
+
+Opinion : En dépit du nombre de classes centrées sur les usages de musées, le CIDOC-CRM propose des classes génériques permettant de rendre compte de l'ensemble des problématiques de modélisation de la structure et du contenu des sources, ainsi que des processus analytiques qui les prennent pour cible.
+
+<!--📜-->
 <!--∫ slide center -->
 
 # Le temps dans le CRM
@@ -432,7 +416,101 @@ VI) Une étude de cas : modélisation des partitions encodées
 <!--📜-->
 <!--∫ slide title -->
 
-# IV. Cas concrets récurrents
+# IV. Deux mots sur LRMoo et Doremus
+
+<!--📜-->
+<!--∫ slide -->
+
+# LRMoo
+
+- Basé sur l'[IFLA LRM](https://www.transition-bibliographique.fr/enjeux/definition-ifla-lrm/) (auparavant FRBR).
+- Convergence du monde des musées (CIDOC-CRM) et du monde des bibliothèques (IFLA LRM) : l'ontologie LRMoo spécialise certaines classes du CIDOC-CRM (qui sert donc d'ontologie de base).
+- Quatre entités fondamentales — Work, Expression, Manifestation, Item (WEMI) — représentant les quatre modes d'existence des sources (conceptuel, sémiotique, éditorial, matériel).
+- [Documentation](https://www.cidoc-crm.org/frbroo/fm_releases)
+
+<!--📜-->
+<!--∫ slide -->
+
+<img src="wemi.jpg" style="width: 26cm;"/>
+
+<!--📜-->
+<!--∫ slide center -->
+
+## Des relations riches entre les entités
+
+<img src="F1-F2-F3.png" style="height: 15cm;"/>
+
+<!--📜-->
+<!--∫ slide -->
+
+# DOREMUS : points saillants
+
+- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
+
+
+<!--∫ slide -->
+
+# DOREMUS : points saillants
+
+- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
+- Une ontologie sans équivalent pour la modélisation des effectifs prévus dans l'œuvre, des concerts, et des effectifs réalisés durant les performances : [https://data.doremus.org/ontology/](data.doremus.org/ontology)
+
+
+<!--∫ slide -->
+
+# DOREMUS : points saillants
+
+- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
+- Une ontologie sans équivalent pour la modélisation des effectifs prévus dans l'œuvre, des concerts, et des effectifs réalisés durant les performances : [https://data.doremus.org/ontology/](data.doremus.org/ontology)
+- Un parti prix (désormais techniquement obsolète) sur la manière dont on peut modéliser une situation de composition : [data.doremus.org/ontology](https://data.doremus.org/ontology/)
+
+
+<!--∫ slide -->
+
+# DOREMUS : points saillants
+
+- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
+- Une ontologie sans équivalent pour la modélisation des effectifs prévus dans l'œuvre, des concerts, et des effectifs réalisés durant les performances : [https://data.doremus.org/ontology/](data.doremus.org/ontology)
+- Un parti prix (désormais techniquement obsolète) sur la manière dont on peut modéliser une situation de composition : [data.doremus.org/ontology](https://data.doremus.org/ontology/)
+- Un énorme dataset (BNF + Radio France + Philharmonie) d'œuvres, partitions, concerts… [data.doremus.org](https://data.doremus.org/)
+
+<!--📜-->
+<!--∫ slide title -->
+
+# V. Une étude de cas : modélisation des partitions encodées
+
+<!--📜-->
+<!--∫ slide title -->
+
+[🔗](https://lucid.app/lucidchart/c64a5745-23c5-4510-a750-9bdc769faa10/edit?viewport_loc=1141%2C384%2C1687%2C748%2C0_0&invitationId=inv_f25ce332-989a-40e0-be9e-7b3249b4d51c)
+
+<!--📜-->
+<!--∫ slide title -->
+
+# VI. Cas concrets récurrents
+
+<!--📜-->
+<!--∫ slide -->
+
+# Que modélise t-on ?
+
+- Les sources, et leur organisation logique et matérielle.
+- Les faits sociaux, les concepts, les objets matériels, les objets sémiotiques… dénotés ou connotés par les sources et/ou observables sur le terrain.
+- Les savoirs nouveaux produits à propos des sources.
+- Les ressources analytiques engagées dans l'étude des sources.
+- Le contexte de production des savoirs (qu'est ce qui fait qu'une donnée est « scientifique » ? → l'explicitation du qui, du comment, du pourquoi).
+
+
+<!--∫ slide -->
+
+# Que modélise t-on ?
+
+- Les sources, et leur organisation logique et matérielle.
+- Les faits sociaux, les concepts, les objets matériels, les objets sémiotiques… dénotés ou connotés par les sources et/ou observables sur le terrain.
+- Les savoirs nouveaux produits à propos des sources.
+- Les ressources analytiques engagées dans l'étude des sources.
+- Le contexte de production des savoirs (qu'est ce qui fait qu'une donnée est « scientifique » ? → l'explicitation du qui, du comment, du pourquoi).
+- Avoir le CIDOC-CRM en tête lors de l'analyse des pratique de production d'informations scientfiques a des vertus heuristiques.
 
 <!--📜-->
 <!--∫ slide -->
@@ -552,74 +630,3 @@ Remarquez la finesse de l'adressage…<br/>Chaque élément constituant le phén
 - ‹Exprimer une annotation :›
 
 <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_0fec83fd-be27-4620-baca-b35ac7b14dfc.png" />
-
-<!--📜-->
-<!--∫ slide title -->
-
-# V. Deux mots sur LRMoo et Doremus
-
-<!--📜-->
-<!--∫ slide -->
-
-# LRMoo
-
-- Basé sur l'[IFLA LRM](https://www.transition-bibliographique.fr/enjeux/definition-ifla-lrm/) (auparavant FRBR).
-- Convergence du monde des musées (CIDOC-CRM) et du monde des bibliothèques (IFLA LRM) : l'ontologie LRMoo spécialise certaines classes du CIDOC-CRM (qui sert donc d'ontologie de base).
-- Quatre entités fondamentales — Work, Expression, Manifestation, Item (WEMI) — représentant les quatre modes d'existence des sources (conceptuel, sémiotique, éditorial, matériel).
-- [Documentation](https://www.cidoc-crm.org/frbroo/fm_releases)
-
-<!--📜-->
-<!--∫ slide -->
-
-<img src="wemi.jpg" style="width: 26cm;"/>
-
-<!--📜-->
-<!--∫ slide center -->
-
-## Des relations riches entre les entités
-
-<img src="F1-F2-F3.png" style="height: 15cm;"/>
-
-<!--📜-->
-<!--∫ slide -->
-
-# DOREMUS : points saillants
-
-- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
-
-
-<!--∫ slide -->
-
-# DOREMUS : points saillants
-
-- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
-- Une ontologie sans équivalent pour la modélisation des effectifs prévus dans l'œuvre, des concerts, et des effectifs réalisés durant les performances : [https://data.doremus.org/ontology/](data.doremus.org/ontology)
-
-
-<!--∫ slide -->
-
-# DOREMUS : points saillants
-
-- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
-- Une ontologie sans équivalent pour la modélisation des effectifs prévus dans l'œuvre, des concerts, et des effectifs réalisés durant les performances : [https://data.doremus.org/ontology/](data.doremus.org/ontology)
-- Un parti prix (désormais techniquement obsolète) sur la manière dont on peut modéliser une situation de composition : [data.doremus.org/ontology](https://data.doremus.org/ontology/)
-
-
-<!--∫ slide -->
-
-# DOREMUS : points saillants
-
-- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
-- Une ontologie sans équivalent pour la modélisation des effectifs prévus dans l'œuvre, des concerts, et des effectifs réalisés durant les performances : [https://data.doremus.org/ontology/](data.doremus.org/ontology)
-- Un parti prix (désormais techniquement obsolète) sur la manière dont on peut modéliser une situation de composition : [data.doremus.org/ontology](https://data.doremus.org/ontology/)
-- Un énorme dataset (BNF + Radio France + Philharmonie) d'œuvres, partitions, concerts… [data.doremus.org](https://data.doremus.org/)
-
-<!--📜-->
-<!--∫ slide title -->
-
-# VI. Une étude de cas : modélisation des partitions encodées
-
-<!--📜-->
-<!--∫ slide title -->
-
-[🔗](https://lucid.app/lucidchart/c64a5745-23c5-4510-a750-9bdc769faa10/edit?viewport_loc=1141%2C384%2C1687%2C748%2C0_0&invitationId=inv_f25ce332-989a-40e0-be9e-7b3249b4d51c)
