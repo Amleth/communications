@@ -31,7 +31,7 @@
 <style>
 body { font-family: GoudyNoto; font-weight: 300; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #FF03CE; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
+h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
 code { color: #16e7cf; }
 .dim { color: #aaa; }
 .center { text-align: center; }
@@ -354,10 +354,10 @@ bases.</li>
 href="https://github.com/Amleth/consortium-musica2-gt2-ontologies/tree/main/modules">dépôt
 Github du GT2 </a>, et proposera :
 <ul>
-<li>un fragment de graphe CIDOC-CRM illustrant concrètement la
-proposition de modélisation ;</li>
 <li>une problématisation scientifique ;</li>
 <li>un recensement des usages connus ;</li>
+<li>un fragment de graphe CIDOC-CRM illustrant concrètement la
+proposition de modélisation ;</li>
 <li>une explicitation de l’usage qui est fait des classes et propriétés
 du CIDOC-CRM mises en jeu ;</li>
 <li>une description des verrous et des limites éventuelles
@@ -365,6 +365,22 @@ rencontrées.</li>
 </ul></li>
 </ul>
 <div class="pagination">•••••••🐌••••••••••••••••••••••••••••••</div></div><div class="slide">
+<h2 id="thématiques-potentielles-pour-les-ateliers">Thématiques
+potentielles pour les ateliers</h2>
+<ul>
+<li>analyse — cadences</li>
+<li>concerts</li>
+<li>dates</li>
+<li>indexation conceptuelle</li>
+<li>musique contemporaine (GT4)</li>
+<li>prosopographie</li>
+<li>sources — iconographiques</li>
+<li>sources — partitions &amp; métadonnées (GT1)</li>
+<li>sources — textuelles</li>
+<li>thésauri</li>
+<li>…</li>
+</ul>
+<div class="pagination">••••••••🐌•••••••••••••••••••••••••••••</div></div><div class="slide">
 <h2
 id="constituer-une-communauté-de-travail-autour-de-ces-situations-de-modélisation">Constituer
 une communauté de travail autour de ces situations de modélisation</h2>
@@ -377,7 +393,7 @@ collective en septembre, octobre, novembre et décembre 2023.</li>
 de modélisation, et convoquera des « experts » de cette question.</li>
 </ul></li>
 </ul>
-<div class="pagination">••••••••🐌•••••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••🐌••••••••••••••••••••••••••••</div></div><div class="slide">
 <h2
 id="constituer-une-communauté-de-travail-autour-de-ces-situations-de-modélisation-1">Constituer
 une communauté de travail autour de ces situations de modélisation</h2>
@@ -393,7 +409,7 @@ de modélisation, et convoquera des « experts » de cette question.</li>
 des séances tenues régulièrement, appuyés par des référents et
 référentes musicologues pour chaque situation de modélisation.</li>
 </ul>
-<div class="pagination">••••••••🐌•••••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••🐌••••••••••••••••••••••••••••</div></div><div class="slide">
 <h2
 id="constituer-une-communauté-de-travail-autour-de-ces-situations-de-modélisation-2">Constituer
 une communauté de travail autour de ces situations de modélisation</h2>
@@ -413,7 +429,7 @@ immédiatement pertinents pour la musicologie constitueront une ressource
 de référence pédagogique, méthodologique, pratique et scientifique de
 premier plan, qu’il faudra maintenir.</li>
 </ul>
-<div class="pagination">••••••••🐌•••••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••🐌••••••••••••••••••••••••••••</div></div><div class="slide">
 <h2
 id="constituer-une-communauté-de-travail-autour-de-ces-situations-de-modélisation-3">Constituer
 une communauté de travail autour de ces situations de modélisation</h2>
@@ -437,7 +453,7 @@ de bonnes pratiques du GT2. qui contiendra également un guide
 introductif à la modélisation des données musicologiques avec le
 CIDOC-CRM.</li>
 </ul>
-<div class="pagination">••••••••🐌•••••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••🐌••••••••••••••••••••••••••••</div></div><div class="slide">
 <h2
 id="identifier-des-solutions-techniques-pour-la-manipulation-des-données-sémantiques">Identifier
 des solutions techniques pour la manipulation des données
@@ -456,7 +472,7 @@ contrôlés/thésauri.</li>
 <li>Création d’interfaces de consultation génériques.</li>
 </ul></li>
 </ul>
-<div class="pagination">•••••••••🐌••••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••🐌•••••••••••••••••••••••••••</div></div><div class="slide">
 <h2
 id="identifier-des-solutions-techniques-pour-la-manipulation-des-données-sémantiques-1">Identifier
 des solutions techniques pour la manipulation des données
@@ -477,10 +493,10 @@ contrôlés/thésauri.</li>
 <li>Là aussi, nous formerons un groupe de réflexion technique
 pérenne.</li>
 </ul>
-<div class="pagination">•••••••••🐌••••••••••••••••••••••••••••</div></div><div class="slide title">
+<div class="pagination">••••••••••🐌•••••••••••••••••••••••••••</div></div><div class="slide title">
 <h1 id="ii.-généralités-sur-le-web-sémantique">II. Généralités sur le
 Web sémantique</h1>
-<div class="pagination">••••••••••🐌•••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••••🐌••••••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-en-une-slide">Le Web sémantique, en une
 slide</h1>
 <ul>
@@ -488,7 +504,7 @@ slide</h1>
 (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
 Web sémantique est un Web de données liées.</li>
 </ul>
-<div class="pagination">•••••••••••🐌••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•••••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-en-une-slide-1">Le Web sémantique, en une
 slide</h1>
 <ul>
@@ -497,7 +513,7 @@ slide</h1>
 Web sémantique est un Web de données liées.</li>
 <li>Chaque donnée est identifiée par une URL.</li>
 </ul>
-<div class="pagination">•••••••••••🐌••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•••••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-en-une-slide-2">Le Web sémantique, en une
 slide</h1>
 <ul>
@@ -508,7 +524,7 @@ Web sémantique est un Web de données liées.</li>
 <li>Toute information s’exprime sous la forme d’un triplet
 (sujet/prédicat/objet) dans un langage de description, le RDF.</li>
 </ul>
-<div class="pagination">•••••••••••🐌••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•••••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-en-une-slide-3">Le Web sémantique, en une
 slide</h1>
 <ul>
@@ -520,7 +536,7 @@ Web sémantique est un Web de données liées.</li>
 (sujet/prédicat/objet) dans un langage de description, le RDF.</li>
 <li>La connexion de ces triplets RDF forme un graphe.</li>
 </ul>
-<div class="pagination">•••••••••••🐌••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•••••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-en-une-slide-4">Le Web sémantique, en une
 slide</h1>
 <ul>
@@ -534,7 +550,7 @@ Web sémantique est un Web de données liées.</li>
 <li>Chaque prédicat est également identifié par une URL.</li>
 </ul>
 <p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" /></p>
-<div class="pagination">•••••••••••🐌••••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••🐌•••••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="le-web-sémantique-en-une-slide-5">Le Web sémantique, en une
 slide</h1>
 <ul>
@@ -552,14 +568,14 @@ Web sémantique est un Web de données liées.</li>
 <li>C’est le milieu technique idéal pour des données FAIR, pour
 l’expression et à la diffusion des données de la recherche.</li>
 </ul>
-<div class="pagination">•••••••••••🐌••••••••••••••••••••••••••</div></div><div class="slide center">
+<div class="pagination">••••••••••••🐌•••••••••••••••••••••••••</div></div><div class="slide center">
 <h1 id="données-relationnelles-vs-graphe-rdf">Données relationnelles vs
 graphe RDF</h1>
 <p><img src="corago.png"/></p>
 <p><em>Corago in LOD - Seminar by Angelo Pompilio and Paolo Bonora,
 Digital Humanities and Digital Knowledge, Università di Bologna,
 2017.</em></p>
-<div class="pagination">••••••••••••🐌•••••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••••••🐌••••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="quest-ce-quune-ontologie">Qu’est ce qu’une ontologie ?</h1>
 <ul>
 <li>Formalisation d’un modèle conceptuel pour un domaine identifié
@@ -579,10 +595,10 @@ seront des prédicats).</li>
 <li>Vous connaissez peut-être déjà une ontologie : SKOS (pour construire
 des thésauri).</li>
 </ul>
-<div class="pagination">•••••••••••••🐌••••••••••••••••••••••••</div></div><div class="slide title">
+<div class="pagination">••••••••••••••🐌•••••••••••••••••••••••</div></div><div class="slide title">
 <h1 id="iii.-introduction-à-lontologie-cidoc-crm">III. Introduction à
 l’ontologie CIDOC-CRM</h1>
-<div class="pagination">••••••••••••••🐌•••••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••••••••🐌••••••••••••••••••••••</div></div><div class="slide">
 <h1 id="le-cidoc-crm-en-bref">Le CIDOC-CRM en bref</h1>
 <ul>
 <li>Le CIDOC-CRM est une ontologie qui documente le patrimoine matériel
@@ -598,22 +614,22 @@ exemples…)</li>
 <li>Classes et propriétés : <a
 href="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html">https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html</a></li>
 </ul>
-<div class="pagination">•••••••••••••••🐌••••••••••••••••••••••</div></div><div class="slide center">
+<div class="pagination">••••••••••••••••🐌•••••••••••••••••••••</div></div><div class="slide center">
 <h1 id="hiérarchie-des-classes">Hiérarchie des classes</h1>
 <p><img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/></p>
-<div class="pagination">••••••••••••••••🐌•••••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••••••••••🐌••••••••••••••••••••</div></div><div class="slide">
 <p>Opinion : En dépit du nombre de classes centrées sur les usages de
 musées, le CIDOC-CRM propose des classes génériques permettant de rendre
 compte de l’ensemble des problématiques de modélisation de la structure
 et du contenu des sources, ainsi que des processus analytiques qui les
 prennent pour cible.</p>
-<div class="pagination">•••••••••••••••••🐌••••••••••••••••••••</div></div><div class="slide center">
+<div class="pagination">••••••••••••••••••🐌•••••••••••••••••••</div></div><div class="slide center">
 <h1 id="le-temps-dans-le-crm">Le temps dans le CRM</h1>
 <p><img src="time.png" style="width: 26cm;"/></p>
-<div class="pagination">••••••••••••••••••🐌•••••••••••••••••••</div></div><div class="slide title">
+<div class="pagination">•••••••••••••••••••🐌••••••••••••••••••</div></div><div class="slide title">
 <h1 id="iv.-deux-mots-sur-lrmoo-et-doremus">IV. Deux mots sur LRMoo et
 Doremus</h1>
-<div class="pagination">•••••••••••••••••••🐌••••••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••••••••••🐌•••••••••••••••••</div></div><div class="slide">
 <h1 id="lrmoo">LRMoo</h1>
 <ul>
 <li>Basé sur l’<a
@@ -628,13 +644,13 @@ Item (WEMI) — représentant les quatre modes d’existence des sources
 <li><a
 href="https://www.cidoc-crm.org/frbroo/fm_releases">Documentation</a></li>
 </ul>
-<div class="pagination">••••••••••••••••••••🐌•••••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••••••••••••••🐌••••••••••••••••</div></div><div class="slide">
 <p><img src="wemi.jpg" style="width: 26cm;"/></p>
-<div class="pagination">•••••••••••••••••••••🐌••••••••••••••••</div></div><div class="slide center">
+<div class="pagination">••••••••••••••••••••••🐌•••••••••••••••</div></div><div class="slide center">
 <h2 id="des-relations-riches-entre-les-entités">Des relations riches
 entre les entités</h2>
 <p><img src="F1-F2-F3.png" style="height: 15cm;"/></p>
-<div class="pagination">••••••••••••••••••••••🐌•••••••••••••••</div></div><div class="slide">
+<div class="pagination">•••••••••••••••••••••••🐌••••••••••••••</div></div><div class="slide">
 <h1 id="doremus-points-saillants">DOREMUS : points saillants</h1>
 <ul>
 <li>Des vocabulaires utiles pour la musique : <a
@@ -642,7 +658,7 @@ href="https://data.doremus.org/vocabularies">data.doremus.org/vocabularies</a>
 + <a
 href="https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies">github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies</a></li>
 </ul>
-<div class="pagination">•••••••••••••••••••••••🐌••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••••••••••••••🐌•••••••••••••</div></div><div class="slide">
 <h1 id="doremus-points-saillants-1">DOREMUS : points saillants</h1>
 <ul>
 <li>Des vocabulaires utiles pour la musique : <a
@@ -654,7 +670,7 @@ prévus dans l’œuvre, des concerts, et des effectifs réalisés durant les
 performances : <a
 href="data.doremus.org/ontology">https://data.doremus.org/ontology/</a></li>
 </ul>
-<div class="pagination">•••••••••••••••••••••••🐌••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••••••••••••••🐌•••••••••••••</div></div><div class="slide">
 <h1 id="doremus-points-saillants-2">DOREMUS : points saillants</h1>
 <ul>
 <li>Des vocabulaires utiles pour la musique : <a
@@ -669,7 +685,7 @@ href="data.doremus.org/ontology">https://data.doremus.org/ontology/</a></li>
 on peut modéliser une situation de composition : <a
 href="https://data.doremus.org/ontology/">data.doremus.org/ontology</a></li>
 </ul>
-<div class="pagination">•••••••••••••••••••••••🐌••••••••••••••</div></div><div class="slide">
+<div class="pagination">••••••••••••••••••••••••🐌•••••••••••••</div></div><div class="slide">
 <h1 id="doremus-points-saillants-3">DOREMUS : points saillants</h1>
 <ul>
 <li>Des vocabulaires utiles pour la musique : <a
@@ -687,42 +703,14 @@ href="https://data.doremus.org/ontology/">data.doremus.org/ontology</a></li>
 partitions, concerts… <a
 href="https://data.doremus.org/">data.doremus.org</a></li>
 </ul>
-<div class="pagination">•••••••••••••••••••••••🐌••••••••••••••</div></div><div class="slide title">
+<div class="pagination">••••••••••••••••••••••••🐌•••••••••••••</div></div><div class="slide title">
 <h1 id="v.-une-étude-de-cas-modélisation-des-partitions-encodées">V. Une
 étude de cas : modélisation des partitions encodées</h1>
-<div class="pagination">••••••••••••••••••••••••🐌•••••••••••••</div></div><div class="slide title">
+<div class="pagination">•••••••••••••••••••••••••🐌••••••••••••</div></div><div class="slide title">
 <p><a
 href="https://lucid.app/lucidchart/c64a5745-23c5-4510-a750-9bdc769faa10/edit?viewport_loc=1141%2C384%2C1687%2C748%2C0_0&amp;invitationId=inv_f25ce332-989a-40e0-be9e-7b3249b4d51c">🔗</a></p>
-<div class="pagination">•••••••••••••••••••••••••🐌••••••••••••</div></div><div class="slide title">
+<div class="pagination">••••••••••••••••••••••••••🐌•••••••••••</div></div><div class="slide title">
 <h1 id="vi.-cas-concrets-récurrents">VI. Cas concrets récurrents</h1>
-<div class="pagination">••••••••••••••••••••••••••🐌•••••••••••</div></div><div class="slide">
-<h1 id="que-modélise-t-on">Que modélise t-on ?</h1>
-<ul>
-<li>Les sources, et leur organisation logique et matérielle.</li>
-<li>Les faits sociaux, les concepts, les objets matériels, les objets
-sémiotiques… dénotés ou connotés par les sources et/ou observables sur
-le terrain.</li>
-<li>Les savoirs nouveaux produits à propos des sources.</li>
-<li>Les ressources analytiques engagées dans l’étude des sources.</li>
-<li>Le contexte de production des savoirs (qu’est ce qui fait qu’une
-donnée est « scientifique » ? → l’explicitation du qui, du comment, du
-pourquoi).</li>
-</ul>
-<div class="pagination">•••••••••••••••••••••••••••🐌••••••••••</div></div><div class="slide">
-<h1 id="que-modélise-t-on-1">Que modélise t-on ?</h1>
-<ul>
-<li>Les sources, et leur organisation logique et matérielle.</li>
-<li>Les faits sociaux, les concepts, les objets matériels, les objets
-sémiotiques… dénotés ou connotés par les sources et/ou observables sur
-le terrain.</li>
-<li>Les savoirs nouveaux produits à propos des sources.</li>
-<li>Les ressources analytiques engagées dans l’étude des sources.</li>
-<li>Le contexte de production des savoirs (qu’est ce qui fait qu’une
-donnée est « scientifique » ? → l’explicitation du qui, du comment, du
-pourquoi).</li>
-<li>Avoir le CIDOC-CRM en tête lors de l’analyse des pratique de
-production d’informations scientfiques a des vertus heuristiques.</li>
-</ul>
 <div class="pagination">•••••••••••••••••••••••••••🐌••••••••••</div></div><div class="slide">
 <h1 id="conventions">Conventions</h1>
 <p>Dans les exemples, on utilisera les préfixes suivants pour les URL

@@ -1,7 +1,7 @@
 <style>
 body { font-family: GoudyNoto; font-weight: 300; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #FF03CE; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
+h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
 code { color: #16e7cf; }
 .dim { color: #aaa; }
 .center { text-align: center; }
@@ -214,11 +214,28 @@ V) Cas concrets récurrents
 - Il existe des ‹situations récurrentes de modélisation›, se présentant quels que soient les objets de recherche et quelles que soient les périodes étudiées.
 - Dans le GT2, nous ambitionnons d'‹identifier› ces situations, de les ‹décrire›, et de les ‹formaliser› sous la forme de ‹fragments de graphes CIDOC-CRM›, afin d'aider les concepteurs et conceptrices bases de données musicologiques à prendre les bonnes décisions lors de l'établissement des modèles conceptuels et relationnels de leurs bases.
 - Chaque situation sera publiée sur le [dépôt Github du GT2 ](https://github.com/Amleth/consortium-musica2-gt2-ontologies/tree/main/modules), et proposera :
-    - un fragment de graphe CIDOC-CRM illustrant concrètement la proposition de modélisation ;
     - une problématisation scientifique ;
     - un recensement des usages connus ;
+    - un fragment de graphe CIDOC-CRM illustrant concrètement la proposition de modélisation ;
     - une explicitation de l'usage qui est fait des classes et propriétés du CIDOC-CRM mises en jeu ;
     - une description des verrous et des limites éventuelles rencontrées.
+
+<!--📜-->
+<!--∫ slide -->
+
+## Thématiques potentielles pour les ateliers
+
+- analyse — cadences
+- concerts
+- dates
+- indexation conceptuelle
+- musique contemporaine (GT4)
+- prosopographie
+- sources — iconographiques
+- sources — partitions & métadonnées (GT1)
+- sources — textuelles
+- thésauri
+- …
 
 <!--📜-->
 <!--∫ slide -->
@@ -488,29 +505,6 @@ Opinion : En dépit du nombre de classes centrées sur les usages de musées, l
 <!--∫ slide title -->
 
 # VI. Cas concrets récurrents
-
-<!--📜-->
-<!--∫ slide -->
-
-# Que modélise t-on ?
-
-- Les sources, et leur organisation logique et matérielle.
-- Les faits sociaux, les concepts, les objets matériels, les objets sémiotiques… dénotés ou connotés par les sources et/ou observables sur le terrain.
-- Les savoirs nouveaux produits à propos des sources.
-- Les ressources analytiques engagées dans l'étude des sources.
-- Le contexte de production des savoirs (qu'est ce qui fait qu'une donnée est « scientifique » ? → l'explicitation du qui, du comment, du pourquoi).
-
-
-<!--∫ slide -->
-
-# Que modélise t-on ?
-
-- Les sources, et leur organisation logique et matérielle.
-- Les faits sociaux, les concepts, les objets matériels, les objets sémiotiques… dénotés ou connotés par les sources et/ou observables sur le terrain.
-- Les savoirs nouveaux produits à propos des sources.
-- Les ressources analytiques engagées dans l'étude des sources.
-- Le contexte de production des savoirs (qu'est ce qui fait qu'une donnée est « scientifique » ? → l'explicitation du qui, du comment, du pourquoi).
-- Avoir le CIDOC-CRM en tête lors de l'analyse des pratique de production d'informations scientfiques a des vertus heuristiques.
 
 <!--📜-->
 <!--∫ slide -->
