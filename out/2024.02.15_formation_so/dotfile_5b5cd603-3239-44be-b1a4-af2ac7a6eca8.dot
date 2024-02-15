@@ -1,0 +1,18 @@
+digraph {
+    graph [bgcolor=black]
+    rankdir=LR
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    
+
+    layout=sfdp
+node [color=cyan,fontcolor=white]
+edge [color=cyan,fontcolor=white]
+"su:g" -> "crm:E74_Group" [label="rdf:type"]
+"su:g" -> "« North Mississipi Allstars »" [label="crm:P1_is_identified_by"]
+"su:e" -> "crm:E65_Creation" [label="rdf:type"]
+"su:e" -> "su:a" [label="crm:P94_has_created"]
+"su:a" -> "« Set Sail »" [label="crm:P1_is_identified_by"]
+"su:a" -> "crm:E73_Information_Object" [label="rdf:type"]
+"su:e" -> "su:g" [label="crm:P14_carried_out_by"]
+}
