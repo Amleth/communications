@@ -45,9 +45,9 @@ Thomas Bottini
 
 </div>
 
-<pre style="color: #16e7cf; font-size: 50% !important;">
+<!-- <pre style="color: #16e7cf; font-size: 50% !important;">
 https://github.com/Amleth/communications/raw/main/out/2023.06.02_formation_so/index.pdf
-</pre>
+</pre> -->
 
 <!--📜-->
 <!--∫ slide -->
