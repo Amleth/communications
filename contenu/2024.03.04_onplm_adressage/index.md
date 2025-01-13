@@ -63,7 +63,7 @@ Thomas Bottini
 •••
 - Adressabilité interne (dans le document)/externe
 
-  <!--∫ slide -->
+<!--∫ slide -->
 
 # La lecture scolastique
 

@@ -27,6 +27,7 @@ Black           900
 @page {
   margin: 0;
   size: A4 landscape;
+
   @bottom {
     content: counter(page) "/" counter(pages);
     font-size: 80%;
@@ -52,7 +53,7 @@ div.slide {
   background-color: black;
   box-sizing: border-box;
   color: white;
-  padding: 1cm 2cm 1cm 2cm;
+  padding: 1cm 1cm 1cm 1cm;
   page-break-before: always;
   position: absolute;
 }
@@ -77,7 +78,8 @@ h2 {
   margin-top: 1em;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 1em;
 }
 
@@ -154,13 +156,6 @@ div.ch {
   color: gray;
 }
 
-.parttitle {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 ul ul {
   font-size: 90%;
 }
@@ -227,11 +222,11 @@ a {
   flex-direction: column;
 }
 
-.title > * {
+.title>* {
   margin: auto;
 }
 
-.title > div {
+.title>div {
   text-align: center;
 }
 
@@ -240,4 +235,18 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/******************************************************************************/
+/* SPECIAL PAGES */
+/******************************************************************************/
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cover>div {
+  text-align: center;
 }
