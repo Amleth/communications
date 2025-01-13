@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "colorbrewer": "^1.5.3",
+    "colorbrewer": "^1.5.9",
     "graphviz": "^0.0.9",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
