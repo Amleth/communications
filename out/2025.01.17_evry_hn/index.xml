@@ -58,38 +58,58 @@ d&#xE9;partements d&#x2019;Histoire, de LEA et de Musicologie
 </div>
       </div>
       <div style="     font-family: FuturaPT;     font-size: 111%;     letter-spacing: 0.1em;     padding: 0.5cm 0;     text-transform: uppercase; ">
-        <p>APPORT DES ONTOLOGIES S&#xC9;MANTIQUES &#xC0; LA CONCEPTION DE SYST&#xC8;MES
+        <p>APPORT DES ONTOLOGIES S&#xC9;MANTIQUES &#xC0; LA CONCEPTION DES SYST&#xC8;MES
 D&#x2019;INFORMATION SCIENTIFIQUES</p>
+      </div>
+      <div>
+        <pre style="color: gray; font-size: 50%;">
+https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
+</pre>
       </div>
       <div class="context">
         <div style="display: flex; justify-content: space-between;">
           <div>
             <span class="colour">thomas.bottini@cnrs.fr</span>
           </div>
-          <div><span class="colour">I</span>nstitut de <span class="colour">Re</span>cherche en <span class="colour">Mus</span>icologie &#x2014; IReMus, UMR 8223 CNRS
+          <div><span class="colour">I</span>nstitut de <span class="colour">Re</span>cherche en <span class="colour">Mus</span>icologie &#x2014; <span class="colour">IReMus</span>, UMR 8223 CNRS
 </div>
         </div>
-        <div style="text-align: right;">
-https://github.com/Amleth//
+        <div style="display: flex; justify-content: space-between;">
+          <div>
+
 </div>
+          <div>
+Consortium <span class="colour">Musica2</span> IR* Huma-Num
+</div>
+        </div>
       </div>
     </div>
-    <div class="slide title">
-      <h1 id="titre">TITRE</h1>
+    <div class="slide">
+      <h1 id="plan">PLAN</h1>
+      <ol type="1">
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+        <li>Le Web s&#xE9;mantique comme milieu technique pour l&#x2019;expression et la
+diffusion des donn&#xE9;es de la recherche</li>
+        <li>Les fondements de l&#x2019;ontologie CIDOC CRM</li>
+        <li>Deux mots sur les ontologies filles&#xA0;LRMoo et DOREMUS</li>
+      </ol>
       <div class="pagination">&#x2022;&#x1F40C;&#x2022;</div>
     </div>
     <div class="slide">
-      <h1 id="titre-1">Titre</h1>
+      <h1 id="titre">Titre</h1>
       <p>Un</p>
       <div class="pagination">&#x2022;&#x2022;&#x1F40C;</div>
     </div>
     <div class="slide">
-      <h1 id="titre-2">Titre</h1>
+      <h1 id="titre-1">Titre</h1>
       <p>Un Deux</p>
       <div class="pagination">&#x2022;&#x2022;&#x1F40C;</div>
     </div>
     <div class="slide">
-      <h1 id="titre-3">Titre</h1>
+      <h1 id="titre-2">Titre</h1>
       <p>Un Deux Trois</p>
       <div class="pagination">&#x2022;&#x2022;&#x1F40C;</div>
     </div>

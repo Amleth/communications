@@ -33,22 +33,37 @@ code { color: #16e7cf; }
     padding: 0.5cm 0;
     text-transform: uppercase;
 ">
-APPORT DES ONTOLOGIES SÉMANTIQUES À LA CONCEPTION DE SYSTÈMES D'INFORMATION SCIENTIFIQUES
+APPORT DES ONTOLOGIES SÉMANTIQUES À LA CONCEPTION DES SYSTÈMES D'INFORMATION SCIENTIFIQUES
 </div>
+
+<div><pre style="color: gray; font-size: 50%;">
+https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
+</pre></div>
 
 <div class="context">
 <div style="display: flex; justify-content: space-between;">
 <div>‹thomas.bottini@cnrs.fr›</div>
-<div>‹I›nstitut de ‹Re›cherche en ‹Mus›icologie — IReMus, UMR 8223 CNRS</div>
+<div>‹I›nstitut de ‹Re›cherche en ‹Mus›icologie — ‹IReMus›, UMR 8223 CNRS</div>
 </div>
-<div style="text-align: right;">https://github.com/Amleth//</div>
+<div style="display: flex; justify-content: space-between;">
+<div></div>
+<div>Consortium ‹Musica2› IR* Huma-Num</div>
+</div>
 </div>
 
 
 <!--📜-->
-<!--∫ slide title -->
+<!--∫ slide -->
 
-# TITRE
+# PLAN
+
+1. 
+1. 
+1. 
+1. 
+1. Le Web sémantique comme milieu technique pour l'expression et la diffusion des données de la recherche
+1. Les fondements de l'ontologie CIDOC CRM
+1. Deux mots sur les ontologies filles LRMoo et DOREMUS
 
 <!--📜-->
 <!--∫ slide -->
