@@ -35,7 +35,7 @@
 }
 .context &gt; div { margin: 1em; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
+h2 { color: #FF0092; font-family: "FiraCode" !important; text-transform: lowercase; }
 </style>
     <div class="slide cover">
       <div class="context">
@@ -48,19 +48,23 @@ h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: 
 </div>
         </div>
         <div style="text-align: right;">
-          <pre>
-            <code>    Journ&#xE9;e d'&#xE9;tudes organis&#xE9;e par l'UFR LAM, IDHES Evry, &lt;br/&gt;les d&#xE9;partements d'Histoire, de LEA et de Musicologie</code>
-          </pre>
-        </div>
+Journ&#xE9;e d&#x2019;&#xE9;tudes organis&#xE9;e par l&#x2019;UFR LAM, IDHES Evry,<br/>les
+d&#xE9;partements d&#x2019;Histoire, de LEA et de Musicologie
+</div>
       </div>
-      <div style="     font-family: FiraCode;     text-transform: lowercase; ">
-        <p>mod&#xE9;liser, saisir, publier, exploiter &#xA0;<br/> &#xA0;<br/> apport des
-ontologies s&#xE9;mantiques &#xE0; la conception des syst&#xE8;mes d&#x2019;information pour
-la recherche</p>
+      <div style="     align-items: center;     display: flex;     flex-direction: column;     font-family: FiraCode;     justify-content: center;     text-transform: lowercase; ">
+        <div style="color: #FF0092">
+mod&#xE9;liser, saisir, publier, exploiter
+</div>
+        <br/>
+        <div style="font-size: 75%;">
+apport des ontologies s&#xE9;mantiques &#xE0; la conception<br/>des syst&#xE8;mes
+d&#x2019;information pour la recherche
+</div>
       </div>
       <div>
         <pre style="color: gray; font-size: 50%;">
-        https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
+https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 </pre>
       </div>
       <div class="context">
@@ -84,34 +88,40 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
     <div class="slide">
       <h1 id="plan">PLAN</h1>
       <ol type="1">
-        <li>Probl&#xE8;mes r&#xE9;currents lors de la conception d&#x2019;un SIR</li>
+        <li>Probl&#xE8;mes r&#xE9;currents lors de la conception d&#x2019;un SIR &amp; CIDOC
+CRM</li>
       </ol>
-      <div class="pagination">&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+    </div>
+    <div class="slide title">
+      <h1 id="probl&#xE8;mes-r&#xE9;currents-lors-de-la-conception-dun-sir-cidoc-crm">Probl&#xE8;mes
+r&#xE9;currents lors de la conception d&#x2019;un SIR &amp; CIDOC CRM</h1>
+      <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h1 id="le-web-s&#xE9;mantique-en-une-slide">Le Web s&#xE9;mantique, en une
-slide</h1>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide">Le Web s&#xE9;mantique, en une
+slide</h2>
       <ul>
         <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
 (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
 Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h1 id="le-web-s&#xE9;mantique-en-une-slide-1">Le Web s&#xE9;mantique, en une
-slide</h1>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-1">Le Web s&#xE9;mantique, en une
+slide</h2>
       <ul>
         <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
 (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
 Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
         <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h1 id="le-web-s&#xE9;mantique-en-une-slide-2">Le Web s&#xE9;mantique, en une
-slide</h1>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-2">Le Web s&#xE9;mantique, en une
+slide</h2>
       <ul>
         <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
 (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
@@ -120,11 +130,11 @@ Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
         <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet
 (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h1 id="le-web-s&#xE9;mantique-en-une-slide-3">Le Web s&#xE9;mantique, en une
-slide</h1>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-3">Le Web s&#xE9;mantique, en une
+slide</h2>
       <ul>
         <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
 (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
@@ -134,11 +144,11 @@ Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
 (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
         <li>La connexion de ces triplets RDF forme un graphe.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h1 id="le-web-s&#xE9;mantique-en-une-slide-4">Le Web s&#xE9;mantique, en une
-slide</h1>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-4">Le Web s&#xE9;mantique, en une
+slide</h2>
       <ul>
         <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
 (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
@@ -153,11 +163,11 @@ des propri&#xE9;t&#xE9;s).</li>
       <p>
         <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
       </p>
-      <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h1 id="le-web-s&#xE9;mantique-en-une-slide-5">Le Web s&#xE9;mantique, en une
-slide</h1>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-5">Le Web s&#xE9;mantique, en une
+slide</h2>
       <ul>
         <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
 (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
@@ -175,7 +185,7 @@ des propri&#xE9;t&#xE9;s).</li>
       <ul>
         <li>Milieu technique id&#xE9;al pour des donn&#xE9;es scientifiques FAIR.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide center">
       <h1 id="donn&#xE9;es-relationnelles-vs-graphe-rdf">Donn&#xE9;es relationnelles vs
@@ -188,7 +198,7 @@ graphe RDF</h1>
 Digital Humanities and Digital Knowledge, Universit&#xE0; di Bologna,
 2017.</em>
       </p>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h1 id="quest-ce-quune-ontologie">Qu&#x2019;est ce qu&#x2019;une ontologie ?</h1>
@@ -207,12 +217,12 @@ seront des pr&#xE9;dicats).</li>
         <li>Vous connaissez peut-&#xEA;tre d&#xE9;j&#xE0; une ontologie : SKOS (pour construire
 des th&#xE9;sauri).</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide title">
       <h1 id="iii.-introduction-&#xE0;-lontologie-cidoc-crm">III. Introduction &#xE0;
 l&#x2019;ontologie CIDOC-CRM</h1>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h1 id="le-cidoc-crm-en-bref">Le CIDOC-CRM en bref</h1>
@@ -230,14 +240,14 @@ les domaines des HN.</li>
 exemples&#x2026;)</li>
         <li>Classes et propri&#xE9;t&#xE9;s : <a href="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html">https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html</a></li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide center">
       <h1 id="hi&#xE9;rarchie-des-classes">Hi&#xE9;rarchie des classes</h1>
       <p>
         <img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/>
       </p>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <p>Opinion&#xA0;: En d&#xE9;pit du nombre de classes centr&#xE9;es sur les usages de
@@ -245,19 +255,19 @@ mus&#xE9;es, le CIDOC-CRM propose des classes g&#xE9;n&#xE9;riques permettant de
 compte de l&#x2019;ensemble des probl&#xE9;matiques de mod&#xE9;lisation de la structure
 et du contenu des sources, ainsi que des processus analytiques qui les
 prennent pour cible.</p>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide center">
       <h1 id="le-temps-dans-le-crm">Le temps dans le CRM</h1>
       <p>
         <img src="time.png" style="width: 26cm;"/>
       </p>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide title">
       <h1 id="de-quelques-ontologies-filles-bien-utiles">De quelques
 ontologies filles bien utiles</h1>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="lrmoo">LRMoo</h2>
@@ -270,7 +280,7 @@ classes du CIDOC-CRM (qui sert donc d&#x2019;ontologie de base).</li>
 Item&#xA0;(WEMI) &#x2014; repr&#xE9;sentant les quatre modes d&#x2019;existence des sources
 (conceptuel, s&#xE9;miotique, &#xE9;ditorial, mat&#xE9;riel).</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide center">
       <h2 id="lrmoo-des-relations-riches-entre-les-entit&#xE9;s">LRMoo&#xA0;: Des
@@ -278,7 +288,7 @@ relations riches entre les entit&#xE9;s</h2>
       <p>
         <img src="F1-F2-F3.png" style="height: 15cm;"/>
       </p>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="doremus">DOREMUS&#xA0;</h2>
@@ -293,7 +303,7 @@ on peut mod&#xE9;liser une situation de composition : <a href="https://data.dore
         <li>Un &#xE9;norme dataset (BNF + Radio France + Philharmonie) d&#x2019;&#x153;uvres,
 partitions, concerts&#x2026; <a href="https://data.doremus.org/">data.doremus.org</a></li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide center"><h1 id="une-application-web-pour-explorer-des-donn&#xE9;es-crm">Une
 application Web pour explorer des donn&#xE9;es CRM</h1>
@@ -305,7 +315,7 @@ Contexte&#xA0;:
 <div style="color: gray; font-style: italic;"><p>Pas ou peu d&#x2019;apport financier. Programme de recherche SHERLOCK &#xE0;
 l&#x2019;IReMus (Comment et pourquoi mod&#xE9;liser les donn&#xE9;es musicologiques avec
 le CIDOC CRM&#xA0;? Comment les publier et les manipuler&#xA0;?).</p></div>
-<div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;</div></div>
+<div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;</div></div>
     <div class="slide">
       <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii">Objectifs
 fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
@@ -313,7 +323,7 @@ fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
         <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9;
 des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-1">Objectifs
@@ -327,7 +337,7 @@ affich&#xE9;es clairement, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; 
 triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des
 ontologies convoqu&#xE9;es&#x2026;</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-2">Objectifs
@@ -343,7 +353,7 @@ ontologies convoqu&#xE9;es&#x2026;</li>
         <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours
 &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-3">Objectifs
@@ -363,13 +373,13 @@ pour proposer des interfaces sp&#xE9;cifiques (<a href="https://data-iremus.huma
 <ul><li>Triplets d&#xE9;crivant l&#x2019;identit&#xE9; d&#x2019;une ressource</li><li>Dates</li><li>Place dans une structure (sociale, biblioth&#xE9;caire, logique,
 mat&#xE9;rielle&#x2026;)</li><li>Annotations (qui&#xA0;? qui&#xA0;? quand&#xA0;? pourquoi&#xA0;?)</li><li>Annotations (multiplicit&#xE9; des points de vue)</li></ul></li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide center">
       <p>
         <img src="sherlock-app-id.png"/>
       </p>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iiii">Objectifs
@@ -383,7 +393,7 @@ l&#x2019;interface d&#x2019;annotation collaborative <a href="https://polifonia-
 litt&#xE9;rales textuelles.</li>
         <li>Moteur de recherche par concepts issus de th&#xE9;saurus.</li>
       </ul>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;</div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;</div>
     </div>
   </body>
 </html>

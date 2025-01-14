@@ -7,7 +7,7 @@
 }
 .context > div { margin: 1em; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
+h2 { color: #FF0092; font-family: "FiraCode" !important; text-transform: lowercase; }
 </style>
 
 <!--📜-->
@@ -18,24 +18,25 @@ h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: 
 <div>‹Les Humanités numériques pour la recherche et la formation›</div>
 <div>17 janvier 2025</div>
 </div>
-<div style="text-align: right;">
-        Journée d'études organisée par l'UFR LAM, IDHES Evry, <br/>les départements d'Histoire, de LEA et de Musicologie
-</div>
+<div style="text-align: right;">Journée d'études organisée par l'UFR LAM, IDHES Evry,<br/>les départements d'Histoire, de LEA et de Musicologie</div>
 </div>
 
 <div style="
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     font-family: FiraCode;
+    justify-content: center;
     text-transform: lowercase;
 ">
-modéliser, saisir, publier, exploiter
- <br/>
- <br/>
-apport des ontologies sémantiques à la conception des systèmes d'information pour la recherche
+<div style="color: #FF0092">modéliser, saisir, publier, exploiter</div>
+<br/>
+<div style="font-size: 75%;">apport des ontologies sémantiques à la conception<br/>des systèmes d'information pour la recherche</div>
 </div>
 
 <div>
 <pre style="color: gray; font-size: 50%;">
-        https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
+https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 </pre>
 </div>
 
@@ -55,19 +56,24 @@ apport des ontologies sémantiques à la conception des systèmes d'information 
 
 # PLAN
 
-1. Problèmes récurrents lors de la conception d'un SIR
+1. Problèmes récurrents lors de la conception d'un SIR & CIDOC CRM
+
+<!--📜-->
+<!--∫ slide title -->
+
+# Problèmes récurrents lors de la conception d'un SIR & CIDOC CRM
 
 <!--📜-->
 <!--∫ slide -->
 
-# Le Web sémantique, en une slide
+## Le Web sémantique, en une slide
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
 
 
 <!--∫ slide -->
 
-# Le Web sémantique, en une slide
+## Le Web sémantique, en une slide
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
 - Chaque donnée est identifiée par une URL.
@@ -75,7 +81,7 @@ apport des ontologies sémantiques à la conception des systèmes d'information 
 
 <!--∫ slide -->
 
-# Le Web sémantique, en une slide
+## Le Web sémantique, en une slide
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
 - Chaque donnée est identifiée par une URL.
@@ -84,7 +90,7 @@ apport des ontologies sémantiques à la conception des systèmes d'information 
 
 <!--∫ slide -->
 
-# Le Web sémantique, en une slide
+## Le Web sémantique, en une slide
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
 - Chaque donnée est identifiée par une URL.
@@ -94,7 +100,7 @@ apport des ontologies sémantiques à la conception des systèmes d'information 
 
 <!--∫ slide -->
 
-# Le Web sémantique, en une slide
+## Le Web sémantique, en une slide
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
 - Chaque donnée est identifiée par une URL.
@@ -108,7 +114,7 @@ apport des ontologies sémantiques à la conception des systèmes d'information 
 
 <!--∫ slide -->
 
-# Le Web sémantique, en une slide
+## Le Web sémantique, en une slide
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
 - Chaque donnée est identifiée par une URL.

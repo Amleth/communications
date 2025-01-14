@@ -149,11 +149,9 @@ h1 {
 }
 
 h2 {
-  text-align: center;
-}
-
-h2 {
   font-size: 100%;
+  font-weight: normal;
+  text-align: center;
 }
 
 code,
@@ -186,7 +184,8 @@ img {
 .cover {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-between;
+  text-align: center;
 }
 
 .cover>div {

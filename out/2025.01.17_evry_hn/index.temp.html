@@ -34,7 +34,7 @@
 }
 .context > div { margin: 1em; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
+h2 { color: #FF0092; font-family: "FiraCode" !important; text-transform: lowercase; }
 </style>
 <!--📜-->
 <!--∫ slide cover -->
@@ -48,20 +48,30 @@ h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: 
 </div>
 </div>
 <div style="text-align: right;">
-<pre><code>    Journée d&#39;études organisée par l&#39;UFR LAM, IDHES Evry, &lt;br/&gt;les départements d&#39;Histoire, de LEA et de Musicologie</code></pre>
+Journée d’études organisée par l’UFR LAM, IDHES Evry,<br/>les
+départements d’Histoire, de LEA et de Musicologie
 </div>
 </div>
 <div style="
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     font-family: FiraCode;
+    justify-content: center;
     text-transform: lowercase;
 ">
-<p>modéliser, saisir, publier, exploiter  <br/>  <br/> apport des
-ontologies sémantiques à la conception des systèmes d’information pour
-la recherche</p>
+<div style="color: #FF0092">
+modéliser, saisir, publier, exploiter
+</div>
+<br/>
+<div style="font-size: 75%;">
+apport des ontologies sémantiques à la conception<br/>des systèmes
+d’information pour la recherche
+</div>
 </div>
 <div>
 <pre style="color: gray; font-size: 50%;">
-        https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
+https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 </pre>
 </div>
 <div class="context">
@@ -86,20 +96,26 @@ Consortium ‹Musica2› IR* Huma-Num
 <!--∫ slide -->
 <h1 id="plan">PLAN</h1>
 <ol type="1">
-<li>Problèmes récurrents lors de la conception d’un SIR</li>
+<li>Problèmes récurrents lors de la conception d’un SIR &amp; CIDOC
+CRM</li>
 </ol>
 <!--📜-->
+<!--∫ slide title -->
+<h1
+id="problèmes-récurrents-lors-de-la-conception-dun-sir-cidoc-crm">Problèmes
+récurrents lors de la conception d’un SIR &amp; CIDOC CRM</h1>
+<!--📜-->
 <!--∫ slide -->
-<h1 id="le-web-sémantique-en-une-slide">Le Web sémantique, en une
-slide</h1>
+<h2 id="le-web-sémantique-en-une-slide">Le Web sémantique, en une
+slide</h2>
 <ul>
 <li>Promesse d’une base de données à l’échelle du Web. Le Web initial
 (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
 Web sémantique est un Web de données liées.</li>
 </ul>
 <!--∫ slide -->
-<h1 id="le-web-sémantique-en-une-slide-1">Le Web sémantique, en une
-slide</h1>
+<h2 id="le-web-sémantique-en-une-slide-1">Le Web sémantique, en une
+slide</h2>
 <ul>
 <li>Promesse d’une base de données à l’échelle du Web. Le Web initial
 (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
@@ -107,8 +123,8 @@ Web sémantique est un Web de données liées.</li>
 <li>Chaque donnée est identifiée par une URL.</li>
 </ul>
 <!--∫ slide -->
-<h1 id="le-web-sémantique-en-une-slide-2">Le Web sémantique, en une
-slide</h1>
+<h2 id="le-web-sémantique-en-une-slide-2">Le Web sémantique, en une
+slide</h2>
 <ul>
 <li>Promesse d’une base de données à l’échelle du Web. Le Web initial
 (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
@@ -118,8 +134,8 @@ Web sémantique est un Web de données liées.</li>
 (sujet/prédicat/objet) dans un langage de description, le RDF.</li>
 </ul>
 <!--∫ slide -->
-<h1 id="le-web-sémantique-en-une-slide-3">Le Web sémantique, en une
-slide</h1>
+<h2 id="le-web-sémantique-en-une-slide-3">Le Web sémantique, en une
+slide</h2>
 <ul>
 <li>Promesse d’une base de données à l’échelle du Web. Le Web initial
 (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
@@ -130,8 +146,8 @@ Web sémantique est un Web de données liées.</li>
 <li>La connexion de ces triplets RDF forme un graphe.</li>
 </ul>
 <!--∫ slide -->
-<h1 id="le-web-sémantique-en-une-slide-4">Le Web sémantique, en une
-slide</h1>
+<h2 id="le-web-sémantique-en-une-slide-4">Le Web sémantique, en une
+slide</h2>
 <ul>
 <li>Promesse d’une base de données à l’échelle du Web. Le Web initial
 (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
@@ -145,8 +161,8 @@ des propriétés).</li>
 </ul>
 <p><img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" /></p>
 <!--∫ slide -->
-<h1 id="le-web-sémantique-en-une-slide-5">Le Web sémantique, en une
-slide</h1>
+<h2 id="le-web-sémantique-en-une-slide-5">Le Web sémantique, en une
+slide</h2>
 <ul>
 <li>Promesse d’une base de données à l’échelle du Web. Le Web initial
 (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le
