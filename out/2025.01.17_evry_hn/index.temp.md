@@ -52,6 +52,23 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!-- ############################################################################################################### -->
 <!-- ############################################################################################################### -->
 
+<!--📜-->
+<!--∫ slide title -->
+
+# Le CIDOC CRM au service de la musicologie
+
+<!--📜-->
+<!--∫ slide -->
+
+## Cas d'usage à l'IReMus
+
+- Référentiel des personnes, lieux et institution de l'Ancien Régime (charges).
+- Édition critique du Mercure Galant (1672-1724), structuration logique et matérielle des corpus original et TEI avec LRMoo.
+- Indexation sémantique (avec des thésaurus) et description analytique de collections iconographiques.
+- Annotation collaborative de partitions MEI avec structuration logique des annotations (cadences et leur structure interne) et articulation fine à la partition.
+- Divers entreprises de catalogages de sources anciennes.
+- Modèle Antony : sauvegarde et partage du patrimoine musical utilisant des technologies numériques.
+
 <!-- ############################################################################################################### -->
 <!-- ############################################################################################################### -->
 
@@ -65,14 +82,14 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 ## Les problèmes émanant du RDF/CIDOC CRM
 
-- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (tabulaires et contraintes).
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
 
 
 <!--∫ slide -->
 
 ## Les problèmes émanant du RDF/CIDOC CRM
 
-- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (tabulaires et contraintes).
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
 - Le CRM est expressif, mais :
 
 
@@ -80,7 +97,7 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 ## Les problèmes émanant du RDF/CIDOC CRM
 
-- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (tabulaires et contraintes).
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
 - Le CRM est expressif, mais :
   - Il existe parfois plusieurs manières de modéliser une situation avec les classes de base.
 
@@ -89,7 +106,7 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 ## Les problèmes émanant du RDF/CIDOC CRM
 
-- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (tabulaires et contraintes).
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
 - Le CRM est expressif, mais :
   - Il existe parfois plusieurs manières de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des sous-entités.
@@ -99,7 +116,7 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 ## Les problèmes émanant du RDF/CIDOC CRM
 
-- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (tabulaires et contraintes).
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
 - Le CRM est expressif, mais :
   - Il existe parfois plusieurs manières de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des sous-entités.
@@ -110,7 +127,7 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 ## Les problèmes émanant du RDF/CIDOC CRM
 
-- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (tabulaires et contraintes).
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
 - Le CRM est expressif, mais :
   - Il existe parfois plusieurs manières de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des sous-entités.
@@ -122,7 +139,7 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 ## Les problèmes émanant du RDF/CIDOC CRM
 
-- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (tabulaires et contraintes).
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
 - Le CRM est expressif, mais :
   - Il existe parfois plusieurs manières de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des sous-entités.
@@ -287,6 +304,13 @@ front : TypeScript, React, Next UI, Tailwind CSS
 ## Identité d'une ressource
 
 <img src="sherlock-app-id.png"/>
+
+<!--📜-->
+<!--∫ slide ch cv -->
+
+## Affichage des ressources liées
+
+<img src="sherlock-app-lr.png" style="width: 24cm;"/>
 
 <!--📜-->
 <!--∫ slide ch cv -->
