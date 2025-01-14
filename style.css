@@ -44,9 +44,10 @@ div.slide {
   position: absolute;
 }
 
-div.slide div.content {
-  /* border: 1px solid yellow; */
-}
+/* div.slide div.content {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0 0.5em;
+} */
 
 .pagination {
   box-sizing: border-box;
@@ -148,7 +149,7 @@ pre {
 
 /* automatically set by the script */
 .colour {
-  color: #16e7cf;
+  color: #00ffff;
 }
 
 html {
@@ -163,11 +164,14 @@ body {
 }
 
 h1 {
-  font-family: "FuturaPT";
-  font-weight: 200;
+  border: 1px solid #FF0092;
+  color: #FF0092;
+  font-family: "FiraCode";
+  font-weight: normal;
   text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 123%;
+  padding: 1em;
+  text-transform: lowercase;
 }
 
 h2 {
@@ -182,8 +186,9 @@ h2 {
 h3 {
   color: #16e7cf;
   font-family: "FiraCode" !important;
-  font-size: 69%;
+  font-size: 82%;
   font-weight: normal;
+  margin-bottom: 0.5em;
   text-align: center;
   text-transform: lowercase;
 }
@@ -253,11 +258,4 @@ div.slide.cv div.content {
 
 .title>div {
   text-align: center;
-}
-
-.c {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }

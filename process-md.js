@@ -4,7 +4,7 @@ const readline = require('readline')
 const colorbrewer = require('colorbrewer');
 
 const NEW_SLIDE_PATTERN = /<!--∫ slide (.*)-->/
-const SLIDEOVERLAY_PATTERN = /∫[🦔🐌🐢]|•••|§§§/
+const SLIDEOVERLAY_PATTERN = /∫[🦔🐌🐢]|•••|§§§|———/
 const DOT = /```dot ([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})\s*([0-9]{0,3})/
 
 const IN_FILE = process.argv[2]
