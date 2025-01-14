@@ -46,6 +46,10 @@ let currentDotId = -1
 let inDot = false
 
 rl.on('line', line => {
+  if (/^ +\</.test(line)) {
+    line = line.trim()
+  }
+
   const variableDeclaration = line.match(VARIABLE_DECLARATION_PATTERN)
   if (variableDeclaration) {
     VARIABLES[variableDeclaration[2]] = variableDeclaration[3]

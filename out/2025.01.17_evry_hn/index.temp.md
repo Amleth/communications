@@ -6,13 +6,8 @@
     font-size: 18px;
 }
 .context > div { margin: 1em; }
-body { font-family: GoudyNoto; font-weight: 300; }
 h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
 h2 { color: #FF0092; letter-spacing: 0.075em; font-weight: 180; text-transform: uppercase; }
-code { color: #16e7cf; }
-.dim { color: #aaa; }
-.center { text-align: center; }
-.spring { display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 3cm; }
 </style>
 
 <!--📜-->
@@ -23,22 +18,26 @@ code { color: #16e7cf; }
 <div>‹Les Humanités numériques pour la recherche et la formation›</div>
 <div>17 janvier 2025</div>
 </div>
-<div style="text-align: right;">Journée d'études organisée par l'UFR LAM, IDHES Evry, <br/>les départements d'Histoire, de LEA et de Musicologie</div>
+<div style="text-align: right;">
+        Journée d'études organisée par l'UFR LAM, IDHES Evry, <br/>les départements d'Histoire, de LEA et de Musicologie
+</div>
 </div>
 
 <div style="
-    font-family: FuturaPT;
-    font-size: 111%;
-    letter-spacing: 0.1em;
-    padding: 0.5cm 0;
-    text-transform: uppercase;
+    font-family: FiraCode;
+    text-transform: lowercase;
 ">
-APPORT DES ONTOLOGIES SÉMANTIQUES À LA CONCEPTION DES SYSTÈMES D'INFORMATION SCIENTIFIQUES
+modéliser, saisir, publier, exploiter
+ <br/>
+ <br/>
+apport des ontologies sémantiques à la conception des systèmes d'information pour la recherche
 </div>
 
-<div><pre style="color: gray; font-size: 50%;">
-https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
-</pre></div>
+<div>
+<pre style="color: gray; font-size: 50%;">
+        https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
+</pre>
+</div>
 
 <div class="context">
 <div style="display: flex; justify-content: space-between;">
@@ -51,40 +50,226 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 </div>
 </div>
 
-
 <!--📜-->
 <!--∫ slide -->
 
 # PLAN
 
-1. 
-1. 
-1. 
-1. 
-1. Le Web sémantique comme milieu technique pour l'expression et la diffusion des données de la recherche
-1. Les fondements de l'ontologie CIDOC CRM
-1. Deux mots sur les ontologies filles LRMoo et DOREMUS
+1. Problèmes récurrents lors de la conception d'un SIR
 
 <!--📜-->
 <!--∫ slide -->
 
-# Titre
+# Le Web sémantique, en une slide
 
-Un
-
-
-<!--∫ slide -->
-
-# Titre
-
-Un
-Deux
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
 
 
 <!--∫ slide -->
 
-# Titre
+# Le Web sémantique, en une slide
 
-Un
-Deux
-Trois
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+
+
+<!--∫ slide -->
+
+# Le Web sémantique, en une slide
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+
+
+<!--∫ slide -->
+
+# Le Web sémantique, en une slide
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+- La connexion de ces triplets RDF forme un graphe.
+
+
+<!--∫ slide -->
+
+# Le Web sémantique, en une slide
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+- La connexion de ces triplets RDF forme un graphe.
+- Chaque prédicat est également identifié par une URL (sens partagé des propriétés).
+
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" />
+
+
+
+<!--∫ slide -->
+
+# Le Web sémantique, en une slide
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+- La connexion de ces triplets RDF forme un graphe.
+- Chaque prédicat est également identifié par une URL (sens partagé des propriétés).
+
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" />
+
+- Milieu technique idéal pour des données scientifiques FAIR.
+
+<!--📜-->
+<!--∫ slide center -->
+
+# Données relationnelles vs graphe RDF
+
+<img src="corago.png"/>
+
+*Corago in LOD - Seminar by Angelo Pompilio and Paolo Bonora, Digital Humanities and Digital Knowledge, Università di Bologna, 2017.*
+
+<!--📜-->
+<!--∫ slide -->
+
+# Qu'est ce qu'une ontologie ?
+
+- Formalisation d'un modèle conceptuel pour un domaine identifié proposant des :
+    - ‹Classes :› types d'entités peuplant le domaine, possiblement organisées selon des relations d'héritage (spécificité). On appelle ‹individu› une ressource qui est du type d'une classe.
+    - ‹Propriétés :› aspects, caractéristiques, attributs possibles de ces classes, qui peuvent soit pointer vers une valeur, soit vers un individu.
+- Utiliser les classes et les propriétés d'une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Vous connaissez peut-être déjà une ontologie : SKOS (pour construire des thésauri).
+
+<!--📜-->
+<!--∫ slide title -->
+
+# III. Introduction à l'ontologie CIDOC-CRM
+
+<!--📜-->
+<!--∫ slide -->
+
+# Le CIDOC-CRM en bref
+
+- Le CIDOC-CRM est une ontologie qui documente le patrimoine matériel et immatériel ainsi que les processus de production de connaissances à son propos.
+- [https://www.cidoc-crm.org/](https://www.cidoc-crm.org/)
+- Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+- Elle est extrêmement abstraite et générique.
+- Ontologie centrée événement (nous y reviendrons dans les exemples…)
+- Classes et propriétés : [https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html](https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html)
+
+<!--📜-->
+<!--∫ slide center -->
+
+# Hiérarchie des classes
+
+<img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/>
+
+<!--📜-->
+<!--∫ slide -->
+
+Opinion : En dépit du nombre de classes centrées sur les usages de musées, le CIDOC-CRM propose des classes génériques permettant de rendre compte de l'ensemble des problématiques de modélisation de la structure et du contenu des sources, ainsi que des processus analytiques qui les prennent pour cible.
+
+<!--📜-->
+<!--∫ slide center -->
+
+# Le temps dans le CRM
+
+<img src="time.png" style="width: 26cm;"/>
+
+<!--📜-->
+<!--∫ slide title -->
+
+# De quelques ontologies filles bien utiles
+
+<!--📜-->
+<!--∫ slide -->
+
+## LRMoo
+
+- Convergence du monde des musées (CIDOC-CRM) et du monde des bibliothèques ([IFLA LRM](https://www.transition-bibliographique.fr/enjeux/definition-ifla-lrm/), anciennement FRBR) : l'ontologie LRMoo spécialise certaines classes du CIDOC-CRM (qui sert donc d'ontologie de base).
+- Quatre entités fondamentales — Work, Expression, Manifestation, Item (WEMI) — représentant les quatre modes d'existence des sources (conceptuel, sémiotique, éditorial, matériel).
+
+<!--📜-->
+<!--∫ slide center -->
+
+## LRMoo : Des relations riches entre les entités
+
+<img src="F1-F2-F3.png" style="height: 15cm;"/>
+
+<!--📜-->
+<!--∫ slide -->
+
+## DOREMUS 
+
+- Des vocabulaires utiles pour la musique : [data.doremus.org/vocabularies](https://data.doremus.org/vocabularies) + [github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies](https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies)
+- Une ontologie sans équivalent pour la modélisation des effectifs prévus dans l'œuvre, des concerts, et des effectifs réalisés durant les performances : [https://data.doremus.org/ontology/](data.doremus.org/ontology)
+- Un parti prix (désormais techniquement obsolète) sur la manière dont on peut modéliser une situation de composition : [data.doremus.org/ontology](https://data.doremus.org/ontology/)
+- Un énorme dataset (BNF + Radio France + Philharmonie) d'œuvres, partitions, concerts… [data.doremus.org](https://data.doremus.org/)
+
+<!--📜-->
+<!--∫ slide center -->
+
+# Une application Web pour explorer des données CRM
+
+Motivation :
+<div style="color: gray; font-style: italic;">
+Recourir à un unique modèles dans les différents projets permet de ne concevoir, développer et maintenir qu'une unique application pour présenter et exploiter les données.
+</div>
+
+Contexte :
+<div style="color: gray; font-style: italic;">
+Pas ou peu d'apport financier. Programme de recherche SHERLOCK à l'IReMus (Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ? Comment les publier et les manipuler ?).
+</div>
+
+<!--📜-->
+<!--∫ slide -->
+
+## Objectifs fonctionnels de la « SHERLOCK app » (I/II)
+
+- Une interface de navigation hypertexte générique dans la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
+
+
+<!--∫ slide -->
+
+## Objectifs fonctionnels de la « SHERLOCK app » (I/II)
+
+- Une interface de navigation hypertexte générique dans la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
+- L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure serait claire et où les métadonnées y seraient affichées clairement, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
+
+
+<!--∫ slide -->
+
+## Objectifs fonctionnels de la « SHERLOCK app » (I/II)
+
+- Une interface de navigation hypertexte générique dans la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
+- L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure serait claire et où les métadonnées y seraient affichées clairement, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
+- … mais la teneur des sujets/prédicats/objets RDF devrait toujours être clairement indiquée, pour raisons pédagogique et technique.
+
+
+<!--∫ slide -->
+
+## Objectifs fonctionnels de la « SHERLOCK app » (I/II)
+
+- Une interface de navigation hypertexte générique dans la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
+- L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure serait claire et où les métadonnées y seraient affichées clairement, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
+- … mais la teneur des sujets/prédicats/objets RDF devrait toujours être clairement indiquée, pour raisons pédagogique et technique.
+- Exploitation des *patterns* spécifiques du CRM ou de LRMoo pour proposer des interfaces spécifiques ([lrmoo:F18](https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479)).
+    - Triplets décrivant l'identité d'une ressource
+    - Dates
+    - Place dans une structure (sociale, bibliothécaire, logique, matérielle…)
+    - Annotations (qui ? qui ? quand ? pourquoi ?)
+    - Annotations (multiplicité des points de vue)
+
+<!--📜-->
+<!--∫ slide center -->
+
+<img src="sherlock-app-id.png"/>
+
+<!--📜-->
+<!--∫ slide -->
+
+## Objectifs fonctionnels de la « SHERLOCK app » (II/II)
+
+- Proposer l'éventuel contenu associé à la ressource en cours de consultation ([rendu HTML d'un fragment TEI](https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe), image, fichier MEI s'ouvrant dans l'interface d'annotation collaborative [Tonalities…](https://polifonia-project.eu/pilots/tonalities/)) 
+- Moteur de recherche plein texte dans l'ensemble des valeurs littérales textuelles.
+- Moteur de recherche par concepts issus de thésaurus.
