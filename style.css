@@ -37,9 +37,15 @@ div.slide {
 div.slide {
   background-color: black;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   padding: 1cm 1cm 1cm 1cm;
   page-break-before: always;
   position: absolute;
+}
+
+div.slide div.content {
+  /* border: 1px solid yellow; */
 }
 
 .pagination {
@@ -62,6 +68,9 @@ div.slide {
 /* ELEMENTS */
 /******************************************************************************/
 
+h1,
+h2,
+h3,
 p {
   margin: 0;
   padding: 0;
@@ -74,6 +83,16 @@ ul ul {
 ul,
 ol {
   margin: 1em;
+}
+
+ul:nth-child(1),
+ol:nth-child(1) {
+  margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
 }
 
 ul {
@@ -144,14 +163,29 @@ body {
 }
 
 h1 {
-  font-weight: normal;
+  font-family: "FuturaPT";
+  font-weight: 200;
   text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 h2 {
+  color: #FF0092;
+  font-family: "FiraCode" !important;
   font-size: 100%;
   font-weight: normal;
   text-align: center;
+  text-transform: lowercase;
+}
+
+h3 {
+  color: #16e7cf;
+  font-family: "FiraCode" !important;
+  font-size: 69%;
+  font-weight: normal;
+  text-align: center;
+  text-transform: lowercase;
 }
 
 code,
@@ -192,9 +226,18 @@ img {
   text-align: center;
 }
 
-.center {
+div.slide div.content {
+  margin-top: 1cm;
+}
+
+div.slide.ch div.content {
+  text-align: center;
+}
+
+div.slide.cv div.content {
   align-items: center;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
 }

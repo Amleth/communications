@@ -34,8 +34,6 @@
     font-size: 18px;
 }
 .context &gt; div { margin: 1em; }
-h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #FF0092; font-family: "FiraCode" !important; text-transform: lowercase; }
 </style>
     <div class="slide cover">
       <div class="context">
@@ -48,8 +46,7 @@ h2 { color: #FF0092; font-family: "FiraCode" !important; text-transform: lowerca
 </div>
         </div>
         <div style="text-align: right;">
-Journ&#xE9;e d&#x2019;&#xE9;tudes organis&#xE9;e par l&#x2019;UFR LAM, IDHES Evry,<br/>les
-d&#xE9;partements d&#x2019;Histoire, de LEA et de Musicologie
+Journ&#xE9;e d&#x2019;&#xE9;tudes organis&#xE9;e par l&#x2019;UFR LAM, IDHES Evry,<br/>les d&#xE9;partements d&#x2019;Histoire, de LEA et de Musicologie
 </div>
       </div>
       <div style="     align-items: center;     display: flex;     flex-direction: column;     font-family: FiraCode;     justify-content: center;     text-transform: lowercase; ">
@@ -58,8 +55,7 @@ mod&#xE9;liser, saisir, publier, exploiter
 </div>
         <br/>
         <div style="font-size: 75%;">
-apport des ontologies s&#xE9;mantiques &#xE0; la conception<br/>des syst&#xE8;mes
-d&#x2019;information pour la recherche
+apport des ontologies s&#xE9;mantiques &#xE0; la conception<br/>des syst&#xE8;mes d&#x2019;information pour la recherche
 </div>
       </div>
       <div>
@@ -87,292 +83,262 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
     </div>
     <div class="slide">
       <h1 id="plan">PLAN</h1>
-      <ol type="1">
-        <li>Probl&#xE8;mes r&#xE9;currents lors de la conception d&#x2019;un SIR &amp; CIDOC
-CRM</li>
-      </ol>
+      <div class="content">
+        <ol type="1">
+          <li>Probl&#xE8;mes r&#xE9;currents lors de la conception d&#x2019;un SIR &amp; CIDOC CRM</li>
+        </ol>
+      </div>
       <div class="pagination">&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide title">
-      <h1 id="probl&#xE8;mes-r&#xE9;currents-lors-de-la-conception-dun-sir-cidoc-crm">Probl&#xE8;mes
-r&#xE9;currents lors de la conception d&#x2019;un SIR &amp; CIDOC CRM</h1>
+      <h1 id="probl&#xE8;mes-r&#xE9;currents-lors-de-la-conception-dun-sir-cidoc-crm">Probl&#xE8;mes r&#xE9;currents lors de la conception d&#x2019;un SIR &amp; CIDOC CRM</h1>
+      <div class="content">
+</div>
       <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-en-une-slide">Le Web s&#xE9;mantique, en une
-slide</h2>
-      <ul>
-        <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
-(Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
-Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-      </ul>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide">Le Web s&#xE9;mantique, en une slide</h2>
+      <div class="content">
+        <ul>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-en-une-slide-1">Le Web s&#xE9;mantique, en une
-slide</h2>
-      <ul>
-        <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
-(Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
-Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-        <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-      </ul>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-1">Le Web s&#xE9;mantique, en une slide</h2>
+      <div class="content">
+        <ul>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
+          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-en-une-slide-2">Le Web s&#xE9;mantique, en une
-slide</h2>
-      <ul>
-        <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
-(Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
-Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-        <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-        <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet
-(sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
-      </ul>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-2">Le Web s&#xE9;mantique, en une slide</h2>
+      <div class="content">
+        <ul>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
+          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-en-une-slide-3">Le Web s&#xE9;mantique, en une
-slide</h2>
-      <ul>
-        <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
-(Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
-Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-        <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-        <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet
-(sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
-        <li>La connexion de ces triplets RDF forme un graphe.</li>
-      </ul>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-3">Le Web s&#xE9;mantique, en une slide</h2>
+      <div class="content">
+        <ul>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
+          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
+          <li>La connexion de ces triplets RDF forme un graphe.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-en-une-slide-4">Le Web s&#xE9;mantique, en une
-slide</h2>
-      <ul>
-        <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
-(Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
-Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-        <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-        <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet
-(sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
-        <li>La connexion de ces triplets RDF forme un graphe.</li>
-        <li>Chaque pr&#xE9;dicat est &#xE9;galement identifi&#xE9; par une URL (sens partag&#xE9;
-des propri&#xE9;t&#xE9;s).</li>
-      </ul>
-      <p>
-        <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
-      </p>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-4">Le Web s&#xE9;mantique, en une slide</h2>
+      <div class="content">
+        <ul>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
+          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
+          <li>La connexion de ces triplets RDF forme un graphe.</li>
+          <li>Chaque pr&#xE9;dicat est &#xE9;galement identifi&#xE9; par une URL (sens partag&#xE9; des propri&#xE9;t&#xE9;s).</li>
+        </ul>
+        <p>
+          <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
+        </p>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-en-une-slide-5">Le Web s&#xE9;mantique, en une
-slide</h2>
-      <ul>
-        <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial
-(Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le
-Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-        <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-        <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet
-(sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
-        <li>La connexion de ces triplets RDF forme un graphe.</li>
-        <li>Chaque pr&#xE9;dicat est &#xE9;galement identifi&#xE9; par une URL (sens partag&#xE9;
-des propri&#xE9;t&#xE9;s).</li>
-      </ul>
-      <p>
-        <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
-      </p>
-      <ul>
-        <li>Milieu technique id&#xE9;al pour des donn&#xE9;es scientifiques FAIR.</li>
-      </ul>
+      <h2 id="le-web-s&#xE9;mantique-en-une-slide-5">Le Web s&#xE9;mantique, en une slide</h2>
+      <div class="content">
+        <ul>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
+          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
+          <li>La connexion de ces triplets RDF forme un graphe.</li>
+          <li>Chaque pr&#xE9;dicat est &#xE9;galement identifi&#xE9; par une URL (sens partag&#xE9; des propri&#xE9;t&#xE9;s).</li>
+        </ul>
+        <p>
+          <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
+        </p>
+        <ul>
+          <li>Milieu technique id&#xE9;al pour des donn&#xE9;es scientifiques FAIR.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
-    <div class="slide center">
-      <h1 id="donn&#xE9;es-relationnelles-vs-graphe-rdf">Donn&#xE9;es relationnelles vs
-graphe RDF</h1>
-      <p>
-        <img src="corago.png"/>
-      </p>
-      <p>
-        <em>Corago in LOD - Seminar by Angelo Pompilio and Paolo Bonora,
-Digital Humanities and Digital Knowledge, Universit&#xE0; di Bologna,
-2017.</em>
-      </p>
+    <div class="slide ch">
+      <h2 id="donn&#xE9;es-relationnelles-vs-graphe-rdf">Donn&#xE9;es relationnelles vs graphe RDF</h2>
+      <div class="content">
+        <p>
+          <img src="corago.png"/>
+        </p>
+        <p>
+          <em>Corago in LOD - Seminar by Angelo Pompilio and Paolo Bonora, Digital Humanities and Digital Knowledge, Universit&#xE0; di Bologna, 2017.</em>
+        </p>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h1 id="quest-ce-quune-ontologie">Qu&#x2019;est ce qu&#x2019;une ontologie ?</h1>
-      <ul>
-        <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine identifi&#xE9;
-proposant des :
-<ul><li><span class="colour">Classes :</span> types d&#x2019;entit&#xE9;s peuplant le domaine, possiblement
-organis&#xE9;es selon des relations d&#x2019;h&#xE9;ritage (sp&#xE9;cificit&#xE9;). On appelle
-<span class="colour">individu</span> une ressource qui est du type d&#x2019;une classe.</li><li><span class="colour">Propri&#xE9;t&#xE9;s :</span> aspects, caract&#xE9;ristiques, attributs possibles de ces
-classes, qui peuvent soit pointer vers une valeur, soit vers un
-individu.</li></ul></li>
-        <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi
-une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par
-des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes
-seront des pr&#xE9;dicats).</li>
-        <li>Vous connaissez peut-&#xEA;tre d&#xE9;j&#xE0; une ontologie : SKOS (pour construire
-des th&#xE9;sauri).</li>
-      </ul>
+      <div class="content">
+        <ul>
+          <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine identifi&#xE9; proposant des :
+<ul><li><span class="colour">Classes :</span> types d&#x2019;entit&#xE9;s peuplant le domaine, possiblement organis&#xE9;es selon des relations d&#x2019;h&#xE9;ritage (sp&#xE9;cificit&#xE9;). On appelle <span class="colour">individu</span> une ressource qui est du type d&#x2019;une classe.</li><li><span class="colour">Propri&#xE9;t&#xE9;s :</span> aspects, caract&#xE9;ristiques, attributs possibles de ces classes, qui peuvent soit pointer vers une valeur, soit vers un individu.</li></ul></li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes seront des pr&#xE9;dicats).</li>
+          <li>Vous connaissez peut-&#xEA;tre d&#xE9;j&#xE0; une ontologie : SKOS (pour construire des th&#xE9;sauri).</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide title">
-      <h1 id="iii.-introduction-&#xE0;-lontologie-cidoc-crm">III. Introduction &#xE0;
-l&#x2019;ontologie CIDOC-CRM</h1>
+      <h1 id="iii.-introduction-&#xE0;-lontologie-cidoc-crm">III. Introduction &#xE0; l&#x2019;ontologie CIDOC-CRM</h1>
+      <div class="content">
+</div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h1 id="le-cidoc-crm-en-bref">Le CIDOC-CRM en bref</h1>
-      <ul>
-        <li>Le CIDOC-CRM est une ontologie qui documente le patrimoine mat&#xE9;riel
-et immat&#xE9;riel ainsi que les processus de production de connaissances &#xE0;
-son propos.</li>
-        <li>
-          <a href="https://www.cidoc-crm.org/">https://www.cidoc-crm.org/</a>
-        </li>
-        <li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous
-les domaines des HN.</li>
-        <li>Elle est extr&#xEA;mement abstraite et g&#xE9;n&#xE9;rique.</li>
-        <li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement (nous y reviendrons dans les
-exemples&#x2026;)</li>
-        <li>Classes et propri&#xE9;t&#xE9;s : <a href="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html">https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html</a></li>
-      </ul>
+      <div class="content">
+        <ul>
+          <li>Le CIDOC-CRM est une ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les processus de production de connaissances &#xE0; son propos.</li>
+          <li>
+            <a href="https://www.cidoc-crm.org/">https://www.cidoc-crm.org/</a>
+          </li>
+          <li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li>
+          <li>Elle est extr&#xEA;mement abstraite et g&#xE9;n&#xE9;rique.</li>
+          <li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement (nous y reviendrons dans les exemples&#x2026;)</li>
+          <li>Classes et propri&#xE9;t&#xE9;s : <a href="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html">https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html</a></li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
-    <div class="slide center">
-      <h1 id="hi&#xE9;rarchie-des-classes">Hi&#xE9;rarchie des classes</h1>
-      <p>
-        <img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/>
-      </p>
+    <div class="slide ch cv">
+      <h2 id="hi&#xE9;rarchie-des-classes">Hi&#xE9;rarchie des classes</h2>
+      <div class="content">
+        <p>
+          <img src="cidoc-crm.jpg" style="width: 26cm;"/>
+        </p>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <p>Opinion&#xA0;: En d&#xE9;pit du nombre de classes centr&#xE9;es sur les usages de
-mus&#xE9;es, le CIDOC-CRM propose des classes g&#xE9;n&#xE9;riques permettant de rendre
-compte de l&#x2019;ensemble des probl&#xE9;matiques de mod&#xE9;lisation de la structure
-et du contenu des sources, ainsi que des processus analytiques qui les
-prennent pour cible.</p>
+      <p>Opinion&#xA0;: En d&#xE9;pit du nombre de classes centr&#xE9;es sur les usages de mus&#xE9;es, le CIDOC-CRM propose des classes g&#xE9;n&#xE9;riques permettant de rendre compte de l&#x2019;ensemble des probl&#xE9;matiques de mod&#xE9;lisation de la structure et du contenu des sources, ainsi que des processus analytiques qui les prennent pour cible.</p>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
-    <div class="slide center">
+    <div class="slide ch">
       <h1 id="le-temps-dans-le-crm">Le temps dans le CRM</h1>
-      <p>
-        <img src="time.png" style="width: 26cm;"/>
-      </p>
+      <div class="content">
+        <p>
+          <img src="time.png" style="width: 26cm;"/>
+        </p>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide title">
-      <h1 id="de-quelques-ontologies-filles-bien-utiles">De quelques
-ontologies filles bien utiles</h1>
+      <h1 id="de-quelques-ontologies-filles-bien-utiles">De quelques ontologies filles bien utiles</h1>
+      <div class="content">
+</div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="lrmoo">LRMoo</h2>
-      <ul>
-        <li>Convergence du monde des mus&#xE9;es (CIDOC-CRM) et du monde des
-biblioth&#xE8;ques (<a href="https://www.transition-bibliographique.fr/enjeux/definition-ifla-lrm/">IFLA
-LRM</a>, anciennement FRBR)&#xA0;: l&#x2019;ontologie LRMoo sp&#xE9;cialise certaines
-classes du CIDOC-CRM (qui sert donc d&#x2019;ontologie de base).</li>
-        <li>Quatre entit&#xE9;s fondamentales &#x2014;&#xA0;Work, Expression, Manifestation,
-Item&#xA0;(WEMI) &#x2014; repr&#xE9;sentant les quatre modes d&#x2019;existence des sources
-(conceptuel, s&#xE9;miotique, &#xE9;ditorial, mat&#xE9;riel).</li>
-      </ul>
+      <div class="content">
+        <ul>
+          <li>Convergence du monde des mus&#xE9;es (CIDOC-CRM) et du monde des biblioth&#xE8;ques (<a href="https://www.transition-bibliographique.fr/enjeux/definition-ifla-lrm/">IFLA LRM</a>, anciennement FRBR)&#xA0;: l&#x2019;ontologie LRMoo sp&#xE9;cialise certaines classes du CIDOC-CRM (qui sert donc d&#x2019;ontologie de base).</li>
+          <li>Quatre entit&#xE9;s fondamentales &#x2014;&#xA0;Work, Expression, Manifestation, Item&#xA0;(WEMI) &#x2014; repr&#xE9;sentant les quatre modes d&#x2019;existence des sources (conceptuel, s&#xE9;miotique, &#xE9;ditorial, mat&#xE9;riel).</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
-    <div class="slide center">
-      <h2 id="lrmoo-des-relations-riches-entre-les-entit&#xE9;s">LRMoo&#xA0;: Des
-relations riches entre les entit&#xE9;s</h2>
-      <p>
-        <img src="F1-F2-F3.png" style="height: 15cm;"/>
-      </p>
+    <div class="slide ch">
+      <h2 id="lrmoo-des-relations-riches-entre-les-entit&#xE9;s">LRMoo&#xA0;: Des relations riches entre les entit&#xE9;s</h2>
+      <div class="content">
+        <p>
+          <img src="F1-F2-F3.png" style="height: 15cm;"/>
+        </p>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
       <h2 id="doremus">DOREMUS&#xA0;</h2>
-      <ul>
-        <li>Des vocabulaires utiles pour la musique&#xA0;: <a href="https://data.doremus.org/vocabularies">data.doremus.org/vocabularies</a>
-+ <a href="https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies">github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies</a></li>
-        <li>Une ontologie sans &#xE9;quivalent pour la mod&#xE9;lisation des effectifs
-pr&#xE9;vus dans l&#x2019;&#x153;uvre, des concerts, et des effectifs r&#xE9;alis&#xE9;s durant les
-performances : <a href="data.doremus.org/ontology">https://data.doremus.org/ontology/</a></li>
-        <li>Un parti prix (d&#xE9;sormais techniquement obsol&#xE8;te) sur la mani&#xE8;re dont
-on peut mod&#xE9;liser une situation de composition : <a href="https://data.doremus.org/ontology/">data.doremus.org/ontology</a></li>
-        <li>Un &#xE9;norme dataset (BNF + Radio France + Philharmonie) d&#x2019;&#x153;uvres,
-partitions, concerts&#x2026; <a href="https://data.doremus.org/">data.doremus.org</a></li>
-      </ul>
+      <div class="content">
+        <ul>
+          <li>Des vocabulaires utiles pour la musique&#xA0;: <a href="https://data.doremus.org/vocabularies">data.doremus.org/vocabularies</a> + <a href="https://github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies">github.com/DOREMUS-ANR/knowledge-base/tree/master/vocabularies</a></li>
+          <li>Une ontologie sans &#xE9;quivalent pour la mod&#xE9;lisation des effectifs pr&#xE9;vus dans l&#x2019;&#x153;uvre, des concerts, et des effectifs r&#xE9;alis&#xE9;s durant les performances : <a href="data.doremus.org/ontology">https://data.doremus.org/ontology/</a></li>
+          <li>Un parti prix (d&#xE9;sormais techniquement obsol&#xE8;te) sur la mani&#xE8;re dont on peut mod&#xE9;liser une situation de composition : <a href="https://data.doremus.org/ontology/">data.doremus.org/ontology</a></li>
+          <li>Un &#xE9;norme dataset (BNF + Radio France + Philharmonie) d&#x2019;&#x153;uvres, partitions, concerts&#x2026; <a href="https://data.doremus.org/">data.doremus.org</a></li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
-    <div class="slide center"><h1 id="une-application-web-pour-explorer-des-donn&#xE9;es-crm">Une
-application Web pour explorer des donn&#xE9;es CRM</h1>
-Motivation&#xA0;:
-<div style="color: gray; font-style: italic;"><p>Recourir &#xE0; un unique mod&#xE8;les dans les diff&#xE9;rents projets permet de ne
-concevoir, d&#xE9;velopper et maintenir qu&#x2019;une unique application pour
-pr&#xE9;senter et exploiter les donn&#xE9;es.</p></div>
-Contexte&#xA0;:
-<div style="color: gray; font-style: italic;"><p>Pas ou peu d&#x2019;apport financier. Programme de recherche SHERLOCK &#xE0;
-l&#x2019;IReMus (Comment et pourquoi mod&#xE9;liser les donn&#xE9;es musicologiques avec
-le CIDOC CRM&#xA0;? Comment les publier et les manipuler&#xA0;?).</p></div>
-<div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;</div></div>
+    <div class="slide ch">
+      <h1 id="une-application-web-pour-explorer-des-donn&#xE9;es-crm">Une application Web pour explorer des donn&#xE9;es CRM</h1>
+      <div class="content">
+        <div>
+          <h3>
+Motivation
+</h3>
+          <div style="color: gray; font-style: italic;">
+            <p>Recourir &#xE0; un unique mod&#xE8;les dans les diff&#xE9;rents projets permet de ne concevoir, d&#xE9;velopper et maintenir qu&#x2019;une unique application pour pr&#xE9;senter et exploiter les donn&#xE9;es.</p>
+          </div>
+          <h3>
+Contexte
+</h3>
+          <div style="color: gray; font-style: italic;">
+            <p>Pas ou peu d&#x2019;apport financier. Programme de recherche SHERLOCK &#xE0; l&#x2019;IReMus (Comment et pourquoi mod&#xE9;liser les donn&#xE9;es musicologiques avec le CIDOC CRM&#xA0;? Comment les publier et les manipuler&#xA0;?).</p>
+          </div>
+        </div>
+      </div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;</div>
+    </div>
     <div class="slide">
-      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii">Objectifs
-fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
-      <ul>
-        <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9;
-des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-      </ul>
+      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii">Objectifs fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
+      <div class="content">
+        <ul>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-1">Objectifs
-fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
-      <ul>
-        <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9;
-des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-        <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des
-fiches, dont la structure serait claire et o&#xF9; les m&#xE9;tadonn&#xE9;es y seraient
-affich&#xE9;es clairement, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux
-triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des
-ontologies convoqu&#xE9;es&#x2026;</li>
-      </ul>
+      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-1">Objectifs fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
+      <div class="content">
+        <ul>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure serait claire et o&#xF9; les m&#xE9;tadonn&#xE9;es y seraient affich&#xE9;es clairement, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-2">Objectifs
-fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
-      <ul>
-        <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9;
-des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-        <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des
-fiches, dont la structure serait claire et o&#xF9; les m&#xE9;tadonn&#xE9;es y seraient
-affich&#xE9;es clairement, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux
-triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des
-ontologies convoqu&#xE9;es&#x2026;</li>
-        <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours
-&#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique.</li>
-      </ul>
+      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-2">Objectifs fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
+      <div class="content">
+        <ul>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure serait claire et o&#xF9; les m&#xE9;tadonn&#xE9;es y seraient affich&#xE9;es clairement, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-3">Objectifs
-fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
-      <ul>
-        <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9;
-des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-        <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des
-fiches, dont la structure serait claire et o&#xF9; les m&#xE9;tadonn&#xE9;es y seraient
-affich&#xE9;es clairement, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux
-triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des
-ontologies convoqu&#xE9;es&#x2026;</li>
-        <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours
-&#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique.</li>
-        <li>Exploitation des <em>patterns</em> sp&#xE9;cifiques du CRM ou de LRMoo
-pour proposer des interfaces sp&#xE9;cifiques (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479">lrmoo:F18</a>).
-<ul><li>Triplets d&#xE9;crivant l&#x2019;identit&#xE9; d&#x2019;une ressource</li><li>Dates</li><li>Place dans une structure (sociale, biblioth&#xE9;caire, logique,
-mat&#xE9;rielle&#x2026;)</li><li>Annotations (qui&#xA0;? qui&#xA0;? quand&#xA0;? pourquoi&#xA0;?)</li><li>Annotations (multiplicit&#xE9; des points de vue)</li></ul></li>
-      </ul>
+      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iii-3">Objectifs fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (I/II)</h2>
+      <div class="content">
+        <ul>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique dans la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure serait claire et o&#xF9; les m&#xE9;tadonn&#xE9;es y seraient affich&#xE9;es clairement, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique.</li>
+          <li>Exploitation des <em>patterns</em> sp&#xE9;cifiques du CRM ou de LRMoo pour proposer des interfaces sp&#xE9;cifiques (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479">lrmoo:F18</a>).
+<ul><li>Triplets d&#xE9;crivant l&#x2019;identit&#xE9; d&#x2019;une ressource</li><li>Dates</li><li>Place dans une structure (sociale, biblioth&#xE9;caire, logique, mat&#xE9;rielle&#x2026;)</li><li>Annotations (qui&#xA0;? qui&#xA0;? quand&#xA0;? pourquoi&#xA0;?)</li><li>Annotations (multiplicit&#xE9; des points de vue)</li></ul></li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
     <div class="slide center">
@@ -382,17 +348,14 @@ mat&#xE9;rielle&#x2026;)</li><li>Annotations (qui&#xA0;? qui&#xA0;? quand&#xA0;?
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iiii">Objectifs
-fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (II/II)</h2>
-      <ul>
-        <li>Proposer l&#x2019;&#xE9;ventuel contenu associ&#xE9; &#xE0; la ressource en cours de
-consultation (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe">rendu
-HTML d&#x2019;un fragment TEI</a>, image, fichier MEI s&#x2019;ouvrant dans
-l&#x2019;interface d&#x2019;annotation collaborative <a href="https://polifonia-project.eu/pilots/tonalities/">Tonalities&#x2026;</a>)</li>
-        <li>Moteur de recherche plein texte dans l&#x2019;ensemble des valeurs
-litt&#xE9;rales textuelles.</li>
-        <li>Moteur de recherche par concepts issus de th&#xE9;saurus.</li>
-      </ul>
+      <h2 id="objectifs-fonctionnels-de-la-sherlock-app-iiii">Objectifs fonctionnels de la &#xAB;&#xA0;SHERLOCK app&#xA0;&#xBB; (II/II)</h2>
+      <div class="content">
+        <ul>
+          <li>Proposer l&#x2019;&#xE9;ventuel contenu associ&#xE9; &#xE0; la ressource en cours de consultation (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe">rendu HTML d&#x2019;un fragment TEI</a>, image, fichier MEI s&#x2019;ouvrant dans l&#x2019;interface d&#x2019;annotation collaborative <a href="https://polifonia-project.eu/pilots/tonalities/">Tonalities&#x2026;</a>)</li>
+          <li>Moteur de recherche plein texte dans l&#x2019;ensemble des valeurs litt&#xE9;rales textuelles.</li>
+          <li>Moteur de recherche par concepts issus de th&#xE9;saurus.</li>
+        </ul>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;</div>
     </div>
   </body>

@@ -3,16 +3,12 @@ const _ = require('lodash')
 const readline = require('readline')
 const colorbrewer = require('colorbrewer');
 
-const VARIABLE_DECLARATION_PATTERN = /(<!--∫ (\$[a-zA-Z0-9_-]+)=(.*) -->)/
-const VARIABLE_USE_PATTERN = /(<!--∫ (\$[a-zA-Z0-9_-]+) -->)/
 const NEW_SLIDE_PATTERN = /<!--∫ slide (.*)-->/
 const SLIDEOVERLAY_PATTERN = /∫[🦔🐌🐢]|•••|§§§/
 const DOT = /```dot ([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})\s*([0-9]{0,3})/
 
 const IN_FILE = process.argv[2]
 const OUT_FILE = process.argv[3]
-
-const VARIABLES = {}
 
 function makeGraph(dotContent, id, width) {
   if (!width) width = 29.7
@@ -46,21 +42,15 @@ let currentDotId = -1
 let inDot = false
 
 rl.on('line', line => {
+
+  // nettoyage
   if (/^ +\</.test(line)) {
     line = line.trim()
   }
 
-  const variableDeclaration = line.match(VARIABLE_DECLARATION_PATTERN)
-  if (variableDeclaration) {
-    VARIABLES[variableDeclaration[2]] = variableDeclaration[3]
-    return
-  }
-
-  const variableUse = line.match(VARIABLE_USE_PATTERN)
-  if (variableUse) {
-    line = line.replace(variableUse[1], VARIABLES[variableUse[2]])
-    lines.push(line)
-    return
+  // nettoyage
+  if (/^ +#/.test(line)) {
+    line = line.trim()
   }
 
   const newSlideMatch = line.match(NEW_SLIDE_PATTERN)

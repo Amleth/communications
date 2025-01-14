@@ -8,5 +8,5 @@ digraph {
     layout=dot
 node [color=cyan,fontcolor=white]
 edge [color=cyan,fontcolor=white]
-"https://data.bnf.fr/13962206/morton_feldman_for_philip_guston/" -> "https://data.bnf.fr/fr/13928795/morton_feldman/" [label="http://purl.org/dc/terms/creator"]
+"https://data.bnf.fr/13962206/morton_feldman_for_philip_guston/" -> "« For Philip Guston »" [label="http://www.cidoc-crm.org/cidoc-crm/P102_has_title"]
 }

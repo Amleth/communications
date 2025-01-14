@@ -6,8 +6,6 @@
     font-size: 18px;
 }
 .context > div { margin: 1em; }
-h1 { letter-spacing: 0.1em; font-family: "FuturaPT" !important; font-weight: 200; text-transform: uppercase; }
-h2 { color: #FF0092; font-family: "FiraCode" !important; text-transform: lowercase; }
 </style>
 
 <!--∫ slide cover -->
@@ -78,15 +76,15 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 layout=dot
 node [color=cyan,fontcolor=white]
 edge [color=cyan,fontcolor=white]
-"https://data.bnf.fr/13962206/morton_feldman_for_philip_guston/" -> "https://data.bnf.fr/fr/13928795/morton_feldman/" [label="http://purl.org/dc/terms/creator"]
+"https://data.bnf.fr/13962206/morton_feldman_for_philip_guston/" -> "« For Philip Guston »" [label="http://www.cidoc-crm.org/cidoc-crm/P102_has_title"]
 ```
 
 §§§
 - Milieu technique idéal pour des données scientifiques FAIR.
 
-<!--∫ slide center -->
+<!--∫ slide ch -->
 
-# Données relationnelles vs graphe RDF
+## Données relationnelles vs graphe RDF
 
 <img src="corago.png"/>
 
@@ -117,17 +115,17 @@ edge [color=cyan,fontcolor=white]
 - Ontologie centrée événement (nous y reviendrons dans les exemples…)
 - Classes et propriétés : [https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html](https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html)
 
-<!--∫ slide center -->
+<!--∫ slide ch cv -->
 
-# Hiérarchie des classes
+## Hiérarchie des classes
 
-<img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/>
+<img src="cidoc-crm.jpg" style="width: 26cm;"/>
 
 <!--∫ slide -->
 
 Opinion : En dépit du nombre de classes centrées sur les usages de musées, le CIDOC-CRM propose des classes génériques permettant de rendre compte de l'ensemble des problématiques de modélisation de la structure et du contenu des sources, ainsi que des processus analytiques qui les prennent pour cible.
 
-<!--∫ slide center -->
+<!--∫ slide ch -->
 
 # Le temps dans le CRM
 
@@ -144,7 +142,7 @@ Opinion : En dépit du nombre de classes centrées sur les usages de musées, l
 - Convergence du monde des musées (CIDOC-CRM) et du monde des bibliothèques ([IFLA LRM](https://www.transition-bibliographique.fr/enjeux/definition-ifla-lrm/), anciennement FRBR) : l'ontologie LRMoo spécialise certaines classes du CIDOC-CRM (qui sert donc d'ontologie de base).
 - Quatre entités fondamentales — Work, Expression, Manifestation, Item (WEMI) — représentant les quatre modes d'existence des sources (conceptuel, sémiotique, éditorial, matériel).
 
-<!--∫ slide center -->
+<!--∫ slide ch -->
 
 ## LRMoo : Des relations riches entre les entités
 
@@ -159,18 +157,19 @@ Opinion : En dépit du nombre de classes centrées sur les usages de musées, l
 - Un parti prix (désormais techniquement obsolète) sur la manière dont on peut modéliser une situation de composition : [data.doremus.org/ontology](https://data.doremus.org/ontology/)
 - Un énorme dataset (BNF + Radio France + Philharmonie) d'œuvres, partitions, concerts… [data.doremus.org](https://data.doremus.org/)
 
-<!--∫ slide center -->
+<!--∫ slide ch -->
 
 # Une application Web pour explorer des données CRM
 
-Motivation :
+<div>
+<h3>Motivation</h3>
 <div style="color: gray; font-style: italic;">
 Recourir à un unique modèles dans les différents projets permet de ne concevoir, développer et maintenir qu'une unique application pour présenter et exploiter les données.
 </div>
-
-Contexte :
+<h3>Contexte</h3>
 <div style="color: gray; font-style: italic;">
 Pas ou peu d'apport financier. Programme de recherche SHERLOCK à l'IReMus (Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ? Comment les publier et les manipuler ?).
+</div>
 </div>
 
 <!--∫ slide -->

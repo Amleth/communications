@@ -20,16 +20,14 @@ const rl = readline.createInterface({
 
 let page = 0
 let sameSlide = false
+let weHaveASlideContentToClose = false
 
 const makePagination = (p) => {
   if (p == 1) return ""
-  return `<div class="pagination">${PAGE_SYMBOL.repeat(
-    p - 1
-  )}${CURRENT_PAGE_SYMBOL}${PAGE_SYMBOL.repeat(numberOfPages - p)}</div>`
+  return `<div class="pagination">${PAGE_SYMBOL.repeat(p - 1)}${CURRENT_PAGE_SYMBOL}${PAGE_SYMBOL.repeat(numberOfPages - p)}</div>`
 }
 
 rl.on('line', line => {
-
   // Page number
   if (line.match(/<!--📜-->/)) {
     page++
@@ -51,6 +49,10 @@ rl.on('line', line => {
     if (page != 1) {
       line += makePagination(sameSlide ? page : page - 1)
       line += '</div>'
+      if (weHaveASlideContentToClose) {
+        lines.push('</div>')
+        weHaveASlideContentToClose = false
+      }
     }
 
     sameSlide = true
@@ -68,11 +70,20 @@ rl.on('line', line => {
 
   // </body>
   if (line == '</body>') {
+    if (weHaveASlideContentToClose) {
+      lines.push('</div>')
+    }
     lines.push(makePagination(page) + '</div>' + line)
     return
   }
 
   lines.push(line)
+
+  // heading
+  if (/^<h1/.test(line) || /^<h2/.test(line)) {
+    lines.push('<div class="content">')
+    weHaveASlideContentToClose = true
+  }
 })
 
 rl.on('close', () => {
