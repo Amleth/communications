@@ -74,6 +74,150 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!--📜-->
 <!--∫ slide -->
 
+## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+
+
+<!--∫ slide -->
+
+## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+
+
+<!--∫ slide -->
+
+## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+
+
+<!--∫ slide -->
+
+## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+- La connexion de ces triplets RDF forme un graphe.
+
+
+<!--∫ slide -->
+
+## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+- La connexion de ces triplets RDF forme un graphe.
+- Chaque prédicat est également identifié par une URL.
+
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" />
+
+
+
+<!--∫ slide -->
+
+## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
+
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
+- La connexion de ces triplets RDF forme un graphe.
+- Chaque prédicat est également identifié par une URL.
+
+<img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png" />
+
+- C'est le milieu technique idéal pour des données FAIR, pour l'expression et à la diffusion des données de la recherche.
+
+<!--📜-->
+<!--∫ slide -->
+
+## Une ontologie : quoi et pourquoi ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+
+
+<!--∫ slide -->
+
+## Une ontologie : quoi et pourquoi ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+
+
+<!--∫ slide -->
+
+## Une ontologie : quoi et pourquoi ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Permet de capitaliser les connaissances d'ingénierie des connaissances d'un projet à l'autre.
+
+
+<!--∫ slide -->
+
+## Une ontologie : quoi et pourquoi ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Permet de capitaliser les connaissances d'ingénierie des connaissances d'un projet à l'autre.
+- Le CIDOC CRM en bref :
+    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les processus de production de connaissances à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
+
+
+<!--∫ slide -->
+
+## Une ontologie : quoi et pourquoi ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Permet de capitaliser les connaissances d'ingénierie des connaissances d'un projet à l'autre.
+- Le CIDOC CRM en bref :
+    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les processus de production de connaissances à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
+    - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+
+
+<!--∫ slide -->
+
+## Une ontologie : quoi et pourquoi ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Permet de capitaliser les connaissances d'ingénierie des connaissances d'un projet à l'autre.
+- Le CIDOC CRM en bref :
+    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les processus de production de connaissances à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
+    - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Elle est extrêmement abstraite et générique.
+
+
+<!--∫ slide -->
+
+## Une ontologie : quoi et pourquoi ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Permet de capitaliser les connaissances d'ingénierie des connaissances d'un projet à l'autre.
+- Le CIDOC CRM en bref :
+    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les processus de production de connaissances à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
+    - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Elle est extrêmement abstraite et générique.
+    - Ontologie centrée événement.
+
+<!--📜-->
+<!--∫ slide ch cv -->
+
+## Hiérarchie des classes CRM
+
+<img src="cidoc-crm.jpg" style="margin-top: -1cm; width: 26cm;"/>
+
+<!--📜-->
+<!--∫ slide -->
+
 ## Cas d'usage à l'IReMus
 
 - Référentiel des personnes, lieux et institution de l'Ancien Régime (charges).
@@ -202,7 +346,7 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 # Explorer
 
-*L'intérêt d'exposer des données RDF/CRM avec SPARQL*
+*De l'intérêt d'exposer des données RDF/CRM avec SPARQL*
 
 <img src="sherlock-logo.png" style="width: 12cm;"/>
 

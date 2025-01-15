@@ -15,8 +15,8 @@ function makeGraph(dotContent, id, width) {
   dotContent = `digraph {
     graph [bgcolor=black]
     rankdir=LR
-    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular",shape=box]
-    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono Regular"]
+    node [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono",shape=box]
+    edge [color=white,fontcolor=white,fontname="FiraCode Nerd Font Mono"]
     \n
     ` + dotContent + '\n}\n'
   const dotFile = `dotfile_${id}.dot`
