@@ -67,7 +67,9 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!--📜-->
 <!--∫ slide cv -->
 
-# Le CIDOC CRM au service de la musicologie
+# Modéliser
+
+*Le CIDOC CRM au service de la musicologie*
 
 <!--📜-->
 <!--∫ slide -->
@@ -87,7 +89,9 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!--📜-->
 <!--∫ slide cv -->
 
-# Saisir les données
+# Saisir
+
+*Ça se complique*
 
 <!--📜-->
 <!--∫ slide -->
@@ -196,7 +200,9 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!--📜-->
 <!--∫ slide cv -->
 
-# Explorer des données RDF/CRM
+# Explorer
+
+*L'intérêt d'exposer des données RDF/CRM avec SPARQL*
 
 <img src="sherlock-logo.png" style="width: 12cm;"/>
 
@@ -351,6 +357,16 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 - Moteur de recherche plein texte dans l'ensemble des valeurs littérales textuelles.
 - Moteur de recherche par concepts issus de thésaurus.
 
+
+<!--∫ slide -->
+
+## Objectifs fonctionnels (2/2)
+
+- Proposer l'éventuel contenu associé à la ressource en cours de consultation ([rendu HTML d'un fragment TEI](https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe), image IIIF, fichier MEI s'ouvrant dans l'interface d'annotation collaborative [Tonalities…](https://polifonia-project.eu/pilots/tonalities/)).
+- Moteur de recherche plein texte dans l'ensemble des valeurs littérales textuelles.
+- Moteur de recherche par concepts issus de thésaurus.
+- Paramétrer l'interface en fonction du profil de tâche de l'utilisateur.
+
 <!--📜-->
 <!--∫ slide ch cv -->
 
@@ -366,5 +382,6 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 
 # Conclusion
 
-<div style="border: 1px solid yellow;">Il manque la quatrième volet : *exploiter*.</div>
-<div style="border: 1px solid yellow;">🌴 merci 🌴</div>
+Il manque la quatrième volet : *exploiter*.
+
+🌴 merci 🌴

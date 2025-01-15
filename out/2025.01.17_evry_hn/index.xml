@@ -97,9 +97,12 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide cv">
-      <h1 id="le-cidoc-crm-au-service-de-la-musicologie">Le CIDOC CRM au service de la musicologie</h1>
+      <h1 id="mod&#xE9;liser">Mod&#xE9;liser</h1>
       <div class="content">
-</div>
+        <p>
+          <em>Le CIDOC CRM au service de la musicologie</em>
+        </p>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
@@ -119,9 +122,12 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide cv">
-      <h1 id="saisir-les-donn&#xE9;es">Saisir les donn&#xE9;es</h1>
+      <h1 id="saisir">Saisir</h1>
       <div class="content">
-</div>
+        <p>
+          <em>&#xC7;a se complique</em>
+        </p>
+      </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
@@ -243,8 +249,11 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide cv">
-      <h1 id="explorer-des-donn&#xE9;es-rdfcrm">Explorer des donn&#xE9;es RDF/CRM</h1>
+      <h1 id="explorer">Explorer</h1>
       <div class="content">
+        <p>
+          <em>L&#x2019;int&#xE9;r&#xEA;t d&#x2019;exposer des donn&#xE9;es RDF/CRM avec SPARQL</em>
+        </p>
         <p>
           <img src="sherlock-logo.png" style="width: 12cm;"/>
         </p>
@@ -416,6 +425,18 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
     </div>
+    <div class="slide">
+      <h2 id="objectifs-fonctionnels-22-3">Objectifs fonctionnels (2/2)</h2>
+      <div class="content">
+        <ul>
+          <li>Proposer l&#x2019;&#xE9;ventuel contenu associ&#xE9; &#xE0; la ressource en cours de consultation (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe">rendu HTML d&#x2019;un fragment TEI</a>, image IIIF, fichier MEI s&#x2019;ouvrant dans l&#x2019;interface d&#x2019;annotation collaborative <a href="https://polifonia-project.eu/pilots/tonalities/">Tonalities&#x2026;</a>).</li>
+          <li>Moteur de recherche plein texte dans l&#x2019;ensemble des valeurs litt&#xE9;rales textuelles.</li>
+          <li>Moteur de recherche par concepts issus de th&#xE9;saurus.</li>
+          <li>Param&#xE9;trer l&#x2019;interface en fonction du profil de t&#xE2;che de l&#x2019;utilisateur.</li>
+        </ul>
+      </div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;</div>
+    </div>
     <div class="slide ch cv">
       <h2 id="rendu-html-dun-fragment-tei-associ&#xE9;-&#xE0;-la-ressource">Rendu html d&#x2019;un fragment TEI associ&#xE9; &#xE0; la ressource</h2>
       <div class="content">
@@ -430,12 +451,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
     <div class="slide ch cv">
       <h1 id="conclusion">Conclusion</h1>
       <div class="content">
-        <div style="border: 1px solid yellow;">
-Il manque la quatri&#xE8;me volet&#xA0;: <em>exploiter</em>.
-</div>
-        <div style="border: 1px solid yellow;">
-&#x1F334; merci &#x1F334;
-</div>
+        <p>Il manque la quatri&#xE8;me volet&#xA0;: <em>exploiter</em>.</p>
+        <p>&#x1F334; merci &#x1F334;</p>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;</div>
     </div>
