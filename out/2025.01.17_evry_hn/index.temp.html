@@ -58,7 +58,7 @@ Journée d’études organisée par l’UFR LAM, IDHES Evry,<br/>les départemen
     text-transform: lowercase;
 ">
 <div style="color: #FF0092">
-modéliser, saisir, publier, exploiter
+modéliser, saisir, explorer
 </div>
 <br/>
 <div style="font-size: 75%;">
@@ -91,7 +91,17 @@ Consortium ‹Musica2› IR* Huma-Num
 <!-- ############################################################################################################### -->
 <!-- ############################################################################################################### -->
 <!--📜-->
-<!--∫ slide title -->
+<!--∫ slide cv -->
+<h1 id="plan">Plan</h1>
+<ol type="1">
+<li>Modéliser</li>
+<li>Saisir</li>
+<li>Explorer</li>
+</ol>
+<!-- ############################################################################################################### -->
+<!-- ############################################################################################################### -->
+<!--📜-->
+<!--∫ slide cv -->
 <h1 id="le-cidoc-crm-au-service-de-la-musicologie">Le CIDOC CRM au service de la musicologie</h1>
 <!--📜-->
 <!--∫ slide -->
@@ -107,7 +117,7 @@ Consortium ‹Musica2› IR* Huma-Num
 <!-- ############################################################################################################### -->
 <!-- ############################################################################################################### -->
 <!--📜-->
-<!--∫ slide title -->
+<!--∫ slide cv -->
 <h1 id="saisir-les-données">Saisir les données</h1>
 <!--📜-->
 <!--∫ slide -->
@@ -203,50 +213,51 @@ Consortium ‹Musica2› IR* Huma-Num
 <!-- ############################################################################################################### -->
 <!--📜-->
 <!--∫ slide cv -->
-<h1 id="explorer-des-données-rdfcrm-la-sherlock-app">Explorer des données RDF/CRM :<br/>la « SHERLOCK APP »</h1>
-<div>
-<h3>
-Motivation
-</h3>
-<div style="color: gray; font-style: italic;">
-<p>Recourir à un modèle unique dans les différents projets permet de ne concevoir, développer et maintenir qu’une unique application pour présenter et exploiter les données.</p>
-</div>
-<br/>
-<h3>
-Contexte
-</h3>
-<div style="color: gray; font-style: italic;">
-<p>Pas ou peu d’apport financier. Programme de recherche SHERLOCK à l’IReMus : <br/> « Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ?» <br/> « Comment les publier et les manipuler ? »</p>
-</div>
-<br/>
-<h3>
-Technologies
-</h3>
-<div style="color: gray; font-style: italic; text-align: center;">
-<p>front : TypeScript, React, Next UI, Tailwind CSS <br/> (back : Apache Jena Fuseki)</p>
-</div>
-</div>
+<h1 id="explorer-des-données-rdfcrm">Explorer des données RDF/CRM</h1>
+<p><img src="sherlock-logo.png" style="width: 12cm;"/></p>
 <!--📜-->
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="contexte">Contexte</h2>
+<ul>
+<li>Contexte :
+<ul>
+<li>Programme de recherche SHERLOCK à l’IReMus :
+<ul>
+<li>« Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ?»</li>
+<li>« Comment faire interagir les données sémantiques et les sources ? »</li>
+<li>« Comment publier et manipuler les données sémantiques ? »</li>
+</ul></li>
+<li>Pas ou peu d’apport financier.</li>
+<li>Développeur (presque) unique.</li>
+<li>Recourir à un modèle unique dans les différents projets permet de ne concevoir, développer et maintenir qu’une unique application pour présenter et exploiter les données.</li>
+</ul></li>
+<li>Technologies :
+<ul>
+<li>Front : TypeScript, React, Next UI, Tailwind CSS</li>
+<li>Back : Apache Jena Fuseki</li>
+</ul></li>
+</ul>
+<!--📜-->
+<!--∫ slide -->
+<h2 id="objectifs-fonctionnels-12">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12-1">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="objectifs-fonctionnels-12-1">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 <li>L’utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l’affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…</li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12-2">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="objectifs-fonctionnels-12-2">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 <li>L’utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l’affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…</li>
 <li>… mais la teneur des sujets/prédicats/objets RDF devrait toujours être clairement indiquée, pour raisons pédagogique et technique. Toutes les requêtes SPARQL utilisées devraient être exposées.</li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12-3">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="objectifs-fonctionnels-12-3">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 <li>L’utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l’affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…</li>
@@ -257,7 +268,7 @@ Technologies
 </ul></li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12-4">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="objectifs-fonctionnels-12-4">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 <li>L’utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l’affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…</li>
@@ -269,7 +280,7 @@ Technologies
 </ul></li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12-5">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="objectifs-fonctionnels-12-5">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 <li>L’utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l’affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…</li>
@@ -282,7 +293,7 @@ Technologies
 </ul></li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12-6">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="objectifs-fonctionnels-12-6">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 <li>L’utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l’affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…</li>
@@ -296,7 +307,7 @@ Technologies
 </ul></li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-12-7">Objectifs fonctionnels de la « SHERLOCK app » (1/2)</h2>
+<h2 id="objectifs-fonctionnels-12-7">Objectifs fonctionnels (1/2)</h2>
 <ul>
 <li>Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d’un Triplestore accessible via un SPARQL Endpoint.</li>
 <li>L’utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l’affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…</li>
@@ -324,18 +335,18 @@ Technologies
 <p><img src="sherlock-app-f18.png"/></p>
 <!--📜-->
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-22">Objectifs fonctionnels de la « SHERLOCK app » (2/2)</h2>
+<h2 id="objectifs-fonctionnels-22">Objectifs fonctionnels (2/2)</h2>
 <ul>
 <li>Proposer l’éventuel contenu associé à la ressource en cours de consultation (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe">rendu HTML d’un fragment TEI</a>, image IIIF, fichier MEI s’ouvrant dans l’interface d’annotation collaborative <a href="https://polifonia-project.eu/pilots/tonalities/">Tonalities…</a>).</li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-22-1">Objectifs fonctionnels de la « SHERLOCK app » (2/2)</h2>
+<h2 id="objectifs-fonctionnels-22-1">Objectifs fonctionnels (2/2)</h2>
 <ul>
 <li>Proposer l’éventuel contenu associé à la ressource en cours de consultation (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe">rendu HTML d’un fragment TEI</a>, image IIIF, fichier MEI s’ouvrant dans l’interface d’annotation collaborative <a href="https://polifonia-project.eu/pilots/tonalities/">Tonalities…</a>).</li>
 <li>Moteur de recherche plein texte dans l’ensemble des valeurs littérales textuelles.</li>
 </ul>
 <!--∫ slide -->
-<h2 id="objectifs-fonctionnels-de-la-sherlock-app-22-2">Objectifs fonctionnels de la « SHERLOCK app » (2/2)</h2>
+<h2 id="objectifs-fonctionnels-22-2">Objectifs fonctionnels (2/2)</h2>
 <ul>
 <li>Proposer l’éventuel contenu associé à la ressource en cours de consultation (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe">rendu HTML d’un fragment TEI</a>, image IIIF, fichier MEI s’ouvrant dans l’interface d’annotation collaborative <a href="https://polifonia-project.eu/pilots/tonalities/">Tonalities…</a>).</li>
 <li>Moteur de recherche plein texte dans l’ensemble des valeurs littérales textuelles.</li>
@@ -350,6 +361,11 @@ Technologies
 <!--📜-->
 <!--∫ slide ch cv -->
 <h1 id="conclusion">Conclusion</h1>
-<p>🌴 merci 🌴</p>
+<div style="border: 1px solid yellow;">
+Il manque la quatrième volet : <em>exploiter</em>.
+</div>
+<div style="border: 1px solid yellow;">
+🌴 merci 🌴
+</div>
 </body>
 </html>

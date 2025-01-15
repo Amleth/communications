@@ -244,18 +244,5 @@ div.slide.cv div.content {
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: center;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-}
-
-.title>* {
-  margin: auto;
-}
-
-.title>div {
-  text-align: center;
+  justify-content: space-around;
 }

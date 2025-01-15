@@ -27,7 +27,7 @@
     justify-content: center;
     text-transform: lowercase;
 ">
-<div style="color: #FF0092">modéliser, saisir, publier, exploiter</div>
+<div style="color: #FF0092">modéliser, saisir, explorer</div>
 <br/>
 <div style="font-size: 75%;">retour sur la mise en œuvre du CIDOC CRM dans<br/>un système d'information pour la recherche</div>
 </div>
@@ -53,7 +53,19 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!-- ############################################################################################################### -->
 
 <!--📜-->
-<!--∫ slide title -->
+<!--∫ slide cv -->
+
+# Plan
+
+1. Modéliser
+1. Saisir
+1. Explorer
+
+<!-- ############################################################################################################### -->
+<!-- ############################################################################################################### -->
+
+<!--📜-->
+<!--∫ slide cv -->
 
 # Le CIDOC CRM au service de la musicologie
 
@@ -73,7 +85,7 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!-- ############################################################################################################### -->
 
 <!--📜-->
-<!--∫ slide title -->
+<!--∫ slide cv -->
 
 # Saisir les données
 
@@ -184,42 +196,38 @@ https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
 <!--📜-->
 <!--∫ slide cv -->
 
-# Explorer des données RDF/CRM :<br/>la « SHERLOCK APP »
+# Explorer des données RDF/CRM
 
-<div>
-<h3>Motivation</h3>
-<div style="color: gray; font-style: italic;">
-Recourir à un modèle unique dans les différents projets permet de ne concevoir, développer et maintenir qu'une unique application pour présenter et exploiter les données.
-</div>
-<br/>
-<h3>Contexte</h3>
-<div style="color: gray; font-style: italic;">
-Pas ou peu d'apport financier. Programme de recherche SHERLOCK à l'IReMus :
-<br/>
-« Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ?»
-<br/>
-« Comment les publier et les manipuler ? »
-</div>
-<br/>
-<h3>Technologies</h3>
-<div style="color: gray; font-style: italic; text-align: center;">
-front : TypeScript, React, Next UI, Tailwind CSS
-<br/>
-(back : Apache Jena Fuseki)
-</div>
-</div>
+<img src="sherlock-logo.png" style="width: 12cm;"/>
 
 <!--📜-->
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Contexte
+
+- Contexte :
+    - Programme de recherche SHERLOCK à l'IReMus :
+        - « Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ?»
+        - « Comment faire interagir les données sémantiques et les sources ? »
+        - « Comment publier et manipuler les données sémantiques ? »
+    - Pas ou peu d'apport financier.
+    - Développeur (presque) unique.
+    - Recourir à un modèle unique dans les différents projets permet de ne concevoir, développer et maintenir qu'une unique application pour présenter et exploiter les données.
+- Technologies :
+    - Front : TypeScript, React, Next UI, Tailwind CSS
+    - Back : Apache Jena Fuseki
+
+<!--📜-->
+<!--∫ slide -->
+
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 - L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
@@ -227,7 +235,7 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 - L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
@@ -236,7 +244,7 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 - L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
@@ -247,7 +255,7 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 - L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
@@ -259,7 +267,7 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 - L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
@@ -272,7 +280,7 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 - L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
@@ -286,7 +294,7 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (1/2)
+## Objectifs fonctionnels (1/2)
 
 - Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
 - L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
@@ -322,14 +330,14 @@ front : TypeScript, React, Next UI, Tailwind CSS
 <!--📜-->
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (2/2)
+## Objectifs fonctionnels (2/2)
 
 - Proposer l'éventuel contenu associé à la ressource en cours de consultation ([rendu HTML d'un fragment TEI](https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe), image IIIF, fichier MEI s'ouvrant dans l'interface d'annotation collaborative [Tonalities…](https://polifonia-project.eu/pilots/tonalities/)).
 
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (2/2)
+## Objectifs fonctionnels (2/2)
 
 - Proposer l'éventuel contenu associé à la ressource en cours de consultation ([rendu HTML d'un fragment TEI](https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe), image IIIF, fichier MEI s'ouvrant dans l'interface d'annotation collaborative [Tonalities…](https://polifonia-project.eu/pilots/tonalities/)).
 - Moteur de recherche plein texte dans l'ensemble des valeurs littérales textuelles.
@@ -337,7 +345,7 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 <!--∫ slide -->
 
-## Objectifs fonctionnels de la « SHERLOCK app » (2/2)
+## Objectifs fonctionnels (2/2)
 
 - Proposer l'éventuel contenu associé à la ressource en cours de consultation ([rendu HTML d'un fragment TEI](https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/2d300dd8-7e10-4de1-ac12-95602a0e78fe), image IIIF, fichier MEI s'ouvrant dans l'interface d'annotation collaborative [Tonalities…](https://polifonia-project.eu/pilots/tonalities/)).
 - Moteur de recherche plein texte dans l'ensemble des valeurs littérales textuelles.
@@ -358,4 +366,5 @@ front : TypeScript, React, Next UI, Tailwind CSS
 
 # Conclusion
 
-🌴 merci 🌴
+<div style="border: 1px solid yellow;">Il manque la quatrième volet : *exploiter*.</div>
+<div style="border: 1px solid yellow;">🌴 merci 🌴</div>
