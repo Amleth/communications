@@ -34,7 +34,7 @@
 
 <div>
 <pre style="color: gray; font-size: 50%;">
-https://github.com/Amleth/communications/tree/main/out/2025.01.17_evry_hn
+https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.pdf
 </pre>
 </div>
 
