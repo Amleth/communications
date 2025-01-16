@@ -55,7 +55,7 @@ mod&#xE9;liser, saisir, explorer
 </div>
         <br/>
         <div style="font-size: 75%;">
-retour sur la mise en &#x153;uvre du CIDOC CRM dans<br/>un syst&#xE8;me d&#x2019;information pour la recherche
+retour sur la mise en &#x153;uvre du CIDOC CRM<br/>dans des BDD en musicologie
 </div>
       </div>
       <div>
@@ -109,7 +109,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -118,8 +118,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-1">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -128,9 +128,9 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-2">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
+          <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -139,11 +139,14 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-3">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
-          <li>La connexion de ces triplets RDF forme un graphe.</li>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
+          <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
+          <li>Chaque pr&#xE9;dicat est &#xE9;galement identifi&#xE9; par une URL.</li>
         </ul>
+        <p>
+          <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
+        </p>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
@@ -151,33 +154,16 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-4">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
-          <li>La connexion de ces triplets RDF forme un graphe.</li>
-          <li>Chaque pr&#xE9;dicat est &#xE9;galement identifi&#xE9; par une URL.</li>
-        </ul>
-        <p>
-          <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
-        </p>
-      </div>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
-    </div>
-    <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-5">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
-      <div class="content">
-        <ul>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de donn&#xE9;es li&#xE9;es.</li>
-          <li>Chaque donn&#xE9;e est identifi&#xE9;e par une URL.</li>
-          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un triplet (sujet/pr&#xE9;dicat/objet) dans un langage de description, le RDF.</li>
-          <li>La connexion de ces triplets RDF forme un graphe.</li>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
+          <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
           <li>Chaque pr&#xE9;dicat est &#xE9;galement identifi&#xE9; par une URL.</li>
         </ul>
         <p>
           <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
         </p>
         <ul>
-          <li>C&#x2019;est le milieu technique id&#xE9;al pour des donn&#xE9;es FAIR, pour l&#x2019;expression et &#xE0; la diffusion des donn&#xE9;es de la recherche.</li>
+          <li>C&#x2019;est le milieu technique id&#xE9;al pour des donn&#xE9;es <span class="colour">FAIR</span>, pour l&#x2019;expression et la diffusion des donn&#xE9;es de la recherche.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -196,7 +182,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
-          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes seront des pr&#xE9;dicats).</li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -206,8 +192,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
-          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes seront des pr&#xE9;dicats).</li>
-          <li>Permet de capitaliser les connaissances d&#x2019;ing&#xE9;nierie des connaissances d&#x2019;un projet &#xE0; l&#x2019;autre.</li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
+          <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -217,10 +203,10 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
-          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes seront des pr&#xE9;dicats).</li>
-          <li>Permet de capitaliser les connaissances d&#x2019;ing&#xE9;nierie des connaissances d&#x2019;un projet &#xE0; l&#x2019;autre.</li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
+          <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les processus de production de connaissances &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -230,10 +216,10 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
-          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes seront des pr&#xE9;dicats).</li>
-          <li>Permet de capitaliser les connaissances d&#x2019;ing&#xE9;nierie des connaissances d&#x2019;un projet &#xE0; l&#x2019;autre.</li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
+          <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les processus de production de connaissances &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -243,10 +229,10 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
-          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes seront des pr&#xE9;dicats).</li>
-          <li>Permet de capitaliser les connaissances d&#x2019;ing&#xE9;nierie des connaissances d&#x2019;un projet &#xE0; l&#x2019;autre.</li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
+          <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les processus de production de connaissances &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement abstraite et g&#xE9;n&#xE9;rique.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -256,10 +242,23 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
-          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es RDF (les individus identifi&#xE9;s par des URL seront des sujets ou des objets, les propri&#xE9;t&#xE9;s des classes seront des pr&#xE9;dicats).</li>
-          <li>Permet de capitaliser les connaissances d&#x2019;ing&#xE9;nierie des connaissances d&#x2019;un projet &#xE0; l&#x2019;autre.</li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
+          <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les processus de production de connaissances &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement abstraite et g&#xE9;n&#xE9;rique.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li></ul></li>
+        </ul>
+      </div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+    </div>
+    <div class="slide">
+      <h2 id="une-ontologie-quoi-et-pourquoi-7">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <div class="content">
+        <ul>
+          <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
+          <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
+          <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
+          <li>Le CIDOC CRM en bref&#xA0;:
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li><li><span class="colour">Informations bibliographiques</span> avec LRMoo (&#x153;uvres, expressions, manifestation, item).</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -278,10 +277,10 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="content">
         <ul>
           <li>R&#xE9;f&#xE9;rentiel des personnes, lieux et institution de l&#x2019;Ancien R&#xE9;gime (charges).</li>
-          <li>&#xC9;dition critique du Mercure Galant (1672-1724), structuration logique et mat&#xE9;rielle des corpus original et TEI avec LRMoo.</li>
+          <li>&#xC9;dition critique du Mercure Galant (1672-1724), structuration logique et mat&#xE9;rielle des corpus original et TEI, indexation s&#xE9;mantique des articles avec des th&#xE9;saurus et r&#xE9;f&#xE9;rentiels.</li>
           <li>Indexation s&#xE9;mantique (avec des th&#xE9;saurus) et description analytique de collections iconographiques.</li>
           <li>Annotation collaborative de partitions MEI avec structuration logique des annotations (cadences et leur structure interne) et articulation fine &#xE0; la partition.</li>
-          <li>Divers entreprises de catalogages de sources anciennes.</li>
+          <li>Divers entreprises de catalogage de sources anciennes.</li>
           <li>Mod&#xE8;le Antony&#xA0;: sauvegarde et partage du patrimoine musical utilisant des technologies num&#xE9;riques.</li>
         </ul>
         <!-- ############################################################################################################### -->
@@ -323,7 +322,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois plusieurs mani&#xE8;res de mod&#xE9;liser une situation avec les classes de base.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -334,7 +333,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois plusieurs mani&#xE8;res de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des sous-entit&#xE9;s.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -345,7 +344,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois plusieurs mani&#xE8;res de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des sous-entit&#xE9;s.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -356,7 +355,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois plusieurs mani&#xE8;res de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des sous-entit&#xE9;s.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
           <li>En cons&#xE9;quence, <span class="colour">une interface d&#x2019;&#xE9;dition g&#xE9;n&#xE9;rique de donn&#xE9;es CRM n&#x2019;a pas de sens</span>, car chaque collectif construit sa mani&#xE8;re d&#x2019;utiliser l&#x2019;ontologie.</li>
         </ul>
       </div>
@@ -368,7 +367,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois plusieurs mani&#xE8;res de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des sous-entit&#xE9;s.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
           <li>En cons&#xE9;quence, <span class="colour">une interface d&#x2019;&#xE9;dition g&#xE9;n&#xE9;rique de donn&#xE9;es CRM n&#x2019;a pas de sens</span>, car chaque collectif construit sa mani&#xE8;re d&#x2019;utiliser l&#x2019;ontologie.</li>
           <li>Je pr&#xE9;conise le recours &#xE0; un outil de saisie de donn&#xE9;es <span class="colour">existant</span>, libre et ergonomique. Par exemple, un candidat de la constellation <em>&#xAB;&#xA0;No-code&#xA0;&#xBB;</em>.</li>
         </ul>
@@ -388,7 +387,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="du-relationnel-au-rdf">Du relationnel au RDF</h2>
       <div class="content">
         <ul>
-          <li>Le mod&#xE8;le relationnel doit &#xEA;tre cr&#xE9;&#xE9; pour r&#xE9;pondre aux attendus ergonomiques du projet. Sa structure doit permettre de g&#xE9;n&#xE9;rer des donn&#xE9;es CIDOC CRM par la suite, mais il n&#x2019;est qu&#x2019;un <span class="colour">mod&#xE8;le de saisie</span>. Il repr&#xE9;sente la mani&#xE8;re dont un collectif se saisit du CRM dans un contexte pr&#xE9;cis (classes et propri&#xE9;t&#xE9;s utilis&#xE9;es, idiomes de mod&#xE9;lisation).</li>
+          <li>Le mod&#xE8;le relationnel doit &#xEA;tre cr&#xE9;&#xE9; pour r&#xE9;pondre aux attendus ergonomiques du projet. Sa structure doit permettre de g&#xE9;n&#xE9;rer des donn&#xE9;es CIDOC CRM par la suite, mais il n&#x2019;est qu&#x2019;un <span class="colour">mod&#xE8;le de saisie</span>. Il repr&#xE9;sente la mani&#xE8;re dont un collectif se saisit du CRM dans un contexte pr&#xE9;cis (classes et propri&#xE9;t&#xE9;s utilis&#xE9;es + idiomes de mod&#xE9;lisation).</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -397,8 +396,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="du-relationnel-au-rdf-1">Du relationnel au RDF</h2>
       <div class="content">
         <ul>
-          <li>Le mod&#xE8;le relationnel doit &#xEA;tre cr&#xE9;&#xE9; pour r&#xE9;pondre aux attendus ergonomiques du projet. Sa structure doit permettre de g&#xE9;n&#xE9;rer des donn&#xE9;es CIDOC CRM par la suite, mais il n&#x2019;est qu&#x2019;un <span class="colour">mod&#xE8;le de saisie</span>. Il repr&#xE9;sente la mani&#xE8;re dont un collectif se saisit du CRM dans un contexte pr&#xE9;cis (classes et propri&#xE9;t&#xE9;s utilis&#xE9;es, idiomes de mod&#xE9;lisation).</li>
-          <li>Des scripts doivent &#xEA;tre &#xE9;crits pour r&#xE9;cup&#xE9;rer les donn&#xE9;es via l&#x2019;<span class="colour">API</span> offerte par le syst&#xE8;me et les <span class="colour">convertir</span> en donn&#xE9;es RDF mod&#xE9;lis&#xE9;es avec le CIDOC CRM (un couple efficace pour ce genre de t&#xE2;ches&#xA0;: python/rdflib).</li>
+          <li>Le mod&#xE8;le relationnel doit &#xEA;tre cr&#xE9;&#xE9; pour r&#xE9;pondre aux attendus ergonomiques du projet. Sa structure doit permettre de g&#xE9;n&#xE9;rer des donn&#xE9;es CIDOC CRM par la suite, mais il n&#x2019;est qu&#x2019;un <span class="colour">mod&#xE8;le de saisie</span>. Il repr&#xE9;sente la mani&#xE8;re dont un collectif se saisit du CRM dans un contexte pr&#xE9;cis (classes et propri&#xE9;t&#xE9;s utilis&#xE9;es + idiomes de mod&#xE9;lisation).</li>
+          <li>Du code doit &#xEA;tre &#xE9;crit pour r&#xE9;cup&#xE9;rer les donn&#xE9;es via l&#x2019;<span class="colour">API</span> offerte par le syst&#xE8;me et les <span class="colour">convertir</span> en donn&#xE9;es RDF mod&#xE9;lis&#xE9;es avec le CIDOC CRM (un couple efficace pour ce genre de t&#xE2;ches&#xA0;: python/rdflib).</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -407,8 +406,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="du-relationnel-au-rdf-2">Du relationnel au RDF</h2>
       <div class="content">
         <ul>
-          <li>Le mod&#xE8;le relationnel doit &#xEA;tre cr&#xE9;&#xE9; pour r&#xE9;pondre aux attendus ergonomiques du projet. Sa structure doit permettre de g&#xE9;n&#xE9;rer des donn&#xE9;es CIDOC CRM par la suite, mais il n&#x2019;est qu&#x2019;un <span class="colour">mod&#xE8;le de saisie</span>. Il repr&#xE9;sente la mani&#xE8;re dont un collectif se saisit du CRM dans un contexte pr&#xE9;cis (classes et propri&#xE9;t&#xE9;s utilis&#xE9;es, idiomes de mod&#xE9;lisation).</li>
-          <li>Des scripts doivent &#xEA;tre &#xE9;crits pour r&#xE9;cup&#xE9;rer les donn&#xE9;es via l&#x2019;<span class="colour">API</span> offerte par le syst&#xE8;me et les <span class="colour">convertir</span> en donn&#xE9;es RDF mod&#xE9;lis&#xE9;es avec le CIDOC CRM (un couple efficace pour ce genre de t&#xE2;ches&#xA0;: python/rdflib).</li>
+          <li>Le mod&#xE8;le relationnel doit &#xEA;tre cr&#xE9;&#xE9; pour r&#xE9;pondre aux attendus ergonomiques du projet. Sa structure doit permettre de g&#xE9;n&#xE9;rer des donn&#xE9;es CIDOC CRM par la suite, mais il n&#x2019;est qu&#x2019;un <span class="colour">mod&#xE8;le de saisie</span>. Il repr&#xE9;sente la mani&#xE8;re dont un collectif se saisit du CRM dans un contexte pr&#xE9;cis (classes et propri&#xE9;t&#xE9;s utilis&#xE9;es + idiomes de mod&#xE9;lisation).</li>
+          <li>Du code doit &#xEA;tre &#xE9;crit pour r&#xE9;cup&#xE9;rer les donn&#xE9;es via l&#x2019;<span class="colour">API</span> offerte par le syst&#xE8;me et les <span class="colour">convertir</span> en donn&#xE9;es RDF mod&#xE9;lis&#xE9;es avec le CIDOC CRM (un couple efficace pour ce genre de t&#xE2;ches&#xA0;: python/rdflib).</li>
           <li>Tous les moyens sont bons pour obtenir des donn&#xE9;es en CRM.</li>
         </ul>
         <!-- ############################################################################################################### -->
@@ -445,7 +444,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -454,8 +453,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12-1">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -464,8 +463,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12-2">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
           <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique. Toutes les requ&#xEA;tes SPARQL utilis&#xE9;es devraient &#xEA;tre expos&#xE9;es.</li>
         </ul>
       </div>
@@ -475,8 +474,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12-3">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
           <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique. Toutes les requ&#xEA;tes SPARQL utilis&#xE9;es devraient &#xEA;tre expos&#xE9;es.</li>
           <li>Exploitation des <em>patterns</em> sp&#xE9;cifiques du CRM ou de LRMoo pour proposer des interfaces sp&#xE9;cifiques&#xA0;:
 <ul><li>Triplets d&#xE9;crivant l&#x2019;<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/82a7b7d8-394a-4e47-a83e-ce34b5640b68">identit&#xE9; d&#x2019;une ressource</a></li></ul></li>
@@ -488,8 +487,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12-4">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
           <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique. Toutes les requ&#xEA;tes SPARQL utilis&#xE9;es devraient &#xEA;tre expos&#xE9;es.</li>
           <li>Exploitation des <em>patterns</em> sp&#xE9;cifiques du CRM ou de LRMoo pour proposer des interfaces sp&#xE9;cifiques&#xA0;:
 <ul><li>Triplets d&#xE9;crivant l&#x2019;<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/82a7b7d8-394a-4e47-a83e-ce34b5640b68">identit&#xE9; d&#x2019;une ressource</a></li><li>Dates</li></ul></li>
@@ -501,8 +500,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12-5">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
           <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique. Toutes les requ&#xEA;tes SPARQL utilis&#xE9;es devraient &#xEA;tre expos&#xE9;es.</li>
           <li>Exploitation des <em>patterns</em> sp&#xE9;cifiques du CRM ou de LRMoo pour proposer des interfaces sp&#xE9;cifiques&#xA0;:
 <ul><li>Triplets d&#xE9;crivant l&#x2019;<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/82a7b7d8-394a-4e47-a83e-ce34b5640b68">identit&#xE9; d&#x2019;une ressource</a></li><li>Dates</li><li>Place dans une structure&#xA0;: sociale, bibliographique (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479">lrmoo:F18</a>), logique, mat&#xE9;rielle&#x2026;</li></ul></li>
@@ -514,8 +513,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12-6">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
           <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique. Toutes les requ&#xEA;tes SPARQL utilis&#xE9;es devraient &#xEA;tre expos&#xE9;es.</li>
           <li>Exploitation des <em>patterns</em> sp&#xE9;cifiques du CRM ou de LRMoo pour proposer des interfaces sp&#xE9;cifiques&#xA0;:
 <ul><li>Triplets d&#xE9;crivant l&#x2019;<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/82a7b7d8-394a-4e47-a83e-ce34b5640b68">identit&#xE9; d&#x2019;une ressource</a></li><li>Dates</li><li>Place dans une structure&#xA0;: sociale, bibliographique (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479">lrmoo:F18</a>), logique, mat&#xE9;rielle&#x2026;</li><li>Annotations (qui&#xA0;? qui&#xA0;? quand&#xA0;? pourquoi&#xA0;?)</li></ul></li>
@@ -527,8 +526,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="objectifs-fonctionnels-12-7">Objectifs fonctionnels (1/2)</h2>
       <div class="content">
         <ul>
-          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un Triplestore accessible via un SPARQL Endpoint.</li>
-          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
+          <li>Une interface de navigation hypertexte g&#xE9;n&#xE9;rique portant sur la totalit&#xE9; des graphes RDF d&#x2019;un <em>triplestore</em> accessible via un SPARQL <em>endpoint</em>.</li>
+          <li>L&#x2019;utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l&#x2019;affichage des m&#xE9;tadonn&#xE9;es seraient clairs, sans &#xEA;tre expos&#xE9; &#xE0; la technicit&#xE9; inh&#xE9;rente aux triplets RDF et aux noms abstraits des classes et des propri&#xE9;t&#xE9;s des ontologies convoqu&#xE9;es&#x2026;</li>
           <li>&#x2026; mais la teneur des sujets/pr&#xE9;dicats/objets RDF devrait toujours &#xEA;tre clairement indiqu&#xE9;e, pour raisons p&#xE9;dagogique et technique. Toutes les requ&#xEA;tes SPARQL utilis&#xE9;es devraient &#xEA;tre expos&#xE9;es.</li>
           <li>Exploitation des <em>patterns</em> sp&#xE9;cifiques du CRM ou de LRMoo pour proposer des interfaces sp&#xE9;cifiques&#xA0;:
 <ul><li>Triplets d&#xE9;crivant l&#x2019;<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/82a7b7d8-394a-4e47-a83e-ce34b5640b68">identit&#xE9; d&#x2019;une ressource</a></li><li>Dates</li><li>Place dans une structure&#xA0;: sociale, bibliographique (<a href="https://data-iremus.huma-num.fr/sherlock/?resource=http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479">lrmoo:F18</a>), logique, mat&#xE9;rielle&#x2026;</li><li>Annotations (qui&#xA0;? qui&#xA0;? quand&#xA0;? pourquoi&#xA0;?)</li><li>Annotations (multiplicit&#xE9; des points de vue)</li></ul></li>
@@ -619,7 +618,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
     <div class="slide ch cv">
       <h1 id="conclusion">Conclusion</h1>
       <div class="content">
-        <p>Il manque la quatri&#xE8;me volet&#xA0;: <em>exploiter</em>.</p>
+        <p>Il manque le quatri&#xE8;me volet&#xA0;: <em>exploiter</em>.</p>
         <p>&#x1F334; merci &#x1F334;</p>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;</div>

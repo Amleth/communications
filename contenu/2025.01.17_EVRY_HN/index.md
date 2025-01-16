@@ -28,7 +28,7 @@
 ">
     <div style="color: #FF0092">modéliser, saisir, explorer</div>
     <br/>
-    <div style="font-size: 75%;">retour sur la mise en œuvre du CIDOC CRM dans<br/>un système d'information pour la recherche</div>
+    <div style="font-size: 75%;">retour sur la mise en œuvre du CIDOC CRM<br/>dans des BDD en musicologie</div>
 </div>
 
 <div>
@@ -72,13 +72,11 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de données liées.
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 ———
-- Chaque donnée est identifiée par une URL.
+- Toute information s'exprime sous la forme d'un ‹triplet› (sujet/prédicat/objet) dans un langage de description qui est le RDF.
 ———
-- Toute information s'exprime sous la forme d'un triplet (sujet/prédicat/objet) dans un langage de description, le RDF.
-———
-- La connexion de ces triplets RDF forme un graphe.
+- La connexion de ces triplets RDF forme un ‹graphe›.
 ———
 - Chaque prédicat est également identifié par une URL.
 
@@ -90,7 +88,7 @@ edge [color=cyan,fontcolor=white]
 ```
 
 ———
-- C'est le milieu technique idéal pour des données FAIR, pour l'expression et à la diffusion des données de la recherche.
+- C'est le milieu technique idéal pour des données ‹FAIR›, pour l'expression et la diffusion des données de la recherche.
 
 <!--∫ slide -->
 
@@ -98,18 +96,20 @@ edge [color=cyan,fontcolor=white]
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 ———
-- Utiliser les classes et les propriétés d’une ontologie confère ainsi une sémantique partagée aux données RDF (les individus identifiés par des URL seront des sujets ou des objets, les propriétés des classes seront des prédicats).
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
 ———
-- Permet de capitaliser les connaissances d'ingénierie des connaissances d'un projet à l'autre.
+- Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 ———
 - Le CIDOC CRM en bref :
-    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les processus de production de connaissances à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
+    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
     ———
     - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     ———
-    - Elle est extrêmement abstraite et générique.
+    - Elle est extrêmement ‹abstraite et générique›.
     ———
     - Ontologie centrée événement.
+    ———
+    - ‹Informations bibliographiques› avec LRMoo (œuvres, expressions, manifestation, item).
 
 <!--∫ slide ch cv -->
 
@@ -122,10 +122,10 @@ edge [color=cyan,fontcolor=white]
 ## Cas d'usage à l'IReMus
 
 - Référentiel des personnes, lieux et institution de l'Ancien Régime (charges).
-- Édition critique du Mercure Galant (1672-1724), structuration logique et matérielle des corpus original et TEI avec LRMoo.
+- Édition critique du Mercure Galant (1672-1724), structuration logique et matérielle des corpus original et TEI, indexation sémantique des articles avec des thésaurus et référentiels.
 - Indexation sémantique (avec des thésaurus) et description analytique de collections iconographiques.
 - Annotation collaborative de partitions MEI avec structuration logique des annotations (cadences et leur structure interne) et articulation fine à la partition.
-- Divers entreprises de catalogages de sources anciennes.
+- Divers entreprises de catalogage de sources anciennes.
 - Modèle Antony : sauvegarde et partage du patrimoine musical utilisant des technologies numériques.
 
 <!-- ############################################################################################################### -->
@@ -145,9 +145,9 @@ edge [color=cyan,fontcolor=white]
 ———
 - Le CRM est expressif, mais :
   ———
-  - Il existe parfois plusieurs manières de modéliser une situation avec les classes de base.
+  - Il existe parfois ‹plusieurs manières› de modéliser une situation avec les classes de base.
   ———
-  - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des sous-entités.
+  - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des ‹sous-entités›.
   ———
   - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que le chercheur pourrait avoir de ses données.
 ———
@@ -165,9 +165,9 @@ edge [color=cyan,fontcolor=white]
 
 ## Du relationnel au RDF
 
-- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées, idiomes de modélisation).
+- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
 ———
-- Des scripts doivent être écrits pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
+- Du code doit être écrit pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
 ———
 - Tous les moyens sont bons pour obtenir des données en CRM.
 
@@ -202,9 +202,9 @@ edge [color=cyan,fontcolor=white]
 
 ## Objectifs fonctionnels (1/2)
 
-- Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un Triplestore accessible via un SPARQL Endpoint.
+- Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un *triplestore* accessible via un SPARQL *endpoint*.
 ———
-- L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
+- L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
 ———
 - … mais la teneur des sujets/prédicats/objets RDF devrait toujours être clairement indiquée, pour raisons pédagogique et technique. Toutes les requêtes SPARQL utilisées devraient être exposées.
 ———
@@ -262,6 +262,6 @@ edge [color=cyan,fontcolor=white]
 
 # Conclusion
 
-Il manque la quatrième volet : *exploiter*.
+Il manque le quatrième volet : *exploiter*.
 
 🌴 merci 🌴
