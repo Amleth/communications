@@ -299,40 +299,19 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
   - Il existe parfois ‹plusieurs manières› de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des ‹sous-entités›.
   - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l'on pourrait avoir de nos données.
-- En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie.
-
-<!--📜-->
-<!--∫ slide -->
-
-## Du relationnel au RDF
-
-- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
+- En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie. Mais pourquoi pas des outils de saisie paramétrés suivant des situations de saisie spécifiques ?
 
 
 <!--∫ slide -->
 
-## Du relationnel au RDF
+## Les problèmes émanant du RDF/CIDOC CRM
 
-- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
-- Du code doit être écrit pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
-
-
-<!--∫ slide -->
-
-## Du relationnel au RDF
-
-- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
-- Du code doit être écrit pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
-- Tous les moyens sont bons pour obtenir des données en CRM.
-
-
-<!--∫ slide -->
-
-## Du relationnel au RDF
-
-- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
-- Du code doit être écrit pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
-- Tous les moyens sont bons pour obtenir des données en CRM.
+- Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
+- Le CRM est expressif, mais :
+  - Il existe parfois ‹plusieurs manières› de modéliser une situation avec les classes de base.
+  - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des ‹sous-entités›.
+  - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l'on pourrait avoir de nos données.
+- En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie. Mais pourquoi pas des outils de saisie paramétrés suivant des situations de saisie spécifiques ?
 - Je préconise le recours à un outil de saisie de données ‹existant›, libre et ergonomique. Par exemple, un candidat de la constellation *« No-code »*.
 
 <!--📜-->
@@ -341,6 +320,30 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 ## NocoDB
 
 <img src="nocodb.png" style="width: 28cm;"/>
+
+<!--📜-->
+<!--∫ slide -->
+
+## Du relationnel au RDF
+
+- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
+
+
+<!--∫ slide -->
+
+## Du relationnel au RDF
+
+- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
+- Du code doit être écrit pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
+
+
+<!--∫ slide -->
+
+## Du relationnel au RDF
+
+- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).
+- Du code doit être écrit pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
+- Tous les moyens sont bons pour obtenir des données en CRM.
 
 <!-- ############################################################################################################### -->
 <!-- ############################################################################################################### -->
