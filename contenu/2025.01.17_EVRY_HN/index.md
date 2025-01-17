@@ -128,7 +128,7 @@ edge [color=cyan,fontcolor=white]
 - Référentiel des personnes, lieux et institution de l'Ancien Régime (charges).
 - Édition critique du Mercure Galant (1672-1724), structuration logique et matérielle des corpus original et TEI, indexation sémantique des articles avec des thésaurus et référentiels.
 - Indexation sémantique (avec des thésaurus) et description analytique de collections iconographiques.
-- Annotation collaborative de partitions MEI avec structuration logique des annotations (cadences et leur structure interne) et articulation fine à la partition.
+- Annotation collaborative de partitions MEI avec structuration logique des annotations (cadences et leur structure interne) et articulation fine à la partition (EUH2020 Polifonia).
 - Divers entreprises de catalogage de sources anciennes.
 - Modèle Antony : sauvegarde et partage du patrimoine musical utilisant des technologies numériques.
 
