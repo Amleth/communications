@@ -287,7 +287,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 - Le CRM est expressif, mais :
   - Il existe parfois ‹plusieurs manières› de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des ‹sous-entités›.
-  - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que le chercheur pourrait avoir de ses données.
+  - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l'on pourrait avoir de nos données.
 
 
 <!--∫ slide -->
@@ -298,7 +298,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 - Le CRM est expressif, mais :
   - Il existe parfois ‹plusieurs manières› de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des ‹sous-entités›.
-  - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que le chercheur pourrait avoir de ses données.
+  - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l'on pourrait avoir de nos données.
 - En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie.
 
 
@@ -310,7 +310,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 - Le CRM est expressif, mais :
   - Il existe parfois ‹plusieurs manières› de modéliser une situation avec les classes de base.
   - Ses *patterns* fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des ‹sous-entités›.
-  - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que le chercheur pourrait avoir de ses données.
+  - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l'on pourrait avoir de nos données.
 - En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie.
 - Je préconise le recours à un outil de saisie de données ‹existant›, libre et ergonomique. Par exemple, un candidat de la constellation *« No-code »*.
 

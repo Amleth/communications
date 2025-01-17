@@ -344,7 +344,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que l&#x2019;on pourrait avoir de nos donn&#xE9;es.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -355,7 +355,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que l&#x2019;on pourrait avoir de nos donn&#xE9;es.</li></ul></li>
           <li>En cons&#xE9;quence, <span class="colour">une interface d&#x2019;&#xE9;dition g&#xE9;n&#xE9;rique de donn&#xE9;es CRM n&#x2019;a pas de sens</span>, car chaque collectif construit sa mani&#xE8;re d&#x2019;utiliser l&#x2019;ontologie.</li>
         </ul>
       </div>
@@ -367,7 +367,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <ul>
           <li>Un graphe de donn&#xE9;es ouvert est plus difficile &#xE0; &#xE9;diter que des donn&#xE9;es relationnelles (donn&#xE9;es tabulaires s&#x2019;&#xE9;ditant naturellement avec des formulaires contraints).</li>
           <li>Le CRM est expressif, mais&#xA0;:
-<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que le chercheur pourrait avoir de ses donn&#xE9;es.</li></ul></li>
+<ul><li>Il existe parfois <span class="colour">plusieurs mani&#xE8;res</span> de mod&#xE9;liser une situation avec les classes de base.</li><li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter&#x2026;) induisent beaucoup de des <span class="colour">sous-entit&#xE9;s</span>.</li><li>Son caract&#xE8;re <span class="colour">abstrait et g&#xE9;n&#xE9;rique</span> fait &#xE9;cran avec la compr&#xE9;hension naturelle que l&#x2019;on pourrait avoir de nos donn&#xE9;es.</li></ul></li>
           <li>En cons&#xE9;quence, <span class="colour">une interface d&#x2019;&#xE9;dition g&#xE9;n&#xE9;rique de donn&#xE9;es CRM n&#x2019;a pas de sens</span>, car chaque collectif construit sa mani&#xE8;re d&#x2019;utiliser l&#x2019;ontologie.</li>
           <li>Je pr&#xE9;conise le recours &#xE0; un outil de saisie de donn&#xE9;es <span class="colour">existant</span>, libre et ergonomique. Par exemple, un candidat de la constellation <em>&#xAB;&#xA0;No-code&#xA0;&#xBB;</em>.</li>
         </ul>
