@@ -102,6 +102,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <p>
           <em>Le CIDOC CRM au service de la musicologie</em>
         </p>
+        <p>Comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?</p>
+        <p><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span></p>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
@@ -109,10 +111,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?
-<div style="text-align: center;"><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span>
-</div>
-<br/></li>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -121,11 +120,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-1">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?
-<div style="text-align: center;"><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span>
-</div>
-<br/></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -134,24 +130,6 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-2">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?
-<div style="text-align: center;"><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span>
-</div>
-<br/></li>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
-          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
-        </ul>
-      </div>
-      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
-    </div>
-    <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-3">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
-      <div class="content">
-        <ul>
-          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?
-<div style="text-align: center;"><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span>
-</div>
-<br/></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
           <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
           <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
@@ -160,13 +138,9 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-4">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
+      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-3">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?
-<div style="text-align: center;"><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span>
-</div>
-<br/></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
           <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
           <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
@@ -179,13 +153,9 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-5">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
+      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-4">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?
-<div style="text-align: center;"><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span>
-</div>
-<br/></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
           <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
           <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
