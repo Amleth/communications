@@ -72,7 +72,7 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire que les données de la recherche tiennent dans le temps ?
+- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
 ———
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 ———
@@ -90,7 +90,7 @@ edge [color=cyan,fontcolor=white]
 ```
 
 ———
-- C'est le milieu technique idéal pour des données ‹FAIR›, pour l'expression et la diffusion des données de la recherche.
+- C'est le milieu technique idéal pour des données ‹FAIR›, pour l'expression et la diffusion des données de la recherche (publication + nouveaux usages).
 
 <!--∫ slide -->
 
@@ -264,6 +264,8 @@ edge [color=cyan,fontcolor=white]
 
 # Conclusion
 
-Il manque le quatrième volet : *exploiter*.
+Démarche d'ingénierie : rendre techniquement indépendants les phases de modélisation, saisie et exploration (il manque le quatrième volet : *exploiter*).
+
+Le CRM comme ciment permettant cette indépendance.
 
 🌴 merci 🌴

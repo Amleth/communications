@@ -109,7 +109,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
-          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
+          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps&#xA0;? <span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -118,8 +118,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-1">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
+          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps&#xA0;? <span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
-          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -128,9 +128,9 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-2">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
+          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps&#xA0;? <span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
           <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
-          <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -139,6 +139,19 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-3">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
+          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps&#xA0;? <span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span></li>
+          <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
+          <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
+          <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
+        </ul>
+      </div>
+      <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
+    </div>
+    <div class="slide">
+      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-4">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
+      <div class="content">
+        <ul>
+          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps&#xA0;? <span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
           <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
           <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
@@ -151,9 +164,10 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-4">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
+      <h2 id="le-web-s&#xE9;mantique-milieu-technique-id&#xE9;al-pour-les-bdd-hn-5">Le web s&#xE9;mantique&#xA0;:<br/>milieu technique id&#xE9;al pour les BDD HN</h2>
       <div class="content">
         <ul>
+          <li>La question&#xA0;: comment faire tenir les donn&#xE9;es de la recherche dans le temps&#xA0;? <span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span></li>
           <li>Promesse d&#x2019;une base de donn&#xE9;es &#xE0; l&#x2019;&#xE9;chelle du Web. Le Web initial (Tim Berners Lee, 1991) &#xE9;tait un Web de documents li&#xE9;s (hypertexte), le Web s&#xE9;mantique est un Web de <span class="colour">donn&#xE9;es li&#xE9;es</span>, chacune &#xE9;tant identifi&#xE9;e par une <span class="colour">URI</span>.</li>
           <li>Toute information s&#x2019;exprime sous la forme d&#x2019;un <span class="colour">triplet</span> (sujet/pr&#xE9;dicat/objet) dans un langage de description qui est le RDF.</li>
           <li>La connexion de ces triplets RDF forme un <span class="colour">graphe</span>.</li>
@@ -163,7 +177,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
           <img style="display: block; margin: 0 auto; width: 26cm;" src="dotfile_fd6722af-2ae4-4abf-a011-883dbe4b30db.png"/>
         </p>
         <ul>
-          <li>C&#x2019;est le milieu technique id&#xE9;al pour des donn&#xE9;es <span class="colour">FAIR</span>, pour l&#x2019;expression et la diffusion des donn&#xE9;es de la recherche.</li>
+          <li>C&#x2019;est le milieu technique id&#xE9;al pour des donn&#xE9;es <span class="colour">FAIR</span>, pour l&#x2019;expression et la diffusion des donn&#xE9;es de la recherche (publication + nouveaux usages).</li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -219,7 +233,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; <span class="colour">large</span> et <span class="colour">ancienne</span>. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -232,7 +246,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; <span class="colour">large</span> et <span class="colour">ancienne</span>. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -245,7 +259,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; <span class="colour">large</span> et <span class="colour">ancienne</span>. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -258,7 +272,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li><li><span class="colour">Informations bibliographiques</span> avec LRMoo (&#x153;uvres, expressions, manifestation, item).</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; <span class="colour">large</span> et <span class="colour">ancienne</span>. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li><li><span class="colour">Informations bibliographiques</span> avec LRMoo (&#x153;uvres, expressions, manifestation, item).</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
@@ -618,7 +632,8 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
     <div class="slide ch cv">
       <h1 id="conclusion">Conclusion</h1>
       <div class="content">
-        <p>Il manque le quatri&#xE8;me volet&#xA0;: <em>exploiter</em>.</p>
+        <p>D&#xE9;marche d&#x2019;ing&#xE9;nierie&#xA0;: rendre techniquement ind&#xE9;pendants les phases de mod&#xE9;lisation, saisie et exploration (il manque le quatri&#xE8;me volet&#xA0;: <em>exploiter</em>).</p>
+        <p>Le CRM comme ciment permettant cette ind&#xE9;pendance.</p>
         <p>&#x1F334; merci &#x1F334;</p>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;</div>

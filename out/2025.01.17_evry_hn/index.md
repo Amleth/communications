@@ -72,6 +72,8 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
+- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+———
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 ———
 - Toute information s'exprime sous la forme d'un ‹triplet› (sujet/prédicat/objet) dans un langage de description qui est le RDF.
@@ -88,7 +90,7 @@ edge [color=cyan,fontcolor=white]
 ```
 
 ———
-- C'est le milieu technique idéal pour des données ‹FAIR›, pour l'expression et la diffusion des données de la recherche.
+- C'est le milieu technique idéal pour des données ‹FAIR›, pour l'expression et la diffusion des données de la recherche (publication + nouveaux usages).
 
 <!--∫ slide -->
 
@@ -103,7 +105,7 @@ edge [color=cyan,fontcolor=white]
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
     ———
-    - Communauté large et ancienne. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté ‹large› et ‹ancienne›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     ———
     - Elle est extrêmement ‹abstraite et générique›.
     ———
@@ -262,6 +264,8 @@ edge [color=cyan,fontcolor=white]
 
 # Conclusion
 
-Il manque le quatrième volet : *exploiter*.
+Démarche d'ingénierie : rendre techniquement indépendants les phases de modélisation, saisie et exploration (il manque le quatrième volet : *exploiter*).
+
+Le CRM comme ciment permettant cette indépendance.
 
 🌴 merci 🌴
