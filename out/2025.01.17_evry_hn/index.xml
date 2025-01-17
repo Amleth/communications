@@ -102,8 +102,9 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
         <p>
           <em>Le CIDOC CRM au service de la musicologie</em>
         </p>
-        <p>Comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;?</p>
-        <p><span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span></p>
+        <div>
+          <p>Comment faire tenir les donn&#xE9;es de la recherche dans le temps (!)&#xA0;? <br/> <span class="colour">technologies</span> + <span class="colour">traditions interpr&#xE9;tatives</span> + <span class="colour">moyens de dev limit&#xE9;s</span></p>
+        </div>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
