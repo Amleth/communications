@@ -209,7 +209,7 @@ hr {
 
 a {
   color: #16e7cf;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 img {
