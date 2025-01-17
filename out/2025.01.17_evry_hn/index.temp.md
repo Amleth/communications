@@ -75,8 +75,6 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 ‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›
 </div>
 
-*Le CIDOC CRM au service de la musicologie*
-
 <!--📜-->
 <!--∫ slide -->
 
@@ -227,7 +225,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 <!--📜-->
 <!--∫ slide -->
 
-## Cas d'usage à l'IReMus
+## Le CIDOC CRM au service de la musicologie
 
 - Référentiel des personnes, lieux et institution de l'Ancien Régime (charges).
 - Édition critique du Mercure Galant (1672-1724), structuration logique et matérielle des corpus original et TEI, indexation sémantique des articles avec des thésaurus et référentiels.
