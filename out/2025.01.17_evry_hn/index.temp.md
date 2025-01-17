@@ -76,14 +76,18 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+- La question : comment faire tenir les données de la recherche dans le temps (!) ?
+<div style="text-align: center;">‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›</div>
+<br/>
 
 
 <!--∫ slide -->
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+- La question : comment faire tenir les données de la recherche dans le temps (!) ?
+<div style="text-align: center;">‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›</div>
+<br/>
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 
 
@@ -91,7 +95,9 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+- La question : comment faire tenir les données de la recherche dans le temps (!) ?
+<div style="text-align: center;">‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›</div>
+<br/>
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 - Toute information s'exprime sous la forme d'un ‹triplet› (sujet/prédicat/objet) dans un langage de description qui est le RDF.
 
@@ -100,7 +106,9 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+- La question : comment faire tenir les données de la recherche dans le temps (!) ?
+<div style="text-align: center;">‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›</div>
+<br/>
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 - Toute information s'exprime sous la forme d'un ‹triplet› (sujet/prédicat/objet) dans un langage de description qui est le RDF.
 - La connexion de ces triplets RDF forme un ‹graphe›.
@@ -110,7 +118,9 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+- La question : comment faire tenir les données de la recherche dans le temps (!) ?
+<div style="text-align: center;">‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›</div>
+<br/>
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 - Toute information s'exprime sous la forme d'un ‹triplet› (sujet/prédicat/objet) dans un langage de description qui est le RDF.
 - La connexion de ces triplets RDF forme un ‹graphe›.
@@ -124,7 +134,9 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+- La question : comment faire tenir les données de la recherche dans le temps (!) ?
+<div style="text-align: center;">‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›</div>
+<br/>
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 - Toute information s'exprime sous la forme d'un ‹triplet› (sujet/prédicat/objet) dans un langage de description qui est le RDF.
 - La connexion de ces triplets RDF forme un ‹graphe›.
