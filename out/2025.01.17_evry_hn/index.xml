@@ -169,7 +169,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
@@ -178,7 +178,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi-1">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle-1">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
@@ -188,7 +188,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi-2">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle-2">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
@@ -199,7 +199,7 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi-3">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle-3">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
@@ -212,53 +212,53 @@ Consortium <span class="colour">Musica2</span> IR* Huma-Num
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi-4">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle-4">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi-5">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle-5">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi-6">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle-6">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>
     </div>
     <div class="slide">
-      <h2 id="une-ontologie-quoi-et-pourquoi-7">Une ontologie&#xA0;: quoi et pourquoi&#xA0;?</h2>
+      <h2 id="une-ontologie-quoi-pourquoi-laquelle-7">Une ontologie&#xA0;: quoi, pourquoi, laquelle&#xA0;?</h2>
       <div class="content">
         <ul>
           <li>Formalisation d&#x2019;un mod&#xE8;le conceptuel pour un domaine donn&#xE9;, contenant des <span class="colour">classes</span> et des <span class="colour">propri&#xE9;t&#xE9;s</span>.</li>
           <li>Utiliser les classes et les propri&#xE9;t&#xE9;s d&#x2019;une ontologie conf&#xE8;re ainsi une <span class="colour">s&#xE9;mantique partag&#xE9;e aux donn&#xE9;es</span> (partage d&#x2019;individus, partage de pr&#xE9;dicats).</li>
           <li>Permet de capitaliser des connaissances de mod&#xE9;lisation d&#x2019;un projet &#xE0; l&#x2019;autre (d&#xE9;marche KM).</li>
           <li>Le CIDOC CRM en bref&#xA0;:
-<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li><li><span class="colour">Informations bibliographiques</span> avec LRMoo (&#x153;uvres, expressions, manifestation, item).</li></ul></li>
+<ul><li>Ontologie qui documente le patrimoine mat&#xE9;riel et immat&#xE9;riel ainsi que les <span class="colour">processus de production de connaissances</span> &#xE0; son propos (sources, connaissances, faits sociaux, concepts, objets mat&#xE9;riels, objets s&#xE9;miotiques d&#xE9;not&#xE9;s ou connot&#xE9;s, contexte de production des connaissances, etc.).</li><li>Communaut&#xE9; large et ancienne. Venant du monde des mus&#xE9;es, elle est d&#xE9;sormais utilis&#xE9;e dans tous les domaines des HN.</li><li>Elle est extr&#xEA;mement <span class="colour">abstraite et g&#xE9;n&#xE9;rique</span>.</li><li>Ontologie centr&#xE9;e &#xE9;v&#xE9;nement.</li><li><span class="colour">Informations bibliographiques</span> avec LRMoo (&#x153;uvres, expressions, manifestation, item).</li></ul></li>
         </ul>
       </div>
       <div class="pagination">&#x2022;&#x2022;&#x2022;&#x2022;&#x1F40C;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;</div>

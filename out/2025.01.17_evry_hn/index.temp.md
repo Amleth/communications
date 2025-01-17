@@ -125,88 +125,88 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 <!--📜-->
 <!--∫ slide -->
 
-## Une ontologie : quoi et pourquoi ?
+## Une ontologie : quoi, pourquoi, laquelle ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 
 
 <!--∫ slide -->
 
-## Une ontologie : quoi et pourquoi ?
-
-- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
-- Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
-
-
-<!--∫ slide -->
-
-## Une ontologie : quoi et pourquoi ?
+## Une ontologie : quoi, pourquoi, laquelle ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 - Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
-- Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 
 
 <!--∫ slide -->
 
-## Une ontologie : quoi et pourquoi ?
+## Une ontologie : quoi, pourquoi, laquelle ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 - Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
-- Le CIDOC CRM en bref :
-    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
 
 
 <!--∫ slide -->
 
-## Une ontologie : quoi et pourquoi ?
+## Une ontologie : quoi, pourquoi, laquelle ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 - Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
 
 
 <!--∫ slide -->
 
-## Une ontologie : quoi et pourquoi ?
+## Une ontologie : quoi, pourquoi, laquelle ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 - Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté large et ancienne. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+
+
+<!--∫ slide -->
+
+## Une ontologie : quoi, pourquoi, laquelle ?
+
+- Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
+- Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
+- Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
+- Le CIDOC CRM en bref :
+    - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
+    - Communauté large et ancienne. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     - Elle est extrêmement ‹abstraite et générique›.
 
 
 <!--∫ slide -->
 
-## Une ontologie : quoi et pourquoi ?
+## Une ontologie : quoi, pourquoi, laquelle ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 - Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté large et ancienne. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     - Elle est extrêmement ‹abstraite et générique›.
     - Ontologie centrée événement.
 
 
 <!--∫ slide -->
 
-## Une ontologie : quoi et pourquoi ?
+## Une ontologie : quoi, pourquoi, laquelle ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des ‹classes› et des ‹propriétés›.
 - Utiliser les classes et les propriétés d’une ontologie confère ainsi une ‹sémantique partagée aux données› (partage d'individus, partage de prédicats).
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté large et ancienne. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     - Elle est extrêmement ‹abstraite et générique›.
     - Ontologie centrée événement.
     - ‹Informations bibliographiques› avec LRMoo (œuvres, expressions, manifestation, item).
