@@ -155,7 +155,7 @@ edge [color=cyan,fontcolor=white]
   ———
   - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l'on pourrait avoir de nos données.
 ———
-- En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie. Mais pourquoi pas des outils de saisie paramétrés suivant des situations de saisie spécifiques ?
+- En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie. Mais pourquoi pas des outils de saisie paramétrés suivant des situations/pratiques spécifiques ?
 ———
 - Je préconise le recours à un outil de saisie de données ‹existant›, libre et ergonomique. Par exemple, un candidat de la constellation *« No-code »*.
 
