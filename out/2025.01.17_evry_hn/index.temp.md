@@ -171,7 +171,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Communauté ‹large› et ‹ancienne›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté ‹large› et ‹établie›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
 
 
 <!--∫ slide -->
@@ -183,7 +183,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Communauté ‹large› et ‹ancienne›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté ‹large› et ‹établie›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     - Elle est extrêmement ‹abstraite et générique›.
 
 
@@ -196,7 +196,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Communauté ‹large› et ‹ancienne›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté ‹large› et ‹établie›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     - Elle est extrêmement ‹abstraite et générique›.
     - Ontologie centrée événement.
 
@@ -210,7 +210,7 @@ Comment faire tenir les données de la recherche dans le temps (!) ?
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre (démarche KM).
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
-    - Communauté ‹large› et ‹ancienne›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté ‹large› et ‹établie›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     - Elle est extrêmement ‹abstraite et générique›.
     - Ontologie centrée événement.
     - ‹Informations bibliographiques› avec LRMoo (œuvres, expressions, manifestation, item).

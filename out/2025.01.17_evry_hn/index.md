@@ -107,7 +107,7 @@ edge [color=cyan,fontcolor=white]
 - Le CIDOC CRM en bref :
     - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les ‹processus de production de connaissances› à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, objets sémiotiques dénotés ou connotés, contexte de production des connaissances, etc.).
     ———
-    - Communauté ‹large› et ‹ancienne›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
+    - Communauté ‹large› et ‹établie›. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
     ———
     - Elle est extrêmement ‹abstraite et générique›.
     ———
