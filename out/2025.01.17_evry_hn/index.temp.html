@@ -305,23 +305,6 @@ Consortium ‹Musica2› IR* Huma-Num
 </ul></li>
 <li>En conséquence, ‹une interface d’édition générique de données CRM n’a pas de sens›, car chaque collectif construit sa manière d’utiliser l’ontologie.</li>
 </ul>
-<!--∫ slide -->
-<h2 id="les-problèmes-émanant-du-rdfcidoc-crm-6">Les problèmes émanant du RDF/CIDOC CRM</h2>
-<ul>
-<li>Un graphe de données ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s’éditant naturellement avec des formulaires contraints).</li>
-<li>Le CRM est expressif, mais :
-<ul>
-<li>Il existe parfois ‹plusieurs manières› de modéliser une situation avec les classes de base.</li>
-<li>Ses <em>patterns</em> fondamentaux (pour nommer, type, dater, annoter…) induisent beaucoup de des ‹sous-entités›.</li>
-<li>Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l’on pourrait avoir de nos données.</li>
-</ul></li>
-<li>En conséquence, ‹une interface d’édition générique de données CRM n’a pas de sens›, car chaque collectif construit sa manière d’utiliser l’ontologie.</li>
-<li>Je préconise le recours à un outil de saisie de données ‹existant›, libre et ergonomique. Par exemple, un candidat de la constellation <em>« No-code »</em>.</li>
-</ul>
-<!--📜-->
-<!--∫ slide ch cv -->
-<h2 id="nocodb">NocoDB</h2>
-<p><img src="nocodb.png" style="width: 28cm;"/></p>
 <!--📜-->
 <!--∫ slide -->
 <h2 id="du-relationnel-au-rdf">Du relationnel au RDF</h2>
@@ -341,6 +324,18 @@ Consortium ‹Musica2› IR* Huma-Num
 <li>Du code doit être écrit pour récupérer les données via l’‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).</li>
 <li>Tous les moyens sont bons pour obtenir des données en CRM.</li>
 </ul>
+<!--∫ slide -->
+<h2 id="du-relationnel-au-rdf-3">Du relationnel au RDF</h2>
+<ul>
+<li>Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n’est qu’un ‹modèle de saisie›. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation).</li>
+<li>Du code doit être écrit pour récupérer les données via l’‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).</li>
+<li>Tous les moyens sont bons pour obtenir des données en CRM.</li>
+<li>Je préconise le recours à un outil de saisie de données ‹existant›, libre et ergonomique. Par exemple, un candidat de la constellation <em>« No-code »</em>.</li>
+</ul>
+<!--📜-->
+<!--∫ slide ch cv -->
+<h2 id="nocodb">NocoDB</h2>
+<p><img src="nocodb.png" style="width: 28cm;"/></p>
 <!-- ############################################################################################################### -->
 <!-- ############################################################################################################### -->
 <!--📜-->

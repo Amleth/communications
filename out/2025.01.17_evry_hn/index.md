@@ -156,14 +156,6 @@ edge [color=cyan,fontcolor=white]
   - Son caractère ‹abstrait et générique› fait écran avec la compréhension naturelle que l'on pourrait avoir de nos données.
 ———
 - En conséquence, ‹une interface d'édition générique de données CRM n'a pas de sens›, car chaque collectif construit sa manière d'utiliser l'ontologie.
-———
-- Je préconise le recours à un outil de saisie de données ‹existant›, libre et ergonomique. Par exemple, un candidat de la constellation *« No-code »*.
-
-<!--∫ slide ch cv -->
-
-## NocoDB
-
-<img src="nocodb.png" style="width: 28cm;"/>
 
 <!--∫ slide -->
 
@@ -174,6 +166,14 @@ edge [color=cyan,fontcolor=white]
 - Du code doit être écrit pour récupérer les données via l'‹API› offerte par le système et les ‹convertir› en données RDF modélisées avec le CIDOC CRM (un couple efficace pour ce genre de tâches : python/rdflib).
 ———
 - Tous les moyens sont bons pour obtenir des données en CRM.
+———
+- Je préconise le recours à un outil de saisie de données ‹existant›, libre et ergonomique. Par exemple, un candidat de la constellation *« No-code »*.
+
+<!--∫ slide ch cv -->
+
+## NocoDB
+
+<img src="nocodb.png" style="width: 28cm;"/>
 
 <!-- ############################################################################################################### -->
 <!-- ############################################################################################################### -->
