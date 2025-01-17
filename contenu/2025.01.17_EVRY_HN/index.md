@@ -72,7 +72,7 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 ## Le web sémantique :<br/>milieu technique idéal pour les BDD HN
 
-- La question : comment faire tenir les données de la recherche dans le temps ? ‹technologies› + ‹traditions interprétatives›
+- La question : comment faire tenir les données de la recherche dans le temps (!) ? ‹technologies› + ‹traditions interprétatives›
 ———
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de ‹données liées›, chacune étant identifiée par une ‹URI›.
 ———
