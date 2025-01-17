@@ -553,7 +553,7 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 # Conclusion
 
-Démarche d'ingénierie : rendre techniquement indépendants les phases de modélisation, saisie et exploration (il manque le quatrième volet : *exploiter*).
+Démarche d'ingénierie : rendre techniquement indépendants les phases de modélisation, saisie et exploration (il manque le quatrième volet : l'*exploitation*).
 
 Le CRM comme ciment permettant cette indépendance.
 
