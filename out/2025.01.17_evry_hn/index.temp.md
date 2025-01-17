@@ -69,13 +69,13 @@ https://github.com/Amleth/communications/blob/main/out/2025.01.17_evry_hn/index.
 
 # Modéliser
 
-*Le CIDOC CRM au service de la musicologie*
-
 <div>
 Comment faire tenir les données de la recherche dans le temps (!) ?
 <br/>
 ‹technologies› + ‹traditions interprétatives› + ‹moyens de dev limités›
 </div>
+
+*Le CIDOC CRM au service de la musicologie*
 
 <!--📜-->
 <!--∫ slide -->
