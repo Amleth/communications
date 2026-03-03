@@ -29,7 +29,11 @@
 #show emph: it => {
   text(rgb("00FFFF"), it.body)
 }
-// #set list(marker: text(20pt, rgb("777"), [■], baseline: -1pt))
+#set list(marker: (
+  text(15pt, rgb("fff"), [■], baseline: 0pt),
+  text(20pt, rgb("fff"), [‣], baseline: 0pt),
+  text(20pt, rgb("fff"), [–], baseline: 0pt),
+))
 #set par(leading: 10pt)
 #set list(spacing: 20pt)
 #let c(content) = text(rgb("00FFFF"), content)
