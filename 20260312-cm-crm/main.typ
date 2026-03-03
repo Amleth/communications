@@ -11,25 +11,36 @@
 )
 #show heading.where(level: 1): it => {
   pagebreak()
-  align(top)[
-    #set text(size: 22pt, weight: "medium")
-    #it]
+  align(center + horizon)[
+    #set text(rgb("FF0092"), size: 36pt, font: "Special Elite", weight: "medium")
+    #upper[#it]
+  ]
   v(1em)
 }
 #show heading.where(level: 2): it => {
   pagebreak()
   align(top + center)[
-    #set text(rgb("FF0092"), font: "Fira Code", size: 20pt, weight: "medium")
+    #set text(rgb("FF0092"), font: "Fira Code", size: 24pt, weight: "medium")
     #lower[#it]]
-  v(0.5cm)
+  v(1cm)
 }
 #set text(font: "ITC Goudy Sans Std")
 #set par(justify: true)
 #show emph: it => {
   text(rgb("00FFFF"), it.body)
 }
-
+// #set list(marker: text(20pt, rgb("777"), [■], baseline: -1pt))
+#set par(leading: 10pt)
+#set list(spacing: 20pt)
 #let c(content) = text(rgb("00FFFF"), content)
+#show link: set text(rgb("00FFFF"))
+#show link: underline
+
+#show outline.entry: it => {
+  align(center + horizon)[
+    #text(rgb("FF0092"), font: "Special Elite")[#upper(it.body())]
+  ]
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -61,35 +72,46 @@
 
 #page()[
   #align(center + horizon)[
-    *Comment faire tenir les données de la recherche dans le temps ?*
-    #v(2cm)
+    #block(stroke: green, inset: 1cm, width: 100%)[*Comment faire tenir les données de la recherche dans le temps ?*]
     #block[#align(left)[
-      - À quels 🧺 confier ses 🥚 ?
-      - Comment capter et transmettre les « traditions interprétatives » ?
-      - Avec des moyens limités ?
+      📜  Comment s'assurer qu'on puisse toujours les voir, les comprendre et les modifier ? \
+      💾  À quels 🧺 confier ses 🥚 ? \
+      ⚗️  Comment capter et transmettre les « traditions interprétatives » sans les amoindrir ? \
+      🎓  Comment fonctionner avec des moyens (humains + techniques) limités ? \
+      🌐  Comment favoriser les liens avec d'autres systèmes d'information ? \
+            Comment faire du LOD ⭐⭐⭐⭐⭐ ? → #link("https://5stardata.info/fr/")
     ]]
+    #v(1cm)
+    Essayons d'apporter les moins mauvaises réponses.
   ]
 ]
 
-= Modéliser
+#page[
+  #outline(depth: 1, title: none)
+]
+
+= encoder
 
 == Quelques problèmes potentiels avec les SGBDR
 
-- Un modèle relationnel est souvent conçu hic et nunc : il formalise et matérialise une tâche d'analyse d'une pratique de recherche spécifique. Le risque est de « réinventer » la roue, sur le plan conceptuel, à chaque réitération de cette démarche d'analyse.
-  - Pourtant, il existe des similarités faciles à observer entre les pratiques de recherche en SHS liées aux données numériques.
+- Un modèle relationnel est souvent conçu ici & maintenant : il formalise et matérialise une tâche d'analyse d'une pratique de recherche spécifique. Le risque est de « réinventer » la roue, sur le plan conceptuel, à chaque réitération de cette démarche d'analyse. Pourtant, il existe des similarités entre les pratiques de recherche en SHS liées aux données numériques.
+- La sémantique d'un modèle relationnel ne peut être techniquement partagée, ce qui peut poser des problèmes de lecture et de compréhension plus tard.
+- L'accès aux données par un système tiers peut être malaisé. Souvent, on doit développer une API, qui est déterminée par le cahier des charges du projet, alors qu'on sait qu'on ne peut anticiper tous les usages futurs des données (c'est l'idée même des LOD). C'est aussi un point de tension dans le dialogue avec le prestataire : tout changement apporté au modèle vu comme minime par le client peut avoir d'importantes conséquences sur le développement.
+- Tout ceci amène à parler d'architectures « en silo ».
 
-Mais :
+== Pervasivité des SGBDR
+
 - Le panorama technologiques des outils permettant de construire rapidement des applications Web de saisie collaborative de données est dominé par les systèmes reposant sur les SGBDR :
   - CMS & assimilés (Wagtail, Drupal, Omeka, Heurist)
-  - frameworks full-stack existants dans tous les langages populaires
-- Les SGBDR sont enseignés partout, à tous les niveaux, les compétences d'ingénierie sont très disponibles.
+  - systèmes « no-code »
+  - frameworks full-stack qui existent dans tous les langages de programmation
+- Les SGBDR, et avec eux, la méthode Merise et le SQL, sont enseignés partout, à tous les niveaux. Les compétences d'ingénierie sont donc très répandues.
 
-== Le Web sémantique : milieu technique idéal pour BDD des SHS
+== Le Web sémantique :
 
-- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de _données liées_, chacune étant identifiée par une _URL_. Cela permet de toujours savoir de quoi on parle.
-- Toute information s'exprime sous la forme d'un _triplet_ sujet/prédicat/objet dans un langage de description qui est le RDF.
-- La connexion de ces triplets RDF forme un _graphe_.
-- Chaque prédicat est également identifié par une _URL_.
+- Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de _données liées_, chacune étant identifiée par une _URL_.
+- Toute information s'exprime sous la forme d'un _triplet_ sujet/prédicat/objet dans un langage de description qui est le #link("https://www.w3.org/TR/rdf12-primer/")[RDF].
+
 #align(center)[
   #text(white, size: 12pt)[
     #diagram(
@@ -104,13 +126,20 @@ Mais :
   ]
 ]
 
-- C'est le milieu technique idéal pour des données _FAIR_, pour l'expression et la diffusion des données de la recherche.
+- Connectés, ces triplets RDF forment un _graphe_.
+- Chaque prédicat est également identifié par une _URL_. Cela permet de toujours savoir de quoi on parle quand on dit, par exemple : « Titre ».
+- Tout graph RDF est interrogeable en SPARQL (+  standardisé que SQL).
+- C'est le milieu technique idéal pour nos préoccupations : LOD, FAIR, etc.
+
+= Modéliser
 
 == Une ontologie : quoi, pourquoi ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des _classes_ et des _propriétés_.
 - Utiliser les classes et les propriétés d'une ontologie confère ainsi une _sémantique partagée aux données_ (partage d'individus, partage de prédicats).
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre.
+- Bien des projets de recherche alliant informatique et SHS produisent une ontologie spécifique.
+- Le Web sémantique s'accompagne de standards utiles pour nos métiers : #link("https://www.w3.org/TR/skos-primer/")[SKOS] pour les thésaurus, #link("https://www.dublincore.org/specifications/dublin-core/dcmi-terms/")[DCMI] pour les métadonnées basiques, #link("https://data.doremus.org/ontology/")[DOREMUS] pour la musique écrite/éditée/jouée/diffusée, #link("https://cidoc-crm.org/lrmoo")[LRMOO] pour l'information bibliographique, #link("https://www.w3.org/TR/prov-o/")[PROV-O] pour la provenance de l'information, et bien sûr le CIDOC CRM.
 
 == Laquelle ? Le CIDOC CRM !
 
@@ -125,3 +154,5 @@ Mais :
 - Les problèmes posés par la structure du CIDOC CRM
 
 = Explorer
+
+= Péreniser
