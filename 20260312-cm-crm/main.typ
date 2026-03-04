@@ -142,8 +142,8 @@
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des _classes_ et des _propriétés_.
 - Utiliser les classes et les propriétés d'une ontologie confère ainsi une _sémantique partagée aux données_ (partage d'individus, partage de prédicats).
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre.
-- Bien des projets de recherche alliant informatique et SHS produisent une ontologie spécifique.
 - Le Web sémantique s'accompagne de standards utiles pour nos métiers : #link("https://www.w3.org/TR/skos-primer/")[SKOS] pour les thésaurus, #link("https://www.dublincore.org/specifications/dublin-core/dcmi-terms/")[DCMI] pour les métadonnées basiques, #link("https://data.doremus.org/ontology/")[DOREMUS] pour la musique écrite/éditée/jouée/diffusée, #link("https://cidoc-crm.org/lrmoo")[LRMOO] pour l'information bibliographique, #link("https://www.w3.org/TR/prov-o/")[PROV-O] pour la provenance de l'information, et bien sûr le CIDOC CRM.
+- 🚨 Bien des projets de recherche alliant informatique et SHS produisent une ontologie spécifique.
 
 == Laquelle ? Le CIDOC CRM !
 
@@ -153,9 +153,17 @@
 - Ontologie centrée événement.
 - _Informations bibliographiques_ avec LRMoo (œuvres, expressions, manifestation, item).
 
+== Hiérarchie des classes du cidoc crm
+
+#align(center + horizon)[
+  #image("crm-class-hierarchy.jpg", height: 84%)
+]
+
 = Saisir
 
-- Les problèmes posés par la structure du CIDOC CRM
+== Ça se complique
+
+-
 
 = Explorer
 
