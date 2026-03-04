@@ -3,7 +3,7 @@
 #set page(
   fill: black,
   margin: 1cm,
-  paper: "presentation-16-9",
+  paper: "presentation-4-3",
 )
 #set text(
   white,
@@ -22,7 +22,7 @@
   align(top + center)[
     #set text(rgb("FF0092"), font: "Fira Code", size: 24pt, weight: "medium")
     #lower[#it]]
-  v(1cm)
+  v(1.5cm)
 }
 #set text(font: "ITC Goudy Sans Std")
 #set par(justify: true)
@@ -35,7 +35,7 @@
   text(20pt, rgb("fff"), [–], baseline: 0pt),
 ))
 #set par(leading: 10pt)
-#set list(spacing: 20pt)
+#set list(spacing: 18pt)
 #let c(content) = text(rgb("00FFFF"), content)
 #show link: set text(rgb("00FFFF"))
 #show link: underline
@@ -59,7 +59,7 @@
         12 mars 2026
       ],
       grid.cell(align: horizon + right)[
-        Journée d'études du Consortium #c[Musica\*] / IR\* Huma-Num
+        Journée d'étude du Consortium #c[Musica\*] / IR\* Huma-Num
       ],
       grid.cell(colspan: 2, align: center + horizon)[
         #text(rgb("FF0092"), size: 20pt, weight: "medium")[modéliser les données de la recherche avec le CIDOC CRM]
@@ -76,23 +76,44 @@
 
 #page()[
   #align(center + horizon)[
-    #block(stroke: green, inset: 1cm, width: 100%)[*Comment faire tenir les données de la recherche dans le temps ?*]
+    #text(gray, size: 16pt, font: "Fira Code")[[la question qui nous réunit]]
+    #block(stroke: green, inset: 1cm, width: 100%)[#text(green)[
+      Comment faire tenir les données de la recherche dans le temps ?
+    ]]
+    #v(2cm)
     #block[#align(left)[
-      📜  Comment s'assurer qu'on puisse toujours les voir, les comprendre et les modifier ? \
-      💾  À quels 🧺 confier ses 🥚 ? \
-      ⚗️  Comment capter et transmettre les « traditions interprétatives » sans les amoindrir ? \
-      🎓  Comment fonctionner avec des moyens (humains + techniques) limités ? \
-      🌐  Comment favoriser les liens avec d'autres systèmes d'information ? \
-            Comment faire du LOD ⭐⭐⭐⭐⭐ ? → #link("https://5stardata.info/fr/")
+      📜   Comment s'assurer qu'on puisse toujours les voir, les comprendre, les modifier ? \
+      ⚗️   Comment capter et transmettre les « traditions interprétatives » sans les amoindrir ? \
+      🎓   Comment fonctionner avec des moyens 👥/💻/💶 limités ? \
+      🌐   Comment favoriser les liens avec d'autres systèmes d'information ? \
+      💾   À quels 🧺 confier ses 🥚 ? \
     ]]
     #v(1cm)
-    Essayons d'apporter les moins mauvaises réponses.
   ]
+
 ]
 
-#page[
-  #outline(depth: 1, title: none)
-]
+== modéliser sous contraintes de ressources
+
+- La modélisation des données nécessite une réflexion conjointe entre chercheurs et ingénieurs.
+  - Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
+  - Le travail d'explicitation, de modélisation, des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
+- Or, souvent, la modélisation est perçue comme une étape purement technique par le client et est renvoyée à la compétence du prestataire.
+- Les ressources d'ingénierie sont trop maigres, ce niveau dialogue est rare.
+
+De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAIR") et au #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐") (des notions relativement spécifiques à notre contexte professionnel). L'ouverture des données de la recherche, leur interopérabilité et leur mise en relation avec des sources de données tierces nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
+
+== Ce qu'on cherche à palier avec les consortiums
+
+- La FAIRisation des données suppose une _dynamique informationnelle intellectuelle et technique entre les projets de BDD_.
+- Pour la bâtir, un réseau d'acteurs et d'actrices est nécessaire, mais :
+  - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
+  - Les chercheurs et chercheuses devant piloter de tels projet manquent d'informations claires sur les conséquences scientifiques et méthodologiques des technologies disponibles pour modéliser les informations scientifiques.
+  - Les profils techniques sont recrutés sur des _contrats courts_.
+  - Les prestataires n'ont pas d'intérêt à s'inscrire dans les _réseaux HN_.
+- Conséquemment, les connaissances d'ingénierie spécifiques à la modélisation des données de la discipline sont peu capitalisées ; chaque nouveau développement peine à bénéficier de l'expérience méthodologique et conceptuelle acquise informellement au fil des projets passés.
+
+#page[#outline(depth: 1, title: none)]
 
 = encoder
 
@@ -111,7 +132,7 @@
   - frameworks full-stack qui existent dans tous les langages de programmation
 - Les SGBDR, et avec eux, la méthode Merise et le SQL, sont enseignés partout, à tous les niveaux. Les compétences d'ingénierie sont donc très répandues.
 
-== Le Web sémantique :
+== Le Web sémantique:
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de _données liées_, chacune étant identifiée par une _URL_.
 - Toute information s'exprime sous la forme d'un _triplet_ sujet/prédicat/objet dans un langage de description qui est le #link("https://www.w3.org/TR/rdf12-primer/")[RDF].
@@ -130,7 +151,7 @@
   ]
 ]
 
-- Connectés, ces triplets RDF forment un _graphe_.
+- Connectés, ces triplets RDF forment un _graphe_. Idée de modèle ouvert.
 - Chaque prédicat est également identifié par une _URL_. Cela permet de toujours savoir de quoi on parle quand on dit, par exemple : « Titre ».
 - Tout graph RDF est interrogeable en SPARQL (+  standardisé que SQL).
 - C'est le milieu technique idéal pour nos préoccupations : LOD, FAIR, etc.
@@ -140,30 +161,84 @@
 == Une ontologie : quoi, pourquoi ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des _classes_ et des _propriétés_.
-- Utiliser les classes et les propriétés d'une ontologie confère ainsi une _sémantique partagée aux données_ (partage d'individus, partage de prédicats).
+- Utiliser les classes et les propriétés d'une ontologie confère ainsi une _sémantique partagée aux données_.
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre.
 - Le Web sémantique s'accompagne de standards utiles pour nos métiers : #link("https://www.w3.org/TR/skos-primer/")[SKOS] pour les thésaurus, #link("https://www.dublincore.org/specifications/dublin-core/dcmi-terms/")[DCMI] pour les métadonnées basiques, #link("https://data.doremus.org/ontology/")[DOREMUS] pour la musique écrite/éditée/jouée/diffusée, #link("https://cidoc-crm.org/lrmoo")[LRMOO] pour l'information bibliographique, #link("https://www.w3.org/TR/prov-o/")[PROV-O] pour la provenance de l'information, et bien sûr le CIDOC CRM.
-- 🚨 Bien des projets de recherche alliant informatique et SHS produisent une ontologie spécifique.
+- Bien des projets de recherche alliant informatique et SHS se donnent pour mission de produire une nouvelle ontologie pour couvrir un besoin spécifique. Nous défendons la thèse opposée : tenter de tout modéliser avec le CIDOC CRM.
+
+== motivations sur le plan de l'ingénierie logicielle
+
+- Le recours à un standard pour représenter les données permet mieux structurer le développement informatique :
+  - Le modèle est partagé par
+  - Les standards métier nous le montrent (IIIF, MEI, TEI…).
 
 == Laquelle ? Le CIDOC CRM !
 
 - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les _processus de production de connaissances_ à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, idées dénotées ou connotées, contexte de production des connaissances, etc.).
 - _Communauté large et établie_. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN
-- Elle est extrêmement _abstraite et générique_.
 - Ontologie centrée événement.
 - _Informations bibliographiques_ avec LRMoo (œuvres, expressions, manifestation, item).
 
 == Hiérarchie des classes du cidoc crm
 
+#v(-1cm)
 #align(center + horizon)[
-  #image("crm-class-hierarchy.jpg", height: 84%)
+  #image("crm-class-hierarchy.jpg", height: 90%)
 ]
+
+== Opérations critiques & patterns de base
+
+- Nommer
+- Identifier
+- Dater
+- Contextualiser
+- Structurer
+- Indexer
+- Annoter
 
 = Saisir
 
 == Ça se complique
 
--
+- Sur le plan conceptuel, le CRM est _expressif_ (il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses), est maintenu par une communauté forte, mais est _complexe à comprendre et à mettre en œuvre_ :
+  - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
+  - C'est une ontologie extrêmement _abstraite et générique_.
+
+- Sur le plan ergonomique :
+  - Un graphe ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
+  - Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule.
+  - Rien ne peut battre un #link("https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/6")[tableur] pour l'édition d'items similaires rassemblés dans une collection.
+
+== Du relationnel au RDF
+
+- Mapping
+- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un _modèle de saisie_. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation.
+- Du code doit être écrit pour récupérer les données via l'API offerte par le système et les convertir en données RDF modélisées avec le CIDOC CRM (des couples efficace pour ce genre de tâches : python/rdflib, deno/https://rdf.js.org/)
+
+== le pipeline sherlock
+
+#align(center)[
+  #text(white, font: "Fira Code", size: 20pt)[
+    #diagram(
+      node-fill: gradient.radial(fuchsia, white, radius: 300%),
+      node-inset: 0.5em,
+      node-shape: fletcher.shapes.hexagon,
+      node-stroke: purple,
+      edge-stroke: purple + 1pt,
+      node((0, 0), [Modèle relationnel « de saisie »], name: <A>),
+      node(
+        (0, 1),
+        [IHM de SGBDR / outil No-code / tableur #linebreak() + #linebreak() conventions de nommage des colonnes → mapping CRM],
+        name: <B>,
+      ),
+      node((0, 2), [données structurées], name: <C>),
+      node((0, 3), [a], name: <D>),
+      edge(<A>, <B>, text(fuchsia)[paramétrage], "->"),
+      edge(<B>, <C>, text(fuchsia)[API / lecture directe], "->"),
+      edge(<C>, <D>, text(fuchsia)[], "->"),
+    )
+  ]
+]
 
 = Explorer
 
