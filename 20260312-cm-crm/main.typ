@@ -183,9 +183,12 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 == motivations sur le plan de l'ingénierie logicielle
 
 //TODO
-- Le recours à un standard pour représenter les données permet mieux structurer le développement informatique :
-  - Le modèle est partagé par
-  - Les standards métier nous le montrent (IIIF, MEI, TEI…).
+Le recours à un standard pour représenter les données permet mieux structurer le développement informatique :
+
+- Meilleure compréhension entre les acteurs participants au développement des différents maillons de la chaîne car ils partagent une compréhension du modèle.
+- Ces composants savent toujours à quoi ressemblent les données, ceci limite les risques de méprise sur les spécifications fonctionnelles.
+- Exemples des standards métier établis dans nos disciplines (IIIF, MEI, TEI…), qui permettent le fleurissement d'initiatives logicielles indépendantes.
+- Des composants peuvent être développés en vue d'être réutilisés dans différents projets.
 
 == Laquelle ? Le CIDOC CRM !
 
@@ -293,31 +296,38 @@ Note : certaines de ces opérations ont recours à des concepts métier. On peu
 - Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un _modèle de saisie_. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation.
 - Du code doit être écrit pour récupérer les données via l'API offerte par le système et les convertir en données RDF modélisées avec le CIDOC CRM (des couples efficace pour ce genre de tâches : python/rdflib, deno/https://rdf.js.org/)
 
-== le pipeline sherlock
+== un pipeline data/software avec le CRM comme pivot
 
+//TODO
 #align(center + horizon)[
-  #text(white, font: "Fira Code", size: 20pt)[
+  #text(white, font: "Fira Code", size: 15pt)[
     #diagram(
-      node-fill: gradient.radial(fuchsia, white, radius: 300%),
-      node-inset: 0.5em,
-      node-shape: fletcher.shapes.hexagon,
+      node-fill: gradient.radial(purple, white, radius: 300%),
+      node-inset: 0.75em,
+      node-shape: fletcher.shapes.rect,
       node-stroke: purple,
-      edge-stroke: purple + 2pt,
-      node((0, 0), [Modèle relationnel « de saisie »], name: <A>),
+      edge-stroke: purple + 1pt,
+      node((0, 1), [Modèle relationnel « de saisie »], name: <A>),
       node(
-        (0, 1),
+        (0, 2),
         [IHM de SGBDR / outil No-code / tableur \ + \ conventions de nommage des colonnes → mapping CRM],
         name: <B>,
       ),
-      node((0, 2), [données structurées], name: <C>),
+      node((0, 3), [données structurées], name: <C>),
       node((0, 4), [Jeu de données RDF / CIDOC CRM], name: <D>),
-      edge(<A>, <B>, text(fuchsia)[paramétrage], "-|>"),
-      edge(<B>, <C>, text(fuchsia)[api / lecture directe], "-|>"),
-      edge(<C>, <D>, text(fuchsia)[scripts interprétant le mapping \ et réalisant la conversion], "-|>"),
+      node((0, 5), [Application Web « CRM aware »], name: <E>),
+      edge(<A>, <B>, text(gray, size: 12pt)[], "->"),
+      edge(<B>, <C>, text(gray, size: 12pt)[api / lecture directe], "->"),
+      edge(<C>, <D>, text(gray, size: 12pt)[scripts interprétant le mapping et réalisant la conversion], "->"),
+      edge(<D>, <E>, text(gray, size: 12pt)[SPARQL endpoint], "->"),
     )
   ]
 ]
 
 = Explorer
 
+//TODO
+
 = Pérenniser
+
+//TODO
