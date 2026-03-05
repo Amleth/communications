@@ -1,5 +1,8 @@
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, edge, node
 
+#let C1 = rgb("#00eaff")
+#let C2 = rgb("#ff00c8")
+#let C3 = rgb("#39FF14")
 #set page(
   fill: black,
   margin: 1cm,
@@ -12,60 +15,60 @@
 #show heading.where(level: 1): it => {
   pagebreak()
   align(center + horizon)[
-    #set text(rgb("FF0092"), size: 36pt, font: "Special Elite", weight: "medium")
+    #set text(C3, size: 36pt, font: "Audiowide", weight: "medium", tracking: 0.25em)
     #upper[#it]
   ]
   v(1em)
 }
+#show outline.entry: it => {
+  align(center + horizon)[
+    #text(C3, font: "Audiowide", tracking: 0.25em)[#upper(it.body())]
+    #v(0.6cm)
+  ]
+}
 #show heading.where(level: 2): it => {
   pagebreak()
   align(top + center)[
-    #set text(rgb("FF0092"), font: "Fira Code", size: 24pt, weight: "medium")
+    #set text(C2, font: "Fira Code", size: 24pt, weight: "medium")
     #lower[#it]]
   v(1.5cm)
 }
 #set text(font: "ITC Goudy Sans Std")
 #set par(justify: true)
 #show emph: it => {
-  text(rgb("00FFFF"), it.body)
+  text(C1, it.body)
 }
 #set list(marker: (
-  text(15pt, rgb("fff"), [■], baseline: 0pt),
-  text(20pt, rgb("fff"), [‣], baseline: 0pt),
-  text(20pt, rgb("fff"), [–], baseline: 0pt),
+  text(15pt, white, [■], baseline: 0pt),
+  text(20pt, white, [‣], baseline: 0pt),
+  text(20pt, white, [–], baseline: 0pt),
 ))
 #set par(leading: 10pt)
 #set list(spacing: 18pt)
-#let c(content) = text(rgb("00FFFF"), content)
-#show link: set text(rgb("00FFFF"))
+#let c(content) = text(C1, content)
+#show link: set text(C1)
 #show link: underline
-
-#show outline.entry: it => {
-  align(center + horizon)[
-    #text(rgb("FF0092"), font: "Special Elite")[#upper(it.body())]
-  ]
-}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #page(margin: 1cm)[
   #text(gray, size: 15pt, font: "Fira Code", weight: "light")[
     #grid(
-      columns: (1fr, 2fr),
+      columns: (1.2fr, 2fr),
       inset: 0.5cm,
       rows: (auto, 1fr, auto),
-      stroke: green,
+      stroke: C3,
       grid.cell(align: horizon + left)[
         12 mars 2026
       ],
       grid.cell(align: horizon + right)[
-        Journée d'étude du Consortium #c[Musica\*] / IR\* Huma-Num
+        Journée d'étude du Consortium #c[Musica\*] \ IR\* Huma-Num
       ],
       grid.cell(colspan: 2, align: center + horizon)[
-        #text(rgb("FF0092"), size: 20pt, weight: "medium")[modéliser les données de la recherche avec le CIDOC CRM]
+        #text(C2, size: 20pt, weight: "medium")[modéliser les données de la recherche avec le CIDOC CRM]
       ],
       grid.cell(align: horizon + left)[
-        #text(rgb("00FFFF"))[📡 thomas.bottini\@cnrs.fr]
+        #text(C1)[📡 thomas.bottini\@cnrs.fr]
       ],
       grid.cell(align: horizon + right)[
         #c[I]nstitut de #c[Re]cherche en #c[Mus]icologie UMR 8223
@@ -77,7 +80,7 @@
 #page()[
   #align(center + horizon)[
     #text(gray, size: 16pt, font: "Fira Code")[[la question qui nous réunit]]
-    #block(stroke: green, inset: 1cm, width: 100%)[#text(green)[
+    #block(stroke: C3, inset: 1cm, width: 100%)[#text(C3)[
       Comment faire tenir les données de la recherche dans le temps ?
     ]]
     #v(2cm)
@@ -146,7 +149,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
       edge-stroke: purple + 1pt,
       node((0, 0), [data.bnf.fr/13962206/morton_feldman_for_philip_guston/], name: <A>),
       node((5, 0), [data.bnf.fr/fr/13928795/morton_feldman/], name: <B>),
-      edge(<A>, <B>, text(fuchsia)[purl.org/dc/terms/creator], "->"),
+      edge(<A>, <B>, text(fuchsia)[purl.org/dc/terms/creator], "-|>"),
     )
   ]
 ]
@@ -155,6 +158,17 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 - Chaque prédicat est également identifié par une _URL_. Cela permet de toujours savoir de quoi on parle quand on dit, par exemple : « Titre ».
 - Tout graph RDF est interrogeable en SPARQL (+  standardisé que SQL).
 - C'est le milieu technique idéal pour nos préoccupations : LOD, FAIR, etc.
+
+== Données relationnelles vs graphe RDF
+
+#align(center + horizon)[
+  #figure(
+    image("corago.png", width: 80%),
+    caption: [
+      Corago in LOD - Seminar by Angelo Pompilio and Paolo Bonora, Digital Humanities and Digital Knowledge, Università di Bologna, 2017.
+    ],
+  )
+]
 
 = Modéliser
 
@@ -168,6 +182,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 
 == motivations sur le plan de l'ingénierie logicielle
 
+//TODO
 - Le recours à un standard pour représenter les données permet mieux structurer le développement informatique :
   - Le modèle est partagé par
   - Les standards métier nous le montrent (IIIF, MEI, TEI…).
@@ -190,11 +205,32 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 
 - Nommer
 - Identifier
+- Typer (avec un concept métier)
 - Dater
 - Contextualiser
+- Établir le fait qu'une information fait référence à une entité
 - Structurer
 - Indexer
-- Annoter
+- Annoter (plus généralement : signer tout apport de connaissance sur une entité)
+- Établir la participation d'un acteur à un phénomène temporel
+- Décrire l'évolution dans le temps et l'espace d'une entité
+- Décrire l'influence d'une chose ou d'une expérience sur une activité.
+
+== S'y plonger
+
+// TODO
+- #link(
+    "https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.3.1_1_0.pdf#page=35",
+    "Introduction to the basic concepts",
+  ) (une dizaine de pages)
+- Modèle centré événements.
+- Le CRM fournit des
+The key to the proper understanding of CIDOC CRM comes through the appropriation of its basic divisions and the logic these represent. It is important to underline that the CIDOC CRM is not intended to function as a classification system or vocabulary tool. The basic class divisions in CIDOC CRM are declared in order to be able to apply distinct properties to these classes and, in so doing, formulate precise, analytic propositions that represent historical realities. The expressive power of CIDOC CRM comes not from the application of classes to classify entities but in the documenting the interrelation of individual historical items through well-defined properties.
+
+Note : certaines de ces opérations ont recours à des concepts métier. On peut considérer que la classe `crm:E55_Type` est équivalente à `skos:Concept`.
+
+
+
 
 = Saisir
 
@@ -209,37 +245,79 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
   - Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule.
   - Rien ne peut battre un #link("https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/6")[tableur] pour l'édition d'items similaires rassemblés dans une collection.
 
+== Conférer un identifiant à une ressource
+
+#v(-1cm)
+#align(center)[#image("e42.png", width: 20cm)]
+#align(center)[vs]
+
+#block(stroke: gray, inset: 6pt, width: 100%)[
+  #text(gray, size: 15pt)[
+    ```
+    @base <http://data-iremus.huma-num.fr/id/> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+    @prefix nakala: <https://nakala.fr/> .
+    ```
+  ]
+]
+
+#align(center + horizon)[
+  #text(white, font: "Fira Code", size: 12pt)[
+    #diagram(
+      node-fill: gradient.radial(fuchsia, white, radius: 300%),
+      node-inset: 0.5em,
+      node-shape: fletcher.shapes.rect,
+      node-stroke: fuchsia,
+      edge-stroke: fuchsia + 1pt,
+      node((0, 0), [crm:E55_Type], name: <E55c>, fill: eastern, stroke: blue),
+      node((4, 0), [:9cf03b38-703d-4432-a023-d4c4c709226b], name: <E1i>),
+      node((4, 3), [:whatever], name: <E42i>),
+      node((6, 3), [crm:E42_Identifier], name: <E42c>, fill: eastern, stroke: blue),
+      node((0, 3), [:NAKALA_DOI], name: <E55i>),
+      node((4, 5), [nakala:10.34847/nkl.ffaad476], name: <L>),
+      edge(<E1i>, <E42i>, [crm:P1_is_identified_by], "-|>"),
+      edge(<E42i>, <E42c>, [rdf:type], "-|>"),
+      edge(<E42i>, <L>, [crm:P190_has_symbolic_content], "-|>"),
+      edge(<E55i>, <E55c>, [rdf:type], "-|>"),
+      edge(<E42i>, <E55i>, [crm:P2_has_type], "-|>"),
+    )
+  ]
+]
+
 == Du relationnel au RDF
 
+//TODO
 - Mapping
 - Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un _modèle de saisie_. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation.
 - Du code doit être écrit pour récupérer les données via l'API offerte par le système et les convertir en données RDF modélisées avec le CIDOC CRM (des couples efficace pour ce genre de tâches : python/rdflib, deno/https://rdf.js.org/)
 
 == le pipeline sherlock
 
-#align(center)[
+#align(center + horizon)[
   #text(white, font: "Fira Code", size: 20pt)[
     #diagram(
       node-fill: gradient.radial(fuchsia, white, radius: 300%),
       node-inset: 0.5em,
       node-shape: fletcher.shapes.hexagon,
       node-stroke: purple,
-      edge-stroke: purple + 1pt,
+      edge-stroke: purple + 2pt,
       node((0, 0), [Modèle relationnel « de saisie »], name: <A>),
       node(
         (0, 1),
-        [IHM de SGBDR / outil No-code / tableur #linebreak() + #linebreak() conventions de nommage des colonnes → mapping CRM],
+        [IHM de SGBDR / outil No-code / tableur \ + \ conventions de nommage des colonnes → mapping CRM],
         name: <B>,
       ),
       node((0, 2), [données structurées], name: <C>),
-      node((0, 3), [a], name: <D>),
-      edge(<A>, <B>, text(fuchsia)[paramétrage], "->"),
-      edge(<B>, <C>, text(fuchsia)[API / lecture directe], "->"),
-      edge(<C>, <D>, text(fuchsia)[], "->"),
+      node((0, 4), [Jeu de données RDF / CIDOC CRM], name: <D>),
+      edge(<A>, <B>, text(fuchsia)[paramétrage], "-|>"),
+      edge(<B>, <C>, text(fuchsia)[api / lecture directe], "-|>"),
+      edge(<C>, <D>, text(fuchsia)[scripts interprétant le mapping \ et réalisant la conversion], "-|>"),
     )
   ]
 ]
 
 = Explorer
 
-= Péreniser
+= Pérenniser
