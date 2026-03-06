@@ -47,15 +47,20 @@ object "🧔‍♀️ iremus:pierre" as o_e21 {
 }
 o_e21 --> "crm:E21_Person" : "rdf:type"
 
-object "détention de fonction #01" as o_fn1 #DeepPink {
+object "détention de fonction #01" as o_e7 #DeepPink {
 
 }
-o_fn1 --> "crm:E7_Activity" : "rdf:type"
+o_e7 --> "crm:E7_Activity" : "rdf:type"
 
 object "🏷️ iremus:cuisinier" as o_cui {
     crm:P1_is_identified_by: « Cuisinier »
 }
 o_cui --> "crm:E55_Type" : "rdf:type"
+
+object "🗓️ 👤 ➡️ 👤👤👤👤" as o_e85 {
+
+}
+o_e85 --> "crm:E85_Joining" : "rdf:type"
 
 class crm:E7_Activity #MediumSlateBlue {}
 class crm:E32_Authority_Document #MediumSlateBlue {}
@@ -73,9 +78,10 @@ o_eve --> o_arc : "crm:P150_defines_typical_parts_of"
 o_abb --> o_eve : "crm:P150_defines_typical_parts_of"
 o_abb --> o_arc : "crm:P150_defines_typical_parts_of"
 
-o_fn1 --> o_det : "crm:P2_has_type"
-o_fn1 --> o_e21 : "crm:P14_carried_out_by"
-o_fn1 --> o_abb : "crm:P12_occurred_in_the_presence_of"
-o_fn1 --> o_cui : "crm:P21_had general_purpose"
+o_e7 --> o_det : "crm:P2_has_type"
+o_e7 --> o_e21 : "crm:P14_carried_out_by"
+o_e7 --> o_abb : "crm:P12_occurred_in_the_presence_of"
+o_e7 --> o_cui : "crm:P21_had general_purpose"
+o_e85 --> o_e7 : "crmsci:O13_triggers"
 
 @enduml
