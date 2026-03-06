@@ -1,28 +1,40 @@
 @startuml "refar-institutions"
 
-skinparam defaultFontName "Recursive"
+skinparam defaultFontName "Jetbrains Mono"
 skinparam defaultFontSize 14
 hide methods
 hide circle
 
-object archevêché #Aquamarine {
-    skos:prefLabel: « Archevêché »
+object "iremus:archevêché" as o_arc  {
+    crm:P1_is_identified_by: « Archevêché »
 }
 
-object types_d_institutions #Aquamarine {
+object "iremus:évêché" as o_eve  {
+    crm:P1_is_identified_by: « Évêché »
+}
+
+object "iremus:abbaye" as o_abb  {
+    crm:P1_is_identified_by: Abbaye »
+}
+
+object "iremus:types_d_institutions" as o_tdi {
     dcterms:title « Types d'institutions »
 }
 
-class skos:Concept #DeepPink {
+class crm:E55_Type #MediumSlateBlue {}
+class crm:E32_Authority_Document #MediumSlateBlue {}
 
-}
+o_arc --> "crm:E55_Type" : "rdf:type"
+o_eve --> "crm:E55_Type" : "rdf:type"
+o_abb --> "crm:E55_Type" : "rdf:type"
 
-class skos:ConceptScheme #DeepPink {
+o_tdi --> "crm:E32_Authority_Document" : "rdf:type"
 
-}
+o_tdi --> o_arc : "crm:P71_lists"
+o_tdi --> o_eve : "crm:P71_lists"
+o_tdi --> o_abb : "crm:P71_lists"
 
-archevêché --> "skos:Concept" : "rdf:type"
-archevêché --> types_d_institutions : "skos:inScheme"
-types_d_institutions --> "skos:ConceptScheme" : "rdf:type"
+o_eve --> o_arc : "crm:P150_defines_typical_parts_of"
+o_abb --> o_eve : "crm:P150_defines_typical_parts_of"
 
 @enduml
