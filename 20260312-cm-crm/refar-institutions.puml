@@ -4,38 +4,78 @@ skinparam defaultFontName "Jetbrains Mono"
 skinparam defaultFontSize 14
 hide methods
 hide circle
+skinparam nodesep 100
+skinparam ranksep 100
 
-object "iremus:archevêché" as o_arc  {
+object "🗃️ iremus:types_d_institutions" as o_tdi {
+    dcterms:title: « Types d'institutions »
+}
+o_tdi --> "crm:E32_Authority_Document" : "rdf:type"
+
+object "🗃️ iremus:types_de_charges" as o_tdf {
+    dcterms:title: « Types de charges »
+}
+o_tdf --> "crm:E32_Authority_Document" : "rdf:type"
+
+object "🏙️ iremus:autun" as o_aut {
+    crm:P1_is_identified_by: « Autun »
+}
+o_aut --> "crm:E53_Place" : "rdf:type"
+
+object "🏷️ iremus:archevêché" as o_arc  {
     crm:P1_is_identified_by: « Archevêché »
 }
+o_arc --> "crm:E55_Type" : "rdf:type"
 
-object "iremus:évêché" as o_eve  {
+object "🏷️ iremus:évêché" as o_eve  {
     crm:P1_is_identified_by: « Évêché »
 }
-
-object "iremus:abbaye" as o_abb  {
-    crm:P1_is_identified_by: Abbaye »
-}
-
-object "iremus:types_d_institutions" as o_tdi {
-    dcterms:title « Types d'institutions »
-}
-
-class crm:E55_Type #MediumSlateBlue {}
-class crm:E32_Authority_Document #MediumSlateBlue {}
-
-o_arc --> "crm:E55_Type" : "rdf:type"
 o_eve --> "crm:E55_Type" : "rdf:type"
+
+object "🏷️ iremus:abbaye" as o_abb  {
+    crm:P1_is_identified_by: « Abbaye »
+}
 o_abb --> "crm:E55_Type" : "rdf:type"
 
-o_tdi --> "crm:E32_Authority_Document" : "rdf:type"
+object "🏷️ iremus:détention_de_fonction" as o_det  {
+    crm:P1_is_identified_by: « Détention de fonction »
+}
+o_det --> "crm:E55_Type" : "rdf:type"
+
+object "🧔‍♀️ iremus:pierre" as o_e21 {
+    crm:P1_is_identified_by: « Pierre »
+}
+o_e21 --> "crm:E21_Person" : "rdf:type"
+
+object "détention de fonction #01" as o_fn1 #DeepPink {
+
+}
+o_fn1 --> "crm:E7_Activity" : "rdf:type"
+
+object "🏷️ iremus:cuisinier" as o_cui {
+    crm:P1_is_identified_by: « Cuisinier »
+}
+o_cui --> "crm:E55_Type" : "rdf:type"
+
+class crm:E7_Activity #MediumSlateBlue {}
+class crm:E32_Authority_Document #MediumSlateBlue {}
+class crm:E21_Person #MediumSlateBlue {}
+class crm:E53_Place #MediumSlateBlue {}
+class crm:E55_Type #MediumSlateBlue {}
+class crm:E85_Joining #MediumSlateBlue {}
 
 o_tdi --> o_arc : "crm:P71_lists"
 o_tdi --> o_eve : "crm:P71_lists"
 o_tdi --> o_abb : "crm:P71_lists"
+o_tdf --> o_cui : "crm:P71_lists"
 
 o_eve --> o_arc : "crm:P150_defines_typical_parts_of"
 o_abb --> o_eve : "crm:P150_defines_typical_parts_of"
 o_abb --> o_arc : "crm:P150_defines_typical_parts_of"
+
+o_fn1 --> o_det : "crm:P2_has_type"
+o_fn1 --> o_e21 : "crm:P14_carried_out_by"
+o_fn1 --> o_abb : "crm:P12_occurred_in_the_presence_of"
+o_fn1 --> o_cui : "crm:P21_had general_purpose"
 
 @enduml
