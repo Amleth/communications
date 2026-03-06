@@ -1,4 +1,4 @@
-@startuml "REFAR — Institutions"
+@startuml "refar-institutions"
 
 skinparam defaultFontName "Recursive"
 skinparam defaultFontSize 14
