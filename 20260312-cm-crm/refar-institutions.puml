@@ -36,5 +36,6 @@ o_tdi --> o_abb : "crm:P71_lists"
 
 o_eve --> o_arc : "crm:P150_defines_typical_parts_of"
 o_abb --> o_eve : "crm:P150_defines_typical_parts_of"
+o_abb --> o_arc : "crm:P150_defines_typical_parts_of"
 
 @enduml
