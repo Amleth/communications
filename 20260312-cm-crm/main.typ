@@ -242,18 +242,13 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 = Saisir
 
-== Ça se complique
+== Ça se complique, sur le plan ergonomique
 
-- Sur le plan conceptuel, le CRM est _expressif_ (il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses), est maintenu par une communauté forte, mais est _complexe à comprendre et à mettre en œuvre_ :
-  - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
-  - C'est une ontologie extrêmement _abstraite et générique_. La structure de ses classes et propriétés fait écran avec la compréhension spontanée que l'on pourrait avoir de nos données.
+- Un _graphe ouvert_ est plus _difficile à éditer_ que des données relationnelles, qui s'éditent naturellement en série dans un tableau ou avec des formulaires contraints.
+- Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule.
+- Rien ne peut battre un #link("https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/6")[tableur] pour l'édition d'items similaires rassemblés dans une collection. Au sein de nos communautés, Excel n'est pas qu'un choix par défaut.
 
-- Sur le plan ergonomique :
-  - Un graphe ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
-  - Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule.
-  - Rien ne peut battre un #link("https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/6")[tableur] pour l'édition d'items similaires rassemblés dans une collection.
-
-== Conférer un identifiant à une ressource
+== Exemple : conférer un identifiant à une ressource
 
 #v(-1cm)
 #align(center)[#image("e42.png", width: 20cm)]
@@ -286,17 +281,29 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
       node((0, 3), [:NAKALA_DOI], name: <E55i>),
       node((4, 5), [nakala:10.34847/nkl.ffaad476], name: <L>),
       edge(<E1i>, <E42i>, [crm:P1_is_identified_by], "-|>"),
-      edge(<E42i>, <E42c>, [rdf:type], "-|>"),
+      edge(<E42i>, <E42c>, [#text(eastern)[rdf:type]], "-|>", stroke: eastern),
       edge(<E42i>, <L>, [crm:P190_has_symbolic_content], "-|>"),
-      edge(<E55i>, <E55c>, [rdf:type], "-|>"),
+      edge(<E55i>, <E55c>, [#text(eastern)[rdf:type]], "-|>", stroke: eastern),
       edge(<E42i>, <E55i>, [crm:P2_has_type], "-|>"),
     )
   ]
 ]
 
-== Du relationnel au RDF
+== Ça se complique, sur le plan conceptuel
 
-- Une _interface d'édition générique de données CRM n'a pas de sens_, car chaque collectif construit sa manière d'utiliser l'ontologie (abstraite + générique => adaptable).
+- Le CRM est _expressif_, il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses.
+- Mais est complexe à comprendre et à mettre en œuvre :
+  - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
+  - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés fait écran avec la compréhension spontanée que l'on pourrait avoir de nos données.
+  - Conséquemment, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
+
+Le double caractère abstrait & générique du CRM le rend apte à modéliser un large éventail de données convenant à un large éventail de pratiques.
+
+== Alors ?
+
+- _Une interface d'édition générique de données CRM n'a pas vraiment de sens_.
+
+- Nous voulons viser une génération de données 100% CRM, mais sans sacrifier les conditions de saisie spécifique à chaque pratique scientifique.
 - Mais pourquoi pas des outils de saisie _paramétrés suivant des situations/pratiques spécifiques_ ?
 - Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un _modèle de saisie_. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation.
 - Nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), libre et ergonomique. Par exemple, un candidat contemporain de la constellation « No-code ».
