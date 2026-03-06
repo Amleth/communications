@@ -291,28 +291,33 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 == Ça se complique, sur le plan conceptuel
 
-- Le double caractère abstrait & générique du CRM le rend apte à modéliser _un large éventail de données convenant à un large éventail de pratiques_. Sans pour autant être optimal pour chaque scénario, on peut se demander ce que le CRM n'est pas capable de modéliser.
-- Le CRM est _expressif_, il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses.
-- Mais le CRM est complexe à comprendre et à mettre en œuvre :
-  - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
-  - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés fait écran avec la compréhension spontanée que l'on pourrait avoir de nos données.
-  - Conséquemment, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
-
+- Le CRM est _expressif_, il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses. _`[A]`_
+- Son double caractère abstrait & générique le rend apte à modéliser _un large éventail de données convenant à un large éventail de pratiques_. Sans pour autant être optimal pour chaque scénario, on peut se demander ce que le CRM n'est pas capable de modéliser.
+- Mais le CRM est complexe à comprendre et à mettre en œuvre…
+- Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
+- En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés _fait écran avec la compréhension spontanée_ que l'on pourrait avoir de nos données. Certains chemins, quoique très précis sur le plan de la modélisation, sont alambiqués. (opinion : c'est le prix de la proposition _`[A]`_)
+- Conséquemment, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
+- _Une interface d'édition générique de données CRM n'a pas vraiment de sens_.
 
 == Alors ?
 
-- _Une interface d'édition générique de données CRM n'a pas vraiment de sens_.
+- Nous voulons viser une génération de données 100% CRM, tirer partie de ses vertus heuristiques, mais sans sacrifier les conditions de saisie spécifiques à chaque pratique scientifique. En aucun cas une interface de saisie « CRM-aware » ne devrait ajouter une charge mentale significative aux chercheurs et chercheuses, ou imposer de maîtriser une complexité formelle éloignée de la complexité structurelle des objets de la recherche.
+- Sur le plan de la gestion de projet de la gestion de nos ressources de développement, nous souhaiterions éviter de nous lancer dans le développement d'une interface de saisie générique basée sur le CRM : c'est _coûteux_ et _inadéquat_.
+- Une approche serait de recourir à des outils de saisie _paramétrés suivant des situations/pratiques spécifiques_, mais qui seraient néanmoins capables de produire des données CRM. Les pratiques reposant sur du mapping de données s'inscrivent dans cette logique.
 
-- Nous voulons viser une génération de données 100% CRM, mais sans sacrifier les conditions de saisie spécifique à chaque pratique scientifique.
-- Mais pourquoi pas des outils de saisie _paramétrés suivant des situations/pratiques spécifiques_ ?
-- Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un _modèle de saisie_. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation.
-- Nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), libre et ergonomique. Par exemple, un candidat contemporain de la constellation « No-code ».
-- En complétant par des scripts permettant de récupérer les données via l'API offerte par le système et les convertir en données RDF modélisées avec le CIDOC CRM (des couples efficace pour ce genre de tâches : python/rdflib, deno/https://rdf.js.org/).
-- Si on normalise la manière dont les données relationnelles sont organisées, on pourrait définir un standard de mapping entre données relationnelles et données RDF/CIDOC CRM.
+== (suite)
+
+- Nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), _libre et ergonomique_. Par exemple, un candidat contemporain de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie.
+- Dans cette perspective, le modèle relationnel doit être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure doit permettre de générer des données CRM par la suite, mais il n'est qu'un _modèle de saisie_.
+- #box[Les données RDF/CIDOC CRM peuvent être aisément générées en récupérant les données via l'API offerte par le système. Leur conversion en données RDF / CIDOC CRM est triviale (des couples efficace pour ce genre de tâches :
+    python + #link("https://github.com/RDFLib/rdflib", "RDFLib"),
+    deno + #link("https://rdf.js.org/", "rdf.js"),
+    rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs")
+  ].
+- Si on normalise la manière dont les données relationnelles sont organisées dans le système, notamment par le recours à des conventions de nommage des colonnes, on pourrait définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM, qui éviterait le paramétrage ad-hoc intervenant dans chaque tâche de reprise de l'existant.
 
 == un pipeline data/software avec le CRM comme pivot
 
-//TODO
 #align(center + horizon)[
   #text(white, font: "Fira Code", size: 15pt)[
     #diagram(
@@ -328,10 +333,10 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
       ),
       node((0, 3), [données structurées], name: <C>),
       node((0, 4), [Jeu de données RDF / CIDOC CRM], name: <D>),
-      node((0, 5), [Application Web « CRM aware »], name: <E>),
-      edge(<A>, <B>, text(gray, size: 12pt)[], "->"),
-      edge(<B>, <C>, text(gray, size: 12pt)[api / lecture directe], "->"),
-      edge(<C>, <D>, text(gray, size: 12pt)[scripts interprétant le mapping et réalisant la conversion], "->"),
+      node((0, 5), [Application Web « CRM-aware »], name: <E>),
+      edge(<A>, <B>, text(gray, size: 12pt)[implémentation dans…], "->"),
+      edge(<B>, <C>, text(gray, size: 12pt)[api], "->"),
+      edge(<C>, <D>, text(gray, size: 12pt)[programme interprétant le mapping et réalisant la conversion], "->"),
       edge(<D>, <E>, text(gray, size: 12pt)[SPARQL endpoint], "->"),
     )
   ]
