@@ -80,9 +80,9 @@
 
 #page()[
   #align(center + horizon)[
-    #text(gray, size: 16pt, font: "Fira Code")[[la question qui nous réunit]]
+    #text(gray, size: 15pt, font: "Fira Code")[[la question qui nous réunit]]
     #block(stroke: C3, inset: 1cm, width: 100%)[#text(C3)[
-      Comment faire tenir les données de la recherche dans le temps ?
+      #text(font: "Fira Code", size: 17pt)[Comment faire tenir les données de la recherche dans le temps ?]
     ]]
     #v(2cm)
     #block[#align(left)[
