@@ -1,7 +1,7 @@
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, edge, node
 
 #let C1 = rgb("#00eaff")
-#let C2 = rgb("#ff00c8")
+#let C2 = rgb("#ff0092")
 #let C3 = rgb("#39FF14")
 #set page(
   fill: black,
@@ -10,6 +10,7 @@
 )
 #set text(
   white,
+  lang: "fr",
   size: 22pt,
 )
 #show heading.where(level: 1): it => {
@@ -180,15 +181,16 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 - Le Web sémantique s'accompagne de standards utiles pour nos métiers : #link("https://www.w3.org/TR/skos-primer/")[SKOS] pour les thésaurus, #link("https://www.dublincore.org/specifications/dublin-core/dcmi-terms/")[DCMI] pour les métadonnées basiques, #link("https://data.doremus.org/ontology/")[DOREMUS] pour la musique écrite/éditée/jouée/diffusée, #link("https://cidoc-crm.org/lrmoo")[LRMOO] pour l'information bibliographique, #link("https://www.w3.org/TR/prov-o/")[PROV-O] pour la provenance de l'information, et bien sûr le CIDOC CRM.
 - Bien des projets de recherche alliant informatique et SHS se donnent pour mission de produire une nouvelle ontologie pour couvrir un besoin spécifique. Nous défendons la thèse opposée : tenter de tout modéliser avec le CIDOC CRM.
 
-== motivations sur le plan de l'ingénierie logicielle
+== une ontologie unique : \ motivations sur le plan de l'ingénierie logicielle
 
-//TODO
-Le recours à un standard pour représenter les données permet mieux structurer le développement informatique :
-
-- Meilleure compréhension entre les acteurs participants au développement des différents maillons de la chaîne car ils partagent une compréhension du modèle.
-- Ces composants savent toujours à quoi ressemblent les données, ceci limite les risques de méprise sur les spécifications fonctionnelles.
-- Exemples des standards métier établis dans nos disciplines (IIIF, MEI, TEI…), qui permettent le fleurissement d'initiatives logicielles indépendantes.
-- Des composants peuvent être développés en vue d'être réutilisés dans différents projets.
+- Le recours à un standard pour représenter les données permet mieux structurer le développement informatique.
+- Par exemple, des _standards métier_ établis dans nos disciplines comme IIIF, MEI ou TEI rendent possible le fleurissement d'_initiatives logicielles indépendantes_.
+- ⚙️ _MODULARISATION_
+  - Des composants peuvent être développés en vue d'être réutilisés dans différents projets, ils savent toujours à quoi ressemblent leurs données.
+- 🤝 _COMPRÉHENSION_
+  - Un partage de la compréhension du modèle entre les acteurs participants au développement des différents composants d'un système d'information facilite leurs interactions, et limite les méprises sur les spécifications fonctionnelles.
+  - Imaginons un monde où développeurs, utilisateurs et concepteurs graphiques partagent une compréhension profonde d'un modèle unique.
+- Avantages méthodologiques, scientifiques, techniques, économiques.
 
 == Laquelle ? Le CIDOC CRM !
 
@@ -197,7 +199,7 @@ Le recours à un standard pour représenter les données permet mieux structurer
 - Ontologie centrée événement.
 - _Informations bibliographiques_ avec LRMoo (œuvres, expressions, manifestation, item).
 
-== Hiérarchie des classes du cidoc crm
+== Hiérarchie des classes du CIDOC CRM
 
 #v(-1cm)
 #align(center + horizon)[
@@ -208,32 +210,35 @@ Le recours à un standard pour représenter les données permet mieux structurer
 
 - Nommer
 - Identifier
-- Typer (avec un concept métier)
+- Typer, catégoriser (avec un concept métier)
+- Indexer, classifier
 - Dater
-- Contextualiser
-- Établir le fait qu'une information fait référence à une entité
-- Structurer
-- Indexer
+- Établir le fait qu'une information fait référence à une entité (dénotation/connotation)
+- Contextualiser, caractériser le contexte de production d'une chose ou d'une idée
+- Structurer (entités matérielles et informationnelles)
 - Annoter (plus généralement : signer tout apport de connaissance sur une entité)
-- Établir la participation d'un acteur à un phénomène temporel
+- Établir la participation d'un acteur à un phénomène temporel ou social
 - Décrire l'évolution dans le temps et l'espace d'une entité
 - Décrire l'influence d'une chose ou d'une expérience sur une activité.
 
+_=> Tous ces « patterns » de modélisation permettent de capter les spécificités de nos pratiques scientifiques._
+
 == S'y plonger
 
-// TODO
 - #link(
     "https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.3.1_1_0.pdf#page=35",
     "Introduction to the basic concepts",
   ) (une dizaine de pages)
-- Modèle centré événements.
-- Le CRM fournit des
-The key to the proper understanding of CIDOC CRM comes through the appropriation of its basic divisions and the logic these represent. It is important to underline that the CIDOC CRM is not intended to function as a classification system or vocabulary tool. The basic class divisions in CIDOC CRM are declared in order to be able to apply distinct properties to these classes and, in so doing, formulate precise, analytic propositions that represent historical realities. The expressive power of CIDOC CRM comes not from the application of classes to classify entities but in the documenting the interrelation of individual historical items through well-defined properties.
+- Modèle
+  - #link("https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.3.1_1_0.pdf#page=38", "centré événements")
+  - prenant en charge les #link("https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.3.1_1_0.pdf#page=39", "relations spatio-temporelles")
+  - avec notation extensive du #link("https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.3.1_1_0.pdf#page=47", "temps")
 
-Note : certaines de ces opérations ont recours à des concepts métier. On peut considérer que la classe `crm:E55_Type` est équivalente à `skos:Concept`.
+⚠️ Le CRM n'est pas un système de classification. Le fait de dire qu'une entité de votre corpus relève d'une certain classe du CRM lui confère un statut structurel/fonctionnel, et ne dit rien de sa teneur scientifique.
 
+Par exemple, si on veut dire qu'une source textuelle (instance de la classe `crm:E33_Linguistic_Object `) est un traité de théorie musicale, il faut créer un concept « Traité de théorie musicale » et l'utiliser pour typer la ressource.
 
-
+Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qui est équivalente à `skos:Concept`. Le CRM s'utilise naturellement en conjonction avec vos thésaurus pour sémantiser vos entités. À nouveau, c'est une ontologie générique.
 
 = Saisir
 
@@ -241,7 +246,7 @@ Note : certaines de ces opérations ont recours à des concepts métier. On peu
 
 - Sur le plan conceptuel, le CRM est _expressif_ (il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses), est maintenu par une communauté forte, mais est _complexe à comprendre et à mettre en œuvre_ :
   - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
-  - C'est une ontologie extrêmement _abstraite et générique_.
+  - C'est une ontologie extrêmement _abstraite et générique_. La structure de ses classes et propriétés fait écran avec la compréhension spontanée que l'on pourrait avoir de nos données.
 
 - Sur le plan ergonomique :
   - Un graphe ouvert est plus difficile à éditer que des données relationnelles (données tabulaires s'éditant naturellement avec des formulaires contraints).
@@ -291,10 +296,12 @@ Note : certaines de ces opérations ont recours à des concepts métier. On peu
 
 == Du relationnel au RDF
 
-//TODO
-- Mapping
+- Une _interface d'édition générique de données CRM n'a pas de sens_, car chaque collectif construit sa manière d'utiliser l'ontologie (abstraite + générique => adaptable).
+- Mais pourquoi pas des outils de saisie _paramétrés suivant des situations/pratiques spécifiques_ ?
 - Le modèle relationnel doit être créé pour répondre aux attendus ergonomiques du projet. Sa structure doit permettre de générer des données CIDOC CRM par la suite, mais il n'est qu'un _modèle de saisie_. Il représente la manière dont un collectif se saisit du CRM dans un contexte précis (classes et propriétés utilisées + idiomes de modélisation.
-- Du code doit être écrit pour récupérer les données via l'API offerte par le système et les convertir en données RDF modélisées avec le CIDOC CRM (des couples efficace pour ce genre de tâches : python/rdflib, deno/https://rdf.js.org/)
+- Nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), libre et ergonomique. Par exemple, un candidat contemporain de la constellation « No-code ».
+- En complétant par des scripts permettant de récupérer les données via l'API offerte par le système et les convertir en données RDF modélisées avec le CIDOC CRM (des couples efficace pour ce genre de tâches : python/rdflib, deno/https://rdf.js.org/).
+- Si on normalise la manière dont les données relationnelles sont organisées, on pourrait définir un standard de mapping entre données relationnelles et données RDF/CIDOC CRM.
 
 == un pipeline data/software avec le CRM comme pivot
 
@@ -302,7 +309,6 @@ Note : certaines de ces opérations ont recours à des concepts métier. On peu
 #align(center + horizon)[
   #text(white, font: "Fira Code", size: 15pt)[
     #diagram(
-      node-fill: gradient.radial(purple, white, radius: 300%),
       node-inset: 0.75em,
       node-shape: fletcher.shapes.rect,
       node-stroke: purple,
