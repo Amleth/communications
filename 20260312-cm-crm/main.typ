@@ -291,13 +291,13 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 == Ça se complique, sur le plan conceptuel
 
+- Le double caractère abstrait & générique du CRM le rend apte à modéliser _un large éventail de données convenant à un large éventail de pratiques_. Sans pour autant être optimal pour chaque scénario, on peut se demander ce que le CRM n'est pas capable de modéliser.
 - Le CRM est _expressif_, il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses.
-- Mais est complexe à comprendre et à mettre en œuvre :
+- Mais le CRM est complexe à comprendre et à mettre en œuvre :
   - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
   - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés fait écran avec la compréhension spontanée que l'on pourrait avoir de nos données.
   - Conséquemment, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
 
-Le double caractère abstrait & générique du CRM le rend apte à modéliser un large éventail de données convenant à un large éventail de pratiques.
 
 == Alors ?
 
