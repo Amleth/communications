@@ -1,0 +1,23 @@
+@startuml REFAR — Institutions
+skinparam defaultFontName "Recursive"
+skinparam defaultFontSize 14
+hide methods
+hide circle
+
+class "Types de charges" {}
+
+class "Types d'institutions" {}
+
+class "Détention de charge" {
+
+}
+
+class "skos:Concept / crm:E55_Type" {
+    skos:prefLabel
+}
+
+"Types de charges" --> "skos:Concept / crm:E55_Type" : "rdf:type"
+"Types d'institutions" --> "skos:Concept / crm:E55_Type" : "rdf:type"
+"Détention de charge" --> "Types de charge" : "crm:P2_has_type"
+
+@enduml
