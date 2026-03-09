@@ -67,6 +67,8 @@
       ],
       grid.cell(colspan: 2, align: center + horizon)[
         #text(C2, size: 20pt, weight: "medium")[modéliser les données de la recherche avec le CIDOC CRM]
+        #v(1cm)
+        #text(gray, size: 15pt, weight: "regular")[pourquoi un standard + problèmes d'ingénierie logicielle]
       ],
       grid.cell(align: horizon + left)[
         #text(C1)[📡 thomas.bottini\@cnrs.fr]
