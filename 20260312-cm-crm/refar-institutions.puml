@@ -7,73 +7,80 @@ hide circle
 skinparam nodesep 100
 skinparam ranksep 100
 
-object "🗃️ Types d'institutions" as o_tdi {
-    
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E32
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "🗃️ Types d'institutions" as o_tdi #OrangeRed {
+    rdf:type: crm:E32_Authority_Document
 }
-o_tdi --> "crm:E32_Authority_Document" : "rdf:type"
-
-object "🗃️ Types de charges" as o_tdf {
-    
+object "🗃️ Types de charges" as o_tdf #OrangeRed {
+    rdf:type: crm:E32_Authority_Document
 }
-o_tdf --> "crm:E32_Authority_Document" : "rdf:type"
 
-object "🏙️ Autun" as o_aut {
-    
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E53
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "🏙️ Autun" as o_aut #AquaMarine {
+    rdf:type: crm:E53_Place
 }
-o_aut --> "crm:E53_Place" : "rdf:type"
 
-object "🏷️ Archevêché" as o_arc  {
-    
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E55
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "Archevêché 🏷️" as o_arc #Coral  {
+    rdf:type: crm:E55_Type
 }
-o_arc --> "crm:E55_Type" : "rdf:type"
-
-object "🏷️ Évêché" as o_eve  {
-    
+object "Évêché 🏷️" as o_eve #Coral {
+    rdf:type: crm:E55_Type
 }
-o_eve --> "crm:E55_Type" : "rdf:type"
-
-object "🏷️ Abbaye" as o_abb  {
-    
+object "Abbaye 🏷️" as o_abb #Coral {
+    rdf:type: crm:E55_Type
 }
-o_abb --> "crm:E55_Type" : "rdf:type"
 
-object "🏷️ Détention de fonction" as o_det  {
-    
+object "Détention de fonction 🏷️" as o_det #Coral {
+    rdf:type: crm:E55_Type
 }
-o_det --> "crm:E55_Type" : "rdf:type"
-
-object "🧔‍♀️ Pierre" as o_e21 {
-    
+object "Cuisinier 🏷️" as o_cui #Coral {
+    rdf:type: crm:E55_Type
 }
-o_e21 --> "crm:E21_Person" : "rdf:type"
-
-object "détention de fonction #01" as o_e7 #DeepPink {
-
+object "Appartenance à un groupe 🏷️" as o_membership #Coral {
+    rdf:type: crm:E55_Type
 }
-o_e7 --> "crm:E7_Activity" : "rdf:type"
 
-object "🏷️ Cuisinier" as o_cui {
-    
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E39
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "⛪ Abbaye d'Autun" as o_e74 #AquaMarine {
+    rdf:type: crm:E74_Group
 }
-o_cui --> "crm:E55_Type" : "rdf:type"
-
-object "🗓️ 👤 ➡️ 👤👤👤👤" as o_e85 {
-    
+object "🧔‍♀️ Pierre" as o_e21 #AquaMarine {
+    rdf:type: crm:E21_Person
 }
-o_e85 --> "crm:E85_Joining" : "rdf:type"
 
-object "⛪ Abbaye d'Autun" as o_e74 {
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E5
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+object "⏳ Pierre est cuisinier de l'abbaye d'Autun" as o_e7 #AquaMarine {
+    rdf:type: crm:E7_Activity
 }
-o_e74 --> "crm:E74_Group" : "rdf:type"
+object "⏳ Pierre rejoint l'abbaye d'Autun" as o_e85 #AquaMarine {
+    rdf:type: crm:E85_Joining
+}
+object "⏳ Pierre est membre de l'abbaye d'Autun" as o_mem #AquaMarine {
+    rdf:type: crm:E7_Activity
+}
+object "⏳ Formation de l'abbaye d'Autun" as o_e66 #AquaMarine {
+    rdf:type: crm:E66_Formation
+}
 
-class crm:E7_Activity #MediumSlateBlue {}
-class crm:E32_Authority_Document #MediumSlateBlue {}
-class crm:E21_Person #MediumSlateBlue {}
-class crm:E53_Place #MediumSlateBlue {}
-class crm:E55_Type #MediumSlateBlue {}
-class crm:E74_Group #MediumSlateBlue {}
-class crm:E85_Joining #MediumSlateBlue {}
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' LINKS
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 o_tdi --> o_arc : "crm:P71_lists"
 o_tdi --> o_eve : "crm:P71_lists"
@@ -88,9 +95,14 @@ o_e7 --> o_det : "crm:P2_has_type"
 o_e7 --> o_e21 : "crm:P14_carried_out_by"
 o_e7 --> o_e74 : "crm:P12_occurred_in_the_presence_of"
 o_e7 --> o_cui : "crm:P21_had general_purpose"
-o_e85 --> o_e7 : "crmsci:O13_triggers"
+o_e85 --> o_mem : "crmsci:O13_triggers"
 o_e85 --> o_e21 : "crm:P143_joined"
 o_e85 --> o_e74 : "crm:P144_joined_with"
 o_e74 --> o_abb : "crm:P2_has_type"
+o_mem --> o_e7 : "crm:P9_consists_of"
+o_e74 --> o_aut: "crm:P74_has_current_or_former_residence"
+o_e66 --- o_e74: "crm:P95_has_formed"
+o_e66 --> o_aut: "crm:P7_took_place_at"
+o_mem --> o_membership: "crm:P2_has_type"
 
 @enduml
