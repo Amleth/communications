@@ -105,7 +105,7 @@
   - Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
   - Le travail d'explicitation, de modélisation, des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
 - Or, souvent, la modélisation est perçue comme une étape purement technique par le client et est renvoyée à la compétence du prestataire.
-- Les ressources d'ingénierie sont trop maigres, ce niveau dialogue est rare.
+- Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare.
 
 De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAIR") et au #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐") (des notions relativement spécifiques à notre contexte professionnel). L'ouverture des données de la recherche, leur interopérabilité et leur mise en relation avec des sources de données tierces nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
 
@@ -138,7 +138,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
   - frameworks full-stack qui existent dans tous les langages de programmation
 - Les SGBDR, et avec eux, la méthode Merise et le SQL, sont enseignés partout, à tous les niveaux. Les compétences d'ingénierie sont donc très répandues.
 
-== Le Web sémantique:
+== Le Web sémantique
 
 - Promesse d'une base de données à l'échelle du Web. Le Web initial (Tim Berners Lee, 1991) était un Web de documents liés (hypertexte), le Web sémantique est un Web de _données liées_, chacune étant identifiée par une _URL_.
 - Toute information s'exprime sous la forme d'un _triplet_ sujet/prédicat/objet dans un langage de description qui est le #link("https://www.w3.org/TR/rdf12-primer/")[RDF].
