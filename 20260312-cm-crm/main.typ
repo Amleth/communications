@@ -247,7 +247,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 == Ça se complique, sur le plan ergonomique
 
 - Un _graphe ouvert_ est plus _difficile à éditer_ que des données relationnelles, qui s'éditent naturellement en série dans un tableau ou avec des formulaires contraints.
-- Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule.
+- Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule. Des vocabulaires de schémas comme DCMI Metadata Terms ou schema.org sont plus simples (mais leur expressivité est loin d'égaler celle du CRM).
 - Rien ne peut battre un #link("https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/6")[tableur] pour l'édition d'items similaires rassemblés dans une collection. Au sein de nos communautés, Excel n'est pas qu'un choix par défaut.
 
 == Exemple : conférer un identifiant à une ressource

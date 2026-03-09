@@ -112,6 +112,7 @@ E85 --> E74_abbayedautun : "crm:P144_joined_with"
 E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
 E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
 E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+E55_cuisinier --> E55_abbaye : "crm:P150_defines_typical_parts_of"
 E85 --> E7_membership : "crmsci:O13_triggers"
 
 @enduml
