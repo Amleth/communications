@@ -6,6 +6,7 @@ hide methods
 hide circle
 skinparam nodesep 100
 skinparam ranksep 100
+' skinparam linetype polyline
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' E32
