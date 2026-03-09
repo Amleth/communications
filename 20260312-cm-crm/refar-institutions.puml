@@ -12,53 +12,52 @@ skinparam ranksep 100
 ' E32
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-object "🗃️ Types d'institutions" as o_tdi #OrangeRed {
+object "🗃️ Types d'institutions" as E32_tdi #Fuchsia {
     rdf:type: crm:E32_Authority_Document
 }
-object "🗃️ Types de charges" as o_tdf #OrangeRed {
+object "🗃️ Types de charges" as E32_tdf #Fuchsia {
     rdf:type: crm:E32_Authority_Document
-}
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' E53
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-
-object "🏙️ Autun" as o_aut #AquaMarine {
-    rdf:type: crm:E53_Place
 }
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' E55
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-object "Archevêché 🏷️" as o_arc #Coral  {
+object "Archevêché 🏷️" as E55_archeveche #Violet {
     rdf:type: crm:E55_Type
 }
-object "Évêché 🏷️" as o_eve #Coral {
+object "Évêché 🏷️" as E55_eveche #Violet {
     rdf:type: crm:E55_Type
 }
-object "Abbaye 🏷️" as o_abb #Coral {
+object "Abbaye 🏷️" as E55_abbaye #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Détention de fonction 🏷️" as E55_detentiondefonction #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Cuisinier 🏷️" as E55_cuisinier #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Appartenance à un groupe 🏷️" as E55_membership #Violet {
     rdf:type: crm:E55_Type
 }
 
-object "Détention de fonction 🏷️" as o_det #Coral {
-    rdf:type: crm:E55_Type
-}
-object "Cuisinier 🏷️" as o_cui #Coral {
-    rdf:type: crm:E55_Type
-}
-object "Appartenance à un groupe 🏷️" as o_membership #Coral {
-    rdf:type: crm:E55_Type
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E53
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "🏙️ Autun" as E53_autun #Aqua {
+    rdf:type: crm:E53_Place
 }
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' E39
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-object "⛪ Abbaye d'Autun" as o_e74 #AquaMarine {
+object "⛪ Abbaye d'Autun" as E74_abbayedautun #Aqua {
     rdf:type: crm:E74_Group
 }
-object "🧔‍♀️ Pierre" as o_e21 #AquaMarine {
+object "🧔‍♀️ Pierre" as E21_pierre #Aqua {
     rdf:type: crm:E21_Person
 }
 
@@ -66,44 +65,53 @@ object "🧔‍♀️ Pierre" as o_e21 #AquaMarine {
 ' E5
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-object "⏳ Pierre est cuisinier de l'abbaye d'Autun" as o_e7 #AquaMarine {
+object "⏳ Pierre est cuisinier de l'abbaye d'Autun" as E7_cuisinier #AquaMarine {
     rdf:type: crm:E7_Activity
 }
-object "⏳ Pierre rejoint l'abbaye d'Autun" as o_e85 #AquaMarine {
+object "⏳ Pierre rejoint l'abbaye d'Autun" as E85 #AquaMarine {
     rdf:type: crm:E85_Joining
 }
-object "⏳ Pierre est membre de l'abbaye d'Autun" as o_mem #AquaMarine {
+object "⏳ Pierre est membre de l'abbaye d'Autun" as E7_membership #AquaMarine {
     rdf:type: crm:E7_Activity
 }
-object "⏳ Formation de l'abbaye d'Autun" as o_e66 #AquaMarine {
+object "⏳ Formation de l'abbaye d'Autun" as E66 #AquaMarine {
     rdf:type: crm:E66_Formation
+}
+object "⏳ Précédente charge de cuisinier" as E7_cuisinierprev #AquaMarine {
+    rdf:type: crm:E7_Activity
 }
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' LINKS
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-o_tdi --> o_arc : "crm:P71_lists"
-o_tdi --> o_eve : "crm:P71_lists"
-o_tdi --> o_abb : "crm:P71_lists"
-o_tdf --> o_cui : "crm:P71_lists"
-
-o_eve --> o_arc : "crm:P150_defines_typical_parts_of"
-o_abb --> o_eve : "crm:P150_defines_typical_parts_of"
-o_abb --> o_arc : "crm:P150_defines_typical_parts_of"
-
-o_e7 --> o_det : "crm:P2_has_type"
-o_e7 --> o_e21 : "crm:P14_carried_out_by"
-o_e7 --> o_e74 : "crm:P12_occurred_in_the_presence_of"
-o_e7 --> o_cui : "crm:P21_had general_purpose"
-o_e85 --> o_mem : "crmsci:O13_triggers"
-o_e85 --> o_e21 : "crm:P143_joined"
-o_e85 --> o_e74 : "crm:P144_joined_with"
-o_e74 --> o_abb : "crm:P2_has_type"
-o_mem --> o_e7 : "crm:P9_consists_of"
-o_e74 --> o_aut: "crm:P74_has_current_or_former_residence"
-o_e66 --- o_e74: "crm:P95_has_formed"
-o_e66 --> o_aut: "crm:P7_took_place_at"
-o_mem --> o_membership: "crm:P2_has_type"
+E7_membership --> E55_membership: "crm:P2_has_type"
+E74_abbayedautun --> E55_abbaye : "crm:P2_has_type"
+E7_cuisinier --> E55_detentiondefonction : "crm:P2_has_type"
+E7_cuisinierprev --> E55_detentiondefonction : "crm:P2_has_type"
+E85 --> "crm:E52_Time-Span [A]": "crm:P4_has_time-span"
+E66 --> "crm:E52_Time-Span [B]": "crm:P4_has_time-span"
+E7_membership --> "crm:E52_Time-Span [C]": "crm:P4_has_time-span"
+E7_cuisinier --> "crm:E52_Time-Span [D]": "crm:P4_has_time-span"
+E7_cuisinierprev --> "crm:E52_Time-Span [E]": "crm:P4_has_time-span"
+E66 --> E53_autun: "crm:P7_took_place_at"
+E7_membership --> E7_cuisinier : "crm:P9_consists_of"
+E7_cuisinier --> E74_abbayedautun : "crm:P12_occurred_in_the_presence_of"
+E7_cuisinier --> E21_pierre : "crm:P14_carried_out_by"
+E7_cuisinier --> E55_cuisinier : "crm:P21_had general_purpose"
+E7_cuisinierprev --> E55_cuisinier : "crm:P21_had general_purpose"
+E32_tdi --> E55_abbaye : "crm:P71_lists"
+E32_tdi --> E55_eveche : "crm:P71_lists"
+E32_tdf --> E55_cuisinier : "crm:P71_lists"
+E32_tdi --> E55_archeveche : "crm:P71_lists"
+E74_abbayedautun --> E53_autun: "crm:P74_has_current_or_former_residence"
+E66 --- E74_abbayedautun: "crm:P95_has_formed"
+E7_cuisinier --> E7_cuisinierprev : "crm:P134_continued"
+E85 --> E21_pierre : "crm:P143_joined"
+E85 --> E74_abbayedautun : "crm:P144_joined_with"
+E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
+E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+E85 --> E7_membership : "crmsci:O13_triggers"
 
 @enduml
