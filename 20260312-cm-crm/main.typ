@@ -47,7 +47,7 @@
 #set par(leading: 10pt)
 #set list(spacing: 18pt)
 #let c(content) = text(C1, content)
-#let f(content) = [#text(C3, font: "Fira Code", size: 16pt)[\[#content\]]]
+#let f(content) = [#text(C3, font: "Fira Code", size: 18pt)[\[#content\]]]
 #show link: set text(C1)
 #show link: underline
 
@@ -327,30 +327,17 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 == Les SGBDR à leur juste place
 
-- Pour être au plus proche des pratiques de saisie #f[1] #f[2] et de la culture technique dominante #f[5], nous préconisons le recours à un outil de saisie de données _existant_ reposant sur un SGBDR, _libre_ et _ergonomique_.
-- Par exemple, un candidat de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie « tabulaire ». Avec la généralisation de ces outils, il y a moins de raisons de recourir à un tableur offline.
-- Dans cette perspective, le modèle relationnel devrait être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure devrait permettre de générer des données CRM par la suite, mais il ne serait ici qu'un _modèle de saisie_, et non un modèle destiné à l'échange ou à la tenue dans le temps des données.
+- Pour être au plus proche des pratiques de saisie #f[1]#f[2] et de la culture technique dominante #f[5], nous préconisons le recours à un outil de saisie de données _existant_ reposant sur un SGBDR, _libre_ et _ergonomique_.
+- Par exemple, un candidat de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie « tabulaire ». Avec la généralisation de ces outils, il y a moins de raisons de recourir à un tableur offline. #f[4]
+- Dans cette perspective, le modèle relationnel devrait être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure devrait permettre de générer des données CRM par la suite, mais il ne serait ici qu'un _modèle de saisie_, et non un modèle destiné à l'échange ou à la tenue dans le temps des données. #f[1]#f[5]
 
 == Vers un mapping normalisé
 
 - Lors, par exemple, d'une reprise de l'existant en vue d'une conversion en données CRM, on définit des règles de mapping spécifiques.
 - Nous aimerions réduire au minimum les ajustements ad-hoc pour chaque nouveau projet.
-- Nous aimerions ainsi définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM. Ce serait une manière _normalisée & reproductible_ de faire correspondre une structure relationnelle/tabulaire à un graph RDF/CIDOC CRM.
+- Nous aimerions ainsi définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM. Ce serait une manière _normalisée & reproductible_ de faire correspondre une structure relationnelle/tabulaire à un graph RDF/CIDOC CRM. #f[6]
 - Ceci pourrait être simplement réalisé en _normalisant l'implémentation des structures relationnelles_ (nom des tables, convention de nommage des colonnes, clefs primaires, clefs étrangères, contraintes d'intégrité référentielles) et en s'appuyant sur des _conventions de représentation des patterns de modélisation du CRM_.
-- Il faut identifier ces patterns, et pour chacun d'entre eux, imaginer une implémentation relationnelle réalisant le compromis optimum entre ergonomie de saisie et expressivité (cf. exemple des rôles & événements de création pour une œuvre).
-
-== La chaîne opératoire SHERLOCK
-
-// - Ce travail est initié dans le cadre de l'infrastructure SHERLOCK (IReMus/Consortium Musica\*).
-//   - Données saisies dans Grist
-//   - Les colonnes destinées à être reportées en RDF/CIDOC CRM reçoivent un nom codifié
-
-// - Les données RDF/CIDOC CRM peuvent être aisément générées en récupérant les données via l'API offerte par le système. Leur conversion en données RDF / CIDOC CRM est triviale.
-// - Des couples efficace pour ce genre de tâches :
-//   python + #link("https://github.com/RDFLib/rdflib", "RDFLib"),
-//   deno + #link("https://rdf.js.org/", "rdf.js"),
-//   rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs").
-// - En conclusion, l'idée est de proposer une chaîne saisie/normalisation/export unifiée, c'est une approche plus codifiée que le recours à outil de mapping dédié.
+- Il faut identifier ces patterns, et pour chacun d'entre eux, imaginer une implémentation relationnelle réalisant le compromis optimum entre ergonomie de saisie et expressivité permise par le CRM (cf. exemple des rôles & événements de création pour une œuvre). #f[3]
 
 == Synthèse
 
@@ -368,19 +355,44 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
         name: <B>,
       ),
       node((0, 3), [données structurées], name: <C>),
-      node((0, 4), [Jeu de données RDF / CIDOC CRM], name: <D>),
-      node((0, 5), [Application Web « CRM-aware »], name: <E>),
-      edge(<A>, <B>, text(gray, size: 12pt)[implémentation dans…], "->"),
+      node((0, 5), [Jeu de données RDF / CIDOC CRM], name: <D>, fill: purple),
+      node((0, 6), [Application Web « CRM-aware » / autre usage des données], name: <E>),
+      edge(<A>, <B>, text(gray, size: 12pt)[implémentation/paramétrage], "->"),
       edge(<B>, <C>, text(gray, size: 12pt)[api], "->"),
-      edge(<C>, <D>, text(gray, size: 12pt)[programme interprétant le mapping et réalisant la conversion], "->"),
+      edge(
+        <C>,
+        <D>,
+        text(gray, size: 12pt)[programme interprétant les \ informations de mapping et \ réalisant la conversion],
+        "->",
+      ),
       edge(<D>, <E>, text(gray, size: 12pt)[SPARQL endpoint], "->"),
     )
   ]
 ]
 
+==
+
+#align(center + horizon)[🖖]
+
+== La chaîne opératoire Grist -> SHERLOCK
+
+- Pourquoi Grist ?
+  - https://lasuite.numerique.gouv.fr/produits/grist
+  - facile à déployer/dockeriser
+  - ergonomie excellente (tableur + fiches/formulaires personnalisables)
+  - format SQLite
+  - dimension collaborative
+  - extensible via des plugins JavaScipt (en cours de développement chez nous : un plug-in pour indexer des données Grist avec Opentheso)
+  - possibilité de conférer deux noms aux colonnes : un pour les yeux de l'utilisateur, un autre pour l'API, qui sert naturellement de lieu où réaliser le mapping
+  - API REST complète (mais documentation meh)
+- Des couples efficaces pour transformer les données :
+  Python + #link("https://github.com/RDFLib/rdflib", "RDFLib"),
+  Deno + #link("https://rdf.js.org/", "rdf.js"),
+  Rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs").
+
 = Explorer
 
-//TODO
+#align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[Exemple de l'application Web SHERLOCK\]]]
 
 = Pérenniser
 
