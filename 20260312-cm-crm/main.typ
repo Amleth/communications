@@ -47,6 +47,7 @@
 #set par(leading: 10pt)
 #set list(spacing: 18pt)
 #let c(content) = text(C1, content)
+#let f(content) = [#text(C3, font: "Fira Code", size: 16pt)[\[#content\]]]
 #show link: set text(C1)
 #show link: underline
 
@@ -309,27 +310,37 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
     \[nous = le consortium Musica\*\]
   ]
 ]
-#v(1cm)
 
-- Nous aimerions une système d'information générant des données CRM :
-  1. qui s'adapte aux _conditions de saisie spécifiques à chaque pratique scientifique_
-  2. qui n'ajoute pas de charge mentale aux chercheurs et aux chercheuses, ni n'impose de maîtriser une complexité formelle trop éloignée des objets de la recherche
-  3. mais qui tire parti des _vertus heuristiques du CRM_ (on est là pour ça après tout !)
-  4. et qui n'impose pas, sur le plan de la gestion de projet et de la gestion de nos ressources de développement, de développer un outil de saisie générique de données CRM (car c'est _coûteux_ et surtout _inadéquat_, comme on l'a vu)
-  5. qui facilite les étapes de génération technique de données RDF-CRM, notamment l'_extraction_ des données structurées, le paramétrage des règles de _mapping_, et la _génération_ des données RDF
-  6. et en plus qui ajoute une couche de _structure_ et de _normalisation_ par rapport aux pratiques de _mapping_ avec des outils dédiés
+💡 Nous aimerions une système d'information générant des données CRM :
+
+#f(1) qui s'adapte aux _conditions de saisie spécifiques à chaque pratique scientifique_
+
+#f(2) qui n'ajoute pas de charge mentale aux chercheurs et aux chercheuses, ni n'impose de maîtriser une complexité formelle trop éloignée des objets de la recherche
+
+#f(3) mais qui tire parti des _vertus heuristiques du CRM_ (on est là pour ça après tout !)
+
+#f(4) et qui n'impose pas, sur le plan de la gestion de projet et de la gestion de nos ressources de développement, de développer un outil de saisie générique de données CRM (car c'est _coûteux_ et surtout _inadéquat_, comme on l'a vu)
+
+#f(5) qui facilite les tâches techniques : déploiement, maintenance, _extraction_ des données structurées, paramétrage des règles de _mapping_, _génération_ des données RDF-CRM
+
+#f(6) et en plus qui ajoute une couche de _structure_ et de _normalisation_ par rapport aux pratiques de _mapping_ avec des outils dédiés
 
 == Les SGBDR à leur juste place
 
-// #v(-1cm)
-// - Pour être au plus proche des pratiques de saisie et de la culture technique dominante, nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), _libre_ et _ergonomique_. Par exemple, un candidat contemporain de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie « tabulaire ». Avec la généralisation de ces outils, il y a moins de raisons de recourir à un tableur offline.
-// - Dans cette perspective, le modèle relationnel devrait être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure devrait permettre de générer des données CRM par la suite, mais il ne serait ici qu'un _modèle de saisie_, et non un modèle destiné à l'échange ou à la tenue dans le temps des données.
-// - Par rapport au mapping, on aimerait _éviter d'avoir à redéfinir et réimplémenter des règles de mapping pour chaque projet_ (comme on le fait dans une logique de reprise de l'existant où le CRM arrive trop en aval).
-// - Si on normalise la manière dont les données relationnelles sont organisées dans le SGBDR, notamment par le recours à des conventions de nommage des colonnes, on pourrait définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM. Ce serait une manière _normalisée & reproductible_ de faire correspondre une structure relationnelle/tabulaire à un graph RDF/CIDOC CRM.
+- Pour être au plus proche des pratiques de saisie #f[1] #f[2] et de la culture technique dominante #f[5], nous préconisons le recours à un outil de saisie de données _existant_ reposant sur un SGBDR, _libre_ et _ergonomique_.
+- Par exemple, un candidat de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie « tabulaire ». Avec la généralisation de ces outils, il y a moins de raisons de recourir à un tableur offline.
+- Dans cette perspective, le modèle relationnel devrait être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure devrait permettre de générer des données CRM par la suite, mais il ne serait ici qu'un _modèle de saisie_, et non un modèle destiné à l'échange ou à la tenue dans le temps des données.
 
-== Une direction possible : comment ?
+== Vers un mapping normalisé
 
-//TODO- Il faudrait identifier les patterns de modélisation CRM et les
+- Lors, par exemple, d'une reprise de l'existant en vue d'une conversion en données CRM, on définit des règles de mapping spécifiques.
+- Nous aimerions réduire au minimum les ajustements ad-hoc pour chaque nouveau projet.
+- Nous aimerions ainsi définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM. Ce serait une manière _normalisée & reproductible_ de faire correspondre une structure relationnelle/tabulaire à un graph RDF/CIDOC CRM.
+- Ceci pourrait être simplement réalisé en _normalisant l'implémentation des structures relationnelles_ (nom des tables, convention de nommage des colonnes, clefs primaires, clefs étrangères, contraintes d'intégrité référentielles) et en s'appuyant sur des _conventions de représentation des patterns de modélisation du CRM_.
+- Il faut identifier ces patterns, et pour chacun d'entre eux, imaginer une implémentation relationnelle réalisant le compromis optimum entre ergonomie de saisie et expressivité (cf. exemple des rôles & événements de création pour une œuvre).
+
+== La chaîne opératoire SHERLOCK
+
 // - Ce travail est initié dans le cadre de l'infrastructure SHERLOCK (IReMus/Consortium Musica\*).
 //   - Données saisies dans Grist
 //   - Les colonnes destinées à être reportées en RDF/CIDOC CRM reçoivent un nom codifié
