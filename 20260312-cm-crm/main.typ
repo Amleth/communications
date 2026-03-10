@@ -354,7 +354,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
         [IHM de SGBDR / outil No-code / tableur \ + \ conventions de nommage des colonnes → mapping CRM],
         name: <B>,
       ),
-      node((0, 3), [données structurées], name: <C>),
+      node((0, 3), [données structurées & mapping CRM normalisé], name: <C>),
       node((0, 5), [Jeu de données RDF / CIDOC CRM], name: <D>, fill: purple),
       node((0, 6), [Application Web « CRM-aware » / autre usage des données], name: <E>),
       edge(<A>, <B>, text(gray, size: 12pt)[implémentation/paramétrage], "->"),
@@ -374,7 +374,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 #align(center + horizon)[🖖]
 
-== La chaîne opératoire Grist -> SHERLOCK
+== Grist
 
 - Pourquoi Grist ?
   - https://lasuite.numerique.gouv.fr/produits/grist
