@@ -247,7 +247,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 == Ça se complique, sur le plan technique
 
 - Un _graphe ouvert_ est plus _difficile à éditer_ que des données relationnelles, qui s'éditent naturellement en série dans un tableau ou avec des formulaires contraints.
-- Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule. Des vocabulaires de schémas comme DCMI Metadata Terms ou schema.org sont plus simples (mais leur expressivité est loin d'égaler celle du CRM).
+- Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule. Des vocabulaires de schémas comme `DCMI Metadata Terms` ou `schema.org` sont plus simples (mais leur expressivité est loin d'égaler celle du CRM).
 - Rien ne peut battre un #link("https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/6")[tableur] pour l'édition d'items similaires rassemblés dans une collection. Au sein de nos communautés, Excel n'est pas qu'un choix par défaut.
 
 == Exemple : conférer un identifiant à une ressource
@@ -293,15 +293,15 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 == Ça se complique, sur le plan conceptuel
 
-- Le CRM est _expressif_, il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses. _`[A]`_
+- Le CRM est _très expressif_ : il aide à _ne pas réduire ni trahir les productions analytiques_ des chercheurs et des chercheuses. _`[A]`_
 - Son double caractère abstrait & générique le rend apte à modéliser _un large éventail de données convenant à un large éventail de pratiques_. Certes, le CRM n'est pas optimal pour chaque scénario, mais on peut se demander ce qu'il n'est pas capable de modéliser.
 - Mais le CRM est complexe à comprendre et à mettre en œuvre…
   - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
   - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés _fait écran avec la compréhension spontanée_ que l'on pourrait avoir de nos données. Certains chemins, quoique très précis sur le plan de la modélisation, sont alambiqués. (opinion : c'est le prix de la proposition _`[A]`_)
 - Conséquemment, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
-- => _Une interface d'édition générique de données CRM n'a pas vraiment de sens_. L'ontologie est peut-être trop large, trop peu focalisée…
+- => _Une interface d'édition générique de données CRM n'a pas vraiment de sens_. L'ontologie est peut-être trop large, trop peu focalisée… Des solutions ayant une approche plus « locale/ad-hoc » seraient-elles à privilégier ?
 
-== Alors ?
+== objectif et constatation
 
 #v(-1cm)
 #align(center)[
@@ -319,19 +319,23 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
       - ajouter une charge mentale significative aux chercheurs et chercheuses,
       - imposer de maîtriser une complexité formelle éloignée de la complexité structurelle des objets de la recherche.
   ]
-- Sur le plan de la gestion de projet et de la gestion de nos ressources de développement, nous souhaiterions éviter de nous lancer dans le développement d'une interface de saisie générique basée sur le CRM : c'est _coûteux_ et _inadéquat_.
+- Sur le plan de la gestion de projet et de la gestion de nos ressources de développement, nous ne nous lancerons pas dans le développement d'une interface de saisie générique basée sur le CRM : c'est _coûteux_ et surtout _inadéquat_ (comme on l'a vu).
 - Une approche serait de recourir à des outils de saisie _paramétrés suivant des situations/pratiques spécifiques_, mais qui seraient néanmoins capables de produire des données CRM.
-- Les pratiques reposant sur du _mapping de données_ s'inscrivent dans cette logique.
+- Les pratiques reposant sur du _mapping de données_ s'inscrivent dans cette logique…
 
-== (suite)
+== une direction possible
 
-- Nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), _libre et ergonomique_. Par exemple, un candidat contemporain de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie.
-- Dans cette perspective, le modèle relationnel doit être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure doit permettre de générer des données CRM par la suite, mais il n'est qu'un _modèle de saisie_.
+- Pour être au plus proche des pratiques de saisie et de la culture technique dominante, nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), _libre et ergonomique_. Par exemple, un candidat contemporain de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie « tabulaire ».
+- Dans cette perspective, le modèle relationnel devrait être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure devrait permettre de générer des données CRM par la suite, mais il ne serait ici qu'un _modèle de saisie_, et non un modèle destiné à l'échange ou à la tenue dans le temps des données.
+//TODO
 - #box[Les données RDF/CIDOC CRM peuvent être aisément générées en récupérant les données via l'API offerte par le système. Leur conversion en données RDF / CIDOC CRM est triviale (des couples efficace pour ce genre de tâches :
     python + #link("https://github.com/RDFLib/rdflib", "RDFLib"),
     deno + #link("https://rdf.js.org/", "rdf.js"),
     rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs")
   ].
+
+  - … mais on aimerait _éviter d'avoir à redéfinir et réimplémenter des règles de mapping pour chaque projet_ (comme on le fait dans une logique de reprise de l'existant où le CRM arrive trop en aval).
+- Pourrait-on imaginer un partage de convention
 - Si on normalise la manière dont les données relationnelles sont organisées dans le système, notamment par le recours à des conventions de nommage des colonnes, on pourrait définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM, qui éviterait le paramétrage ad-hoc intervenant dans chaque tâche de reprise de l'existant.
 
 == un pipeline data/software avec le CRM comme pivot
