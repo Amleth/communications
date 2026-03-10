@@ -327,16 +327,17 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 - Pour être au plus proche des pratiques de saisie et de la culture technique dominante, nous préconisons le recours à un outil de saisie de données _existant_ (reposant sur un SGBDR), _libre et ergonomique_. Par exemple, un candidat contemporain de la constellation « No-code ». Un SGBDR permet d'aller bien plus loin qu'une feuille Excel. Les outils « No-code » contemporains se rapprochent de cette ergonomie « tabulaire ».
 - Dans cette perspective, le modèle relationnel devrait être créé pour répondre aux attendus ergonomiques d'un projet de recherche spécifique. Sa structure devrait permettre de générer des données CRM par la suite, mais il ne serait ici qu'un _modèle de saisie_, et non un modèle destiné à l'échange ou à la tenue dans le temps des données.
-//TODO
-- #box[Les données RDF/CIDOC CRM peuvent être aisément générées en récupérant les données via l'API offerte par le système. Leur conversion en données RDF / CIDOC CRM est triviale (des couples efficace pour ce genre de tâches :
+- Par rapport au mapping, on aimerait _éviter d'avoir à redéfinir et réimplémenter des règles de mapping pour chaque projet_ (comme on le fait dans une logique de reprise de l'existant où le CRM arrive trop en aval).
+- Si on normalise la manière dont les données relationnelles sont organisées dans le système, notamment par le recours à des conventions de nommage des colonnes, on pourrait définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM, qui éviterait le paramétrage ad-hoc intervenant dans chaque tâche de reprise de l'existant.
+
+== Sur le plan technique
+
+- Les données RDF/CIDOC CRM peuvent être aisément générées en récupérant les données via l'API offerte par le système. Leur conversion en données RDF / CIDOC CRM est triviale.
+- Des couples efficace pour ce genre de tâches :
     python + #link("https://github.com/RDFLib/rdflib", "RDFLib"),
     deno + #link("https://rdf.js.org/", "rdf.js"),
-    rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs")
-  ].
-
-  - … mais on aimerait _éviter d'avoir à redéfinir et réimplémenter des règles de mapping pour chaque projet_ (comme on le fait dans une logique de reprise de l'existant où le CRM arrive trop en aval).
-- Pourrait-on imaginer un partage de convention
-- Si on normalise la manière dont les données relationnelles sont organisées dans le système, notamment par le recours à des conventions de nommage des colonnes, on pourrait définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM, qui éviterait le paramétrage ad-hoc intervenant dans chaque tâche de reprise de l'existant.
+    rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs").
+- Ou n'importe quel outil de mapping dédié.
 
 == un pipeline data/software avec le CRM comme pivot
 
