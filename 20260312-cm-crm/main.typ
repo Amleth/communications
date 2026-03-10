@@ -244,7 +244,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 = Saisir
 
-== Ça se complique, sur le plan ergonomique
+== Ça se complique, sur le plan technique
 
 - Un _graphe ouvert_ est plus _difficile à éditer_ que des données relationnelles, qui s'éditent naturellement en série dans un tableau ou avec des formulaires contraints.
 - Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule. Des vocabulaires de schémas comme DCMI Metadata Terms ou schema.org sont plus simples (mais leur expressivité est loin d'égaler celle du CRM).
@@ -294,18 +294,34 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 == Ça se complique, sur le plan conceptuel
 
 - Le CRM est _expressif_, il aide à ne pas réduire ni trahir les productions analytiques des chercheurs et des chercheuses. _`[A]`_
-- Son double caractère abstrait & générique le rend apte à modéliser _un large éventail de données convenant à un large éventail de pratiques_. Sans pour autant être optimal pour chaque scénario, on peut se demander ce que le CRM n'est pas capable de modéliser.
+- Son double caractère abstrait & générique le rend apte à modéliser _un large éventail de données convenant à un large éventail de pratiques_. Certes, le CRM n'est pas optimal pour chaque scénario, mais on peut se demander ce qu'il n'est pas capable de modéliser.
 - Mais le CRM est complexe à comprendre et à mettre en œuvre…
-- Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
-- En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés _fait écran avec la compréhension spontanée_ que l'on pourrait avoir de nos données. Certains chemins, quoique très précis sur le plan de la modélisation, sont alambiqués. (opinion : c'est le prix de la proposition _`[A]`_)
+  - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
+  - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés _fait écran avec la compréhension spontanée_ que l'on pourrait avoir de nos données. Certains chemins, quoique très précis sur le plan de la modélisation, sont alambiqués. (opinion : c'est le prix de la proposition _`[A]`_)
 - Conséquemment, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
-- _Une interface d'édition générique de données CRM n'a pas vraiment de sens_.
+- => _Une interface d'édition générique de données CRM n'a pas vraiment de sens_. L'ontologie est peut-être trop large, trop peu focalisée…
 
 == Alors ?
 
-- Nous voulons viser une génération de données 100% CRM, tirer partie de ses vertus heuristiques, mais sans sacrifier les conditions de saisie spécifiques à chaque pratique scientifique. En aucun cas une interface de saisie « CRM-aware » ne devrait ajouter une charge mentale significative aux chercheurs et chercheuses, ou imposer de maîtriser une complexité formelle éloignée de la complexité structurelle des objets de la recherche.
-- Sur le plan de la gestion de projet de la gestion de nos ressources de développement, nous souhaiterions éviter de nous lancer dans le développement d'une interface de saisie générique basée sur le CRM : c'est _coûteux_ et _inadéquat_.
-- Une approche serait de recourir à des outils de saisie _paramétrés suivant des situations/pratiques spécifiques_, mais qui seraient néanmoins capables de produire des données CRM. Les pratiques reposant sur du mapping de données s'inscrivent dans cette logique.
+#v(-1cm)
+#align(center)[
+  #text(gray, font: "Fira Code", size: 15pt)[
+    \[nous = le consortium Musica\*\]
+  ]
+]
+#v(1cm)
+
+- Nous aimerions viser une génération de données 100% CRM :
+  - tirer partie de ses _vertus heuristiques_
+  - mais sans sacrifier les _conditions de saisie spécifiques à chaque pratique scientifique_.
+  #text(gray)[
+    - Une interface de saisie « CRM-aware » ne devrait pas, en théorie :
+      - ajouter une charge mentale significative aux chercheurs et chercheuses,
+      - imposer de maîtriser une complexité formelle éloignée de la complexité structurelle des objets de la recherche.
+  ]
+- Sur le plan de la gestion de projet et de la gestion de nos ressources de développement, nous souhaiterions éviter de nous lancer dans le développement d'une interface de saisie générique basée sur le CRM : c'est _coûteux_ et _inadéquat_.
+- Une approche serait de recourir à des outils de saisie _paramétrés suivant des situations/pratiques spécifiques_, mais qui seraient néanmoins capables de produire des données CRM.
+- Les pratiques reposant sur du _mapping de données_ s'inscrivent dans cette logique.
 
 == (suite)
 
@@ -350,4 +366,4 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 = Pérenniser
 
-//TODO
+#align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[discussion\]]]
