@@ -48,6 +48,7 @@
 #set list(spacing: 18pt)
 #let c(content) = text(C1, content)
 #let f(content) = [#text(C3, font: "Fira Code", size: 18pt)[\[#content\]]]
+#let sherlockuri(content) = [#text(C2, font: "Fira Code", size: 12pt)[#content]]
 #show link: set text(C1)
 #show link: underline
 
@@ -393,21 +394,47 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 #align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[l'exemple de l'application web sherlock\]]]
 
-== Contexte
+== Le programme de recherche-ingénierie SHERLOCK
 
-- Programme de recherche SHERLOCK à l’IReMus :
+- Programme de recherche-ingénierie SHERLOCK à l'IReMus/CM\* :
   - « Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ?»
   - « Comment faire interagir les données sémantiques et les sources ? »
   - « Comment publier et manipuler les données sémantiques ? »
-- Pas ou peu d’apport financier.
+- Pas ou peu d'apport financier.
 - Développeur (presque) unique.
-- Recourir à un modèle unique dans les différents projets permet de ne concevoir,
-développer et maintenir qu’une unique application pour présenter et exploiter les
-données.
+- _Recourir à un modèle unique dans les différents projets permet de ne concevoir développer et maintenir qu'une unique application pour présenter et exploiter les données._
 - Technologies :
   - Front : TypeScript, React, Hero UI, Tailwind CSS
   - Back : Apache Jena Fuseki, Docker, Traefik
 
-= Pérenniser
+== SHERLOCK : objectifs fonctionnels
 
-#align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[discussion\]]]
+- Une interface de navigation hypertexte générique portant sur la totalité des graphes RDF d'un triplestore accessible via un SPARQL endpoint.
+- L'utilisateur devrait avoir le sentiment de naviguer dans des fiches, dont la structure et l'affichage des métadonnées seraient clairs, sans être exposé à la technicité inhérente aux triplets RDF et aux noms abstraits des classes et des propriétés des ontologies convoquées…
+- … mais la teneur des sujets/prédicats/objets RDF devrait toujours être clairement indiquée, pour raisons pédagogique et technique. Toutes les requêtes SPARQL utilisées devraient être exposées.
+- Exploitation des patterns spécifiques du CRM ou de LRMoo pour proposer des interfaces spécifiques.
+- Démarche d'ingénierie : rendre techniquement indépendants les phases de _modélisation_, _saisie_ et _exploration_ (il manque un quatrième volet fonctionnel : l'exploitation). Le CRM comme ciment permettant cette indépendance.
+
+== Les patterns CRM dans l'interface SHERLOCK
+
+Identité d'une ressource \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01]
+
+Structure d'une œuvre + recherche plein-texte dans les composants \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01]
+
+Contenu d'un périodique \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons]
+
+Annotations (E13) sur une ressource \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/id/355f3c4d-7b7c-472f-9b66-974a819f9eaf]
+
+Ressources liées \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/id/355f3c4d-7b7c-472f-9b66-974a819f9eaf]
+
+Rendu TEI, MEI, image \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/articles/1677-05_211] \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/?resource=https://www.nakala.fr/10.34847/nkl.48576349] \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/id/f28b62fc-d686-4c78-a205-015e5d7dc4b6]
+
+= Pérenniser
