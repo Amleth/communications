@@ -390,9 +390,20 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
   Deno + #link("https://rdf.js.org/", "rdf.js"),
   Rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs").
 
-#align(center)[#block(stroke: green, inset: 0.5cm, width: 100%)[#text(green, font: "Fira Code", size: 15pt)[
-  démo de mapping dans Grist + script Python
+==
+
+#align(center + horizon)[#block(stroke: green, inset: 0.5cm, height: 100%, width: 100%)[#text(
+  green,
+  font: "Fira Code",
+  size: 15pt,
+)[
+  démo de mapping dans Grist + script Python + visualisation dans SHERLOCK
+  \ \ \
+  https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/95
+  \ \ \
+  http://data-iremus.huma-num.fr/id/dc6a1597-78ed-4277-8a03-07b3671d8f05
 ]]]
+
 
 = Explorer
 
