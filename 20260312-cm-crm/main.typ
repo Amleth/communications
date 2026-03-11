@@ -210,6 +210,26 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
   #image("crm-class-hierarchy.jpg", height: 90%)
 ]
 
+== Centrée événement ?
+
+On ne dit pas : « Le créateur a créé l'œuvre », mais :
+
+#align(center + horizon)[
+  #diagram(
+    node-fill: gradient.radial(fuchsia, white, radius: 300%),
+    node-stroke: purple,
+    node-shape: fletcher.shapes.rect,
+    edge-stroke: purple + 1pt,
+    node((0, 0), [L'œuvre \ \ `rdf:type crm:E1_CRM_Entity`], name: <E1>),
+    edge("<|-", bend: -30deg, [`crm:P94_has_created`]),
+    edge("-|>", bend: 30deg, [`crm:P94i_was_created_by`]),
+    node((0, 1), [L'événement de création \ \ `rdf:type crm:E65_Creation`], name: <E65>),
+    edge("-|>", bend: -30deg, [`crm:P14_carried_out_by`]),
+    edge("<|-", bend: 30deg, [`crm:P14i_performed`]),
+    node((0, 2), [Le créateur \ \ `rdf:type crm:E21_Person`], name: <E21>),
+  )
+]
+
 == Opérations critiques & patterns de base
 
 - Nommer
@@ -337,7 +357,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 - Nous aimerions réduire au minimum les ajustements ad-hoc pour chaque nouveau projet.
 - Nous aimerions ainsi définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM. Ce serait une manière _normalisée & reproductible_ de faire correspondre une structure relationnelle/tabulaire à un graphe RDF/CIDOC CRM. #f[6]
 - Ceci pourrait être simplement réalisé en _normalisant l'implémentation des structures relationnelles_ (nom des tables, convention de nommage des colonnes, clefs primaires, clefs étrangères, contraintes d'intégrité référentielles) et en s'appuyant sur des _conventions de représentation des patterns de modélisation du CRM_.
-- Il faut identifier ces patterns, et pour chacun d'entre eux, imaginer une implémentation relationnelle réalisant le compromis optimum entre ergonomie de saisie et expressivité permise par le CRM (cf. exemple des rôles & événements de création pour une œuvre). #f[3]
+- Il faut identifier ces patterns, et pour chacun d'entre eux, imaginer une implémentation relationnelle réalisant le compromis optimum entre ergonomie de saisie et expressivité permise par le CRM. #f[3]
 
 == Synthèse
 
@@ -392,7 +412,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 ==
 
-#align(center + horizon)[#block(stroke: green, inset: 0.5cm, height: 100%, width: 100%)[#text(
+#align(center + horizon)[#block(stroke: green, inset: 1cm, width: 100%)[#text(
   green,
   font: "Fira Code",
   size: 15pt,
@@ -404,10 +424,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
   http://data-iremus.huma-num.fr/id/dc6a1597-78ed-4277-8a03-07b3671d8f05
 ]]]
 
-
 = Explorer
-
-#align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[l'exemple de l'application web sherlock\]]]
 
 == Le programme de recherche-ingénierie SHERLOCK
 
