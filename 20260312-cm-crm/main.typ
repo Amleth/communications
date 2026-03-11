@@ -213,8 +213,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 
 - Nommer
 - Identifier
-- Typer, catégoriser (avec un concept métier)
-- Indexer, classifier
+- Typer, catégoriser, indexer, classifier (avec des concepts métier)
 - Dater
 - Établir le fait qu'une information fait référence à une entité (dénotation/connotation)
 - Contextualiser, caractériser le contexte de production d'une chose ou d'une idée
@@ -395,6 +394,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 #align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[l'exemple de l'application web sherlock\]]]
 
 == Contexte
+
 - Programme de recherche SHERLOCK à l’IReMus :
   - « Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ?»
   - « Comment faire interagir les données sémantiques et les sources ? »
