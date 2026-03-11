@@ -103,7 +103,7 @@
 
 == Modéliser sous contraintes de ressources
 
-- La modélisation des données nécessite une réflexion conjointe entre chercheurs et ingénieurs.
+- La modélisation des données nécessite une réflexion conjointe entre recherche et ingénierie.
   - Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
   - Le travail d'explicitation/modélisation des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
 - Or, souvent, la modélisation est perçue comme une étape purement technique par le client et est renvoyée à la compétence du prestataire.
