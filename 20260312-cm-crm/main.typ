@@ -88,37 +88,10 @@
     #block(stroke: C3, inset: 1cm, width: 100%)[#text(C3)[
       #text(font: "Fira Code", size: 17pt)[Comment faire tenir les données de la recherche dans le temps ?]
     ]]
-    #v(2cm)
-    #block[#align(left)[
-      📜   Comment s'assurer qu'on puisse toujours les voir, les comprendre, les modifier ? \
-      ⚗️   Comment capter et transmettre les « traditions interprétatives » sans les amoindrir ? \
-      🎓   Comment fonctionner avec des moyens 👥/💻/💶 limités ? \
-      🌐   Comment favoriser les liens avec d'autres systèmes d'information ? \
-      💾   À quels 🧺 confier ses 🥚 ? \
-    ]]
-    #v(1cm)
   ]
-
+  #v(1cm)
+  L'époque est au #link("https://www.go-fair.org/fair-principles/", "FAIR") et au #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐"). L'ouverture des données de la recherche, leur interopérabilité et leur mise en relation avec des sources de données tierces nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
 ]
-
-== Modéliser sous contraintes de ressources
-
-- La modélisation des données nécessite une réflexion conjointe entre recherche et ingénierie.
-  - Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
-  - Le travail d'explicitation/modélisation des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
-- Or, souvent, la modélisation est perçue comme une étape purement technique par le client et est renvoyée à la compétence du prestataire.
-- Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare.
-
-De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAIR") et au #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐") (des notions relativement spécifiques à notre contexte professionnel). L'ouverture des données de la recherche, leur interopérabilité et leur mise en relation avec des sources de données tierces nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
-
-== Ce qu'on cherche à palier avec les consortiums
-
-- Pour bâtir la dynamique nécessaire à la démarche de FAIRisation, un réseau d'acteurs et d'actrices est nécessaire, mais :
-  - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
-  - Les chercheurs et chercheuses devant piloter de tels projet manquent d'informations claires sur les conséquences scientifiques et méthodologiques des technologies disponibles pour modéliser les informations scientifiques.
-  - Les profils techniques sont recrutés sur des _contrats courts_.
-  - Les prestataires n'ont pas d'intérêt à s'inscrire dans les _réseaux HN_.
-- Conséquemment, les connaissances d'ingénierie spécifiques à la modélisation des données de la discipline sont peu capitalisées ; chaque nouveau développement peine à bénéficier de l'expérience méthodologique et conceptuelle acquise informellement au fil des projets passés.
 
 #page[#outline(depth: 1, title: none)]
 
@@ -176,13 +149,30 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 
 = Modéliser
 
+== Modéliser… sous contraintes de ressources
+
+- La modélisation des données nécessite une _réflexion conjointe entre recherche et ingénierie_.
+- Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
+- Le travail d'explicitation/modélisation des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
+- Or, la modélisation est parfois perçue comme une étape purement technique, et est renvoyée à la compétence du prestataire.
+- Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare…
+
+== Ce qu'on cherche à palier avec les consortiums
+
+- Pour bâtir la dynamique nécessaire aux enjeux méthodologiques contemporains autour des données de la recherche, un réseau d'acteurs et d'actrices est nécessaire, mais :
+  - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
+  - Les chercheurs et chercheuses pilotant les projets _manquent d'informations_ claires sur les conséquences scientifiques et méthodologiques des technologies disponibles pour modéliser les informations scientifiques.
+  - Les profils techniques sont recrutés sur des _contrats courts_.
+  - Les prestataires n'ont pas d'intérêt à s'inscrire dans les _réseaux HN_. Les ontologies patrimoniales, le FAIR et le LOD sont des notions relativement spécifiques à notre contexte professionnel.
+- Conséquemment, _les connaissances d'ingénierie spécifiques à la modélisation des données de nos disciplines sont peu capitalisées_ ; chaque nouveau développement peine à bénéficier de l'expérience méthodologique et conceptuelle acquise informellement au fil des projets passés.
+
 == Une ontologie : quoi, pourquoi ?
 
 - Formalisation d'un modèle conceptuel pour un domaine donné, contenant des _classes_ et des _propriétés_.
 - Utiliser les classes et les propriétés d'une ontologie confère ainsi une _sémantique partagée aux données_.
 - Permet de capitaliser des connaissances de modélisation d'un projet à l'autre.
 - Le Web sémantique s'accompagne de standards utiles pour nos métiers : #link("https://www.w3.org/TR/skos-primer/")[SKOS] pour les thésaurus, #link("https://www.dublincore.org/specifications/dublin-core/dcmi-terms/")[DCMI] pour les métadonnées basiques, #link("https://data.doremus.org/ontology/")[DOREMUS] pour la musique écrite/éditée/jouée/diffusée, #link("https://cidoc-crm.org/lrmoo")[LRMOO] pour l'information bibliographique, #link("https://www.w3.org/TR/prov-o/")[PROV-O] pour la provenance de l'information, et bien sûr le CIDOC CRM.
-- Bien des projets de recherche alliant informatique et SHS se donnent pour mission de produire une nouvelle ontologie pour couvrir un besoin spécifique. Nous défendons la thèse opposée : tenter de tout modéliser avec le CIDOC CRM.
+- Bien des projets de recherche alliant informatique et SHS se donnent pour mission de produire une nouvelle ontologie pour couvrir un besoin spécifique. (Nous défendons la thèse opposée : tenter de tout modéliser avec le CIDOC CRM.)
 
 == une ontologie unique : \ motivations sur le plan de l'ingénierie logicielle
 
@@ -404,6 +394,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
   - extensible via des plugins JavaScipt (en cours de développement chez nous : un plug-in pour indexer des données Grist avec Opentheso)
   - possibilité de conférer deux noms aux colonnes : un pour les yeux de l'utilisateur, un autre pour l'API, qui sert naturellement de lieu où réaliser le mapping
   - API REST complète (mais documentation sommaire)
+- C'est un bon 🧺 auquel confier tous ses 🥚.
 - Des couples efficaces pour transformer les données :
   Python + #link("https://github.com/RDFLib/rdflib", "RDFLib"),
   Deno + #link("https://rdf.js.org/", "rdf.js"),
