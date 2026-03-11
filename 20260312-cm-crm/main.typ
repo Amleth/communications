@@ -441,7 +441,7 @@ Rendu TEI, MEI, image \
 #sherlockuri[https://data-iremus.huma-num.fr/sherlock/?resource=https://www.nakala.fr/10.34847/nkl.48576349] \
 #sherlockuri[https://data-iremus.huma-num.fr/sherlock/id/f28b62fc-d686-4c78-a205-015e5d7dc4b6]
 
-Recherhce plein texte multi-champs dans les ressources d'une collection \
+Recherche plein texte multi-champs dans les ressources d'une collection \
 #sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/aam]
 
 = Pérenniser
