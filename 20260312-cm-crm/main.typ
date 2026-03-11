@@ -113,8 +113,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 
 == Ce qu'on cherche à palier avec les consortiums
 
-- La FAIRisation des données suppose que les BDD isolées soient mises en dialogue au niveau des communautés, tant dans leur dimension intellectuelle/méthodologique que technique.
-- Pour bâtir une telle dynamique, un réseau d'acteurs et d'actrices est nécessaire, mais :
+- Pour bâtir la dynamique nécessaire à la démarche de FAIRisation, un réseau d'acteurs et d'actrices est nécessaire, mais :
   - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
   - Les chercheurs et chercheuses devant piloter de tels projet manquent d'informations claires sur les conséquences scientifiques et méthodologiques des technologies disponibles pour modéliser les informations scientifiques.
   - Les profils techniques sont recrutés sur des _contrats courts_.
