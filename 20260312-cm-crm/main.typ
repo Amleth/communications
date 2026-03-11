@@ -372,7 +372,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 ==
 
-#align(center + horizon)[🖖]
+#align(center + horizon)[🌴]
 
 == Grist
 
