@@ -392,7 +392,21 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 = Explorer
 
-#align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[Exemple de l'application Web SHERLOCK\]]]
+#align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[l'exemple de l'application web sherlock\]]]
+
+== Contexte
+- Programme de recherche SHERLOCK à l’IReMus :
+  - « Comment et pourquoi modéliser les données musicologiques avec le CIDOC CRM ?»
+  - « Comment faire interagir les données sémantiques et les sources ? »
+  - « Comment publier et manipuler les données sémantiques ? »
+- Pas ou peu d’apport financier.
+- Développeur (presque) unique.
+- Recourir à un modèle unique dans les différents projets permet de ne concevoir,
+développer et maintenir qu’une unique application pour présenter et exploiter les
+données.
+- Technologies :
+  - Front : TypeScript, React, Hero UI, Tailwind CSS
+  - Back : Apache Jena Fuseki, Docker, Traefik
 
 = Pérenniser
 
