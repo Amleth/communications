@@ -390,6 +390,10 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
   Deno + #link("https://rdf.js.org/", "rdf.js"),
   Rust + #link("https://github.com/rust-rdf/rdf.rs", "rdf.rs").
 
+#align(center)[#block(stroke: green, inset: 0.5cm, width: 100%)[#text(green, font: "Fira Code", size: 15pt)[
+  démo de mapping dans Grist + script Python
+]]]
+
 = Explorer
 
 #align(horizon + center)[#text(gray, font: "Fira Code", size: 20pt)[\[l'exemple de l'application web sherlock\]]]
@@ -436,5 +440,8 @@ Rendu TEI, MEI, image \
 #sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/articles/1677-05_211] \
 #sherlockuri[https://data-iremus.huma-num.fr/sherlock/?resource=https://www.nakala.fr/10.34847/nkl.48576349] \
 #sherlockuri[https://data-iremus.huma-num.fr/sherlock/id/f28b62fc-d686-4c78-a205-015e5d7dc4b6]
+
+Recherhce plein texte multi-champs dans les ressources d'une collection \
+#sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/aam]
 
 = Pérenniser
