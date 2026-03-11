@@ -101,11 +101,11 @@
 
 ]
 
-== modéliser sous contraintes de ressources
+== Modéliser sous contraintes de ressources
 
 - La modélisation des données nécessite une réflexion conjointe entre chercheurs et ingénieurs.
   - Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
-  - Le travail d'explicitation, de modélisation, des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
+  - Le travail d'explicitation/modélisation des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
 - Or, souvent, la modélisation est perçue comme une étape purement technique par le client et est renvoyée à la compétence du prestataire.
 - Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare.
 
@@ -123,18 +123,18 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 
 #page[#outline(depth: 1, title: none)]
 
-= encoder
+= Encoder
 
 == Quelques problèmes potentiels avec les SGBDR
 
 - Un modèle relationnel est souvent conçu ici & maintenant : il formalise et matérialise une tâche d'analyse d'une pratique de recherche spécifique. Le risque est de « réinventer » la roue, sur le plan conceptuel, à chaque réitération de cette démarche d'analyse. Pourtant, il existe des similarités entre les pratiques de recherche en SHS liées aux données numériques.
 - La sémantique d'un modèle relationnel ne peut être techniquement partagée, ce qui peut poser des problèmes de lecture et de compréhension plus tard.
-- L'accès aux données par un système tiers peut être malaisé. Souvent, on doit développer une API, qui est déterminée par le cahier des charges du projet, alors qu'on sait qu'on ne peut anticiper tous les usages futurs des données (c'est l'idée même des LOD). C'est aussi un point de tension dans le dialogue avec le prestataire : tout changement apporté au modèle vu comme minime par le client peut avoir d'importantes conséquences sur le développement.
+- L'accès aux données par un système tiers peut être malaisé. Souvent, on doit développer une API, qui est déterminée par le cahier des charges du projet, alors qu'on sait qu'on ne peut anticiper tous les usages futurs des données (c'est l'idée même des LOD). C'est aussi un point de vigilance particulier dans le dialogue avec le prestataire : tout changement apporté au modèle vu comme minime par le client peut avoir d'importantes conséquences sur le développement.
 - Tout ceci amène à parler d'architectures « en silo ».
 
 == Pervasivité des SGBDR
 
-- Le panorama technologiques des outils permettant de construire rapidement des applications Web de saisie collaborative de données est dominé par les systèmes reposant sur les SGBDR :
+- Le panorama technologique des outils permettant de construire rapidement des applications Web de saisie collaborative de données est dominé par les SGBDR :
   - CMS & assimilés (Wagtail, Drupal, Omeka, Heurist)
   - systèmes « no-code »
   - frameworks full-stack qui existent dans tous les langages de programmation
@@ -161,7 +161,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 
 - Connectés, ces triplets RDF forment un _graphe_. Idée de modèle ouvert.
 - Chaque prédicat est également identifié par une _URL_. Cela permet de toujours savoir de quoi on parle quand on dit, par exemple : « Titre ».
-- Tout graph RDF est interrogeable en SPARQL (+  standardisé que SQL).
+- Tout graphe RDF est interrogeable en SPARQL (+  standardisé que SQL).
 - C'est le milieu technique idéal pour nos préoccupations : LOD, FAIR, etc.
 
 == Données relationnelles vs graphe RDF
@@ -199,7 +199,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 == Laquelle ? Le CIDOC CRM !
 
 - Ontologie qui documente le patrimoine matériel et immatériel ainsi que les _processus de production de connaissances_ à son propos (sources, connaissances, faits sociaux, concepts, objets matériels, idées dénotées ou connotées, contexte de production des connaissances, etc.).
-- _Communauté large et établie_. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN
+- _Communauté large et établie_. Venant du monde des musées, elle est désormais utilisée dans tous les domaines des HN.
 - Ontologie centrée événement.
 - _Informations bibliographiques_ avec LRMoo (œuvres, expressions, manifestation, item).
 
@@ -222,7 +222,7 @@ De plus, l'époque est au #link("https://www.go-fair.org/fair-principles/", "FAI
 - Annoter (plus généralement : signer tout apport de connaissance sur une entité)
 - Établir la participation d'un acteur à un phénomène temporel ou social
 - Décrire l'évolution dans le temps et l'espace d'une entité
-- Décrire l'influence d'une chose ou d'une expérience sur une activité.
+- Décrire l'influence d'une chose ou d'une expérience sur une activité
 
 _=> Tous ces « patterns » de modélisation permettent de capter les spécificités de nos pratiques scientifiques._
 
@@ -239,7 +239,7 @@ _=> Tous ces « patterns » de modélisation permettent de capter les spécifi
 
 ⚠️ Le CRM n'est pas un système de classification. Le fait de dire qu'une entité de votre corpus relève d'une certain classe du CRM lui confère un statut structurel/fonctionnel, et ne dit rien de sa teneur scientifique.
 
-Par exemple, si on veut dire qu'une source textuelle (instance de la classe `crm:E33_Linguistic_Object `) est un traité de théorie musicale, il faut créer un concept « Traité de théorie musicale » et l'utiliser pour typer la ressource.
+Par exemple, si on veut dire qu'une source textuelle (instance de la classe `crm:E33_Linguistic_Object`) est un traité de théorie musicale, il faut créer un concept « Traité de théorie musicale » et l'utiliser pour typer la ressource.
 
 Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qui est équivalente à `skos:Concept`. Le CRM s'utilise naturellement en conjonction avec vos thésaurus pour sémantiser vos entités. À nouveau, c'est une ontologie générique.
 
@@ -248,7 +248,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 == Ça se complique, sur le plan technique
 
 - Un _graphe ouvert_ est plus _difficile à éditer_ que des données relationnelles, qui s'éditent naturellement en série dans un tableau ou avec des formulaires contraints.
-- Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule. Des vocabulaires de schémas comme `DCMI Metadata Terms` ou `schema.org` sont plus simples (mais leur expressivité est loin d'égaler celle du CRM).
+- Les patterns fondamentaux du CRM (pour nommer, typer, dater, annoter, contextualiser…) _induisent beaucoup de sous-entités_. Nous sommes loins du modèle ligne/colonne/cellule. Des vocabulaires de schémas comme `DCMI Metadata Terms` ou `schema.org` sont plus simples, mais leur expressivité est loin d'égaler celle du CRM.
 - Rien ne peut battre un #link("https://musicodb.sorbonne-universite.fr/4NmEJA4z9EUB/SHERLOCK/p/6")[tableur] pour l'édition d'items similaires rassemblés dans une collection. Au sein de nos communautés, Excel n'est pas qu'un choix par défaut.
 
 == Exemple : conférer un identifiant à une ressource
@@ -299,7 +299,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 - Mais le CRM est complexe à comprendre et à mettre en œuvre…
   - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
   - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés _fait écran avec la compréhension spontanée_ que l'on pourrait avoir de nos données. Certains chemins, quoique très précis sur le plan de la modélisation, sont alambiqués. (opinion : c'est le prix de la proposition _`[A]`_)
-- Conséquemment, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
+- De ce fait, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
 - => _Une interface d'édition générique de données CRM n'a pas vraiment de sens_. L'ontologie est peut-être trop large, trop peu focalisée… Des solutions ayant une approche plus « locale » seraient-elles à privilégier ?
 
 == Notre objectif
@@ -311,7 +311,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
   ]
 ]
 
-💡 Nous aimerions une système d'information générant des données CRM :
+💡 Nous aimerions un système d'information générant des données CRM :
 
 #f(1) qui s'adapte aux _conditions de saisie spécifiques à chaque pratique scientifique_
 
@@ -335,7 +335,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 
 - Lors, par exemple, d'une reprise de l'existant en vue d'une conversion en données CRM, on définit des règles de mapping spécifiques.
 - Nous aimerions réduire au minimum les ajustements ad-hoc pour chaque nouveau projet.
-- Nous aimerions ainsi définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM. Ce serait une manière _normalisée & reproductible_ de faire correspondre une structure relationnelle/tabulaire à un graph RDF/CIDOC CRM. #f[6]
+- Nous aimerions ainsi définir un _standard de mapping_ entre données relationnelles et données RDF/CIDOC CRM. Ce serait une manière _normalisée & reproductible_ de faire correspondre une structure relationnelle/tabulaire à un graphe RDF/CIDOC CRM. #f[6]
 - Ceci pourrait être simplement réalisé en _normalisant l'implémentation des structures relationnelles_ (nom des tables, convention de nommage des colonnes, clefs primaires, clefs étrangères, contraintes d'intégrité référentielles) et en s'appuyant sur des _conventions de représentation des patterns de modélisation du CRM_.
 - Il faut identifier ces patterns, et pour chacun d'entre eux, imaginer une implémentation relationnelle réalisant le compromis optimum entre ergonomie de saisie et expressivité permise par le CRM (cf. exemple des rôles & événements de création pour une œuvre). #f[3]
 
@@ -384,7 +384,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
   - dimension collaborative
   - extensible via des plugins JavaScipt (en cours de développement chez nous : un plug-in pour indexer des données Grist avec Opentheso)
   - possibilité de conférer deux noms aux colonnes : un pour les yeux de l'utilisateur, un autre pour l'API, qui sert naturellement de lieu où réaliser le mapping
-  - API REST complète (mais documentation meh)
+  - API REST complète (mais documentation sommaire)
 - Des couples efficaces pour transformer les données :
   Python + #link("https://github.com/RDFLib/rdflib", "RDFLib"),
   Deno + #link("https://rdf.js.org/", "rdf.js"),
