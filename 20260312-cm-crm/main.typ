@@ -89,20 +89,37 @@
       #text(font: "Fira Code", size: 17pt)[Comment faire tenir les données de la recherche dans le temps ?]
     ]]
   ]
-  #v(1cm)
-  L'époque est au #link("https://www.go-fair.org/fair-principles/", "FAIR") et au #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐"). L'ouverture des données de la recherche, leur interopérabilité et leur mise en relation avec des sources de données tierces nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
 ]
 
 #page[#outline(depth: 1, title: none)]
 
-= Encoder
+= Modéliser
+
+
+== Modéliser… sous contraintes de ressources
+
+- La modélisation des données nécessite une _réflexion conjointe entre recherche et ingénierie_.
+- Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
+- Le travail d'explicitation/modélisation des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
+- Or, la modélisation est parfois perçue comme une étape purement technique, et est renvoyée à la compétence du prestataire.
+- Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare…
+- #link("https://www.go-fair.org/fair-principles/", "FAIR") + #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐") : L'_ouverture des données de la recherche_, leur _interopérabilité_ et leur _mise en relation avec des sources de données tierces_ nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
+
+== Ce qu'on cherche à palier avec les consortiums
+
+- Pour bâtir la dynamique nécessaire aux enjeux méthodologiques contemporains autour des données de la recherche, un réseau d'acteurs et d'actrices est nécessaire, mais :
+  - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
+  - Les chercheurs et chercheuses pilotant les projets _manquent d'informations_ claires sur les conséquences scientifiques et méthodologiques des technologies disponibles pour modéliser les informations scientifiques.
+  - Les profils techniques sont recrutés sur des _contrats courts_.
+  - Les prestataires n'ont pas d'intérêt à s'inscrire dans les _réseaux HN_. Les ontologies patrimoniales, le FAIR et le LOD sont des notions relativement spécifiques à notre contexte professionnel.
+- Conséquemment, _les connaissances d'ingénierie spécifiques à la modélisation des données de nos disciplines sont peu capitalisées_ ; chaque nouveau développement peine à bénéficier de l'expérience méthodologique et conceptuelle acquise informellement au fil des projets passés.
 
 == Quelques problèmes potentiels avec les SGBDR
 
-- Un modèle relationnel est souvent conçu ici & maintenant : il formalise et matérialise une tâche d'analyse d'une pratique de recherche spécifique. Le risque est de « réinventer » la roue, sur le plan conceptuel, à chaque réitération de cette démarche d'analyse. Pourtant, il existe des similarités entre les pratiques de recherche en SHS liées aux données numériques.
-- La sémantique d'un modèle relationnel ne peut être techniquement partagée, ce qui peut poser des problèmes de lecture et de compréhension plus tard.
-- L'accès aux données par un système tiers peut être malaisé. Souvent, on doit développer une API, qui est déterminée par le cahier des charges du projet, alors qu'on sait qu'on ne peut anticiper tous les usages futurs des données (c'est l'idée même des LOD). C'est aussi un point de vigilance particulier dans le dialogue avec le prestataire : tout changement apporté au modèle vu comme minime par le client peut avoir d'importantes conséquences sur le développement.
-- Tout ceci amène à parler d'architectures « en silo ».
+- Un modèle relationnel est souvent conçu _ici & maintenant_ : il formalise et matérialise une tâche d'analyse d'une pratique de recherche spécifique. Le risque est de « réinventer » la roue, sur le plan conceptuel, à chaque réitération de cette démarche d'analyse. Pourtant, il existe des similarités entre les pratiques de recherche en SHS liées aux données numériques.
+- La sémantique d'un modèle relationnel ne peut être techniquement partagée, ce qui peut poser des _problèmes de lecture et de compréhension plus tard_.
+- L'accès aux données par un système tiers peut être malaisé. Souvent, on doit _développer une API_, qui est déterminée par le cahier des charges du projet, alors qu'on sait qu'on ne peut anticiper tous les usages futurs des données (c'est l'idée même des LOD). C'est aussi un point de vigilance particulier dans le dialogue avec le prestataire : tout changement apporté au modèle vu comme minime par le client peut avoir d'importantes conséquences sur le développement.
+- Tout ceci amène à parler d'architectures _« en silo »_.
 
 == Pervasivité des SGBDR
 
@@ -146,25 +163,6 @@
     ],
   )
 ]
-
-= Modéliser
-
-== Modéliser… sous contraintes de ressources
-
-- La modélisation des données nécessite une _réflexion conjointe entre recherche et ingénierie_.
-- Ce dialogue a une fonction _maïeutique_, il doit confronter le chercheur ou la chercheuse à des cas limites pour l'amener à mieux comprendre ses objets d'étude.
-- Le travail d'explicitation/modélisation des données a une fonction _heuristique_ : aider à révéler la structure interne des sources et des phénomènes étudiés.
-- Or, la modélisation est parfois perçue comme une étape purement technique, et est renvoyée à la compétence du prestataire.
-- Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare…
-
-== Ce qu'on cherche à palier avec les consortiums
-
-- Pour bâtir la dynamique nécessaire aux enjeux méthodologiques contemporains autour des données de la recherche, un réseau d'acteurs et d'actrices est nécessaire, mais :
-  - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
-  - Les chercheurs et chercheuses pilotant les projets _manquent d'informations_ claires sur les conséquences scientifiques et méthodologiques des technologies disponibles pour modéliser les informations scientifiques.
-  - Les profils techniques sont recrutés sur des _contrats courts_.
-  - Les prestataires n'ont pas d'intérêt à s'inscrire dans les _réseaux HN_. Les ontologies patrimoniales, le FAIR et le LOD sont des notions relativement spécifiques à notre contexte professionnel.
-- Conséquemment, _les connaissances d'ingénierie spécifiques à la modélisation des données de nos disciplines sont peu capitalisées_ ; chaque nouveau développement peine à bénéficier de l'expérience méthodologique et conceptuelle acquise informellement au fil des projets passés.
 
 == Une ontologie : quoi, pourquoi ?
 
