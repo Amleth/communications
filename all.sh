@@ -1,6 +1,7 @@
 for dir in */
 do
     cd $dir
+    pwd
     typst compile main.typ
     cd ..
 done
