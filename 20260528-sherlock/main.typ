@@ -106,7 +106,7 @@
 - Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare…
 - #link("https://www.go-fair.org/fair-principles/", "FAIR") + #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐") : L'_ouverture des données de la recherche_, leur _interopérabilité_ et leur _mise en relation avec des sources de données tierces_ nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
 
-== Ce qu'on cherche à palier avec les consortiums
+== Ce qu'on cherche à palier avec les consortiums/réseaux
 
 - Pour bâtir la dynamique nécessaire aux enjeux méthodologiques contemporains autour des données de la recherche, un réseau d'acteurs et d'actrices est nécessaire, mais :
   - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
@@ -311,13 +311,6 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 - => _Une interface d'édition générique de données CRM n'a pas vraiment de sens_. L'ontologie est peut-être trop large, trop peu focalisée… Des solutions ayant une approche plus « locale » seraient-elles à privilégier ?
 
 == Notre objectif
-
-#v(-1cm)
-#align(center)[
-  #text(gray, font: "Fira Code", size: 15pt)[
-    \[nous = le consortium Musica\*\]
-  ]
-]
 
 💡 Nous aimerions un système d'information générant des données CRM :
 
