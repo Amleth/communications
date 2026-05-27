@@ -1,0 +1,118 @@
+@startuml "refar-institutions"
+
+skinparam defaultFontName "Jetbrains Mono"
+skinparam defaultFontSize 14
+hide methods
+hide circle
+skinparam nodesep 100
+skinparam ranksep 100
+' skinparam linetype polyline
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E32
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "🗃️ Types d'institutions" as E32_tdi #Fuchsia {
+    rdf:type: crm:E32_Authority_Document
+}
+object "🗃️ Types de charges" as E32_tdf #Fuchsia {
+    rdf:type: crm:E32_Authority_Document
+}
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E55
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "Archevêché 🏷️" as E55_archeveche #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Évêché 🏷️" as E55_eveche #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Abbaye 🏷️" as E55_abbaye #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Détention de fonction 🏷️" as E55_detentiondefonction #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Cuisinier 🏷️" as E55_cuisinier #Violet {
+    rdf:type: crm:E55_Type
+}
+object "Appartenance à un groupe 🏷️" as E55_membership #Violet {
+    rdf:type: crm:E55_Type
+}
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E53
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "🏙️ Autun" as E53_autun #Aqua {
+    rdf:type: crm:E53_Place
+}
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E39
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "⛪ Abbaye d'Autun" as E74_abbayedautun #Aqua {
+    rdf:type: crm:E74_Group
+}
+object "🧔‍♀️ Pierre" as E21_pierre #Aqua {
+    rdf:type: crm:E21_Person
+}
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' E5
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+object "⏳ Pierre est cuisinier de l'abbaye d'Autun" as E7_cuisinier #AquaMarine {
+    rdf:type: crm:E7_Activity
+}
+object "⏳ Pierre rejoint l'abbaye d'Autun" as E85 #AquaMarine {
+    rdf:type: crm:E85_Joining
+}
+object "⏳ Pierre est membre de l'abbaye d'Autun" as E7_membership #AquaMarine {
+    rdf:type: crm:E7_Activity
+}
+object "⏳ Formation de l'abbaye d'Autun" as E66 #AquaMarine {
+    rdf:type: crm:E66_Formation
+}
+object "⏳ Précédente charge de cuisinier" as E7_cuisinierprev #AquaMarine {
+    rdf:type: crm:E7_Activity
+}
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' LINKS
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+E7_membership --> E55_membership: "crm:P2_has_type"
+E74_abbayedautun --> E55_abbaye : "crm:P2_has_type"
+E7_cuisinier --> E55_detentiondefonction : "crm:P2_has_type"
+E7_cuisinierprev --> E55_detentiondefonction : "crm:P2_has_type"
+E85 --> "crm:E52_Time-Span [A]": "crm:P4_has_time-span"
+E66 --> "crm:E52_Time-Span [B]": "crm:P4_has_time-span"
+E7_membership --> "crm:E52_Time-Span [C]": "crm:P4_has_time-span"
+E7_cuisinier --> "crm:E52_Time-Span [D]": "crm:P4_has_time-span"
+E7_cuisinierprev --> "crm:E52_Time-Span [E]": "crm:P4_has_time-span"
+E66 --> E53_autun: "crm:P7_took_place_at"
+E7_membership --> E7_cuisinier : "crm:P9_consists_of"
+E7_cuisinier --> E74_abbayedautun : "crm:P12_occurred_in_the_presence_of"
+E7_cuisinier --> E21_pierre : "crm:P14_carried_out_by"
+E7_cuisinier --> E55_cuisinier : "crm:P21_had general_purpose"
+E7_cuisinierprev --> E55_cuisinier : "crm:P21_had general_purpose"
+E32_tdi --> E55_abbaye : "crm:P71_lists"
+E32_tdi --> E55_eveche : "crm:P71_lists"
+E32_tdf --> E55_cuisinier : "crm:P71_lists"
+E32_tdi --> E55_archeveche : "crm:P71_lists"
+E74_abbayedautun --> E53_autun: "crm:P74_has_current_or_former_residence"
+E66 --- E74_abbayedautun: "crm:P95_has_formed"
+E7_cuisinier --> E7_cuisinierprev : "crm:P134_continued"
+E85 --> E21_pierre : "crm:P143_joined"
+E85 --> E74_abbayedautun : "crm:P144_joined_with"
+E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
+E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+E55_cuisinier --> E55_abbaye : "crm:P150_defines_typical_parts_of"
+E85 --> E7_membership : "crmsci:O13_triggers"
+
+@enduml

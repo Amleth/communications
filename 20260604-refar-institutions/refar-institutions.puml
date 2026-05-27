@@ -8,135 +8,131 @@ skinparam nodesep 100
 skinparam ranksep 100
 ' skinparam linetype polyline
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' E32
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-object "🗃️ Types d'institutions" as E32_tdi #Fuchsia {
-    rdf:type: crm:E32_Authority_Document
-}
-object "🗃️ Types de charges" as E32_tdf #Fuchsia {
-    rdf:type: crm:E32_Authority_Document
-}
+frame " Thésaurus " {
+    frame " Institutions " {
+        object "🗃️ Types d'institutions" as E32_tdi #Fuchsia {
+            rdf:type: crm:E32_Authority_Document
+        }
+        object "Archevêché 🏷️" as E55_archeveche #Violet {
+            rdf:type: crm:E55_Type
+        }
+        object "Évêché 🏷️" as E55_eveche #Violet {
+            rdf:type: crm:E55_Type
+        }
+        object "Abbaye 🏷️" as E55_abbaye #Violet {
+            rdf:type: crm:E55_Type
+        }
+        E32_tdi --> E55_abbaye : "crm:P71_lists"
+        E32_tdi --> E55_eveche : "crm:P71_lists"
+        E32_tdi --> E55_archeveche : "crm:P71_lists"
+        E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+        E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+        E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
+    }
+    frame " Concepts " {
+        object "🗃️ Types de concepts\nutiles à l'analyse" as E32_tdc #Fuchsia {
+            rdf:type: crm:E32_Authority_Document
+        }
+        object "Détention de fonction 🏷️" as E55_detentiondefonction #Violet {
+            rdf:type: crm:E55_Type
+        }
+        object "Appartenance à un groupe 🏷️" as E55_membership #Violet {
+            rdf:type: crm:E55_Type
+        }
+        E32_tdc --> E55_detentiondefonction : "crm:P71_lists"
+        E32_tdc --> E55_membership : "crm:P71_lists"
+    }
+    frame " Fonctions " {
+        object "🗃️ Types de charges" as E32_tdf #Fuchsia {
+            rdf:type: crm:E32_Authority_Document
+        }
+        object "Abbesse 🏷️" as E55_abbesse #Violet {
+            rdf:type: crm:E55_Type
+        }
+        E32_tdf --> E55_abbesse : "crm:P71_lists"
+    }
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' E55
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-object "Archevêché 🏷️" as E55_archeveche #Violet {
-    rdf:type: crm:E55_Type
-}
-object "Évêché 🏷️" as E55_eveche #Violet {
-    rdf:type: crm:E55_Type
-}
-object "Abbaye 🏷️" as E55_abbaye #Violet {
-    rdf:type: crm:E55_Type
-}
-object "Détention de fonction 🏷️" as E55_detentiondefonction #Violet {
-    rdf:type: crm:E55_Type
-}
-object "Abbesse 🏷️" as E55_abbesse #Violet {
-    rdf:type: crm:E55_Type
-}
-object "Appartenance à un groupe 🏷️" as E55_membership #Violet {
-    rdf:type: crm:E55_Type
-}
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' E53
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-
-object "🏙️ Faremoutiers" as E53 #Aqua {
-    rdf:type: crm:E53_Place
-}
-
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' E39
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-
-object "⛪ Abbaye de Faremoutiers" as E74_abbayedefaremoutiers #Aqua {
-    rdf:type: crm:E74_Group
-}
-object "👩‍🦰\nMarie-Constance\ndu Blé d'Uxelles" as E21_1 #Aqua {
-    rdf:type: crm:E21_Person
-}
-object "👩‍🦰\nMarie-Anne-Généreuse-Constance-Thérèse\nde Beringhen" as E21_2 #Aqua {
-    rdf:type: crm:E21_Person
+    E55_abbesse --> E55_abbaye : "crm:P150_defines_typical_parts_of"
 }
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' E5
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+frame " Faremoutiers " {
+    object "⛪ Abbaye de Faremoutiers" as E74_abbayedefaremoutiers #Aqua {
+        rdf:type: crm:E74_Group
+    }
+    object "🏙️ Faremoutiers" as E53 #Aqua {
+        rdf:type: crm:E53_Place
+    }
+    object "⏳ Formation\nde l'abbaye Faremoutiers" as E66 #AquaMarine {
+        rdf:type: crm:E66_Formation
+    }
+    E66 --> E53 : "crm:P7_took_place_at"
+    E66 --> E74_abbayedefaremoutiers: "crm:P95_has_formed"
+    E74_abbayedefaremoutiers --> E53: "crm:P74_has_current_or_former_residence"
+}
 
-object "⏳ MCBU est abbesse\nde l'abbaye de Faremoutiers" as E7_fonction_1 #AquaMarine {
-    rdf:type: crm:E7_Activity
+frame " Marie-Constance du Blé d'Uxelles " {
+    object "⏳ MCBU est membre\nde l'abbaye Faremoutiers" as E7_membership_1 #AquaMarine {
+        rdf:type: crm:E7_Activity
+    }
+    object "⏳ MCBU est abbesse\nde l'abbaye de Faremoutiers\nde 1678 à 1685" as E7_fonction_1 #AquaMarine {
+        rdf:type: crm:E7_Activity
+    }
+    object "👩‍🦰\nMarie-Constance\ndu Blé d'Uxelles" as E21_1 #Aqua {
+        rdf:type: crm:E21_Person
+    }
+    object "⏳ MCBU rejoint\nl'abbaye Faremoutiers" as E85_1 #AquaMarine {
+        rdf:type: crm:E85_Joining
+    }
+    E7_membership_1 --> E7_fonction_1 : "crm:P9_consists_of"
+    E7_fonction_1 --> E21_1 : "crm:P14_carried_out_by"
+    E85_1 --> E21_1 : "crm:P143_joined"
+    E85_1 --> E7_membership_1 : "crmsci:O13_triggers"
 }
-object "⏳ MAGCTB est abbesse\nde l'abbaye Faremoutiers" as E7_fonction_2 #AquaMarine {
-    rdf:type: crm:E7_Activity
-}
-object "⏳ MCBU rejoint\nl'abbaye Faremoutiers" as E85_1 #AquaMarine {
-    rdf:type: crm:E85_Joining
-}
-object "⏳ MAGCTB rejoint\nl'abbaye Faremoutiers" as E85_2 #AquaMarine {
-    rdf:type: crm:E85_Joining
-}
-object "⏳ MCBU est membre\nde l'abbaye Faremoutiers" as E7_membership_1 #AquaMarine {
-    rdf:type: crm:E7_Activity
-}
-object "⏳ MAGCTB est membre\nde l'abbaye Faremoutiers" as E7_membership_2 #AquaMarine {
-    rdf:type: crm:E7_Activity
-}
-object "⏳ Formation\nde l'abbaye Faremoutiers" as E66 #AquaMarine {
-    rdf:type: crm:E66_Formation
+
+frame " Marie-Anne-Généreuse-Constance-Thérèse de Beringhen " {
+    object "👩‍🦰\nMarie-Anne-Généreuse-Constance-Thérèse\nde Beringhen" as E21_2 #Aqua {
+        rdf:type: crm:E21_Person
+    }
+    object "⏳ MAGCTB est abbesse\nde l'abbaye Faremoutiers\nde 1685 à 1721" as E7_fonction_2 #AquaMarine {
+        rdf:type: crm:E7_Activity
+    }
+    object "⏳ MAGCTB rejoint\nl'abbaye Faremoutiers" as E85_2 #AquaMarine {
+        rdf:type: crm:E85_Joining
+    }
+    object "⏳ MAGCTB est membre\nde l'abbaye Faremoutiers" as E7_membership_2 #AquaMarine {
+        rdf:type: crm:E7_Activity
+    }
+    E7_membership_2 --> E7_fonction_2 : "crm:P9_consists_of"
+    E7_fonction_2 --> E21_2 : "crm:P14_carried_out_by"
+    E85_2 --> E21_2 : "crm:P143_joined"
+    E85_2 --> E7_membership_2 : "crmsci:O13_triggers"
 }
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' LINKS
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-E7_membership_1 --> E55_membership: "crm:P2_has_type"
-E7_membership_2 --> E55_membership: "crm:P2_has_type"
-E7_fonction_1 --> E55_detentiondefonction : "crm:P2_has_type"
-E7_fonction_2 --> E55_detentiondefonction : "crm:P2_has_type"
-E74_abbayedefaremoutiers --> E55_abbaye : "crm:P2_has_type"
-E85_1 --> E21_1 : "crm:P143_joined"
-E85_2 --> E21_2 : "crm:P143_joined"
-E85_1 --> E74_abbayedefaremoutiers : "crm:P144_joined_with"
-E85_2 --> E74_abbayedefaremoutiers : "crm:P144_joined_with"
+' E66 --> "crm:E52_Time-Span [A]": "crm:P4_has_time-span"
+' E85_1 --> "crm:E52_Time-Span [B]": "crm:P4_has_time-span"
+' E85_2 --> "crm:E52_Time-Span [C]": "crm:P4_has_time-span"
+' E7_fonction_1 --> "crm:E52_Time-Span\n1678-1685": "crm:P4_has_time-span"
+' E7_fonction_2 --> "crm:E52_Time-Span\n1685-1721": "crm:P4_has_time-span"
+' E7_membership_1 --> "crm:E52_Time-Span [D]": "crm:P4_has_time-span"
+' E7_membership_2 --> "crm:E52_Time-Span [E]": "crm:P4_has_time-span"
 
-E66 --> "crm:E52_Time-Span [A]": "crm:P4_has_time-span"
-E85_1 --> "crm:E52_Time-Span [B]": "crm:P4_has_time-span"
-E85_2 --> "crm:E52_Time-Span [C]": "crm:P4_has_time-span"
-E7_fonction_1 --> "crm:E52_Time-Span\n1678-1685": "crm:P4_has_time-span"
-E7_fonction_2 --> "crm:E52_Time-Span\n1685-1721": "crm:P4_has_time-span"
-E7_membership_1 --> "crm:E52_Time-Span [D]": "crm:P4_has_time-span"
-E7_membership_2 --> "crm:E52_Time-Span [E]": "crm:P4_has_time-span"
-
-E66 --> E53 : "crm:P7_took_place_at"
-E66 --- E74_abbayedefaremoutiers: "crm:P95_has_formed"
-E74_abbayedefaremoutiers --> E53: "crm:P74_has_current_or_former_residence"
-E7_membership_1 --> E7_fonction_1 : "crm:P9_consists_of"
-E7_membership_2 --> E7_fonction_2 : "crm:P9_consists_of"
-
-E85_1 --> E7_membership_1 : "crmsci:O13_triggers"
-E85_2 --> E7_membership_2 : "crmsci:O13_triggers"
-E7_fonction_2 --> E7_fonction_1 : "crm:P134_continued"
-E7_fonction_1 --> E74_abbayedefaremoutiers : "crm:P12_occurred_in_the_presence_of"
-E7_fonction_1 --> E21_1 : "crm:P14_carried_out_by"
-E7_fonction_1 --> E55_abbesse : "crm:P21_had general_purpose"
-E7_fonction_2 --> E74_abbayedefaremoutiers : "crm:P12_occurred_in_the_presence_of"
-E7_fonction_2 --> E21_2 : "crm:P14_carried_out_by"
-E7_fonction_2 --> E55_abbesse : "crm:P21_had general_purpose"
-
-rectangle "E32" {
-    E32_tdi --> E55_abbaye : "crm:P71_lists"
-    E32_tdi --> E55_eveche : "crm:P71_lists"
-    E32_tdf --> E55_abbesse : "crm:P71_lists"
-    E32_tdi --> E55_archeveche : "crm:P71_lists"
-    E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
-    E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
-    E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
-    E55_abbesse --> E55_abbaye : "crm:P150_defines_typical_parts_of"
-}
+E7_fonction_1            ----> E55_detentiondefonction : "crm:P2_has_type"
+E7_fonction_2            ----> E55_detentiondefonction : "crm:P2_has_type"
+E7_membership_2          ----> E55_membership: "crm:P2_has_type"
+E7_membership_1          ----> E55_membership: "crm:P2_has_type"
+E74_abbayedefaremoutiers ----> E55_abbaye : "crm:P2_has_type"
+E7_fonction_1            ----> E55_abbesse : "crm:P21_had general_purpose"
+E7_fonction_2            ----> E55_abbesse : "crm:P21_had general_purpose"
+E7_fonction_1            ----> E74_abbayedefaremoutiers : "crm:P12_occurred_in_the_presence_of"
+E7_fonction_2            ----> E74_abbayedefaremoutiers : "crm:P12_occurred_in_the_presence_of"
+E7_fonction_2            ----> E7_fonction_1 : "crm:P134_continued"
+E85_1                    ----> E74_abbayedefaremoutiers : "crm:P144_joined_with"
+E85_2                    ----> E74_abbayedefaremoutiers : "crm:P144_joined_with"
 
 @enduml
