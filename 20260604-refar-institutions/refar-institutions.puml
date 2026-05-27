@@ -128,13 +128,13 @@ E7_fonction_2 --> E74_abbayedefaremoutiers : "crm:P12_occurred_in_the_presence_o
 E7_fonction_2 --> E21_2 : "crm:P14_carried_out_by"
 E7_fonction_2 --> E55_abbesse : "crm:P21_had general_purpose"
 
-E32_tdi --> E55_abbaye : "crm:P71_lists"
-E32_tdi --> E55_eveche : "crm:P71_lists"
-E32_tdf --> E55_abbesse : "crm:P71_lists"
-E32_tdi --> E55_archeveche : "crm:P71_lists"
-E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
-E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
-E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
-E55_abbesse --> E55_abbaye : "crm:P150_defines_typical_parts_of"
+' E32_tdi --> E55_abbaye : "crm:P71_lists"
+' E32_tdi --> E55_eveche : "crm:P71_lists"
+' E32_tdf --> E55_abbesse : "crm:P71_lists"
+' E32_tdi --> E55_archeveche : "crm:P71_lists"
+' E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
+' E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+' E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+' E55_abbesse --> E55_abbaye : "crm:P150_defines_typical_parts_of"
 
 @enduml
