@@ -382,7 +382,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
   - ergonomie excellente (tableur + fiches/formulaires personnalisables)
   - format SQLite
   - dimension collaborative
-  - extensible via des plugins JavaScipt (en cours de développement chez nous : un plug-in pour indexer des données Grist avec Opentheso)
+  - extensible via des plugins JavaScript (en cours de développement chez nous : un plug-in pour indexer des données Grist avec Opentheso)
   - possibilité de conférer deux noms aux colonnes : un pour les yeux de l'utilisateur, un autre pour l'API, qui sert naturellement de lieu où réaliser le mapping
   - API REST complète (mais documentation sommaire)
 - C'est un bon 🧺 auquel confier tous ses 🥚.
