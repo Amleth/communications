@@ -96,7 +96,6 @@
 
 = Modéliser
 
-
 == Modéliser… sous contraintes de ressources
 
 - La modélisation des données nécessite une _réflexion conjointe entre recherche et ingénierie_.
@@ -106,7 +105,7 @@
 - Les ressources d'ingénierie sont trop maigres, ce niveau de dialogue est rare…
 - #link("https://www.go-fair.org/fair-principles/", "FAIR") + #link("https://5stardata.info/fr/", "LOD⭐⭐⭐⭐⭐") : L'_ouverture des données de la recherche_, leur _interopérabilité_ et leur _mise en relation avec des sources de données tierces_ nécessitent une réflexion technique, méthodologique et scientifique très en amont dans le projet. _Après, c'est souvent trop tard._
 
-== Ce qu'on cherche à palier avec les consortiums/réseaux
+== Ce qu'on cherche à palier avec les consortiums & réseaux
 
 - Pour bâtir la dynamique nécessaire aux enjeux méthodologiques contemporains autour des données de la recherche, un réseau d'acteurs et d'actrices est nécessaire, mais :
   - Il faut une complémentarité recherche⚗️/ingénierie⚙️/SIB📚 car _ces connaissances sont très abstraites_ et difficiles à saisir.
@@ -306,7 +305,7 @@ Les concepts issus du métier sont des instances de la classe `crm:E55_Type`, qu
 - Son double caractère abstrait & générique le rend apte à modéliser _un large éventail de données convenant à un large éventail de pratiques_. Certes, le CRM n'est pas optimal pour chaque scénario, mais on peut se demander ce qu'il n'est pas capable de modéliser.
 - Mais le CRM est complexe à comprendre et à mettre en œuvre…
   - Il existe parfois _plusieurs manières de modéliser_ une situation avec les classes de base.
-  - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés _fait écran avec la compréhension spontanée_ que l'on pourrait avoir de nos données. Certains chemins, quoique très précis sur le plan de la modélisation, sont alambiqués. (opinion : c'est le prix de la proposition _`[A]`_)
+  - En tant qu'ontologie _abstraite et générique_, sa structure représentée par ses classes et propriétés _fait écran avec la compréhension spontanée_ que l'on pourrait avoir de nos données. Certains chemins, quoique très précis sur le plan de la modélisation, sont alambiqués (opinion : c'est le prix de la proposition _`[A]`_).
 - De ce fait, chaque collectif s'approprie l'ontologie selon ses pratiques, en ne retenant que certaines classes et propriétés et en favorisant certains patterns de modélisation.
 - => _Une interface d'édition générique de données CRM n'a pas vraiment de sens_. L'ontologie est peut-être trop large, trop peu focalisée… Des solutions ayant une approche plus « locale » seraient-elles à privilégier ?
 
