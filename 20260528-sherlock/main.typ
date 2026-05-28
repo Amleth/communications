@@ -65,7 +65,7 @@
         28 mai 2026
       ],
       grid.cell(align: horizon + right)[
-        Formation BSU
+        Formation SU
       ],
       grid.cell(colspan: 2, align: center + horizon)[
         #text(C2, size: 20pt, weight: "medium")[modéliser les données de la recherche avec le CIDOC CRM]
