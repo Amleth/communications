@@ -452,5 +452,3 @@ Rendu TEI, MEI, image \
 
 Recherche plein texte multi-champs dans les ressources d'une collection \
 #sherlockuri[https://data-iremus.huma-num.fr/sherlock/projects/aam]
-
-= Pérenniser
