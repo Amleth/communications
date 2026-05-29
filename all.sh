@@ -4,7 +4,7 @@ do
     pwd
     rm main.pdf
     typst compile main.typ
-    # plantuml *.puml
+    plantuml *.puml
     cd ..
 done
 
