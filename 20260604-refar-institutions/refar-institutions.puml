@@ -115,7 +115,7 @@ frame " Marie-Anne-Généreuse-Constance-Thérèse de Beringhen " {
 
 E85_1   -[hidden]-> E85_2
 E32_tdf -[hidden]-> E32_tdc
-E66 --> E32_tdi
+E66 -[hidden]-> E32_tdi
 
 E55_abbesse     ---[#DeepPink]---> E55_abbaye : "crm:P150_defines_typical_parts_of"
 
