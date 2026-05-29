@@ -4,9 +4,8 @@ do
     pwd
     rm main.pdf
     typst compile main.typ
+    plantuml *.puml
     cd ..
 done
-
-plantuml **/*.puml
 
 git add --all ; git commit -m "🌲" ; git push origin
