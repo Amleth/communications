@@ -8,6 +8,40 @@ skinparam nodesep 100
 skinparam ranksep 125
 ' skinparam linetype polyline
 
+frame " Thésaurus types d'institutions " {
+    object "🗃️ Types d'institutions" as E32_tdi #Fuchsia {
+        rdf:type: crm:E32_Authority_Document
+    }
+    object "Archevêché 🏷️" as E55_archeveche #Violet {
+        rdf:type: crm:E55_Type
+    }
+    object "Évêché 🏷️" as E55_eveche #Violet {
+        rdf:type: crm:E55_Type
+    }
+    object "Abbaye 🏷️" as E55_abbaye #Violet {
+        rdf:type: crm:E55_Type
+    }
+    E32_tdi --> E55_abbaye : "crm:P71_lists"
+    E32_tdi --> E55_eveche : "crm:P71_lists"
+    E32_tdi --> E55_archeveche : "crm:P71_lists"
+    E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+    E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
+    E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
+}
+frame " Faremoutiers " {
+    object "⛪ Abbaye de Faremoutiers" as E74 #Aqua {
+        rdf:type: crm:E74_Group
+    }
+    object "🏙️ Faremoutiers" as E53 #Aqua {
+        rdf:type: crm:E53_Place
+    }
+    object "⏳ Formation\nde l'abbaye Faremoutiers" as E66 #AquaMarine {
+        rdf:type: crm:E66_Formation
+    }
+    E66 --> E53 : "crm:P7_took_place_at"
+    E66 --> E74: "crm:P95_has_formed"
+    E74 --> E53: "crm:P74_has_current_or_former_residence"
+}
 frame " Thésaurus concepts " {
     object "🗃️ Types de concepts\nutiles à l'analyse" as E32_tdc #Fuchsia {
         rdf:type: crm:E32_Authority_Document
@@ -30,7 +64,6 @@ frame " Thésaurus fonctions " {
     }
     E32_tdf --> E55_abbesse : "crm:P71_lists"
 }
-
 frame " Marie-Constance du Blé d'Uxelles " {
     object "⏳ MCBU est membre\nde l'abbaye Faremoutiers" as E7_membership_1 #AquaMarine {
         rdf:type: crm:E7_Activity
@@ -49,7 +82,6 @@ frame " Marie-Constance du Blé d'Uxelles " {
     E85_1 --> E21_1 : "crm:P143_joined"
     E85_1 --> E7_membership_1 : "crmsci:O13_triggers"
 }
-
 frame " Marie-Anne-Généreuse-Constance-Thérèse de Beringhen " {
     object "👩‍🦰\nMarie-Anne-Généreuse-Constance-Thérèse\nde Beringhen" as E21_2 #Aqua {
         rdf:type: crm:E21_Person
@@ -69,42 +101,6 @@ frame " Marie-Anne-Généreuse-Constance-Thérèse de Beringhen " {
     E85_2 --> E7_membership_2 : "crmsci:O13_triggers"
 }
 
-frame " Thésaurus types d'institutions " {
-    object "🗃️ Types d'institutions" as E32_tdi #Fuchsia {
-        rdf:type: crm:E32_Authority_Document
-    }
-    object "Archevêché 🏷️" as E55_archeveche #Violet {
-        rdf:type: crm:E55_Type
-    }
-    object "Évêché 🏷️" as E55_eveche #Violet {
-        rdf:type: crm:E55_Type
-    }
-    object "Abbaye 🏷️" as E55_abbaye #Violet {
-        rdf:type: crm:E55_Type
-    }
-    E32_tdi --> E55_abbaye : "crm:P71_lists"
-    E32_tdi --> E55_eveche : "crm:P71_lists"
-    E32_tdi --> E55_archeveche : "crm:P71_lists"
-    E55_abbaye --> E55_archeveche : "crm:P150_defines_typical_parts_of"
-    E55_eveche --> E55_archeveche : "crm:P150_defines_typical_parts_of"
-    E55_abbaye --> E55_eveche : "crm:P150_defines_typical_parts_of"
-}
-
-frame " Faremoutiers " {
-    object "⛪ Abbaye de Faremoutiers" as E74 #Aqua {
-        rdf:type: crm:E74_Group
-    }
-    object "🏙️ Faremoutiers" as E53 #Aqua {
-        rdf:type: crm:E53_Place
-    }
-    object "⏳ Formation\nde l'abbaye Faremoutiers" as E66 #AquaMarine {
-        rdf:type: crm:E66_Formation
-    }
-    E66 --> E53 : "crm:P7_took_place_at"
-    E66 --> E74: "crm:P95_has_formed"
-    E74 --> E53: "crm:P74_has_current_or_former_residence"
-}
-
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' LINKS
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -117,21 +113,24 @@ frame " Faremoutiers " {
 ' E7_membership_1 --> "crm:E52_Time-Span [D]": "crm:P4_has_time-span"
 ' E7_membership_2 --> "crm:E52_Time-Span [E]": "crm:P4_has_time-span"
 
-E7_fonction_1            ---[#DeepPink]---> E55_detentiondefonction : "crm:P2_has_type"
-E7_fonction_2            ---[#DeepPink]---> E55_detentiondefonction : "crm:P2_has_type"
-E7_membership_2          ---[#DeepPink]---> E55_membership: "crm:P2_has_type"
-E7_membership_1          ---[#DeepPink]---> E55_membership: "crm:P2_has_type"
-E74                      ---[#DeepPink]---> E55_abbaye : "crm:P2_has_type"
-E7_fonction_1            ---[#DeepPink]---> E55_abbesse : "crm:P21_had general_purpose"
-E7_fonction_2            ---[#DeepPink]---> E55_abbesse : "crm:P21_had general_purpose"
-E7_fonction_1            ---[#DeepPink]---> E74 : "crm:P12_occurred_in_the_presence_of"
-E7_fonction_2            ---[#DeepPink]---> E74 : "crm:P12_occurred_in_the_presence_of"
-E7_fonction_2            ---[#DeepPink]---> E7_fonction_1 : "crm:P134_continued"
-E85_1                    ---[#DeepPink]---> E74 : "crm:P144_joined_with"
-E85_2                    ---[#DeepPink]---> E74 : "crm:P144_joined_with"
+E85_1   -[hidden]-> E85_2
+E32_tdf -[hidden]-> E32_tdc
+E66 --> E32_tdi
 
-E55_abbesse --> E55_abbaye : "crm:P150_defines_typical_parts_of"
+E55_abbesse     ---[#DeepPink]---> E55_abbaye : "crm:P150_defines_typical_parts_of"
 
-' E32_tdf -[hidden]left- E21_1
+E74             ---[#DeepPink]---> E55_abbaye : "crm:P2_has_type"
+E7_fonction_1   ---[#DeepPink]---> E74 : "crm:P12_occurred_in_the_presence_of"
+E7_fonction_2   ---[#DeepPink]---> E74 : "crm:P12_occurred_in_the_presence_of"
+E85_1           ---[#DeepPink]---> E74 : "crm:P144_joined_with"
+E85_2           ---[#DeepPink]---> E74 : "crm:P144_joined_with"
+
+E7_membership_1 ---[#DeepPink]---> E55_membership: "crm:P2_has_type"
+E7_membership_2 ---[#DeepPink]---> E55_membership: "crm:P2_has_type"
+E7_fonction_1   ---[#DeepPink]---> E55_detentiondefonction : "crm:P2_has_type"
+E7_fonction_2   ---[#DeepPink]---> E55_detentiondefonction : "crm:P2_has_type"
+E7_fonction_1   ---[#DeepPink]---> E55_abbesse : "crm:P21_had general_purpose"
+E7_fonction_2   ---[#DeepPink]---> E55_abbesse : "crm:P21_had general_purpose"
+E7_fonction_2   ---[#DeepPink]---> E7_fonction_1 : "crm:P134_continued"
 
 @enduml
