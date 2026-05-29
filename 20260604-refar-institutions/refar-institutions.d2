@@ -1,0 +1,85 @@
+TTI: Thésaurus des types d'institutions: {
+  left: 1000
+  top: 1000
+  style.fill: "#FEF"
+  E32_tdi: "🗃️\nTypes d'institutions\n\nrdf:type:\ncrm:E32_Authority_Document"
+  E55_archeveche: "🏷️\nArchevêché\n\nrdf:type:\ncrm:E55_Type"
+  E55_eveche: "🏷️\nÉvêché\n\nrdf:type:\ncrm:E55_Type"
+  E55_abbaye: "🏷️\nAbbaye\n\nrdf:type:\ncrm:E55_Type"
+  E32_tdi -> E55_archeveche: "crm:P71_lists"
+  E32_tdi -> E55_eveche: "crm:P71_lists"
+  E32_tdi -> E55_abbaye: "crm:P71_lists"
+  E55_eveche -> E55_archeveche: "crm:P150_defines_typical_parts_of"
+  E55_abbaye -> E55_archeveche: "crm:P150_defines_typical_parts_of"
+  E55_abbaye -> E55_eveche: "crm:P150_defines_typical_parts_of"
+}
+F: "L'abbaye de Faremoutiers" {
+  left: 2000
+  top: 1000
+  E74: "⛪\nAbbaye de Faremoutiers\n\nrdf:type:\ncrm:E74_Group"
+  E53: "🏙️\nFaremoutiers\n\nrdf:type:\ncrm:E53_Place"
+  E66: "⏳\nFormation de l'abbaye Faremoutiers\n\nrdf:type:\ncrm:E66_Formation"
+  E66 -> E53: "crm:P7_took_place_at"
+  E66 -> E74: "crm:P95_has_formed"
+  E74 -> E53: "crm:P74_has_current_or_former_residence"
+}
+A1: Abbesse 1 {
+  top: 0
+  left: 0
+  E21: "👩‍🦰\nMarie-Constance du Blé d'Uxelles\n\nrdf:type:\ncrm:E21_Person"
+  E85: "⏳ MCBU rejoint l'abbaye de Faremoutiers\n\nrdf:type:\ncrm:E85_Joining"
+  E7m: "⏳ MCBU est membre\nde l'abbaye de Faremoutiers\n\nrdf:type:\ncrm:E7_Activity"
+  E7a: "⏳ MCBU est abbesse\nde l'abbaye de Faremoutiers\nde 1678 à 1685\n\nrdf:type:\ncrm:E7_Activity"
+  E7m -> E7a: "crm:P9_consists_of"
+  E7a -> E21: "crm:P14_carried_out_by"
+  E85 -> E21: "crm:P143_joined"
+  E85 -> E7m: "crmsci:O13_triggers"
+}
+TTF: Thésaurus des types de fonctions {
+  top: 0
+  left: 2000
+  style.fill: "#FEF"
+  E32_tdf: "🗃️\nTypes de fonctions\n\nrdf:type:\ncrm:E32_Authority_Document"
+  E55_abbesse: "🏷️\nAbbesse\n\nrdf:type:\ncrm:E55_Type"
+  E32_tdf -> E55_abbesse: "crm:P71_lists"
+}
+TCA: Thésaurus des concepts analytiques {
+  top: 0
+  left: 3000
+  style.fill: "#FEF"
+  E32_tdc: "🗃️\nTypes de concepts analytiques\n\nrdf:type:\ncrm:E32_Authority_Document"
+  E55_detentiondefonction: "🏷️\nDétention de fonction"
+  E55_appartenanceaungroupe: "🏷️\nAppartenance à un groupe"
+  E32_tdc -> E55_detentiondefonction: "crm:P71_lists"
+  E32_tdc -> E55_appartenanceaungroupe: "crm:P71_lists"
+}
+A2: Abbesse 2 {
+  top: 0
+  left: 4000
+  E21: "👩‍🦰\nMarie-Anne-Généreuse-Constance-Thérèse\nde Beringhen\n\nrdf:type:\ncrm:E21_Person"
+  E85: "⏳ MAGCTB rejoint l'abbaye de Faremoutiers\n\nrdf:type:\ncrm:E85_Joining"
+  E7m: "⏳ MAGCTB est membre\nde l'abbaye de Faremoutiers\n\nrdf:type:\ncrm:E7_Activity"
+  E7a: "⏳ MAGCTB est abbesse\nde l'abbaye\nde Faremoutiers de 1685 à 1721\n\nrdf:type:\ncrm:E7_Activity"
+  E7m -> E7a: "crm:P9_consists_of"
+  E7a -> E21: "crm:P14_carried_out_by"
+  E85 -> E21: "crm:P143_joined"
+  E85 -> E7m: "crmsci:O13_triggers"
+}
+
+TTF.E55_abbesse -> TTI.E55_abbaye: "crm:P150_defines_typical_parts_of"
+
+F.E74 -> TTI.E55_abbaye: "crm:P2_has_type"
+
+A1.E7a -> F.E74: "crm:P12_occurred_in_the_presence_of"
+A2.E7a -> F.E74: "crm:P12_occurred_in_the_presence_of"
+A1.E85 -> F.E74: "crm:P144_joined_with"
+A2.E85 -> F.E74: "crm:P144_joined_with"
+
+A1.E7m -> TCA.E55_appartenanceaungroupe: "crm:P2_has_type"
+A2.E7m -> TCA.E55_appartenanceaungroupe: "crm:P2_has_type"
+A1.E7a -> TCA.E55_detentiondefonction: "crm:P2_has_type"
+A2.E7a -> TCA.E55_detentiondefonction: "crm:P2_has_type"
+A1.E7a -> TTF.E55_abbesse: "crm:P21_had general_purpose"
+A2.E7a -> TTF.E55_abbesse: "crm:P21_had general_purpose"
+
+A2.E7a -> A1.E7a: "crm:P134_continued"
